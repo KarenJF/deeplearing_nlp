@@ -110,8 +110,8 @@ venv.bak/
 .mypy_cache/
 
 # no large file 
-.bin
-.pdf
-.csv
-.txt
-.p
+*.bin
+*.pdf
+*.csv
+*.txt
+*.p
