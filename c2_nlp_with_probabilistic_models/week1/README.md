@@ -13,7 +13,7 @@ It’s an application that changes misspelled words into the correct ones.
 1. Identify a misspelled word. 
 One way to identify misspelled words is to check the word in a dictionary. If the word is not found, it’s probably a misspelled word. 
 
-<div style="width:image width px; font-size:100%; text-align:center;"><img src='step1_identify_misspelled_word.png' alt="alternate text" width="width" height="height" style="width:350px;height:150px;" /> Figure 1 </div>
+<div style="width:image width px; font-size:100%; text-align:center;"><img src='step1_identify_misspelled_word.png' alt="alternate text" width="width" height="height" style="width:450px;height:200px;" /> Figure 1 </div>
 
 2. Find strings any n edit distances away (1,2,3 etc). The goal is to create a list of candidate words for replacement for the misspelled word. The intuition is that if a string is one edit distance away from the string that you typed, it's more similar to your string compared to a string that is two edit distances away. 
     - Edit is a type of operation to perform on a string to change it into another string.
