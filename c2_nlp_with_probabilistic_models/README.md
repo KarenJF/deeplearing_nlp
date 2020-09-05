@@ -1,0 +1,1 @@
+This is a repository for the **Natural Language Processing with Probabilistic Models** course on Coursera. I wrote my personal notes for the course. My certification for the course is here: https://coursera.org/share/dacae8cfae8de5f2b0e21e35802ed52d
