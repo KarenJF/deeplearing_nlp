@@ -2,6 +2,8 @@
 
 This repository is based on week 1 of **Natural Language Processing with Probabilistic Models** course on Coursera. Figures below credits goes to the course copy right.  
 
+**Final Project Here**: [Click Link](https://github.com/KarenJF/deeplearing_nlp/blob/master/c2_nlp_with_probabilistic_models/week1/assignment1/C2_W1_Assignment.ipynb)
+
 ## Part 1: How to build a simple Autocorrect System
 In this folder, I built a simple but still good enough autocorrect system to correct misspelled words. 
 
