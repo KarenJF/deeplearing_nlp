@@ -8,7 +8,7 @@ I use some of the course material figures in my notes. The figures credits all g
 - [Project: Autocorrect System](https://github.com/KarenJF/deeplearing_nlp/blob/master/c2_nlp_with_probabilistic_models/week1/assignment1/C2_W1_Assignment.ipynb)
 
 ### Week 2: Part of Speech Tagging and Hidden Markov Models
-- Course Summary
+- [Course Summary](https://github.com/KarenJF/deeplearing_nlp/tree/master/c2_nlp_with_probabilistic_models/week2)
 - [Project: Predict Part of Speech Tagging](https://github.com/KarenJF/deeplearing_nlp/blob/master/c2_nlp_with_probabilistic_models/week2/assignment2/C2_W2_Assignment.ipynb)
 
 ### Week 3: Autocomplete and Language Models
