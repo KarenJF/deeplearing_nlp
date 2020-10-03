@@ -4,7 +4,13 @@
 
 This repository is based on week 2 of Natural Language Processing with Probabilistic Models course on Coursera. Images below credits goes to the course copy right.
 
-Final Project Here: **Click Link**
+Final Project Here: [Click Link](https://github.com/KarenJF/deeplearing_nlp/blob/master/c2_nlp_with_probabilistic_models/week2/assignment2/C2_W2_Assignment.ipynb)
+
+## Outline: 
+- What is part of speech tagging (POS)?
+- Markov Chains
+- Hidden Markov Models
+- Viterbi Algorithm
 
 ## Part 1: What is Parts of Speech (POS)?
 Part-of-speech refers to the category of words or the lexical terms in the language. Examples of these lexical terms in the English language would be noun, verb, adjective, adverb, pronoun, preposition, etc. 
