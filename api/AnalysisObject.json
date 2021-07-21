@@ -1,0 +1,10 @@
+Analysis Object
+
+    "analysis": {
+        "cardinality": (int),
+        "char_count": (int),
+        "ocr_confidence": (float),
+        "sha256": (str),
+        "simhash": (str),
+        "word_count": (int)
+    }
