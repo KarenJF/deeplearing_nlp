@@ -1,6 +1,9 @@
 # Mac system files
 *.DS_Store
 
+# test files
+test_output.json
+
 # model weight files
 results/
 
