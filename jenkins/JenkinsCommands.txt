@@ -1,0 +1,63 @@
+Jenkins Commands
+
+https://www.jenkins.io/download/lts/macos/
+
+https://support.cloudbees.com/hc/en-us/articles/216118748-How-to-Start-Stop-or-Restart-your-Instance
+
+https://damien.co/blog/2012-11-28-how-to-start-stop-restart-or-reload-jenkins-mac-osx/
+
+
+http://localhost:8080
+
+Start Jenkins
+brew services start jenkins-lts
+
+Stop Jenkins
+brew services stop jenkins-lts
+
+Restart Jenkins
+brew services restart jenkins-lts
+
+
+
+
+--
+
+Install the latest LTS version:
+brew install jenkins-lts
+
+Install a specific LTS version:
+brew install jenkins-lts@YOUR_VERSION
+
+
+Start the Jenkins service:
+brew services start jenkins-lts
+
+
+Restart the Jenkins service:
+brew services restart jenkins-lts
+
+
+Update the Jenkins version:
+brew upgrade jenkins-lts
+
+
+-----
+$ sudo service jenkins start
+$ sudo service jenkins stop
+$ sudo service jenkins restart
+
+
+http://localhost:8080
+
+
+http://<jenkins.server>/restart
+http://<jenkins.server>/safeRestart
+http://<jenkins.server>/exit
+http://<jenkins.server>/safeExit
+http://<jenkins.server>/quietDown
+http://<jenkins.server>/cancelQuietDown
+
+
+
+
