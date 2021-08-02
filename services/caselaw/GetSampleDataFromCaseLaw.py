@@ -37,7 +37,8 @@ def getSampleDataFromCaseLaw(
         #, headers={'Authorization': 'TOKEN ' + CASE_LAW_AUTH_TOKEN}
     )
 
-    logging.info('response = ' + response.content.__str__())
+    logging.info('response = ' + json.dumps(response.json()))
+    #logging.info('response = ' + response.content.__str__())
 
     return response
 
@@ -92,7 +93,19 @@ def writeDataToFile(response):
     currentPST = datetime.datetime.now(pacificTimezone).isoformat()
     logging.info('current time = ' + currentPST)
 
+    # write/save data
+    with open(
+            os.path.join(
+                # destination of file
+                '../../data/downloaded/testing',
+                # name of file
+                currentPST + '.json'
+            ),
+            'w'
+    ) as outfile:
+        json.dump(response.json(), outfile)
 
+    '''
     # write/save data
     with open(
             os.path.join(
@@ -105,6 +118,7 @@ def writeDataToFile(response):
             'wb'
     ) as output:
         output.write(response.content)
+    '''
 
     return
 

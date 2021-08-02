@@ -1,9 +1,42 @@
 import os
+import re
+
 import requests
 import logging
 import datetime
 import pytz
 import json
+
+
+#################
+# Set Parameter Start#
+#################
+defaultSearchTerm='small+claims'
+defaultJurisdiction='ill'
+
+searchTermUsed=''
+jurisdictionUsed=''
+
+def getSearchTermUsed():
+    return searchTermUsed
+
+def setSearchTermUsed(value):
+    global searchTermUsed
+    searchTermUsed = value
+    return searchTermUsed
+
+def getJurisdictionUsed():
+    return jurisdictionUsed
+
+def setJurisdictionUsed(value):
+    global jurisdictionUsed
+    jurisdictionUsed = value
+    return jurisdictionUsed
+#################
+# Set Parameter End#
+#################
+
+
 
 
 def getFullTextDataFromCaseLaw(
@@ -12,17 +45,25 @@ def getFullTextDataFromCaseLaw(
         cursor,
 
         # default values below
-        pageSize='50',
-        searchTerm='small+claims',
-        fullCaseText='false',
-        jurisdiction='ill',
+        pageSize='1',
+        searchTerm=defaultSearchTerm,
+        fullCaseText='true',
+        jurisdiction=defaultJurisdiction,
         minDecisionDate='1930-01-01',
         maxDecisionDate='2020-12-31'
     ):
 
+
+    # start constructing URL
     url = 'https://api.case.law/v1/cases/?' + \
           'page_size=' + pageSize + \
-          '&jurisdiction=' + jurisdiction
+          '&jurisdiction=' + jurisdiction + \
+          '&search=' + searchTerm + \
+          '&full_case=' + fullCaseText + \
+          '&decision_date_min=' + minDecisionDate + \
+          '&decision_date_max=' + maxDecisionDate + \
+          '&body_format=text&ordering=relevance'
+
 
     if cursor:
         logging.debug('cursor = ' + cursor)
@@ -38,9 +79,11 @@ def getFullTextDataFromCaseLaw(
         headers={'Authorization':'TOKEN ' + authToken}
     )
 
-    logging.info('response = ' + response.content.__str__())
+    responseJsonObj = response.json()
 
-    return response
+    logging.info('response = ' + json.dumps(responseJsonObj))
+
+    return responseJsonObj
 
 
 def getCursorValue():
@@ -121,7 +164,7 @@ def getAuthToken(
 
 
 
-def downloadCaseLawData(response):
+def recordCaseLawData(responseJsonObj):
 
     #currentDirectory = os.getcwd()
     #logging.info('currentDirectory = ' + currentDirectory)
@@ -133,24 +176,45 @@ def downloadCaseLawData(response):
     currentPST = datetime.datetime.now(pacificTimezone).isoformat()
     logging.info('current time = ' + currentPST)
 
+    filename = getSearchTermUsed() + '-' + getJurisdictionUsed() + '-' + currentPST + '.json'
+
     # write/save data
     with open(
             os.path.join(
                 # destination of file
                 '../../data/downloaded/caselaw/raw',
                 # name of file
-                currentPST + '.json'
+                filename
+            ),
+            'w'
+    ) as outfile:
+        json.dump(responseJsonObj, outfile)
+
+
+    '''
+    # write/save data
+    with open(
+            os.path.join(
+                # destination of file
+                '../../data/downloaded/caselaw/raw',
+                # name of file
+                filename
             ),
             # write file as binary
             'wb'
     ) as output:
         output.write(response.content)
+    '''
 
-    return
+    return currentPST, filename
 
 
 
-def updatePullRecords():
+def updatePullRecords(
+        currentPST,
+        filename,
+        responseJsonObj
+):
 
     PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records.json'
 
@@ -160,37 +224,49 @@ def updatePullRecords():
         logging.debug('pull record file EXISTS')
 
         # Opening JSON file
-        jsonFile = open(PULL_RECORD_FILE_PATH, )
+        pullRecordsJsonFile = open(PULL_RECORD_FILE_PATH, )
 
         # returns JSON
-        jsonObj = json.load(jsonFile)
+        pullRecordsJsonObj = json.load(pullRecordsJsonFile)
 
-        pullRecords = jsonObj['pull_records']
+        pullRecords = pullRecordsJsonObj['pull_records']
         logging.info("BEFORE - pull_records = " + json.dumps(pullRecords))
 
-        pullRecords.append(
-            {
-                "timestamp": "value-112",
-                "file_name": "value-212",
-                "search_term": "value-312",
-                "jurisdiction": "value-412",
-                "next_cursor": "value-512"
-            }
-        )
 
-        logging.info("AFTER - pull_records = " + json.dumps(pullRecords))
+        nextURL = responseJsonObj['next']
+        #TODO: fix regular expression later
+        nextCursor = re.search('&cursor=(.*)&decision_date_max', nextURL).group(1)
 
-        # write/save data
-        with open(
-                os.path.join(
-                    # destination of file
-                    '../../data/downloaded/caselaw',
-                    # name of file
-                    'pull_records.json'
-                ),
-                'w'
-        ) as outfile:
-            json.dump(jsonObj, outfile)
+        if nextCursor:
+
+            logging.info("nextCursor = " + nextCursor)
+
+            pullRecords.append(
+                {
+                    "timestamp": currentPST,
+                    "file_name": filename,
+                    "search_term": getSearchTermUsed(),
+                    "jurisdiction": getJurisdictionUsed(),
+                    "next_cursor": nextCursor
+                }
+            )
+
+            logging.info("AFTER - pull_records = " + json.dumps(pullRecords))
+
+            # write/save data
+            with open(
+                    os.path.join(
+                        # destination of file
+                        '../../data/downloaded/caselaw',
+                        # name of file
+                        'pull_records.json'
+                    ),
+                    'w'
+            ) as outfile:
+                json.dump(pullRecordsJsonObj, outfile)
+
+        else:
+            logging.error('cursor DOES NOT EXIST')
 
     else:
         logging.error('pull record file DOES NOT EXIST')
@@ -211,36 +287,39 @@ if __name__ == "__main__":
     logging.info("-----start GetFullTextDataFromCaseLaw-----")
 
     authToken = getAuthToken(service_type='case_law')
-    #authToken = 'abc'
 
     if authToken:
         logging.debug('authToken = ' + authToken)
 
         logging.debug('data pull -- start')
 
-        response = getFullTextDataFromCaseLaw(
+        setSearchTermUsed(defaultSearchTerm)
+        setJurisdictionUsed('ill')
+
+        responseJsonObj = getFullTextDataFromCaseLaw(
             authToken=authToken,
             cursor=getCursorValue(),
             pageSize='1',
-            jurisdiction='cal',
+            jurisdiction=getJurisdictionUsed(),
+            searchTerm=getSearchTermUsed(),
             fullCaseText='true'
         )
         logging.debug('data pull -- end')
 
 
         logging.debug('writing to file -- start')
-        downloadCaseLawData(response)
+        currentPST, filename = recordCaseLawData(responseJsonObj)
         logging.debug('writing to file -- end')
 
 
-        logging.debug('GET cursor value -- start')
-        getCursorValue()
-        logging.debug('GET cursor value -- end')
-
-
         logging.debug('updating pull record -- start')
-        updatePullRecords()
+        updatePullRecords(
+            currentPST,
+            filename,
+            responseJsonObj
+        )
         logging.debug('updating pull record -- end')
+
     else:
         logging.debug('authToken is NULL')
 
