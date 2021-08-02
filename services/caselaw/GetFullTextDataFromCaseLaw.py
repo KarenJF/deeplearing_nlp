@@ -263,7 +263,7 @@ def updatePullRecords(
                     ),
                     'w'
             ) as outfile:
-                json.dump(pullRecordsJsonObj, outfile)
+                json.dump(pullRecordsJsonObj, outfile, indent=4)
 
         else:
             logging.error('cursor DOES NOT EXIST')
