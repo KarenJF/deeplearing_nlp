@@ -1,0 +1,7 @@
+Citation Object
+
+   {
+        "id": (int),
+        "cite": (string),
+        "cited_by": (url)
+    }

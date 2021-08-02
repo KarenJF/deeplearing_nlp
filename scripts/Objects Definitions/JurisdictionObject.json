@@ -1,0 +1,10 @@
+Jurisdiction Object
+
+	{
+        "url": (url),
+        "id": (int),
+        "slug": (string),
+        "name": (string),
+        "name_long": (string),
+        "whitelisted": true/false
+    }
