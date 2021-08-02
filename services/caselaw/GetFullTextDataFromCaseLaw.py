@@ -20,13 +20,18 @@ def getFullTextDataFromCaseLaw(
         maxDecisionDate='2020-12-31'
     ):
 
-    # get url
-    url = 'https://api.case.law/v1/cases/?' +\
+    url = 'https://api.case.law/v1/cases/?' + \
           'page_size=' + pageSize + \
           '&jurisdiction=' + jurisdiction
-           #'&cursor=' + next_cursor
 
-    logging.info('url = ' + url.__str__())
+    if cursor:
+        logging.debug('cursor = ' + cursor)
+        url = url + '&cursor=' + cursor
+    else:
+        logging.debug('cursor is NULL')
+
+
+    logging.info('url = ' + url)
 
     response = requests.get(
         url,
@@ -116,7 +121,7 @@ def getAuthToken(
 
 
 
-def writeDataToFile(response):
+def downloadCaseLawData(response):
 
     #currentDirectory = os.getcwd()
     #logging.info('currentDirectory = ' + currentDirectory)
@@ -127,7 +132,6 @@ def writeDataToFile(response):
     pacificTimezone = pytz.timezone('US/Pacific')
     currentPST = datetime.datetime.now(pacificTimezone).isoformat()
     logging.info('current time = ' + currentPST)
-
 
     # write/save data
     with open(
@@ -166,11 +170,11 @@ def updatePullRecords():
 
         pullRecords.append(
             {
-                "timestamp": "value-11",
-                "file_name": "value-21",
-                "search_team": "value-31",
-                "jurisdiction": "value-41",
-                "next_cursor": "value-51"
+                "timestamp": "value-112",
+                "file_name": "value-212",
+                "search_term": "value-312",
+                "jurisdiction": "value-412",
+                "next_cursor": "value-512"
             }
         )
 
@@ -206,19 +210,17 @@ if __name__ == "__main__":
     initLogging()
     logging.info("-----start GetFullTextDataFromCaseLaw-----")
 
-    #authToken = getAuthToken(service_type='case_law')
-    authToken = 'abc'
+    authToken = getAuthToken(service_type='case_law')
+    #authToken = 'abc'
 
     if authToken:
-        logging.debug('authToken is NOT NULL')
         logging.debug('authToken = ' + authToken)
 
-
-        '''
         logging.debug('data pull -- start')
 
         response = getFullTextDataFromCaseLaw(
-            authToken,
+            authToken=authToken,
+            cursor=getCursorValue(),
             pageSize='1',
             jurisdiction='cal',
             fullCaseText='true'
@@ -227,9 +229,15 @@ if __name__ == "__main__":
 
 
         logging.debug('writing to file -- start')
-        writeDataToFile(response)
+        downloadCaseLawData(response)
         logging.debug('writing to file -- end')
-        '''
+
+
+        logging.debug('GET cursor value -- start')
+        getCursorValue()
+        logging.debug('GET cursor value -- end')
+
+
         logging.debug('updating pull record -- start')
         updatePullRecords()
         logging.debug('updating pull record -- end')
