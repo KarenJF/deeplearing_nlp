@@ -1,32 +1,22 @@
+import os
 import requests
 import logging
-from pandas import json_normalize
-import json
-from datetime import date
 import datetime
-import re
+import pytz
+import json
+
 
 #################
 # Set Parameter #
 #################
-today = date.today()
-today_str = today.strftime("%Y%m%d")
-yesterday = today - datetime.timedelta(days=1)
-yesterday_str = yesterday.strftime("%Y%m%d")
-
-# set karen's token_id
-token_id = 'Token f643c4cfb329a249febbecca90efa2736acf39ce'
-#outputDir = '../../data/downloaded/caselaw/output'
-outputDir = '/data/downloaded/caselaw/output'
-searchTerm = 'small+claims'
 
 
 def getDataFromCaseLaw(
-        token_id,
-        next_cursor,
+        token_id='TokenHere',
+        cursor='CursorHere',
         page_size='50',
         search='small+claims',
-        full_case='true',
+        full_case='false',
         jurisdiction='ill',
         decision_date_min='1930-01-01',
         decision_date_max='2020-12-31'
@@ -38,41 +28,83 @@ def getDataFromCaseLaw(
           '&jurisdiction=' + jurisdiction
            #'&cursor=' + next_cursor
 
-    #print('url = ' + url)
     logging.info('url = ' + url.__str__())
+
+    #CASE_LAW_AUTH_TOKEN = getAuthToken()
 
     response = requests.get(
         url
-        #, headers={'Authorization': token_id}
+        #, headers={'Authorization': 'TOKEN ' + CASE_LAW_AUTH_TOKEN}
     )
 
-    #print('response = ' + response.content)
     logging.info('response = ' + response.content.__str__())
 
     return response
 
 
-'''
-def getCursorFromData():
 
-    # load yesterday json cursor
-    with open(outputDir + yesterday_str + '.json') as f:
-        prior_case = json.load(f)
+def getAuthToken(
+        service_type='case_law'
+):
 
-    # get the cursor value
-    next_str = prior_case['next']
-    cursor_str = re.search('&cursor=(.*)&decision_date_max', next_str).group(1)
+    TOKEN_FILE_PATH = '../../utils/tokens.json'
 
-    return cursor_str
-'''
+    token = ''
+
+    # check if TOKEN_FILE actually exists
+    tokenFileExists = os.path.exists(TOKEN_FILE_PATH)
+    if tokenFileExists:
+        logging.debug('token file EXISTS')
+
+        # Opening JSON file
+        tokenFile = open(TOKEN_FILE_PATH, )
+
+        # returns JSON
+        tokenJsonObj = json.load(tokenFile)
+
+        tokensArray = tokenJsonObj[service_type]['tokens']
+
+        if len(tokensArray) > 0:
+            logging.debug('array length is valid')
+
+            token = tokensArray[0]['token']
+            #logging.info('TOKEN = ' + token)
+
+        else:
+            logging.error('array length is NOT valid')
+
+    else:
+        logging.error('token file DOES NOT EXIST')
+
+    return token
+
 
 
 def writeDataToFile(response):
 
-    # write data to today's json
-    #with open(outputDir + today_str + '.json', 'wb') as outf:
-    with open('data.json', 'wb') as outf:
-        outf.write(response.content)
+    #currentDirectory = os.getcwd()
+    #logging.info('currentDirectory = ' + currentDirectory)
+
+    # create file named with current timestamp
+    # https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones
+
+    pacificTimezone = pytz.timezone('US/Pacific')
+    currentPST = datetime.datetime.now(pacificTimezone).isoformat()
+    logging.info('current time = ' + currentPST)
+
+
+    # write/save data
+    with open(
+            os.path.join(
+                # destination of file
+                '../../data/downloaded/testing',
+                # name of file
+                currentPST + '.json'
+            ),
+            # write file as binary
+            'wb'
+    ) as output:
+        output.write(response.content)
 
     return
 
@@ -86,25 +118,21 @@ def initLogging():
 
 if __name__ == "__main__":
     initLogging()
-    logging.info("-----start-----")
+    logging.info("-----start GetDataFromCaseLaw-----")
 
-    #cursor = getCursorFromData()
-    cursor = "123"
 
     logging.debug('data pull -- start')
-    response = getDataFromCaseLaw(token_id,
-              next_cursor=cursor,
-              page_size='50',
-              search=searchTerm,
-              full_case='false',
-              jurisdiction='ill',
-              decision_date_min='1930-01-01',
-              decision_date_max='2020-12-31'
-              )
+    response = getDataFromCaseLaw(
+        #getAuthToken(),
+        page_size='50',
+        jurisdiction='ill',
+    )
     logging.debug('data pull -- end')
 
-    logging.warning('writing to file -- start')
-    writeDataToFile(response)
-    logging.error('writing to file -- end')
 
-    logging.info("-----end-----")
+    logging.debug('writing to file -- start')
+    writeDataToFile(response)
+    #getAuthToken()
+    logging.debug('writing to file -- end')
+
+    logging.info("-----end GetDataFromCaseLaw-----")
