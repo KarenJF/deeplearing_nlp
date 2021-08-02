@@ -10,7 +10,7 @@ import re
 #################
 today = date.today()
 today_str = today.strftime("%Y%m%d")
-yesterday = today - datetime.timedelta(days=1)
+yesterday = today - datetime.timedelta(days=4)
 yesterday_str = yesterday.strftime("%Y%m%d")
 
 # set karen's token_id
