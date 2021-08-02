@@ -1,32 +1,24 @@
+import os
 import requests
 import logging
-from pandas import json_normalize
-import json
-from datetime import date
 import datetime
-import re
+import pytz
+
 
 #################
 # Set Parameter #
 #################
-today = date.today()
-today_str = today.strftime("%Y%m%d")
-yesterday = today - datetime.timedelta(days=1)
-yesterday_str = yesterday.strftime("%Y%m%d")
 
 # set karen's token_id
 token_id = 'Token f643c4cfb329a249febbecca90efa2736acf39ce'
-#outputDir = '../../data/downloaded/caselaw/output'
-outputDir = '/data/downloaded/caselaw/output'
-searchTerm = 'small+claims'
 
 
 def getDataFromCaseLaw(
         token_id,
-        next_cursor,
+        cursor='abc',
         page_size='50',
         search='small+claims',
-        full_case='true',
+        full_case='false',
         jurisdiction='ill',
         decision_date_min='1930-01-01',
         decision_date_max='2020-12-31'
@@ -38,7 +30,6 @@ def getDataFromCaseLaw(
           '&jurisdiction=' + jurisdiction
            #'&cursor=' + next_cursor
 
-    #print('url = ' + url)
     logging.info('url = ' + url.__str__())
 
     response = requests.get(
@@ -46,7 +37,6 @@ def getDataFromCaseLaw(
         #, headers={'Authorization': token_id}
     )
 
-    #print('response = ' + response.content)
     logging.info('response = ' + response.content.__str__())
 
     return response
@@ -69,10 +59,29 @@ def getCursorFromData():
 
 def writeDataToFile(response):
 
-    # write data to today's json
-    #with open(outputDir + today_str + '.json', 'wb') as outf:
-    with open('data.json', 'wb') as outf:
-        outf.write(response.content)
+    currentDirectory = os.getcwd()
+    logging.info('currentDirectory = ' + currentDirectory)
+
+    # create file named with current timestamp
+    # https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones
+
+    pacificTimezone = pytz.timezone('US/Pacific')
+    currentPST = datetime.datetime.now(pacificTimezone).isoformat()
+    logging.info('current time = ' + currentPST)
+
+
+    # write/save data
+    with open(
+            os.path.join(
+                # destination of file
+                '../../data/downloaded/testing',
+                # name of file
+                currentPST + '.json'
+            ),
+            # write file as binary
+            'wb'
+    ) as output:
+        output.write(response.content)
 
     return
 
@@ -86,25 +95,20 @@ def initLogging():
 
 if __name__ == "__main__":
     initLogging()
-    logging.info("-----start-----")
+    logging.info("-----start GetDataFromCaseLaw-----")
 
-    #cursor = getCursorFromData()
-    cursor = "123"
 
     logging.debug('data pull -- start')
-    response = getDataFromCaseLaw(token_id,
-              next_cursor=cursor,
-              page_size='50',
-              search=searchTerm,
-              full_case='false',
-              jurisdiction='ill',
-              decision_date_min='1930-01-01',
-              decision_date_max='2020-12-31'
-              )
+    response = getDataFromCaseLaw(
+        token_id,
+        page_size='50',
+        jurisdiction='ill',
+    )
     logging.debug('data pull -- end')
 
-    logging.warning('writing to file -- start')
-    writeDataToFile(response)
-    logging.error('writing to file -- end')
 
-    logging.info("-----end-----")
+    logging.debug('writing to file -- start')
+    writeDataToFile(response)
+    logging.debug('writing to file -- end')
+
+    logging.info("-----end GetDataFromCaseLaw-----")
