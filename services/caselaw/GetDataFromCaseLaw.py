@@ -3,19 +3,17 @@ import requests
 import logging
 import datetime
 import pytz
+import json
 
 
 #################
 # Set Parameter #
 #################
 
-# set karen's token_id
-token_id = 'Token f643c4cfb329a249febbecca90efa2736acf39ce'
-
 
 def getDataFromCaseLaw(
-        token_id,
-        cursor='abc',
+        token_id='TokenHere',
+        cursor='CursorHere',
         page_size='50',
         search='small+claims',
         full_case='false',
@@ -32,9 +30,11 @@ def getDataFromCaseLaw(
 
     logging.info('url = ' + url.__str__())
 
+    #CASE_LAW_AUTH_TOKEN = getAuthToken()
+
     response = requests.get(
         url
-        #, headers={'Authorization': token_id}
+        #, headers={'Authorization': 'TOKEN ' + CASE_LAW_AUTH_TOKEN}
     )
 
     logging.info('response = ' + response.content.__str__())
@@ -42,25 +42,48 @@ def getDataFromCaseLaw(
     return response
 
 
-'''
-def getCursorFromData():
 
-    # load yesterday json cursor
-    with open(outputDir + yesterday_str + '.json') as f:
-        prior_case = json.load(f)
+def getAuthToken(
+        service_type='case_law'
+):
 
-    # get the cursor value
-    next_str = prior_case['next']
-    cursor_str = re.search('&cursor=(.*)&decision_date_max', next_str).group(1)
+    TOKEN_FILE_PATH = '../../utils/tokens.json'
 
-    return cursor_str
-'''
+    token = ''
+
+    # check if TOKEN_FILE actually exists
+    tokenFileExists = os.path.exists(TOKEN_FILE_PATH)
+    if tokenFileExists:
+        logging.debug('token file EXISTS')
+
+        # Opening JSON file
+        tokenFile = open(TOKEN_FILE_PATH, )
+
+        # returns JSON
+        tokenJsonObj = json.load(tokenFile)
+
+        tokensArray = tokenJsonObj[service_type]['tokens']
+
+        if len(tokensArray) > 0:
+            logging.debug('array length is valid')
+
+            token = tokensArray[0]['token']
+            #logging.info('TOKEN = ' + token)
+
+        else:
+            logging.error('array length is NOT valid')
+
+    else:
+        logging.error('token file DOES NOT EXIST')
+
+    return token
+
 
 
 def writeDataToFile(response):
 
-    currentDirectory = os.getcwd()
-    logging.info('currentDirectory = ' + currentDirectory)
+    #currentDirectory = os.getcwd()
+    #logging.info('currentDirectory = ' + currentDirectory)
 
     # create file named with current timestamp
     # https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones
@@ -100,7 +123,7 @@ if __name__ == "__main__":
 
     logging.debug('data pull -- start')
     response = getDataFromCaseLaw(
-        token_id,
+        #getAuthToken(),
         page_size='50',
         jurisdiction='ill',
     )
@@ -109,6 +132,7 @@ if __name__ == "__main__":
 
     logging.debug('writing to file -- start')
     writeDataToFile(response)
+    #getAuthToken()
     logging.debug('writing to file -- end')
 
     logging.info("-----end GetDataFromCaseLaw-----")
