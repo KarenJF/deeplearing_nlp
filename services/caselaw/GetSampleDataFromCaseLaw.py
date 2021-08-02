@@ -11,7 +11,7 @@ import json
 #################
 
 
-def getDataFromCaseLaw(
+def getSampleDataFromCaseLaw(
         token_id='TokenHere',
         cursor='CursorHere',
         page_size='50',
@@ -118,11 +118,11 @@ def initLogging():
 
 if __name__ == "__main__":
     initLogging()
-    logging.info("-----start GetDataFromCaseLaw-----")
+    logging.info("-----start GetSampleDataFromCaseLaw-----")
 
 
     logging.debug('data pull -- start')
-    response = getDataFromCaseLaw(
+    response = getSampleDataFromCaseLaw(
         #getAuthToken(),
         page_size='50',
         jurisdiction='ill',
@@ -135,4 +135,4 @@ if __name__ == "__main__":
     #getAuthToken()
     logging.debug('writing to file -- end')
 
-    logging.info("-----end GetDataFromCaseLaw-----")
+    logging.info("-----end GetSampleDataFromCaseLaw-----")
