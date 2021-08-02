@@ -11,7 +11,7 @@ import json
 #################
 
 
-def getDataFromCaseLaw(
+def getSampleDataFromCaseLaw(
         token_id='TokenHere',
         cursor='CursorHere',
         page_size='50',
@@ -37,7 +37,8 @@ def getDataFromCaseLaw(
         #, headers={'Authorization': 'TOKEN ' + CASE_LAW_AUTH_TOKEN}
     )
 
-    logging.info('response = ' + response.content.__str__())
+    logging.info('response = ' + json.dumps(response.json()))
+    #logging.info('response = ' + response.content.__str__())
 
     return response
 
@@ -92,7 +93,19 @@ def writeDataToFile(response):
     currentPST = datetime.datetime.now(pacificTimezone).isoformat()
     logging.info('current time = ' + currentPST)
 
+    # write/save data
+    with open(
+            os.path.join(
+                # destination of file
+                '../../data/downloaded/testing',
+                # name of file
+                currentPST + '.json'
+            ),
+            'w'
+    ) as outfile:
+        json.dump(response.json(), outfile)
 
+    '''
     # write/save data
     with open(
             os.path.join(
@@ -105,6 +118,7 @@ def writeDataToFile(response):
             'wb'
     ) as output:
         output.write(response.content)
+    '''
 
     return
 
@@ -118,11 +132,11 @@ def initLogging():
 
 if __name__ == "__main__":
     initLogging()
-    logging.info("-----start GetDataFromCaseLaw-----")
+    logging.info("-----start GetSampleDataFromCaseLaw-----")
 
 
     logging.debug('data pull -- start')
-    response = getDataFromCaseLaw(
+    response = getSampleDataFromCaseLaw(
         #getAuthToken(),
         page_size='50',
         jurisdiction='ill',
@@ -135,4 +149,4 @@ if __name__ == "__main__":
     #getAuthToken()
     logging.debug('writing to file -- end')
 
-    logging.info("-----end GetDataFromCaseLaw-----")
+    logging.info("-----end GetSampleDataFromCaseLaw-----")

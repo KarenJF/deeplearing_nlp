@@ -6,7 +6,4 @@
 #cd ..
 #echo $PWD
 
-python3 ./services/caselaw/GetDataFromCaseLaw.py
-
-#python3 ./../services/caselaw/GetDataFromCaseLaw.py
-
+python3 ./services/caselaw/GetSampleDataFromCaseLaw.py

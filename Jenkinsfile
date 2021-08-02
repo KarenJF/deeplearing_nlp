@@ -51,7 +51,9 @@ pipeline {
                     echo "2 PATH is: $PATH"
                     echo "2 Workspace is: $WORKSPACE"
 
-                    sh 'python ./services/caselaw/GetDataFromCaseLaw.py'
+                    // python script to pull data from CaseLaw
+                    sh 'python ./services/caselaw/GetSampleDataFromCaseLaw.py'
+                    //sh 'python ./services/caselaw/GetFullTextDataFromCaseLaw.py'
 
                 }
 
