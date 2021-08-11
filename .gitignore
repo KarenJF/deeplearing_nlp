@@ -1,6 +1,9 @@
 # Mac system files
 *.DS_Store
 
+# project files
+services/reddit/redditPW.txt
+
 # test files
 test_output.json
 
