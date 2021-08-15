@@ -118,7 +118,7 @@ if __name__ == "__main__":
         setJurisdictionUsed(defaultJurisdiction)
         setPageSizeUsed(defaultPageSize)
 
-        retrievedCursor = Utils.getCaseLawCursorValueForNextPull(
+        retrievedCursor = Utils.getTagForNextPull(
             getJurisdictionUsed()
         )
 

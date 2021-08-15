@@ -31,49 +31,6 @@ def getCurrentPacificTime():
 # CASE_LAW COMMON FUNCTIONS START#
 #################
 
-#def getCaseLawCursorValueForNextPull(jurisdictionUsed):
-def getTagForNextPull(
-        jurisdictionUsed
-):
-
-    if jurisdictionUsed=='cal':
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
-    else:
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_ill.json'
-
-    cursor = ''
-
-    # check if PULL_RECORD_FILE actually exists
-    pullRecordFileExists = os.path.exists(PULL_RECORD_FILE_PATH)
-    if pullRecordFileExists:
-        logging.debug('pull record file EXISTS')
-
-        # Opening JSON file
-        jsonFile = open(PULL_RECORD_FILE_PATH, )
-
-        # returns JSON
-        jsonObj = json.load(jsonFile)
-
-        pullRecords = jsonObj['pull_records']
-        pullRecordsCount = len(pullRecords)
-
-        if pullRecordsCount > 0:
-            logging.debug('array length is valid')
-
-            # go to last record (latest pull) and find cursor
-            # will use cursor in upcoming data pull
-            cursor = pullRecords[pullRecordsCount - 1].get('next_cursor')
-
-            logging.info('cursor = ' + cursor)
-
-        else:
-            logging.error('array length is NOT valid')
-
-    else:
-        logging.error('pull record file DOES NOT EXIST')
-
-    return cursor
-
 
 def recordCaseLawData(
         responseJsonObj,
@@ -347,6 +304,58 @@ def getTokenFromJsonFile(
         logging.error('token file DOES NOT EXIST')
 
     return token
+
+
+
+def getTagForNextPull(servicePull):
+
+    if servicePull=='cal':
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
+        TAG_KEY ='next_cursor'
+    elif servicePull=='ill':
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_ill.json'
+        TAG_KEY = 'next_cursor'
+    elif servicePull == 'reddit':
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/reddit/pull_records_reddit.json'
+        TAG_KEY = 'after_tag'
+        # ^^ Confusingly, AFTER means further back in time, whereas BEFORE means more recently in time.
+    else:
+        cursor = ''
+        return cursor
+
+
+    cursor = ''
+
+    # check if PULL_RECORD_FILE actually exists
+    pullRecordFileExists = os.path.exists(PULL_RECORD_FILE_PATH)
+    if pullRecordFileExists:
+        logging.debug('pull record file EXISTS')
+
+        # Opening JSON file
+        jsonFile = open(PULL_RECORD_FILE_PATH, )
+
+        # returns JSON
+        jsonObj = json.load(jsonFile)
+
+        pullRecords = jsonObj['pull_records']
+        pullRecordsCount = len(pullRecords)
+
+        if pullRecordsCount > 0:
+            logging.debug('array length is valid')
+
+            # go to last record (latest pull) and find cursor
+            # will use cursor in upcoming data pull
+            cursor = pullRecords[pullRecordsCount - 1].get(TAG_KEY)
+
+            logging.info('cursor = ' + cursor)
+
+        else:
+            logging.error('array length is NOT valid')
+
+    else:
+        logging.error('pull record file DOES NOT EXIST')
+
+    return cursor
 
 #################
 # TOKEN COMMON FUNCTIONS END#

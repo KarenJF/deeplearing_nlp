@@ -8,6 +8,9 @@ from utils import Utils
 defaultHeaders = {'User-Agent': 'Reddit-API/0.1'}
 headers = {}
 
+isBackHaul = False
+#isBackHaul = True
+
 def getHeaders():
     return headers
 
@@ -135,6 +138,19 @@ def getContentDataFromReddit(
     '''
 
 
+    params = {
+        'limit': getPullCount()
+    }
+
+    retrievedCursor = Utils.getTagForNextPull('reddit')
+    logging.info("retrievedCursor = " + retrievedCursor)
+
+    if isBackHaul & len(retrievedCursor)>0:
+        params = {**params,
+                  **{'after': {retrievedCursor}}
+                  }
+        logging.info("params = " + str(params))
+
 
 
     # other endpoints:
@@ -149,10 +165,7 @@ def getContentDataFromReddit(
     response = requests.get(
         "https://oauth.reddit.com/r/legaladvice/hot",
         headers=getHeaders(),
-        params={
-            'limit': getPullCount(),
-            'after': 't3_p53sq3'
-        }
+        params=params
     )
 
     # TODO add error handling

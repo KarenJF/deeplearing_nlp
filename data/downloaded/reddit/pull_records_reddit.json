@@ -1,32 +1,11 @@
 {
     "pull_records": [
         {
-            "timestamp": "2021-08-15T15:41:47.293490-07:00",
-            "file_name": "legaladvice-2021-08-15T15:41:47.293490-07:00.json",
-            "subreddit": "r/legaladvice",
-            "after_tag": "t3_p4lqy7",
-            "before_tag": null
-        },
-        {
-            "timestamp": "2021-08-15T15:42:48.707366-07:00",
-            "file_name": "legaladvice-2021-08-15T15:42:48.707366-07:00.json",
-            "subreddit": "r/legaladvice",
-            "after_tag": "t3_p4lqy7",
-            "before_tag": null
-        },
-        {
-            "timestamp": "2021-08-15T16:06:46.236344-07:00",
-            "file_name": "legaladvice-2021-08-15T16:06:46.236344-07:00.json",
-            "subreddit": "r/legaladvice",
-            "after_tag": "t3_p53sq3",
-            "before_tag": null
-        },
-        {
-            "timestamp": "2021-08-15T16:18:38.214714-07:00",
-            "file_name": "legaladvice-2021-08-15T16:18:38.214714-07:00.json",
+            "timestamp": "2021-08-15T16:50:18.891591-07:00",
+            "file_name": "legaladvice-2021-08-15T16:50:18.891591-07:00.json",
             "count": 50,
             "subreddit": "r/legaladvice",
-            "after_tag": "t3_p4sdag",
+            "after_tag": "t3_p54eh5",
             "before_tag": null
         }
     ]
