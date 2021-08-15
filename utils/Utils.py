@@ -25,11 +25,16 @@ def getCurrentPacificTime():
 
     return currentPST
 
+
+
 #################
 # CASE_LAW COMMON FUNCTIONS START#
 #################
 
-def getCaseLawCursorValueForNextPull(jurisdictionUsed):
+#def getCaseLawCursorValueForNextPull(jurisdictionUsed):
+def getTagForNextPull(
+        jurisdictionUsed
+):
 
     if jurisdictionUsed=='cal':
         PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
@@ -157,6 +162,7 @@ def updateCaseLawPullRecords(
                 {
                     "timestamp": currentPST,
                     "file_name": filename,
+                    "count": len(responseJsonObj['results']),
                     "search_term": searchTermUsed,
                     "jurisdiction": jurisdictionUsed,
                     "next_cursor": nextCursor
@@ -188,6 +194,103 @@ def updateCaseLawPullRecords(
 #################
 
 
+
+#################
+# REDDIT COMMON FUNCTIONS START#
+#################
+
+def recordRedditData(
+        responseJsonObj
+):
+    # create file named with current timestamp
+    currentPST = getCurrentPacificTime()
+
+    destinationPath = '../../data/downloaded/reddit/raw/'
+    filename = 'legaladvice-' + currentPST + '.json'
+
+    # write/save data
+    with open(
+            os.path.join(
+                destinationPath,
+                filename
+            ),
+            'w'
+    ) as outfile:
+        json.dump(responseJsonObj, outfile, indent=4)
+
+    return currentPST, filename
+
+
+
+def updateRedditPullRecords(
+        currentPST,
+        filename,
+        responseJsonObj
+):
+
+    PULL_RECORD_FILE_PATH = '../../data/downloaded/reddit/pull_records_reddit.json'
+    pullRecordFilename = 'pull_records_reddit.json'
+
+
+    # check if PULL_RECORD_FILE actually exists
+    pullRecordFileExists = os.path.exists(PULL_RECORD_FILE_PATH)
+    if pullRecordFileExists:
+        logging.debug('pull record file EXISTS')
+
+        # Opening JSON file
+        pullRecordsJsonFile = open(PULL_RECORD_FILE_PATH, )
+
+        # returns JSON
+        pullRecordsJsonObj = json.load(pullRecordsJsonFile)
+
+        pullRecords = pullRecordsJsonObj['pull_records']
+        logging.info("BEFORE - pull_records = " + json.dumps(pullRecords))
+
+
+        afterTag = responseJsonObj['data']['after']
+        logging.info("afterTag = " + (afterTag if afterTag else 'NULL'))
+
+        beforeTag = responseJsonObj['data']['before']
+        logging.info("beforeTag = " + (beforeTag if beforeTag else 'NULL'))
+
+        # IMPORTANT:
+        # title, selftext, id
+        # the property 'kind' has a value of 't3' means a reddit thread
+        # append: "kind" and "id" for an easy unique identifier (full name is reddit doc)
+        # example: t3_p53sq3
+
+        pullRecords.append(
+            {
+                "timestamp": currentPST,
+                "file_name": filename,
+                "count": responseJsonObj['data']['dist'],
+                "subreddit": 'r/legaladvice',
+                "after_tag": afterTag,
+                "before_tag": beforeTag
+            }
+        )
+
+        logging.info("AFTER - pull_records = " + json.dumps(pullRecords))
+
+        # write/save data
+        with open(
+                os.path.join(
+                    '../../data/downloaded/reddit',
+                    pullRecordFilename
+                ),
+                'w'
+        ) as outfile:
+            json.dump(pullRecordsJsonObj, outfile, indent=4)
+
+    else:
+        logging.error('pull record file DOES NOT EXIST')
+
+    return
+
+
+#################
+# REDDIT COMMON FUNCTIONS END#
+#################
 
 
 
