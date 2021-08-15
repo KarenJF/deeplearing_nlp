@@ -1,0 +1,18 @@
+{
+    "pull_records": [
+        {
+            "timestamp": "2021-08-14T23:55:15.115348-07:00",
+            "file_name": "small+claims-cal-2021-08-14T23:55:15.115348-07:00.json",
+            "search_term": "small+claims",
+            "jurisdiction": "cal",
+            "next_cursor": "eyJwIjogWzI5Ljg0NDg2OCwgMjM2NjUzNl19"
+        },
+        {
+            "timestamp": "2021-08-14T23:58:26.715456-07:00",
+            "file_name": "small+claims-cal-2021-08-14T23:58:26.715456-07:00.json",
+            "search_term": "small+claims",
+            "jurisdiction": "cal",
+            "next_cursor": "eyJwIjogWzI3LjkzNjE0NiwgMTIxMzExNDddfQ%3D%3D"
+        }
+    ]
+}

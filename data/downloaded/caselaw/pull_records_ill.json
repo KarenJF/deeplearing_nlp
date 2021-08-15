@@ -1,0 +1,18 @@
+{
+    "pull_records": [
+        {
+            "timestamp": "2021-08-14T23:42:09.078461-07:00",
+            "file_name": "small+claims-ill-2021-08-14T23:42:09.078461-07:00.json",
+            "search_term": "small+claims",
+            "jurisdiction": "ill",
+            "next_cursor": "eyJwIjogWzkuMTI5MzUsIDU2MjUyMTBdfQ%3D%3D"
+        },
+        {
+            "timestamp": "2021-08-14T23:59:23.224678-07:00",
+            "file_name": "small+claims-ill-2021-08-14T23:59:23.224678-07:00.json",
+            "search_term": "small+claims",
+            "jurisdiction": "ill",
+            "next_cursor": "eyJwIjogWzguOTAyMTYxLCAzNTU0OTM0XX0%3D"
+        }
+    ]
+}
