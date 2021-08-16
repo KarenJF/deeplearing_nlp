@@ -4,19 +4,10 @@ import requests
 import logging
 import json
 
-#sys.path.append('../utils')
-#sys.path.append('/utils')
-#sys.path.insert(1, '/utils')
-#import HelperUtils
 import sys
-#sys.path.append('/Users/pho/Documents/workspace/legalTech')
-#sys.path.append("../..")
-
-root_dir = sys.path[1]
-helper_dir = root_dir + '/utils'
-sys.path.append(helper_dir)
+# v - WORKS when at [../../THIS] directory in terminal
+sys.path.append("")
 from utils import HelperUtils
-#from utils import HelperUtils
 
 #################
 # Set Parameter #
@@ -55,21 +46,6 @@ def getSampleDataFromCaseLaw(
 if __name__ == "__main__":
     HelperUtils.initLogging()
     logging.info("-----start GetSampleDataFromCaseLaw-----")
-
-    sysPath = sys.path
-    print(sysPath)
-    # [
-    # '/Users/pho/Documents/workspace/legalTech/services/caselaw',
-    # '/Users/pho/Documents/workspace/legalTech',
-    # '/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python39.zip',
-    # '/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9',
-    # '/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload',
-    # '/usr/local/lib/python3.9/site-packages'
-    # ]
-
-    osPath = os.getcwd()
-    logging.info('osPath = ' + osPath)
-    # osPath = /Users/pho/Documents/workspace/legalTech/services/caselaw
 
     logging.debug('data pull -- start')
     response = getSampleDataFromCaseLaw(

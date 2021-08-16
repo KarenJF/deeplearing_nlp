@@ -1,0 +1,765 @@
+{
+    "count": 62228,
+    "next": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguNDQ3MjMxLCAzNTMyMzgyXX0%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "previous": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguNTU4NDIyLCAzMzY3MjgwXSwgInIiOiAxfQ%3D%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "results": [
+        {
+            "id": 3367280,
+            "url": "https://api.case.law/v1/cases/3367280/",
+            "name": "EMMELINE P. ROYER, Plaintiff-Appellee, v. LARRY BEDWELL, Defendant-Appellant",
+            "name_abbreviation": "Royer v. Bedwell",
+            "decision_date": "1977-04-15",
+            "docket_number": "No. 76-258",
+            "first_page": "331",
+            "last_page": "334",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "47 Ill. App. 3d 331"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078693850/",
+                "volume_number": "47",
+                "barcode": "32044078693850"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "167 A.L.R. 820",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "173 P.2d 38",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Cal. App. 2d 379",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        4476357
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "326 N.E.2d 395",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "60 Ill. 2d 246",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5414169
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/47/331/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/3367280/Royer%20v.%20Bedwell,%2047%20Ill.%20App.%203d%20331%20(1977).pdf",
+            "preview": [
+                "Prior to the time this case was set for trial as a contested case in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> division of the",
+                "The circuit court consists of all of its divisions or departments including the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> division",
+                "and there can be no doubt that the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> division is just as much a court of record as any other",
+                "case, failure to do so is consistent with the reduced formalities required by the <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> procedure",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court (1946), 76 Cal."
+            ],
+            "analysis": {
+                "word_count": 931,
+                "random_bucket": 52763,
+                "sha256": "b6c89f22203b2507f22618079b1fbb12958f25e2b92fd7ee2da0ec7ea58a20e3",
+                "ocr_confidence": 0.89,
+                "char_count": 5552,
+                "random_id": 1187368475,
+                "pagerank": {
+                    "percentile": 0.49058861458201036,
+                    "raw": 8.79992567370461e-08
+                },
+                "cardinality": 364,
+                "simhash": "1:aa179283b6bc9955"
+            },
+            "last_updated": "2021-08-11T00:39:45.714993+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "EMMELINE P. ROYER, Plaintiff-Appellee, v. LARRY BEDWELL, Defendant-Appellant."
+                    ],
+                    "attorneys": [
+                        "John H. Bisbee, of Macomb, for appellant.",
+                        "No appearance for appeUee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "Mr. JUSTICE STOUDER",
+                            "text": "Mr. JUSTICE STOUDER\ndeHvered the opinion of the court:\nPlaintiff, Emmeline Royer, commenced this action in the smaU claims division of the circuit court of McDonough County seeking to recover rentals from the defendant, Larry BedweU. After a bench trial, judgment was entered in favor of the plaintiff and the defendant has appealed.\nWe observe the defendant is the only party filing a brief in this court. However, from the circumstances described in the brief and nature of the issues presented on this appeal, we have decided that the issues should be considered on their merits.\nPrior to the time this case was set for trial as a contested case in the small claims division of the circuit court, the defendant moved that the testimony to be presented be reported. Defendant requested that a court reporter be provided by the court or alternatively, some other method be provided for producing a verbatim transcript of the testimony. This motion was renewed prior to trial and denied by the trial court.\nThe principle assignment of error presented on this appeal is the defendant\u2019s contention the trial court erred in declining to provide a method for reporting the proceedings.\nWe are in accord with defendant\u2019s initial premise that there is only one trial court of record and that is the circuit court. (See Ill. Rev. Stat. 1975, ch. 110, par. 1.) The circuit court consists of all of its divisions or departments including the small claims division and there can be no doubt that the small claims division is just as much a court of record as any other part of the circuit court.\n\u201cA court of record is that where the acts and judicial proceedings are enrolled in parchment for a perpetual memorial and testimony: which rolls are called the records of the court, and are of such high and supereminent authority that their truth is not to be called in question.\u201d (3 Blackstone, Commentaries 24 (Lewis ed. 1897).)\nWe generally agree with the foregoing definition, but believe the definition is of no assistance to the defendant\u2019s position asserted on this appeal. The definition does not include any requirement that testimony be transcribed or preserved and indeed we are not aware of any method for the verbatim recording of testimony during the period referred to by Blackstone. The emphasis on memorializing proceedings is to assure that the significant aspects of the trial are reduced to writing for the benefit of the litigants and posterity. Such a purpose is adequately served without regard to the perpetuation of the details of the testimony underlying the written records of the proceeding.\n\u201cEvery final judgment of a circuit court in a civil case is appealable as of right. * * * An appeal is a continuation of the proceeding. (Ill. Rev. Stat. 1975, ch. 110A, par. 301.)\nIf a review relates to errors involving evidence, some means of presenting such evidence in a court of review is necessary. A verbatim transcript of the testimony would of course be a basis for presenting such errors to a court of review, however, it is not the only means of doing so. Supreme Court Rule 323(c) (Ill. Rev. Stat. 1975, ch. 110A, par. 323(c)) provides an alternative method of presenting evidence to a reviewing court by what is commonly known as a \u201cbystander\u2019s report.\u201d Notwithstanding the defendant\u2019s contention that such a method does not present a basis for a meaningful review, this procedure has been approved by our supreme court in People v. Hopping, 60 Ill. 2d 246, 326 N.E.2d 395. We believe the bystander\u2019s report does furnish an adequate basis for seeking review. Although the legislature or court rules could provide or require recording of testimony in a small claims case, failure to do so is consistent with the reduced formalities required by the small claim procedure.\nWhat we have heretofore said also disposes of the defendant\u2019s contention that the failure to provide the means of reporting the testimony deprives him of due process in contravention of federal and state constitutional provisions. Defendant\u2019s reliance on Prudential Insurance Co. v. Small Claims Court (1946), 76 Cal. App. 2d 379, 173 P.2d 38, 167 A.L.R. 820, is misplaced since it does not even deal with the issue of reporting testimony.\nLastly, defendant argues that the form of the judgment is improper because inadequate to form a basis for review. Section 50(1) of the Civil Practice Act (Ill. Rev. Stat. 1975, ch. 110, par. 50(1) provides in part:\n\u201cThe court shall determine the rights of the parties and grant to any party any affirmative relief to which he may be entitled on the pleadings and proofs. Judgments and decrees shall be in the form required by the nature of the case and by the recovery or relief awarded.\u201d\nBy analogy to Rule 52(a) of the Federal Rules of Civil Procedure (Fed. R. Civ. P. 52 (a)), the defendant insists that a judgment must include findings of fact and conclusions of law. This pontention is without citation to any Illinois authority and we are aware of none establishing such requirements. The provision of our statute does not specifically or by necessary implication include such requirements and we hold that findings of fact and conclusions of law are not required.\nFor the foregoing reasons the judgment of the circuit court of McDonough County is affirmed.\nJudgment affirmed.\nALLOY, P. J., and BARRY, J., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "EMMELINE P. ROYER, Plaintiff-Appellee, v. LARRY BEDWELL, Defendant-Appellant.\nThird District\nNo. 76-258\nOpinion filed April 15, 1977.\nJohn H. Bisbee, of Macomb, for appellant.\nNo appearance for appeUee."
+                }
+            }
+        },
+        {
+            "id": 3833283,
+            "url": "https://api.case.law/v1/cases/3833283/",
+            "name": "ADAIR ARCHITECTS, INC., Plaintiff-Appellee, v. ALAN R. BRUGGEMAN et al., Defendants-Appellants",
+            "name_abbreviation": "Adair Architects, Inc. v. Bruggeman",
+            "decision_date": "2004-02-19",
+            "docket_number": "No. 3-03-0229",
+            "first_page": "523",
+            "last_page": "526",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "346 Ill. App. 3d 523"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044097354641/",
+                "volume_number": "346",
+                "barcode": "32044097354641"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "312 Ill. App. 3d 1098",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        411568
+                    ],
+                    "year": 2000,
+                    "pin_cites": [
+                        {
+                            "page": "1104"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "293 Ill. App. 3d 731",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        847551
+                    ],
+                    "year": 1997,
+                    "pin_cites": [
+                        {
+                            "page": "737"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "119 Ill. 2d 465",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        3192395
+                    ],
+                    "weight": 2,
+                    "year": 1988,
+                    "pin_cites": [
+                        {
+                            "page": "473-75"
+                        },
+                        {
+                            "page": "473-75"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "175 Ill. App. 3d 329",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3554934
+                    ],
+                    "year": 1988,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "131 Ill. 2d 525",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5569711
+                    ],
+                    "year": 1989,
+                    "pin_cites": [
+                        {
+                            "page": "539"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "179 Ill. 2d 519",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        801359
+                    ],
+                    "weight": 3,
+                    "year": 1997,
+                    "pin_cites": [
+                        {
+                            "page": "528"
+                        },
+                        {
+                            "page": "528"
+                        },
+                        {
+                            "page": "528"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "143 Ill. 2d 477",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5592152
+                    ],
+                    "year": 1991,
+                    "pin_cites": [
+                        {
+                            "page": "483"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/346/523/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/3833283/Adair%20Architects,%20Inc.%20v.%20Bruggeman,%20346%20Ill.%20App.%203d%20523%20(2004).pdf",
+            "preview": [
+                "(corporation), filed a lawsuit pro se in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court for payment due on an architectural contract",
+                "Without counsel and on behalf of his corporation, Adair filed a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action against defendants",
+                "<em class='search_highlight'>claims</em> proceeding, unless represented by counsel.\u201d 177 Ill. 2d R. 282(b).",
+                "Defendants argue that the corporation violated Rule 282(b) by appearing in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court without",
+                "Rule 282 provides the procedure by which a corporation may appear in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court."
+            ],
+            "analysis": {
+                "word_count": 869,
+                "random_bucket": 65276,
+                "sha256": "1be5127f7239ee1e5a31b32bb762fdc04893e950fa67f9b6aa15b036f0d5266b",
+                "ocr_confidence": 0.717,
+                "char_count": 5357,
+                "random_id": 138018556,
+                "pagerank": {
+                    "percentile": 0.5194241835109761,
+                    "raw": 9.61237739423476e-08
+                },
+                "cardinality": 355,
+                "simhash": "1:30cd6d9c6ca24004"
+            },
+            "last_updated": "2021-08-10T23:17:56.102843+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "ADAIR ARCHITECTS, INC., Plaintiff-Appellee, v. ALAN R. BRUGGEMAN et al., Defendants-Appellants."
+                    ],
+                    "attorneys": [
+                        "Alan R. Bruggeman (argued), of Bruggeman, Hurst & Associates, of New Lenox, for appellants.",
+                        "Kelly A. Kirwin (argued), of Joliet, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE LYTTON",
+                            "text": "JUSTICE LYTTON\ndelivered the opinion of the court:\nAdair Architects, Inc. (corporation), filed a lawsuit pro se in small claims court for payment due on an architectural contract. The court ruled in favor of plaintiff. On appeal, defendants argue that the judgment is void because plaintiffs pro se representation by its president, Mark Adair (Adair), violated Supreme Court Rule 282(b). 177 Ill. 2d R. 282(b). We reverse, finding that the proceedings were null and void ab initio.\nPlaintiff corporation entered into a contract with defendants Alan Bruggeman and Laura Golden to prepare architectural design and construction documents for an addition to their home. Adair completed the initial design development documents in July 2001 and sent them to defendants. In December of 2001, the parties met to discuss the design drawings. Mr. Bruggeman felt the project was too expensive and he and Adair discussed ways to reduce the costs.\nIn July of 2002, Bruggeman received formal construction bids indicating that the cost of the project would be around $450,000. Bruggeman called Adair and told him that the project was too expensive and that it was being abandoned. Following that phone call, Adair sought payment for the hours he spent drafting the construction drawings. The contract provided that if \u201cthe client wishes to abandon the project, fees will be paid to Adair Architects, Inc., for the work completed to date.\u201d Defendants refused to pay.\nWithout counsel and on behalf of his corporation, Adair filed a small claims action against defendants for the balance due. Adair is not an attorney. At the trial, the circuit court found in favor of Adair in the amount of $2,907.50.\nSupreme Court Rule 282(b) provides that \u201c[n]o corporation may appear as a claimant, assignee, subrogee, or counterclaimant in a small claims proceeding, unless represented by counsel.\u201d 177 Ill. 2d R. 282(b). However, the Illinois Code of Civil Procedure permits a corporation to appear pro se: \u201cA corporation may prosecute as plaintiff or defend as defendant any small claims proceeding in any court of this State through any officer *** as though the corporation were appearing in its proper person.\u201d 735 ILCS 5/2 \u2014 416 (West 2002).\nDefendants argue that the corporation violated Rule 282(b) by appearing in small claims court without counsel. Adair concedes that he appeared without counsel, but argues that the Code of Civil Procedure explicitly authorizes such representation.\nWhen a statute directly and irreconcilably conflicts with a supreme court rule on a matter within the court\u2019s authority, the rule prevails. People v. Williams, 143 Ill. 2d 477, 483 (1991). The supreme court has primary constitutional authority over court procedure, and the doctrine of separation of powers is violated \u201cwhen a legislative enactment unduly encroaches upon the inherent powers of the judiciary, or directly and irreconcilably conflicts with a rule of this court on a matter within the court\u2019s authority.\u201d Kunkel v. Walton, 179 Ill. 2d 519, 528 (1997).\nRule 282 provides the procedure by which a corporation may appear in small claims court. Matters of court procedure fall squarely within the judiciary\u2019s authority to promulgate rules. Kunkel, 179 Ill. 2d at 528. Since the matter is within the court\u2019s authority, Rule 282(b) must prevail over section 2 \u2014 416. If the civil code was allowed to preempt Rule 282(b), the judiciary would be nothing more than an extension of the legislature. \u201cIt is the court\u2019s solemn duty to protect the judicial power from legislative encroachment and to preserve the integrity and independence of the judiciary.\u201d People v. Felella, 131 Ill. 2d 525, 539 (1989).\nIn support of its argument, the corporation cites Woerner v. Seneca Petroleum, Inc., 175 Ill. App. 3d 329 (1988), decided by this court in 1988. Woerner held that the statute prevailed over Rule 282(b). However, during that same year our supreme court decided People v. Walker, 119 Ill. 2d 465, 473-75 (1988), which held that when' a statute directly and irreconcilably conflicts with a supreme court rule on a matter within the court\u2019s authority, the rule will prevail. See also Kunkel v. Walton, 179 Ill. 2d 519, 528 (1997). The holding in Woerner must bow to the more recent precedent established by the supreme court. See Walker, 119 Ill. 2d at 473-75.\nProceedings involving a layperson\u2019s representation of a corporation are null and void ab initio. Berg v. Mid-America Industrial, Inc., 293 Ill. App. 3d 731, 737 (1997). Since Adair, a nonattorney, appeared on behalf of the corporation pro se, the proceedings were void ab initio. Though we do not necessarily disagree with the trial court\u2019s determination of the case on the merits, we must treat its decision as null and void. We note that plaintiff is not foreclosed from refiling a new claim with proper representation. See Saxon Mortgage, Inc. v. United Financial Mortgage Corp., 312 Ill. App. 3d 1098, 1104 (2000).\nThe order of the circuit court of Will County is reversed.\nReversed.\nMcDADE and SCHMIDT, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "ADAIR ARCHITECTS, INC., Plaintiff-Appellee, v. ALAN R. BRUGGEMAN et al., Defendants-Appellants.\nThird District\nNo. 3 \u2014 03\u20140229\nOpinion filed February 19, 2004.\nAlan R. Bruggeman (argued), of Bruggeman, Hurst & Associates, of New Lenox, for appellants.\nKelly A. Kirwin (argued), of Joliet, for appellee."
+                }
+            }
+        },
+        {
+            "id": 5314002,
+            "url": "https://api.case.law/v1/cases/5314002/",
+            "name": "John E. Griffin, Plaintiff-Appellee, v. Ernest E. Billberry, Defendant-Appellant",
+            "name_abbreviation": "Griffin v. Billberry",
+            "decision_date": "1971-09-17",
+            "docket_number": "No. 71-20",
+            "first_page": "219",
+            "last_page": "222",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "1 Ill. App. 3d 219"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078692894/",
+                "volume_number": "1",
+                "barcode": "32044078692894"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "112 Ill.App.2d 321",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        1590886
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "328"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "93 Ill.App. 2d 62",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        2645272
+                    ],
+                    "year": 1969,
+                    "pin_cites": [
+                        {
+                            "page": "64"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "93 Ill.App.2d 24",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        2646523
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "31"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "118 Ill.App.2d 411",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        1585481
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "415"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "350 Ill.App. 471",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App.",
+                    "case_ids": [
+                        5106858
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "78 Ill.App.2d 166",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        2569908
+                    ],
+                    "year": 1953,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "90 Ill.App.2d 472",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        2899019
+                    ],
+                    "year": 1966,
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/1/219/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/5314002/Griffin%20v.%20Billberry,%201%20Ill.%20App.%203d%20219%20(1971).pdf",
+            "preview": [
+                "JUSTICE SEIDENFELD\ndelivered the opinion of the court:\nPlaintiff filed a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action for property",
+                "On that same date, the magistrate penned on the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> jacket, \u201cJudgment for II for $893.56 & costs",
+                "Adler (1953), 350 Ill.App. 471 are not applicable to <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> actions.",
+                "The provisions of the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Act (ch. 110A, supra, pars. 281-288) are meant to provide a simplified",
+                "and inexpensive procedure for <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>, and the rules are complete in themselves without reference"
+            ],
+            "analysis": {
+                "word_count": 836,
+                "random_bucket": 46398,
+                "sha256": "86eacf501c40db8c0ff2aee055f03c7adb1a2254f3c791fe732be6d5dfc4db30",
+                "ocr_confidence": 0.727,
+                "char_count": 5078,
+                "random_id": 3944133950,
+                "pagerank": {
+                    "percentile": 0.8654109555583779,
+                    "raw": 3.2329678234814755e-07
+                },
+                "cardinality": 366,
+                "simhash": "1:fccb8431b62ebcff"
+            },
+            "last_updated": "2021-08-10T17:59:50.509130+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "John E. Griffin, Plaintiff-Appellee, v. Ernest E. Billberry, Defendant-Appellant."
+                    ],
+                    "attorneys": [
+                        "John R. Snively, of Rockford, for appellant.",
+                        "Williams, McCarthy, Kinley & Rudy, of Rockford, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "Mr. JUSTICE SEIDENFELD",
+                            "text": "Mr. JUSTICE SEIDENFELD\ndelivered the opinion of the court:\nPlaintiff filed a small claims action for property damage arising from an automobile accident. The body of the complaint was in the following (printed except as italicized) form:\n\u201c(Caption)\nI, the undersigned, claim that the defendant is indebted to the plaintiff in the sum of $793.56 for property damages arising from an automobile accident on January 20, 1968, and that the plaintiff has demanded payment of said sum; that the defendant refused to pay the same and no part thereof has been paid; that the defendant resides at 2116 Magnolia Street, Rockford, Illinois Phone No. -; that the plaintiff resides at 809 2nd Avenue, Rockford, Illinois Phone No. -; in the State of Illinois.\u201d\nDefendant\u2019s motion to dismiss the complaint was denied; plaintiff thereafter was permitted to increase the ad damnum to $893.56; and the cause was thereafter heard by the magistrate without a jury. Proofs were completed on June 3rd, 1970.\nCounsel were notified of the court\u2019s ruling by a letter signed by the magistrate on September 14th, 1970. On that same date, the magistrate penned on the small claims jacket, \u201cJudgment for II for $893.56 & costs.\u201d\nIn this appeal, defendant urges that the complaint did not state a cause of action; that plaintiff was guilty of contributory negligence; that the record does not show that any judgment was rendered; and that the judgment is void. We find no merit in any of these claims of error.\nDefendant\u2019s attack on the sufficiency of the complaint is based upon the argument that Supreme Court Rule 282 (Ill. Rev. Stat. 1969, ch. 110A, par. 282) requires that the nature of plaintiff\u2019s claim be stated, and therefore necessitates, in a cause of action based on negligence, that facts be set forth which raise a duty, show a breach of duty and show an alleged resulting injury. However, the authorities cited (Donehue v. Duvall (1967), 90 Ill.App.2d 472; Fanning v. Lemay (1966), 78 Ill.App.2d 166; and Church v. Adler (1953), 350 Ill.App. 471 are not applicable to small claims actions. The provisions of the Small Claims Act (ch. 110A, supra, pars. 281-288) are meant to provide a simplified and inexpensive procedure for small claims, and the rules are complete in themselves without reference to other rules (except as to the form of summons). See Smith-Hurd Annotated, ch. 110A, par. 282\u2014Committee Comments; Daily Journal v. Smith (1969), 118 Ill.App.2d 411, 415. The complaint was sufficient to clearly notify defendant of the nature of plaintiff's claim and thus to state a cause of action under which he could prove negligence and the resulting injury.\nDefendant\u2019s objection to the form of the judgment order is that it did not state against whom the judgment was rendered or that plaintiff should \u2018have and recover\u201d the amount specified from the defendant. By clear implication, the judgment for the plaintiff could only be against the sole defendant. There could be no uncertainty in the judgment particularly since a memorandum letter went out from the court to the parties, which although not an official part of the court\u2019s record, was a writing which fully advised the defendant of the judgment against him and its basis in the court\u2019s view of the evidence. While it would have been better practice for the judgment to have been recorded by the clerk and preserved more formally (or for that record to be before us if it were, in fact, maintained), we do not consider that reversal or remand for this primarily clerical purpose would serve any useful interest under the circumstances here.\nNor was the order void because there was no showing that the court took the case under advisement after the hearing of evidence on June 3rd, 1970, for the period intervening before its judgment on September 14th, 1970. It appears from the affidavit of the magistrate filed with the record that the delay was due to his intervening illness. We do not consider that this is a necessary showing, however, since jurisdiction once acquired is not lost until all issues of fact and law have been finally determined. Fiore v. City of Highland Park (1968), 93 Ill.App.2d 24, 31. Here, the magistrate having acquired jurisdiction of the cause retained jurisdiction to enter his order.\nWe do not consider defendant\u2019s remaining claim that the plaintiff was guilty of contributory negligence, since defendant has the burden of proving by the record that the judgment was against the manifest weight of the evidence and has not included a report of proceeding or its equivalent for that purpose. See Libman v. Gipson (1968), 93 Ill.App. 2d 62, 64; and Croft v. Lamkin (1969), 112 Ill.App.2d 321, 328.\nThe judgment of the circuit court of Winnebago County is affirmed.\nJudgment affirmed.\nMORAN, P. J. and ABRAHAMSON, J., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "John E. Griffin, Plaintiff-Appellee, v. Ernest E. Billberry, Defendant-Appellant.\n(No. 71-20;\nSecond District\nSeptember 17, 1971.\nRehearing denied October 20, 1971.\nJohn R. Snively, of Rockford, for appellant.\nWilliams, McCarthy, Kinley & Rudy, of Rockford, for appellee."
+                }
+            }
+        },
+        {
+            "id": 5784455,
+            "url": "https://api.case.law/v1/cases/5784455/",
+            "name": "LEON R. MENTZER, d/b/a JRAMB and Associates, Plaintiff-Appellant, v. JAMES DUDLEY, Defendant-Appellee",
+            "name_abbreviation": "Mentzer v. Dudley",
+            "decision_date": "1992-10-30",
+            "docket_number": "No. 4\u201492\u20140216",
+            "first_page": "726",
+            "last_page": "731",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "236 Ill. App. 3d 726"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694700/",
+                "volume_number": "236",
+                "barcode": "32044078694700"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "574 N.E.2d 1292",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "1296"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "215 Ill. App. 3d 499",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5295090
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "505"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "235 N.E.2d 366",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "368"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "92 Ill. App. 2d 47",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        5321779
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "51-52"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "478 N.E.2d 620",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "133 Ill. App. 3d 6",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3529899
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/236/726/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/5784455/Mentzer%20v.%20Dudley,%20236%20Ill.%20App.%203d%20726%20(1992).pdf",
+            "preview": [
+                "Mentzer, d/b/a JRAMB & Associates, in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> case brought in the circuit court of Coles County",
+                "<em class='search_highlight'>claims</em> case.",
+                "Supreme Court Rule 282(a) (134 Ill. 2d R. 282(a)) sets forth a special way to commence a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "preclude application of Supreme Court Rule 137 and its sanctions from <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> cases.",
+                "We can give a pro se <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> litigant some leeway in presenting a <em class='search_highlight'>claim</em> which appears unreasonable"
+            ],
+            "analysis": {
+                "word_count": 2018,
+                "random_bucket": 58670,
+                "sha256": "a015a15b1703a9e8c3fc4b4a6ee88ddd2362fcdbb10aa24f6dd39345c06460ed",
+                "ocr_confidence": 0.775,
+                "char_count": 12047,
+                "random_id": 3798918446,
+                "pagerank": {
+                    "percentile": 0.4984679412655458,
+                    "raw": 9.035703356995457e-08
+                },
+                "cardinality": 669,
+                "simhash": "1:87d30d89d0960c93"
+            },
+            "last_updated": "2021-08-10T18:25:38.896604+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "LEON R. MENTZER, d/b/a JRAMB and Associates, Plaintiff-Appellant, v. JAMES DUDLEY, Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "James R. Glenn, of Glenn & Logue, of Mattoon, for appellant.",
+                        "Dale A. Cini, of Ryan, Cini, Bennett & Radloff, of Mattoon, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "PRESIDING JUSTICE GREEN",
+                            "text": "PRESIDING JUSTICE GREEN\ndelivered the opinion of the court:\nThis appeal is from a judgment against plaintiff Leon R. Mentzer, d/b/a JRAMB & Associates, in a small claims case brought in the circuit court of Coles County against defendant James Dudley. The complaint was filed on November 25, 1991. After an evidentiary hearing at bench, the court entered an order on February 5, 1992, finding plaintiff not entitled to recovery and finding defendant entitled to damages as a sanction pursuant to Supreme Court Rule 137 (134 Ill. 2d R. 137) for vexatious filing of the complaint. After a further hearing, the court entered an order on March 3, 1992, awarding defendant $5,004.49. Plaintiff has appealed, taking issue only with the imposition of the sanction. We affirm.\nIn pertinent part, Supreme Court Rule 137 states:\n\u201cThe signature of an attorney or party constitutes a certificate by him that he has read the pleading, motion or other paper; that to the best of his knowledge, information, and belief formed after reasonable inquiry it is well grounded in fact and is warranted by existing law or a good-faith argument for the extension, modification, or reversal of existing law, and that it is not interposed for any improper purpose, such as to harass or to cause unnecessary delay or needless increase in the cost of litigation. *** If a pleading, motion, or other paper is signed in violation of this rule, the court, upon motion or upon its own initiative, may impose upon the person who signed it, a represented party, or both, an appropriate sanction, which may include an order to pay to the other party or parties the amount of reasonable expenses incurred because of the filing of the pleading, motion or other paper, including a reasonable attorney fee. All proceedings under this rule shall be within and part of the civil action in which the pleading, motion or other paper referred to has been filed ***.\u201d (Emphasis added.) 134 Ill. 2d R. 137.\nOn appeal, plaintiff maintains (1) Supreme Court Rule 137 should not be strictly applied to pro se litigants in small claims cases; (2) his complaint here was well grounded in fact and warranted by existing law; and (3) the amount of the award imposed as a sanction was excessive. While we agree that Supreme Court Rule 137 sanctions should not be applied with the same force in a small claims case where, as here, the matter in controversy is less than $1,000, the sanctions were properly applied in this case. The complaint was not well grounded in fact or warranted by existing law, and plaintiff sought to harass defendant. Under the gross circumstances of this case, the award was not excessive.\nPlaintiff\u2019s complaint alleged that defendant was \u201cindebted to the plaintiff in the sum of $782.82 plus for late fees, back rent, (damages, service fees and court costs),\u201d and upon demand, had refused to pay the same. The testimony at the hearing on the merits is shown by a bystander\u2019s bill approved by the court (134 Ill. 2d R. 323(c)) as being substantially correct. Plaintiff proceeded pro se at that time, and the record does not give a clear picture as to the dispute. However, the parties, through their briefs, agree upon certain facts as follows: (1) defendant was the basketball coach at Lake Land College of Mattoon; (2) plaintiff rented apartments; and (3) arrangements were made for plaintiff to rent an apartment to four prospective Lake Land players for the summer of 1991.\nThe bystander\u2019s bill shows indisputably that (1) the prospective players did use the apartment for the extended period; (2) on June 1, 1991, defendant made out a check for $100 on his own account and left it with plaintiff\u2019s secretary as a security deposit to hold the property for the prospective players; (3) defendant did not negotiate for the lease and never had any contact with plaintiff before a phone call from plaintiff on June 7, 1991; (4) defendant\u2019s understanding was that the check would be returned when the students moved in, but plaintiff cashed the check; (5) defendant did help the prospective players in seeking to learn the basis for a claim by plaintiff that the prospective players had damaged the apartment; (6) the prospective players each signed lease forms for the premises; and (7) payments of $1,410 were made by Lake Land College from Pell Grant funds and booster club funds for the rent on the premises. Other evidence will be related in regard to the particular issues it involves.\nWe are unaware of any decision of a court of review in regard to whether Supreme Court Rule 137 sanctions can be properly imposed in a small claims case. However, various supreme court rules do speak to situations where the procedure involved differs from that in other cases. Supreme Court Rule 282(a) (134 Ill. 2d R. 282(a)) sets forth a special way to commence a small claims proceeding. Supreme Court Rule 286 (134 Ill. 2d R. 286(a)) makes the filing of an answer unnecessary in such a proceeding unless ordered by the court. More significantly, Supreme Court Rule 287 (134 Ill. 2d R. 287(a)) prohibits depositions or other discovery devices in such matters. The express statements of the supreme court in regard to those differences between procedures in small claims and those in other civil proceedings indicate the supreme court does not intend to absolutely preclude application of Supreme Court Rule 137 and its sanctions from small claims cases.\nSupreme Court Rule 286(b) does provide for informal procedures in cases where the amount claimed does not exceed $1,000. (134 Ill. 2d R. 286(b); see Bouhl v. Gross (1985), 133 Ill. App. 3d 6, 478 N.E.2d 620.) Accordingly, in such cases a litigant, particularly a pro se litigant, should be granted more leeway in misstatements or inaccuracies of pleading, proof, or legal interpretation than in other cases.\nPlaintiff\u2019s theory that his complaint was well grounded in fact and supported by existing law was based on the theory that defendant was liable as an undisclosed or partly undisclosed agent of the prospective players. Neither plaintiff nor his secretary testified to any negotiations carried on by defendant as to terms of the lease or as to price, and defendant denied that he did so. The mere fact that defendant wrote a check for security gives no inference that he was the person who originally negotiated the lease on behalf of the prospective players. Neither does defendant\u2019s later aid to the players in seeking information as to damages to the leasehold. If defendant had engaged in these negotiations, plaintiff, his secretary or someone working for plaintiff should have known of this and been able to so testify.\nThe record gives no indication that anyone other than prospective basketball players would be the tenants in the apartment. Thus, any one negotiating for the lease on behalf of those tenants would be an agent for a partially disclosed principal. (See Lake Shore Management Co. v. Blum (1968), 92 Ill. App. 2d 47, 51-52, 235 N.E.2d 366, 368.) Considering the manner in which plaintiff handled his case, any good-faith belief on his part that defendant was liable on such a sophisticated rule of law was extremely remote. Rather, the record indicates that plaintiff became frustrated upon his failure to collect from the tenants all of the rent due and all he deemed he was entitled to receive for damage to the premises, and proceeded maliciously.\nOn September 11, 1991, plaintiff sent a statement of account to defendant and two Lake Land College officials setting forth what plaintiff deemed to be the amount owed by the tenants. On October 24, 1991, plaintiff, using a false name and purporting to be his business manager, wrote to the same persons again stating the amount claimed due and threatening legal action. On October 24, 1991, plaintiff sent a letter to the same people reciting that nothing had been paid on the bill, and that the three tenants had not responded to previous letters. The letter indicated that the college was involved in a coming referendum vote and threatened to expose the college administration concerning the manner in which the bill had been handled. Plaintiff admitted at the first hearing that he lied in that letter that he had issued a check for certain repairs to the apartment. The document stated that the sender was not demanding that Lake Land staff pay the bill but asked for their assistance in collecting it. On November 14, 1991, a letter was written to the governing board of the college requesting payment and threatening to sue the tenants and defendant if payment was not made.\nThe foregoing correspondence supports the circuit court\u2019s finding that plaintiff\u2019s bringing of the suit against defendant was harassing. The threats of exposure of defendant and the college to ridicule also support the amount of the sanction award granted defendant. Further evidence of harassment of defendant by plaintiff was presented at the hearing to determine the amount of the sanction when defendant\u2019s counsel testified that (1) plaintiff had taken information to the national governing body for junior college athletes charging defendant with a violation of its code of conduct by virtue of his issuance of the $100 check, and (2) this had generated considerable unfavorable publicity about defendant in area newspapers. This testimony was not disputed.\nThe $5,004.49 award was based primarily upon the claims for fees. One was for fees of defendant\u2019s counsel, Dale A. Cini, for 47.1 hours of work at $85 per hour and one-half day of trial at $950, total ing $4,478.50. The other was an expert witness fee for William A. Sunderman, an attorney who testified as an expert as to the propriety of Cini\u2019s fee request. His approved charge was $460.70. This covered 3.42 hours of earlier preparation and 2 hours for preparation and attendance on the day of hearing, all at $85 per hour.\nNo serious question of the propriety of the rat\u00e9 of the hourly fees charged or of the hours spent is made. Rather, plaintiff maintains that spending $4,478.50, in addition to a few small amounts for other items, to defend a $782.82 claim is ridiculous. Under most circumstances, we would agree. We recognize that, ordinarily, the amount of the subject matter of the suit is a very important factor, but the importance of the subject matter is also highly significant. (Jacobs v. James (1991), 215 Ill. App. 3d 499, 505, 574 N.E.2d 1292, 1296.) This was an unusual case. We can give a pro se small claims litigant some leeway in presenting a claim which appears unreasonable, but when such a claimant engages in the harassment involved here, he must suffer the consequences. Ordinarily, a person would be expected to hire a lawyer of lesser caliber than Cini and one whose time was less valuable to defend a matter of this nature. However, because of the collateral consequences of plaintiff\u2019s conduct, defendant was justified in incurring the fee involved here.\nThe portion of the award which was for Sunderman\u2019s preparation and testimony was very high for a small claims case. However, defendant was required to pay him a reasonable sum for his testimony and charging plaintiff for that is a proper function of a sanction award. Sunderman\u2019s time was valuable, and time was involved in preparation and testifying. Defendant asked plaintiff to stipulate as to Cini\u2019s fees but, because of the amount involved and the nature of the proceedings, plaintiff cannot be faulted for refusing to do so. Nevertheless, plaintiff\u2019s vexatious conduct brought about the need for Sunderman\u2019s testimony. The court did not breach its discretion in awarding ample sums to pay Sunderman at a normal rate for his time.\nAs we have indicated, we affirm.\nAffirmed.\nSTEIGMANN and COOK, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "LEON R. MENTZER, d/b/a JRAMB and Associates, Plaintiff-Appellant, v. JAMES DUDLEY, Defendant-Appellee.\nFourth District\nNo. 4\u201492\u20140216\nOpinion filed October 30, 1992.\nJames R. Glenn, of Glenn & Logue, of Mattoon, for appellant.\nDale A. Cini, of Ryan, Cini, Bennett & Radloff, of Mattoon, for appellee."
+                }
+            }
+        },
+        {
+            "id": 3532382,
+            "url": "https://api.case.law/v1/cases/3532382/",
+            "name": "SILVER CROSS HOSPITAL, Plaintiff-Appellant, v. RUBEN CAMPBELL et al., Defendants-Appellees",
+            "name_abbreviation": "Silver Cross Hospital v. Campbell",
+            "decision_date": "1986-01-30",
+            "docket_number": "Nos. 3\u201485\u20140045, 3\u201485\u20140153 cons.",
+            "first_page": "746",
+            "last_page": "748",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "140 Ill. App. 3d 746"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694221/",
+                "volume_number": "140",
+                "barcode": "32044078694221"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "345 N.E.2d 493",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "63 Ill. 2d 128",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5426498
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/140/746/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/3532382/Silver%20Cross%20Hospital%20v.%20Campbell,%20140%20Ill.%20App.%203d%20746%20(1986).pdf",
+            "preview": [
+                "Though the briefs filed by the hospital refer to these cases emanating from a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court of Will",
+                "<em class='search_highlight'>claim</em> action pursuant to the provisions in Supreme Court Rule 281 et seq.",
+                "We are cognizant of the fact that in a <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> action the trial court may provide that a judgment",
+                "<em class='search_highlight'>claim</em> action.",
+                "<em class='search_highlight'>claims</em> case, is vested in the judgment creditor."
+            ],
+            "analysis": {
+                "word_count": 771,
+                "random_bucket": 41329,
+                "sha256": "8fb69ebde6a5fa0f461dca251b981ba8e5ac4fe0641509b3b9b073c41fdc45c9",
+                "ocr_confidence": 0.735,
+                "char_count": 4604,
+                "random_id": 1584701809,
+                "pagerank": {
+                    "percentile": 0.10030637266874431,
+                    "raw": 4.076306636737454e-08
+                },
+                "cardinality": 306,
+                "simhash": "1:8f974785342ad4b5"
+            },
+            "last_updated": "2021-08-11T01:15:54.606860+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "SILVER CROSS HOSPITAL, Plaintiff-Appellant, v. RUBEN CAMPBELL et al., Defendants-Appellees."
+                    ],
+                    "attorneys": [
+                        "Thomas E. Orr, of John A. Falasca & Associates, of Joliet, for appellant.",
+                        "No brief filed for appellees."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE SCOTT",
+                            "text": "JUSTICE SCOTT\ndelivered the opinion of the court:\nThis consolidated appeal is taken from judgments entered for the plaintiff, Silver Cross Hospital, against the defendants, Ruben and Maggie R. Campbell and Harvey L. Cronan and Sandra K. Roberts. Silver Cross Hospital (hereinafter the hospital) filed a complaint to obtain payment of $4,890.32 for services rendered to the defendants, Ruben Campbell and Maggie R. Campbell. The defendants, pro se, admitted the allegations of the complaint, and the trial court awarded judgment in favor of the hospital for the full amount of its claim plus costs. The court granted the defendants\u2019 motion for an order of installment payments of $100 per month. The hospital\u2019s motion to vacate the order of installment payments was denied by the court.\nThe hospital also filed suit to obtain payment for services against Harvey L. Cronan and Sandra K. Roberts. The hospital was awarded a judgment of $2,911.36 plus costs, and the court entered an installment payment order of $60 per month. The hospital brings the instant appeal from the judgment entered in these cases.\nWe note at this point that no appellee\u2019s brief has been submitted by the defendants in either case. It is well established, however, that where the record is simple and a court of review can easily decide the disputed errors without an appellee\u2019s brief, the reviewing court may determine the merits of the appeal. (First Capitol Mortgage Corp. v. Talandis Construction Corp. (1976), 63 Ill. 2d 128, 345 N.E.2d 493.) We further note that the hospital has filed only the common law records in both appeals. No reports of proceedings or substitutes, therefore, have been submitted as required under Supreme Court Rule 323 (87 Ill. 2d R. 323).\nThough the briefs filed by the hospital refer to these cases emanating from a small claims court of Will County, a close examination discloses that such was not the case. The cases were heard in the law magistrate division of the circuit court of Will County. This division hears and determines cases where the monetary sum involved does not exceed $15,000.\nThe underlying issue raised in this appeal is whether a trial court can enter an order for installment payments of a judgment when such judgment was not entered in a small claim action pursuant to the provisions in Supreme Court Rule 281 et seq. We are cognizant of the fact that in a small claim action the trial court may provide that a judgment shall be paid in specified installments but that the installment payments shall not extend over a period in excess of three years duration. (87 Ill. 2d R. 288.) This rule has no applicability in the instant case, since as heretofore stated, the judgments with which we are concerned were not obtained in a small claim action.\nWe are unaware of any case law or statutory authority which would permit a trial court to order installment payments of judgments such as were entered in the instant cases. The election of the method of enforcing of judgments, with the exception of those entered in a small claims case, is vested in the judgment creditor. The only reference to the payment of a judgment in installments, with the exception of that found in Supreme Court Rule 288, is to be found in section 2 \u2014 1402(b)(2) of the Code of Civil Procedure (Ill. Rev. Stat. 1983, ch. 110, par. 2 \u2014 1402(b)(2)). This statutory provision of our Code of Civil Procedure is titled and pertains to supplementary proceedings. The judgment creditor may elect what course he desires to pursue in order to collect his judgment including the decision as to whether or not supplemental proceedings are desired as provided by section 2 \u2014 1402 (Ill. Rev. Stat. 1983, ch. 110, par. 2\u2014 1402). In the instant cases, no supplementary proceedings were undertaken by the hospital.\nNo issue has been raised concerning the validity of the judgments entered by the trial court, and consequently we determine them to be valid. However, for the reasons set forth, the order of the circuit court of Will County directing installment payments of the same should be vacated. We therefore reverse the orders directing installment payments, and the cases are remanded to the trial court with directions to enter an order vacating the same.\nReversed and remand\u00e9d with directions.\nHEIPLE, P.J., and STOUDER, J., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "SILVER CROSS HOSPITAL, Plaintiff-Appellant, v. RUBEN CAMPBELL et al., Defendants-Appellees.\nThird District\nNos. 3\u201485\u20140045, 3\u201485\u20140153 cons.\nOpinion filed January 30, 1986.\nThomas E. Orr, of John A. Falasca & Associates, of Joliet, for appellant.\nNo brief filed for appellees."
+                }
+            }
+        }
+    ]
+}
