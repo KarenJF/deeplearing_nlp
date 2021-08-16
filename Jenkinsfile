@@ -22,6 +22,7 @@ pipeline {
                 // https://github.com/jenkinsci/pyenv-pipeline-plugin
                 // https://stackoverflow.com/questions/56006353/using-jenkins-environment-variable-in-pipeline-sh-script
                 // https://stackoverflow.com/questions/21103727/how-to-tell-jenkins-to-use-a-particular-virtualenv-python/42650694
+                // https://stackoverflow.com/questions/39176832/how-to-fix-python-module-import-errors-in-jenkins
                 // https://gist.github.com/jubel-han/0e669dbbfa9e966f0b79a91730edc806
                 withPythonEnv(
                     //'/Users/pho/venv/bin/python'
@@ -42,6 +43,7 @@ pipeline {
                     sh 'source ./env/bin/activate'
 
                     // install the packages the python scripts need on the Jenkins machine
+                    sh 'pip install -r requirements.txt'
                     //sh 'python -m pip install requests'
                     //sh 'python -m pip install pandas'
                     sh 'python3 -m pip install requests'
@@ -52,7 +54,8 @@ pipeline {
                     echo "2 Workspace is: $WORKSPACE"
 
                     // python script to pull data from CaseLaw
-                    sh 'python ./services/caselaw/GetSampleDataFromCaseLaw.py'
+                    //sh 'python ./services/caselaw/GetSampleDataFromCaseLaw.py'
+                    sh 'python services/caselaw/GetSampleDataFromCaseLaw.py'
                     //sh 'python ./services/caselaw/GetFullTextDataFromCaseLaw.py'
 
                 }
