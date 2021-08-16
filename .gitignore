@@ -2,6 +2,7 @@
 *.DS_Store
 
 # project files
+data/downloaded/testing
 services/reddit/redditPW.txt
 
 # test files
