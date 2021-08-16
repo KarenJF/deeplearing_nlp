@@ -2,7 +2,7 @@ import requests.auth
 import logging
 import json
 
-from utils import Utils
+from utils import HelperUtils
 
 
 defaultHeaders = {'User-Agent': 'Reddit-API/0.1'}
@@ -39,14 +39,14 @@ def getRedditAccessToken(
 
     redditAccessToken = ''
 
-    CLIENT_ID  = Utils.getTokenFromJsonFile(
+    CLIENT_ID  = HelperUtils.getTokenFromJsonFile(
         serviceType=SERVICE_TYPE,
         tokenKey='client_id',
         tokenType=tokenType
     )
     #logging.info("CLIENT_ID = " + CLIENT_ID)
 
-    SECRET_TOKEN = Utils.getTokenFromJsonFile(
+    SECRET_TOKEN = HelperUtils.getTokenFromJsonFile(
         serviceType=SERVICE_TYPE,
         tokenKey='secret',
         tokenType=tokenType
@@ -142,7 +142,7 @@ def getContentDataFromReddit(
         'limit': getPullCount()
     }
 
-    retrievedCursor = Utils.getTagForNextPull('reddit')
+    retrievedCursor = HelperUtils.getTagForNextPull('reddit')
     logging.info("retrievedCursor = " + retrievedCursor)
 
     if isBackHaul & len(retrievedCursor)>0:
@@ -178,7 +178,7 @@ def getContentDataFromReddit(
 
 
 if __name__ == "__main__":
-    Utils.initLogging()
+    HelperUtils.initLogging()
     logging.info("-----start GetSampleDataFromReddit-----")
 
     # TUTORIAL
@@ -214,14 +214,14 @@ if __name__ == "__main__":
 
 
     logging.debug('writing to file -- start')
-    currentPST, filename = Utils.recordRedditData(
+    currentPST, filename = HelperUtils.recordRedditData(
         responseJsonObj
     )
     logging.debug('writing to file -- end')
 
 
     logging.debug('updating pull record -- start')
-    Utils.updateRedditPullRecords(
+    HelperUtils.updateRedditPullRecords(
         currentPST=currentPST,
         filename=filename,
         responseJsonObj=responseJsonObj

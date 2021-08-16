@@ -2,7 +2,7 @@ import requests
 import logging
 import json
 
-from utils import Utils
+from utils import HelperUtils
 
 #################
 # Set Parameter Start#
@@ -99,12 +99,12 @@ def getFullTextDataFromCaseLaw(
 
 
 if __name__ == "__main__":
-    Utils.initLogging()
+    HelperUtils.initLogging()
     logging.info("-----start GetFullTextDataFromCaseLaw-----")
 
     SERVICE_TYPE = 'case_law'
 
-    authToken = Utils.getTokenFromJsonFile(
+    authToken = HelperUtils.getTokenFromJsonFile(
         serviceType='case_law',
         tokenKey='token'
     )
@@ -118,7 +118,7 @@ if __name__ == "__main__":
         setJurisdictionUsed(defaultJurisdiction)
         setPageSizeUsed(defaultPageSize)
 
-        retrievedCursor = Utils.getTagForNextPull(
+        retrievedCursor = HelperUtils.getTagForNextPull(
             getJurisdictionUsed()
         )
 
@@ -134,7 +134,7 @@ if __name__ == "__main__":
 
 
         logging.debug('writing to file -- start')
-        currentPST, filename = Utils.recordCaseLawData(
+        currentPST, filename = HelperUtils.recordCaseLawData(
             responseJsonObj,
             getSearchTermUsed(),
             getJurisdictionUsed()
@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
 
         logging.debug('updating pull record -- start')
-        Utils.updateCaseLawPullRecords(
+        HelperUtils.updateCaseLawPullRecords(
             currentPST=currentPST,
             filename=filename,
             searchTermUsed=getSearchTermUsed(),

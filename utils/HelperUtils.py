@@ -1,6 +1,8 @@
 import logging
 import json
 import datetime
+import sys
+
 import pytz
 import os
 import re
@@ -48,7 +50,7 @@ def recordCaseLawData(
     # REAL data goes to ELSE clause
     if (jurisdictionUsed=='') & (searchTermUsed==''):
 
-        destinationPath = '../../data/downloaded/testing'
+        destinationPath = sys.path[1] + '/data/downloaded/testing'
         filename = currentPST + '.json'
 
     else:
@@ -56,9 +58,9 @@ def recordCaseLawData(
         #separate folders for cal (has token rate limit) vs ill (free)
 
         if jurisdictionUsed == 'cal':
-            destinationPath = '../../data/downloaded/caselaw/raw/cal'
+            destinationPath = sys.path[1] + '/data/downloaded/caselaw/raw/cal'
         else:
-            destinationPath = '../../data/downloaded/caselaw/raw/ill'
+            destinationPath = sys.path[1] + '/data/downloaded/caselaw/raw/ill'
 
         filename = searchTermUsed + '-' + jurisdictionUsed + '-' + currentPST + '.json'
 
