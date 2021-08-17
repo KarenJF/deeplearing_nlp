@@ -4,6 +4,6 @@
 
 #echo $PWD
 #cd ..
-#echo $PWD
+echo $PWD
 
 python3 ./services/caselaw/GetSampleDataFromCaseLaw.py

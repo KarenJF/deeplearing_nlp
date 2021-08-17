@@ -80,9 +80,6 @@ def recordCaseLawData(
         jurisdictionUsed=''
 ):
 
-    #currentDirectory = os.getcwd()
-    #logging.info('currentDirectory = ' + currentDirectory)
-
     # create file named with current timestamp
     currentPST = getCurrentPacificTime()
 
