@@ -54,7 +54,7 @@ pipeline {
                     echo "2 Workspace is: $WORKSPACE"
 
                     // python script to pull data from CaseLaw
-                    sh './services/jenkins/automateDataPull.sh'
+                    sh './services/jenkins/DataPull-CaseLaw.sh'
                     //sh 'python ./services/caselaw/GetSampleDataFromCaseLaw.py'
                     //sh 'python services/caselaw/GetSampleDataFromCaseLaw.py'
                     //sh 'python ./services/caselaw/GetFullTextDataFromCaseLaw.py'
