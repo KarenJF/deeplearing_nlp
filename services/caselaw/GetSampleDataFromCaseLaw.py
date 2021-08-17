@@ -1,5 +1,3 @@
-import os
-
 import requests
 import logging
 import json
