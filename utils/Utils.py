@@ -1,7 +1,14 @@
 import logging
-import os
 import json
+import datetime
+import pytz
+import os
+import re
 
+
+#################
+# GENERAL COMMON FUNCTIONS#
+#################
 
 def initLogging():
     # https://docs.python.org/3/howto/logging.html#logging-basic-tutorial
@@ -9,10 +16,26 @@ def initLogging():
     return
 
 
+def getCurrentPacificTime():
 
-def getCursorValue():
+    # https://stackoverflow.com/questions/13866926/is-there-a-list-of-pytz-timezones
+    pacificTimezone = pytz.timezone('US/Pacific')
+    currentPST = datetime.datetime.now(pacificTimezone).isoformat()
+    logging.info('current time = ' + currentPST)
 
-    PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records.json'
+    return currentPST
+
+#################
+# CASE_LAW COMMON FUNCTIONS START#
+#################
+
+def getCaseLawCursorValueForNextPull(jurisdictionUsed):
+
+    if jurisdictionUsed=='cal':
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
+    else:
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_ill.json'
+
     cursor = ''
 
     # check if PULL_RECORD_FILE actually exists
@@ -32,9 +55,6 @@ def getCursorValue():
         if pullRecordsCount > 0:
             logging.debug('array length is valid')
 
-            #'next_cursor' in pullRecords[pullRecordsCount-1]
-            #pullRecords[pullRecordsCount-1].get('next_cursor')
-
             # go to last record (latest pull) and find cursor
             # will use cursor in upcoming data pull
             cursor = pullRecords[pullRecordsCount - 1].get('next_cursor')
@@ -47,15 +67,142 @@ def getCursorValue():
     else:
         logging.error('pull record file DOES NOT EXIST')
 
-
     return cursor
 
 
+def recordCaseLawData(
+        responseJsonObj,
+        searchTermUsed='',
+        jurisdictionUsed=''
+):
+
+    #currentDirectory = os.getcwd()
+    #logging.info('currentDirectory = ' + currentDirectory)
+
+    # create file named with current timestamp
+    currentPST = getCurrentPacificTime()
+
+    # SAMPLE data have jurisdictionUsed and searchTermUsed as BLANK, goes to IF clause
+    # REAL data goes to ELSE clause
+    if (jurisdictionUsed=='') & (searchTermUsed==''):
+
+        destinationPath = '../../data/downloaded/testing'
+        filename = currentPST + '.json'
+
+    else:
+
+        #separate folders for cal (has token rate limit) vs ill (free)
+
+        if jurisdictionUsed == 'cal':
+            destinationPath = '../../data/downloaded/caselaw/raw/cal'
+        else:
+            destinationPath = '../../data/downloaded/caselaw/raw/ill'
+
+        filename = searchTermUsed + '-' + jurisdictionUsed + '-' + currentPST + '.json'
+
+    # write/save data
+    with open(
+            os.path.join(
+                destinationPath,
+                filename
+            ),
+            'w'
+    ) as outfile:
+        json.dump(responseJsonObj, outfile, indent=4)
+        #json.dump(responseJsonObj, outfile)
+
+    return currentPST, filename
+
+
+
+def updateCaseLawPullRecords(
+        currentPST,
+        filename,
+        searchTermUsed,
+        jurisdictionUsed,
+        responseJsonObj
+):
+    if jurisdictionUsed=='cal':
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
+        pullRecordFilename = 'pull_records_cal.json'
+    else:
+        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_ill.json'
+        pullRecordFilename = 'pull_records_ill.json'
+
+
+    # check if PULL_RECORD_FILE actually exists
+    pullRecordFileExists = os.path.exists(PULL_RECORD_FILE_PATH)
+    if pullRecordFileExists:
+        logging.debug('pull record file EXISTS')
+
+        # Opening JSON file
+        pullRecordsJsonFile = open(PULL_RECORD_FILE_PATH, )
+
+        # returns JSON
+        pullRecordsJsonObj = json.load(pullRecordsJsonFile)
+
+        pullRecords = pullRecordsJsonObj['pull_records']
+        logging.info("BEFORE - pull_records = " + json.dumps(pullRecords))
+
+
+        nextURL = responseJsonObj['next']
+        #TODO: fix regular expression to be more dynamic, not rely on checking "decision_date_max"
+        nextCursor = re.search('&cursor=(.*)&decision_date_max', nextURL).group(1)
+
+        if nextCursor:
+
+            logging.info("nextCursor = " + nextCursor)
+
+            pullRecords.append(
+                {
+                    "timestamp": currentPST,
+                    "file_name": filename,
+                    "search_term": searchTermUsed,
+                    "jurisdiction": jurisdictionUsed,
+                    "next_cursor": nextCursor
+                }
+            )
+
+            logging.info("AFTER - pull_records = " + json.dumps(pullRecords))
+
+            # write/save data
+            with open(
+                    os.path.join(
+                        '../../data/downloaded/caselaw',
+                        pullRecordFilename
+                    ),
+                    'w'
+            ) as outfile:
+                json.dump(pullRecordsJsonObj, outfile, indent=4)
+
+        else:
+            logging.error('cursor DOES NOT EXIST')
+
+    else:
+        logging.error('pull record file DOES NOT EXIST')
+
+    return
+
+#################
+# CASE_LAW COMMON FUNCTIONS END#
+#################
+
+
+
+
+
+#################
+# TOKEN COMMON FUNCTIONS START#
+#################
+
 def getTokenFromJsonFile(
         serviceType,
-        tokenType,
-        tokenKey
+        tokenKey,
+        tokenType='web_app'
 ):
+    # this function is used to retrieve TOKENs to log into systems to backhaul data
+    # example systems are: Reddit, CaseLaw
+
     TOKEN_FILE_PATH = '../../utils/tokens.json'
 
     token = ''
@@ -76,6 +223,7 @@ def getTokenFromJsonFile(
         if len(tokensArray) > 0:
             logging.debug('array length is valid')
 
+            # see tokens.json for details
             index = 0
             if tokenType == 'web_app':
                 index = 0
@@ -96,3 +244,7 @@ def getTokenFromJsonFile(
         logging.error('token file DOES NOT EXIST')
 
     return token
+
+#################
+# TOKEN COMMON FUNCTIONS END#
+#################

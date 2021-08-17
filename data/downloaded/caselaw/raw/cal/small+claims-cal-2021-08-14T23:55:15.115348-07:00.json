@@ -1,0 +1,1506 @@
+{
+    "count": 69126,
+    "next": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzI5Ljg0NDg2OCwgMjM2NjUzNl19&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=cal&ordering=relevance&page_size=5&search=small+claims",
+    "previous": null,
+    "results": [
+        {
+            "id": 2306147,
+            "url": "https://api.case.law/v1/cases/2306147/",
+            "name": "GEORGE SKAFF, Plaintiff and Appellant, v. SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and Respondents",
+            "name_abbreviation": "Skaff v. Small Claims Court",
+            "decision_date": "1968-01-17",
+            "docket_number": "L. A. No. 29465",
+            "first_page": "76",
+            "last_page": "81",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "68 Cal. 2d 76"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078595857/",
+                "volume_number": "68",
+                "barcode": "32044078595857"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/417/",
+                "full_name": "California Reports",
+                "id": 417
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-1/",
+                "name_abbreviation": "Cal.",
+                "slug": "cal-1",
+                "id": 9021,
+                "name": "Supreme Court of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "334 P.2d 1074",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "case_ids": [
+                        4403211
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 Cal.App.2d Supp. 825",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. Supp. 2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 A.L.R. 820",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "173 P.2d 38",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Cal.App.2d 379",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        4476357
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "382"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "264 P. 488",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "203 Cal. 384",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2172016
+                    ],
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "220 P.2d 912",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "35 Cal.2d 596",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4400720
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "603"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "90 A.L.R. 384",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "year": 1950,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "25 P.2d 983",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "year": 1950,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "219 Cal. 179",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2218610
+                    ],
+                    "year": 1950,
+                    "pin_cites": [
+                        {
+                            "page": "182"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 Cal.Rptr. 321",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "244 Cal.App.2d 755",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2189748
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "759"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "134 P.2d 745",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "year": 1966,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "21 Cal.2d 630",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2228967
+                    ],
+                    "year": 1966,
+                    "pin_cites": [
+                        {
+                            "page": "634"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "361 P.2d 587",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "year": 1943,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 Cal.Rptr. 859",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "year": 1943,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "55 Cal.2d 714",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4380610
+                    ],
+                    "year": 1943,
+                    "pin_cites": [
+                        {
+                            "page": "720"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-2d/68/76/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/2306147/Skaff%20v.%20Small%20Claims%20Court,%2068%20Cal.%202d%2076%20(1968).pdf",
+            "preview": [
+                "George Skaff filed an action in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court, a division of the Municipal Court of the City",
+                "At the time of Skaff\u2019s suit the jurisdictional limit on <em class='search_highlight'>claims</em> triable before the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court",
+                "Section 396 is particularly efficacious in actions in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> courts.",
+                "The court rejected a <em class='search_highlight'>claim</em> that denial of counsel in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> litigation violated due process, stating",
+                "his <em class='search_highlight'>claim</em> to the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court.",
+                "<em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and"
+            ],
+            "analysis": {
+                "word_count": 1920,
+                "random_bucket": 6636,
+                "sha256": "2e345cbeab3eade24fc0e3b5afd2f91d0e430b95790ac40a56056f6b1839f5c7",
+                "ocr_confidence": 0.533,
+                "char_count": 11591,
+                "random_id": 981277164,
+                "pagerank": {
+                    "percentile": 0.9180550806475248,
+                    "raw": 4.393104907924742e-07
+                },
+                "cardinality": 638,
+                "simhash": "1:9c55a7957ce8f0c6"
+            },
+            "last_updated": "2021-08-10T19:18:46.800945+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "GEORGE SKAFF, Plaintiff and Appellant, v. SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and Respondents."
+                    ],
+                    "attorneys": [
+                        "Silverton & Silverton, Lester A. Berman and Ronald R. Silverton for Plaintiff and Appellant.",
+                        "Harold W. Kennedy, County Counsel, Donald K. Byrne and Ronald D. Aubert, Deputy County Counsel, for Defendant and Respondent court.",
+                        "No appearance for Defendant and Respondent corporation."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "TOBRINER, J.",
+                            "text": "TOBRINER, J.\nGeorge Skaff filed an action in the small claims court, a division of the Municipal Court of the City of Los Angeles, against the Holiday Car Leasing Corporation, seeking recovery of $250 which he allegedly extended to Holiday as a deposit for the delivery of a 1965 Chevrolet Impala Coupe automobile. Holiday counterclaimed against Skaff for $175, the amount allegedly due for rental and insurance coverage of a 1964 Chevrolet Impala Coupe automobile that Holiday had leased to Skaff. After a hearing on July 19, 1965, the judge of the small claims court denied plaintiff\u2019s complaint but awarded Holiday a $175 judgment on its counterclaim.\nSkaff in due time attempted to appeal from the judgment. After the clerk of the small claims court advised him that he had no right of appeal, Skaff, on September 16, 1965, filed a petition in the Superior Court of Los Angeles County for a writ of mandate to compel the respondent small claims court to permit the filing of the appeal. The superior court denied the writ on September 21, 1965, and the Court of Appeal affirmed.\nAlthough Skaff sought no relief in this court, probably because of the small amount in controversy, we granted a hearing on our own motion (Cal. Rules of Court, rule 28(a)) to decide a novel and important question in the day-to-day operations of small claims courts. Specifically, we must decide whether the party who initially brings an action in the small claims court may appeal from an adverse judgment on the opposing party's counterclaim or cross-complaint.\nSection 117j of the Code of Civil Procedure, which provides for appeals from the judgment of small claims courts, reads as follows: \u201cThe judgment of said court shall be conclusive upon the plaintiff. If the defendant is dissatisfied, he may, within 30 days after the date of entry of the judgment, appeal to the superior court of the county in which said court is held.\u201d Since a party possesses no right of appeal except as provided by statute (People v. Keener (1961) 55 Cal.2d 714, 720 [12 Cal.Rptr. 859, 361 P.2d 587] ; Trede v. Superior Court (1943) 21 Cal.2d 630, 634 [134 P.2d 745] ; In re Conley (1966) 244 Cal.App.2d 755, 759 [53 Cal.Rptr. 321]), the issue before us narrows to whether a party against whom a successful counterclaim has been filed should be regarded as a \u201cplaintiff\u201d or a \u201cdefendant\u201d for purposes of section 117j.\nAs we shall explain in more detail infra, we believe Skaff should be regarded as a \u201cdefendant\u201d and entitled to appeal from the judgment on the counterclaim for the following reasons: (1) Since decisions of this court characterize a counterclaim as a separate, simultaneous action, the plaintiff in the original action becomes a defendant in the cross-action and acquires the appellate remedies of a defendant; (2) The underlying reasons which support a denial of an appeal to the plaintiff in the prime action do not apply to the cross-action; (3) The denial of an appeal on the counterclaim would tend to discourage the use of the small claims court; (4) The denial of appeal on the counterclaim would pivot the right to appeal upon a fortuity.\nAlthough section 117j is susceptible to differing literal interpretations, the historical characterization of the counterclaim as a separate, simultaneous action supports Skaff's position that he is, for its purposes, a defendant. In analyzing counterclaims and cross-complaints, this court has recognized that \u201cthese cross-actions . . . are still distinct and independent causes of action, so that when properly interposed and stated the defendant becomes in respect to the matters pleaded by him, an actor, and there are two simultaneous actions pending between the same parties wherein each is at the same time both a plaintiff and a defendant.\u201d (Pacific Finance Corp. v. Superior Court (1933) 219 Cal. 179, 182 [25 P.2d 983, 90 A.L.R. 384], See also Case v. Kadota Fig. Assn. (1950) 35 Cal.2d 596, 603 [220 P.2d 912].) So interpreted, section 117j would allow Skaff to appeal from the judgment on Holiday\u2019s counterclaim.\nThe reasons for denying a plaintiff the right of appeal on his original demand do not apply to the situation in which the plaintiff has been transformed into a defendant on a counterclaim. In Superior Wheeler Cake Corp. v. Superior Court (1928) 203 Cal. 384 [264 P. 488], this court posited the constitutionality of the denial to plaintiff of a right of appeal upon plaintiff\u2019s choice of this particular forum. Because he elects \u201ca quick and inexpensive method of trial and judgment\u201d he forfeits the normal protection of jury trial and appeal; plaintiff 11 comes under the yoke of this system voluntarily, but the defendant comes thereunder only by the strong arm of the law.\u201d (P. 387.) When plaintiff becomes metamorphosed into a defendant the situation is reversed: he does not choose the quick but nonappealable route of recovery ; defendant, by filing the counterclaim, does so ; plaintiff should no more become the victim of defendant\u2019s choice than defendant should become the victim of plaintiff\u2019s choice on the original claim.\nTo lock the plaintiff into a nonappealable judgment of the small claims court on a counterclaim, which may impose a liability upon him in excess of his own original demand, is to discourage litigation in that potentially useful court. Nonappealability of the counterclaim would expose the moving party to the possibility of the conversion of his claim into a quite unexpected adverse judgment which he could neither discharge, because he lacks the funds, nor challenge on appeal. Many potential plaintiffs might prefer to forego legitimate claims rather than invite such risks. By assuring possible claimants that initiation of a case in the small claims court will only impose an irretrievably binding judgment on a cause of action voluntarily submitted to that court, we preserve its usefulness. Since resolution of disputes by small claims courts conserves the resources of both the parties and the state, we seek within the statutory framework to encourage their utilization; our interpretation fulfills that purpose.\nFinally, the recognition of plaintiff\u2019s right of appeal on a counterclaim avoids a ruling which would pivot that right upon the fortuity of the manner of a party\u2019s presentation of his claim: whether he proceeded by an original complaint or by a counterclaim. It avoids the anomaly of awarding to a party a premium\u2014the right of appeal from an adverse judgment\u2014because he had the foresight or good fortune to file a cross-demand in the small claims court rather than an original action.\nRespondent attempts to resist this result by arguing that it will give litigants in Skaff\u2019s position \u201ctwo chances to win.\u201d Of course this would be true; if the party defending against a counterclaim loses in small claims court and is to enjoy the option of seeking de novo review in the superior court, he would have \u201ctwo chances to win.\u201d But respondent\u2019s contention fails because the statutory scheme, which provides the right to appeal for \u201cdefendants\u201d but denies it to \u201cplaintiffs, \u2019 \u2019 rests on the concept that some parties should have two chances to win and others should be bound by the small claims court\u2019s decision. Thus, rather than aiding the inquiry, the argument that Skaff should not have the right to appeal because that right would give him two chances to win merely assumes the conclusion to the question at issue.\nRespondent secondly contends that allowance to litigants in Skaff\u2019s position of the right to appeal will introduce the intricacies of pleading and cross-demands into a proceeding that should be kept simple and straightforward. Although we agree that speedy, inexpensive justice in a court designed essentially for laymen requires simple rules, we cannot rule that respondent makes his case on this single point. Rather, our holding that, for purposes of the right to appeal under section 117j, a party is a \u201cplaintiff\u201d only as to causes of action voluntarily brought by him in small claims court is both easily understood and applied.\nThe judgment of the Superior Court of Los Angeles County is reversed, and the court is directed to issue a peremptory writ of mandate.\nTraynor, C. J., McComb, J., Peters, J., Mosk, J., Burke, J., and Sullivan, J., concurred.\nAt the time of Skaff\u2019s suit the jurisdictional limit on claims triable before the small claims court was $200. (Code Civ. Proe., \u00a7 117.) But since Staff\u2019s oral acknowledgment at the hearing of a $100 debt to Holiday constitutes a waiver of part of his claim, the small claims court could properly revise the amount sought in the complaint rather than desist from the assertion of jurisdiction. \u201cIn any case where the lack of jurisdiction is due solely to an excess in the amount of the demand, the excess may be remitted and the action may continue in the court where it is pending.\u201d (Code Civ. Proc., \u00a7 396.) Section 396 is particularly efficacious in actions in small claims courts. Even a party who asserts a demand for more than the jurisdictional limits of a small claims court will often benefit financially by sacrificing part of the claim to avoid the expense and delay of prosecution through municipal or justice courts.\nThe reasoning in Prudential Ins. Co. v. Small Claims Court (1946) 76 Cal.App.2d 379, 382 [173 P.2d 38, 167 A.L.R. 820], follows this approach. The court rejected a claim that denial of counsel in small claims litigation violated due process, stating that \u201cinformal hearings may he held without the assistance of counsel, as long as the right to appear by counsel is guaranteed in a real sense somewhere in the proceedings. It is obvious that the plaintiff cannot object, although he has no right of appeal, because he has elected to commence the action in the small claims court. . . . The defendant has no legal cause for complaint because if he is dissatisfied with the judgment of the small claims court he has a right of appeal to the superior court where he is entitled to a trial de novo.\u201d (Italics added.)\nThe reasoning of Superior Wheeler Cake Corp. v. Superior Court, supra, 203 Cal. 384, and Prudential Ins. Co. v. Small Claims Court, supra, 76 Cal.App.2d 379, requires us to focus on whether a party voluntarily submits his claim to the small claims court. Thus, in the typical case of a party choosing to advance a counterclaim in the small claims court, the counterclaimant should not be entitled to an appeal from an adverse judgment on that claim. Certain counterclaims, however, must be advanced in the small claims court or forfeited (Code Civ. Proc., \u00a7 117h; Thompson v. Chew Quan (1959) 167 Cal.App.2d Supp. 825 [334 P.2d 1074]); since \"the strong arm of the law,\u201d rather than the party\u2019s voluntary election, motivates the party in filing these \"mandatory\u201d counterclaims, the counterelaimant should retain Ms right to appeal. In sum, we conclude that either party should be entitled to appeal from an adverse judgment on a claim asserted against him by another party and that the counterelaimant should also be entitled to appeal if his cross-demand is 1 \u2018 mandatory, \u2019 \u2019",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[L. A. No. 29465.\nIn Bank.\nJan. 17, 1968.]\nGEORGE SKAFF, Plaintiff and Appellant, v. SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and Respondents.\nSilverton & Silverton, Lester A. Berman and Ronald R. Silverton for Plaintiff and Appellant.\nHarold W. Kennedy, County Counsel, Donald K. Byrne and Ronald D. Aubert, Deputy County Counsel, for Defendant and Respondent court.\nNo appearance for Defendant and Respondent corporation."
+                }
+            }
+        },
+        {
+            "id": 4476357,
+            "url": "https://api.case.law/v1/cases/4476357/",
+            "name": "THE PRUDENTIAL INSURANCE COMPANY OF AMERICA, Appellant, v. THE SMALL CLAIMS COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Respondents",
+            "name_abbreviation": "Prudential Insurance v. Small Claims Court",
+            "decision_date": "1946-10-08",
+            "docket_number": "Civ. No. 13082",
+            "first_page": "379",
+            "last_page": "388",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "76 Cal. App. 2d 379"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078603180/",
+                "volume_number": "76",
+                "barcode": "32044078603180"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/329/",
+                "full_name": "California Appellate Reports, Second Series",
+                "id": 329
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-dist-ct-app-1/",
+                "name_abbreviation": "Cal. Dist. Ct. App.",
+                "slug": "cal-dist-ct-app-1",
+                "id": 9209,
+                "name": "District Court of Appeal of the State of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "9 N.Y.S.2d 323",
+                    "category": "reporters:state",
+                    "reporter": "N.Y.S.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "255 App.Div. 673",
+                    "category": "reporters:state",
+                    "reporter": "A.D.",
+                    "case_ids": [
+                        5187345
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "216 P. 718",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "73 Colo. 586",
+                    "category": "reporters:state",
+                    "reporter": "Colo.",
+                    "case_ids": [
+                        2727796
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "9 F.Supp. 175",
+                    "category": "reporters:federal",
+                    "reporter": "F. Supp.",
+                    "case_ids": [
+                        4138416
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "20 F.Supp. 369",
+                    "category": "reporters:federal",
+                    "reporter": "F. Supp.",
+                    "case_ids": [
+                        4173765
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "295 N.Y.S. 107",
+                    "category": "reporters:state",
+                    "reporter": "N.Y.S.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "162 Misc. 416",
+                    "category": "reporters:state",
+                    "reporter": "Misc.",
+                    "case_ids": [
+                        863221
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "296 N.Y.S. 945",
+                    "category": "reporters:state",
+                    "reporter": "N.Y.S.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "163 Misc. 870",
+                    "category": "reporters:state",
+                    "reporter": "Misc.",
+                    "case_ids": [
+                        865507
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "3 N.Y.S.2d 419",
+                    "category": "reporters:state",
+                    "reporter": "N.Y.S.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "166 Misc. 904",
+                    "category": "reporters:state",
+                    "reporter": "Misc.",
+                    "case_ids": [
+                        873306
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "6 L.Ed 204",
+                    "category": "reporters:federal",
+                    "reporter": "L. Ed.",
+                    "case_ids": [
+                        1421282
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "11 N.Y.S. 2d 741",
+                    "category": "reporters:state",
+                    "reporter": "N.Y.S.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "171 Misc. 3",
+                    "category": "reporters:state",
+                    "reporter": "Misc.",
+                    "case_ids": [
+                        885441
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "215 P. 391",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "191 Cal. 133",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2141569
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "252 P. 575",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "200 Cal. 215",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2163399
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Minn.L.Rev. 107",
+                    "category": "journals:journal",
+                    "reporter": "Minn. L. Rev.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "11 Cal.L.Rev. 276",
+                    "category": "journals:journal",
+                    "reporter": "Cal. L. Rev.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "185 N.W. 934",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.W.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "150 Minn. 452",
+                    "category": "reporters:state",
+                    "reporter": "Minn.",
+                    "case_ids": [
+                        134289
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "174 U.S. 1",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        3607262
+                    ],
+                    "weight": 3,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "37 P.2d 159",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Cal.App.2d 634",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        1199482
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "160 P.2d 816",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "26 Cal.2d 716",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2168463
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "267 U.S. 517",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        6143413
+                    ],
+                    "weight": 3,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "84 A.L.R. 527",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "287 U.S. 45",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        369864
+                    ],
+                    "weight": 3,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "66 F.2d 874",
+                    "category": "reporters:federal",
+                    "reporter": "F.2d",
+                    "case_ids": [
+                        895240
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-app-2d/76/379/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/4476357/Prudential%20Insurance%20v.%20Small%20Claims%20Court,%2076%20Cal.%20App.%202d%20379%20(1946).pdf",
+            "preview": [
+                "In May of 1945 an action was commenced in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court by a holder of a Prudential life policy",
+                "Before the date fixed in the order appellant specially appeared in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court and moved to",
+                "But that does not mean that the Legislature cannot create a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court where informal hearings",
+                "If he desires an attorney he can sue, even on these <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>, in the justices or municipal courts",
+                "<em class='search_highlight'>claims</em> or conciliation courts where <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> may be prosecuted informally and without the cost,",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Respondents.\nF."
+            ],
+            "analysis": {
+                "word_count": 3765,
+                "random_bucket": 4777,
+                "sha256": "e66c9fead964984e3ce78130650e3a24497e655e1e613992fd13f9a9ff76d318",
+                "ocr_confidence": 0.522,
+                "char_count": 22271,
+                "random_id": 133239465,
+                "pagerank": {
+                    "percentile": 0.9830799441182505,
+                    "raw": 1.0236124806671865e-06
+                },
+                "cardinality": 924,
+                "simhash": "1:b7f79b851460a11e"
+            },
+            "last_updated": "2021-08-11T01:52:03.084984+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "THE PRUDENTIAL INSURANCE COMPANY OF AMERICA, Appellant, v. THE SMALL CLAIMS COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Respondents."
+                    ],
+                    "attorneys": [
+                        "F. Eldred Boland, Burton L. Walsh and Knight, Boland & Riordan for Appellant.",
+                        "Robert W. Kenny, Attorney General, Clarence A. Linn, Deputy Attorney General, John J. O\u2019Toole, City Attorney, Reynold J. Bianchi, Deputy City Attorney, and James Martin Maclnnis for Respondents."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "PETERS, P. J.",
+                            "text": "PETERS, P. J.\nThe Prudential Insurance Company of America appeals from a judgment of the superior court denying to appellant a writ of prohibition by which it sought to restrain the Small Claims Court of the City and County of San Francisco from proceeding with an action pending before it in which appellant was the defendant. The appeal presents several interesting and difficult questions of first impression involving the constitutionality and interpretation of the statutes creating the small claims court, particularly as those statutes apply to corporations.\nThe facts giving rise to the controversy are as follows: Appellant is a New Jersey corporation qualified to do an insurance business in California. It has offices in several California cities, and in San Francisco has between 120 to 125 employees. In this city it has a manager, by name Clifford Henderson, who has also been designated as the agent of the company for the purpose of accepting service of process on appellant in this state. Some 12 employees of the company are subject to Henderson\u2019s immediate supervision. The company has regularly retained counsel in various cities in the state. In San Francisco, in all disputes growing out of life policies, the legal firm of Knight, Boland and Riordan has been the regularly retained counsel of such company for several years, and was such counsel during all times pertinent in the instant case. Burton L. Walsh is associated with that firm as a lawyer.\nIn May of 1945 an action was commenced in the small claims court by a holder of a Prudential life policy with disability benefits naming appellant as defendant. This action involved the disability provisions of the life policy, and involved less than $50. By order appellant was directed by the court to appear and answer on a specified date. This order was served upon Henderson. Before the date fixed in the order appellant specially appeared in the small claims court and moved to quash the service of summons, urging, for reasons substantially similar to those urged on this appeal and hereafter discussed, that that court had no jurisdiction over appellant. The motion was denied, whereupon appellant sought a writ of prohibition in the superior court. An alternative writ was issued and a full hearing had. The superior court denied the application and appellant has appealed.\nFrom the evidence it appears that the same policy holder here involved had instituted a prior action in the small claims court against appellant, and that in that action appellant sought to appear by its regularly retained counsel but had been refused permission to so appear. The result was a default judgment against appellant. After the action here sought to be restrained was instituted the legal firm involved sought and secured from a vice-president of the appellant the appointment of Walsh as the \u201cagent and representative\u201d of appellant to appear and defend the action. It is asserted in the petition that Walsh is the only agent or representative of appellant in California who has knowledge of all of the facts of the case or who has been authorized to appear on behalf of the company. The record shows, however, and the trial court found, that Walsh\u2019s only knowledge of the case comes from having possession of the files of the company relating to the case, that he has no other knowledge' of the facts, and that these files were forwarded to him by the eastern counsel of the company. The petition alleges that the small claims court will not permit Walsh to appear and defend the present action and that this will deprive appellant of its constitutional rights.\nThe statutory law relating to small claims courts is to be found in the Code of Civil Procedure, section 117 through section 117r. The section primarily involved is section 117g, which provides: \u201cNo attorney at law or other person than the plaintiff and defendant shall take any part in the filing or the prosecution or defense of such litigation in the small claims court. ...\u201d\nThe first question presented is whether the prohibition against the appearance of lawyers renders section 117g un constitutional. It is urged that depriving a litigant of the right of counsel is a violation of due process. There can be little doubt but that in both civil and criminal cases the right to a hearing includes the right to appear by counsel, and that the arbitrary refusal of such right constitutes a deprivation of due process. (Roberts v. Anderson, 66 F.2d 874 ; Powell v. Alabama, 287 U.S. 45 [53 S.Ct. 55, 77 L.Ed. 158, 84 A.L.R. 527] ; Cooke v. United States, 267 U.S. 517 [45 S.Ct. 390, 69 L.Ed. 767] ; Steen v. Board of Civil Service Commrs., 26 Cal.2d 716 [160 P.2d 816].) But that does not mean that the Legislature cannot create a small claims court where informal hearings may be held without the assistance of counsel, as long as the right to appear by counsel is guaranteed in a real sense somewhere in the proceeding. It is obvious that the plaintiff cannot object, although he has no right of appeal, because he has elected to commence the action in the small claims court. If he desires an attorney he can sue, even on these small claims, in the justices or municipal courts; The defendant has no legal cause for complaint because if he is dissatisfied with the judgment of the small claims court he has a right of appeal to the superior court where he is entitled to a trial de novo. (Los Angeles Bond etc. Co. v. Superior Court, 1 Cal.App.2d 634 [37 P.2d 159].) In that court he and the plaintiff can, of course, appear by counsel. This satisfies the due process requirement.\nThat this is sound constitutional doctrine has been established by the United States Supreme Court in connection with the deprivation of a jury trial in small claims or conciliation courts. The leading ease is Capital Traction Co. v. Hof, 174 U.S. 1 [19 S.Ct. 580, 43 L.Ed. 873], involving a federal statute relating to the duties of the justices of the peace in the District of Columbia. It was there held that the right to a common-law jury trial as guaranteed by the Seventh Amendment to the United States Constitution was not violated by a statutory provision allowing the primary trial of civil cases of moderate amount by a justice of the peace with or without a noncommon-law jury, where the statute also allowed the parties the right to appeal to a court of record where a common-law jury could be had.\nThe same result was reached by the Supreme Court of Minnesota in Flour City Fuel & Transfer Co. v. Young, 150 Minn. 452 [185 N.W. 934], in upholding the constitutionality of the statute of that state creating the conciliation and small debtor\u2019s court, in which juries were barred. It was there held that \u201cThe constitutional guaranty is satisfied if a party is afforded a jury trial on appeal though not in the tribunal of primary jurisdiction\u201d citing the Hof and other cases. (185 N.W. at p. 936.) There is an interesting discussion of the purposes and background of such small debtors\u2019 courts in both the Hof and Young cases. (See, also, notes in 11 Cal.L.Rev. 276 ; 1 Minn.L.Rev. 107 ; 34 Columb.L.Rev. 932.)\nThe reasoning of these cases is clearly applicable here. Certainly the constitutional guaranty of a jury trial is as important as the constitutional right to appear and prosecute or defend by counsel. If the one constitutional right is not violated as long as a jury trial may be had upon appeal, the right to an appeal where a trial de novo with counsel may be had satisfies the other constitutional requirement.\nThis conclusion is in accord with general public policy. Justice should not be a rich man\u2019s luxury. The Magna Carta guaranteed that justice would not be denied or delayed. Ever since 1215 those interested in the administration of justice have struggled somewhat unsuccessfully to live up to that promise so far as the poor litigant is concerned. The delay and expense incident to litigation have long discouraged the attempts of the poor litigant to secure redress for claims meritorious but small in amount. These eases are relatively of as great importance to those litigants as those heard in our highest courts, but the expense of employing an attorney and paying normal court costs is more than the cause will bear. The solution to this problem arrived at not only by many states in the United States, but also in England and in many continental countries, has been to create small claims or conciliation courts where small claims may be prosecuted informally and without the cost, delay, or procedural difficulties incident to normal litigation. (See in general Hughes v. Municipal Court, 200 Cal. 215 [252 P. 575] ; Leuschen v. Small Claims Court, 191 Cal. 133 [215 P. 391] ; discussion in 6 Cal.Jur. 10-Yr.Supp. \u00a7 246, p. 832.) If one of the litigants in such a court could employ counsel it would of necessity mean that the poor untrained litigant who could not afford to pay such costs would be at a disadvantage. That is the theory upon which our Legislature, acting well within its powers to determine within constitutional limits the social and economic policies of the state, determined by the adoption of section 117g of the Code of Civil Procedure that lawyers should be excluded at the first trial of such cases. That policy has received the well-nigh universal approval of the public, the bar and the judiciary. As already held, that policy does, not violate any constitutional provision.\nThe next question to be determined is whether the statutes applicable to such small claims courts apply to corporations, i. e., may they sue or be sued in such courts ? It will be remembered that section 117g of the Code of Civil Procedure provides that \u201cNo attorney at law or other person than the plaintiff and defendant\u201d shall take any part in the prosecution or defense of such litigation. Thus the only \u201cperson\u201d who may prosecute or defend such actions is the plaintiff or defendant. Is a corporation a \u201cperson\u201d within the meaning of this section ? There would normally be no difficulty with this question because section 17 of the Code of Civil Procedure expressly provides that \u201cthe word \u2018person\u2019 includes a corporation as well as a natural person. \u2019 \u2019 But, argues appellant, a corporation is an artificial entity separate and distinct from its officers or agents, and since section 117g prohibits any \u201cother person\u201d than the plaintiff or defendant from appearing, if a corporation is a \u201cperson\u201d within the meaning of the section it is in fact prohibited from appearing at all. In other words, it is argued that the officers, agents, representatives and employees of a corporation are \u201cother\u201d persons within the meaning of section 117g. If this contention is sound the section would deprive corporations of the opportunity to appear and defend such actions, since the artificial entity cannot itself speak, and this would deprive corporations of due process.\nThe argument while ingenious is unsound. The Legislature could not have intended such a strict and unreasonable construction of the words \u201cother person\u201d in the section. This is made apparent not only by section 17 of the code, above quoted, but by other constitutional and statutory provisions as well. Article XII, section 4 of the Constitution, provides, in part, that \u2018 \u2018 all corporations shall have the right to sue and shall be subject to be sued, in all courts, in like eases as natural persons.\u201d Section 341(1) of the Civil Code provides that every corporation has power \u201cTo sue and be sued in any court.\u201d In 6A California Jurisprudence, page 1378, section 805, the problem, amply supported by case authority, is discussed as follows: \u2018 \u2018 The Code of Civil Procedure, \u00a7 17, .declares that the word \u2018person\u2019 includes a corporation as well as a natural person. By that code the law of procedure is general and not divisible into special schemes of procedure, one where a corporation is a party and another where natural persons are parties. . . .\u201d In the same volume at page 1380, section 806, it is stated: \u201cJurisdiction, which in its broad sense is the power to hear and determine, and in its applied sense is the power to hear and determine the particular ease as regards the parties therein, exists over actions by or against corporations in the same cases, and to. the same extent, and is to be acquired in the same ways, as over actions between natural persons. The jurisdiction of courts is not made to depend upon the incorporate character of the parties and the venue is not jurisdictional, if no objection be made that it is improper. ...\u201d (See for an interesting discussion of the problem J. D. L. Corp. v. Bruckman, 171 Misc. 3 [11 N.Y.S. 2d 741].)\nIt must be apparent that when section 117g provides that only the plaintiff and defendant may prosecute or defend such actions, and prohibits any \u20181 other person \u2019 \u2019 from so appearing, it did not intend to exclude, and by its language it does not exclude, a proper representative of the corporation from appearing or defending such actions. The contended for interpretation would disregard the provisions of the Constitution and the Civil Code above quoted. Since corporations can only appear through some natural person it is obvious that the proper natural person may appear to prosecute or defend such claims, and that such a proper person is not an \u201cother person\u201d excluded by section 117g.\nThere is a series of eases that it is argued compel the conclusion that a corporation under no circumstances may appear in a court of law in propria persona. (Osborn v. Bank of United States, 9 Wheat. (U.S.) 738 [6 L.Ed 204] ; Aberdeen Bindery v. Eastern States P. & Pub. Co., 166 Misc. 904 [3 N.Y.S.2d 419] ; Finox Realty Corp. v. Lippman, 163 Misc. 870 [296 N.Y.S. 945] ; Mortgage Commission v. Great Neck Imp. Co., 162 Misc. 416 [295 N.Y.S. 107] ; Brandstein v. White Lamps, 20 F.Supp. 369 ; Mullin-Johnson Co. v. Penn Mut. Life Ins. Co., 9 F.Supp. 175 ; Bennie v. Triangle Ranch Co., 73 Colo. 586 [216 P. 718] ; but see A. Victor & Co. v. Sleininger, 255 App.Div. 673 [9 N.Y.S.2d 323], and cases there cited.) These eases in various factual and legal situations hold that a corporation under general legal principles can only appear in a court of record by and through an attorney, and may not appear and defend or prosecute through its officers or employees. Based on these cases appellant argues that since a corporation can only prosecute or defend legal actions through an attorney, and since attorneys are prohibited in the small claims courts, such corporations are denied representation. The obvious answer to this argument is that all of the above eases dealt with courts of record and dealt with general common-law principles. They all resolve around the general rule that a corporation in the absence of statutory authority, even in its own behalf, cannot practice law. None of them dealt with a statutory situation such as is here involved. Here we have a statute, section 117g, that expressly confers on corporations, as well as on other persons, the right to prosecute or defend such actions. At the same time it denies to corporations as well as to other litigants the right to appear in such actions by attorneys. Since a corporation can only speak through a natural person, it is apparent, therefore, that section 117g must be interpreted as conferring on corporations the right to appear through some representative other than an attorney. Thus, here, unlike the above cases, there is express statutory authorization for a corporation to appear in propria persona through some proper representative other than an attorney. This serves to distinguish all of the cited cases.\nNow who is a proper representative that may lawfully appear in such cases? Obviously, the members of the board of directors and other officers should be permitted to so appear, and this is so whether or not they are attorneys. This follows because in such cases they are not appearing as an attorney but in their capacity as an officer, and represent the corporation in the same sense as an individual attorney may appear to defend or prosecute such actions as a plaintiff or defendant in such courts. In the present case the foreign corporation did not have an officer or member of its board in California. It did have, however, a manager of its life business, who was also its statutory agent for service of all legal process, in this state. He, quite clearly, can appear on behalf of the corporation to defend the action. Just who else should be permitted to appear on behalf of the corporation is not entirely clear and could well be a subject for legislative action. In the absence of such action it would appear just and proper that any regular employee, not directly employed as a lawyer, but whose duties give him peculiar knowledge of the facts of such cases, could appear to represent the corporation, and this is so whether or not he is an attorney.\nIt cannot logically be argued that such a limitation on the corporate right to appear is unfair in that a large part of the time of busy and highly paid executives may be consumed in defending small claims asserted against their companies. The same argument could be made against forcing the individual to appear personally and thus consuming a portion of Ms valuable time that he might think could be more profitably spent elsewhere. The answer to the suggestion is that the Legislature of this state, drawing on the experience of many European countries and of many American states has determined that the social benefits to the poor litigant far outweigh the slight inconveniences to the wealthy one. The determination of such a problem is for the Legislature, and as long as that body stays within constitutional limitations, the courts cannot and should not interfere.\nThe only other problem necessary to discuss is whether Burton L. Walsh, a duly licensed attorney, should be permitted to represent appellant in this action in the small claims court. Appellant claims that although Walsh is one of its attorneys he also had specific authority to represent the company as its \u201cagent\u201d in this case. As already pointed out, the record shows that Walsh is an associate of the legal firm that has been retained by appellant in a purely legal capacity to represent it in its life business in and around San Francisco. Neither Walsh nor any other member of the legal firm has ever attempted to represent the company, until this case, in any other capacity than that of attorney. In a prior action between the policy holder involved in the action in the small claims court, Walsh was denied the right to appear as counsel for this corporate appellant. The action here involved was then filed in the small claims court on May 14,1945, and service was had on Henderson, the statutory representative and manager of appellant in San Francisco. On May 19, 1945, the legal firm representing appellant requested of appellant by letter that appellant give Walsh something in writing designating him as agent and representative of the appellant to appear and to defend this particular action. On May 23, 1945, a vice-president of appellant complied with this request by designating Walsh \u201cits agent and representative to appear on its behalf and defend\u201d this particular action and this particular action only. Walsh pleaded and testified that he was the only representative of appellant in San Francisco who had knowledge of the facts Of the case, but this allegation and testimony was found to be untrue by the trial court. The finding was based on the evidence that there were over 120 employees of appellant in San Francisco, and upon Walsh\u2019s stipulation that his knowledge of the ease came only from the files of appellant company that had been forwarded to him by the eastern counsel of the company and that he had no other knowledge of the case. The court also found, and these findings are also amply supported, that Walsh is not now and never has been an employee of appellant; that appellant has over one hundred employees in San Francisco; that Henderson is the manager of appellant in San Francisco and its agent designated to accept service of process. Walsh admitted that the only compensation he would receive for acting as \u201cagent\u201d of the corporation in this case would be the money he received as an associate of the law firm with which he is associated.\nUnder these circumstances it is too clear to require extended comment that Walsh was not the sort of representative of appellant permitted to appear for it under section 117g as heretofore interpreted. He was in law and in fact nothing more than the attorney for appellant, and as such prohibited from appearing for the company under the law. His purported \u201cagency\u201d was nothing more than an obvious attempt to circumvent the law prohibiting the appearance of attorneys in the small claims court. As already pointed out, one of the main purposes of the Legislature as expressed in the statute is to restrict the proceeding to the actual litigants and their witnesses and to prohibit either side from using a representative advocate such as an attorney. To allow one of the litigants in such actions to gain the advantage of legal representation in the manner here attempted would contravene the clear purpose and intent of such statute. That cannot be permitted. Walsh was not the type of representative of the company that may appear lawfully for such corporations under the rules heretofore discussed.\nThe judgment appealed from is affirmed.\nWard J., and Sehottky, J. pro tern., concurred.\nA petition for a rehearing was denied November 7, 1946, and appellant\u2019s petition for a hearing by the Supreme Court was denied December 5, 1946. Shenk, J., Edmonds J., and Schauer, J., voted for a hearing.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[Civ. No. 13082.\nFirst Dist., Div. One.\nOct. 8, 1946.]\nTHE PRUDENTIAL INSURANCE COMPANY OF AMERICA, Appellant, v. THE SMALL CLAIMS COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Respondents.\nF. Eldred Boland, Burton L. Walsh and Knight, Boland & Riordan for Appellant.\nRobert W. Kenny, Attorney General, Clarence A. Linn, Deputy Attorney General, John J. O\u2019Toole, City Attorney, Reynold J. Bianchi, Deputy City Attorney, and James Martin Maclnnis for Respondents."
+                }
+            }
+        },
+        {
+            "id": 2321953,
+            "url": "https://api.case.law/v1/cases/2321953/",
+            "name": "MAXINE BROOKS, Petitioner, v. THE SMALL CLAIMS COURT FOR THE DOWNEY JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Respondents; MABEL E. PAGE et al., Real Parties in Interest",
+            "name_abbreviation": "Brooks v. Small Claims Court",
+            "decision_date": "1973-01-16",
+            "docket_number": "L.A. No. 30027",
+            "first_page": "661",
+            "last_page": "671",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "8 Cal. 3d 661"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078595931/",
+                "volume_number": "8",
+                "barcode": "32044078595931"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/418/",
+                "full_name": "California Reports",
+                "id": 418
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-1/",
+                "name_abbreviation": "Cal.",
+                "slug": "cal-1",
+                "id": 9021,
+                "name": "Supreme Court of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "496 P.2d 817",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "101 Cal.Rptr. 745",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "7 Cal.3d 94",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        2277346
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "435 P.2d 825",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "65 Cal.Rptr. 65",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "68 Cal.2d 76",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2306147
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "77, fn. 1"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "21 Stan.L.Rev. 1657",
+                    "category": "journals:journal",
+                    "reporter": "Stan. L. Rev.",
+                    "pin_cites": [
+                        {
+                            "page": "1659-1661"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "52 Cal.L.Rev. 876",
+                    "category": "journals:journal",
+                    "reporter": "Cal. L. Rev.",
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "893-894"
+                        },
+                        {
+                            "page": "889"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "407 U.S. 67",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        9136631
+                    ],
+                    "weight": 6,
+                    "pin_cites": [
+                        {
+                            "page": "86"
+                        },
+                        {
+                            "page": "573"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "488 P.2d 13",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "year": 1972,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "96 Cal.Rptr. 709",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "year": 1972,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "5 Cal.3d 536",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        2324366
+                    ],
+                    "weight": 2,
+                    "year": 1972,
+                    "pin_cites": [
+                        {
+                            "page": "555-557"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "45 A.L.R.3d 1206",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R. 3d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "486 P.2d 1242",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "96 Cal.Rptr. 42",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "5 Cal.3d 258",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        2324333
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "278"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "464 P.2d 125",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "83 Cal.Rptr. 669",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Cal.3d 908",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        1183278
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "464 P.2d 122",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "year": 1970,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "83 Cal.Rptr. 666",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "year": 1970,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Cal.3d 903",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        1183286
+                    ],
+                    "year": 1970,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "395 U.S. 337",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        1771623
+                    ],
+                    "weight": 3,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "321 P.2d 9",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "49 Cal.2d 668",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        12131147
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 A.L.R. 820",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "173 P.2d 38",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Cal.App.2d 379",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        4476357
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "386"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "428 P.2d 593",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "59 Cal.Rptr. 609",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "66 Cal.2d 841",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2331186
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "845"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "91 S.Ct. 2224",
+                    "category": "reporters:federal",
+                    "reporter": "S. Ct.",
+                    "year": 1967,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "29 L.Ed.2d 692",
+                    "category": "reporters:federal",
+                    "reporter": "L. Ed. 2d",
+                    "year": 1967,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "403 U.S. 915",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        12031952,
+                        12031913,
+                        12031986,
+                        12031876
+                    ],
+                    "year": 1967,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "471 P.2d 487",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "year": 1971,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "87 Cal.Rptr. 839",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "year": 1971,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "2 Cal.3d 765",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        2310775
+                    ],
+                    "year": 1971,
+                    "pin_cites": [
+                        {
+                            "page": "773"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-3d/8/661/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/2321953/Brooks%20v.%20Small%20Claims%20Court,%208%20Cal.%203d%20661%20(1973).pdf",
+            "preview": [
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court (1958) 49 Cal.2d 668 [321 P.2d 9], this court considered another attack upon <em class='search_highlight'>small</em>",
+                "There, plaintiff brought a proceeding in unlawful detainer in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court.",
+                "(Comment, The California <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court (1964) 52 Cal.L.Rev. 876, 893-894.)",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court (1968) 68 Cal.2d 76, 77, fn. 1 [65 Cal.Rptr. 65, 435 P.2d 825].)",
+                "de novo, <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> plaintiffs would be confronted with a dilemma.",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT FOR THE DOWNEY JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Respondents; MABEL"
+            ],
+            "analysis": {
+                "word_count": 4208,
+                "random_bucket": 48620,
+                "sha256": "94a1f00e0dcb33a149a8290e5e0f3d1d95ad06a4c9282a20e49add9f1b1515a9",
+                "ocr_confidence": 0.873,
+                "char_count": 25921,
+                "random_id": 974568940,
+                "pagerank": {
+                    "percentile": 0.9011061069373479,
+                    "raw": 3.9323948398359157e-07
+                },
+                "cardinality": 1113,
+                "simhash": "1:7853ff3078885811"
+            },
+            "last_updated": "2021-08-11T01:45:56.732172+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "MAXINE BROOKS, Petitioner, v. THE SMALL CLAIMS COURT FOR THE DOWNEY JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Respondents; MABEL E. PAGE et al., Real Parties in Interest."
+                    ],
+                    "attorneys": [],
+                    "opinions": [
+                        {
+                            "author": "SULLIVAN, J.",
+                            "text": "Opinion\nSULLIVAN, J.\nPetitioner Maxine Brooks seeks a writ of mandate to compel respondent courts to allow her to file a notice of appeal and to prosecute an appeal from an adverse judgment entered in respondent small claims court without being required to file the undertaking prescribed by law. Essentially we must decide whether such requirement deprives petitioner of her property without due process of law.\nThe facts in brief are these. Real parties in interest Mabel E. Page and Mary B. Cozart (hereafter plaintiffs) brought an action against petitioner (hereafter defendant) in respondent small claims court to recover rent. At the commencement of the trial, defendant sought but was refused permission of the court to be represented by counsel. After a short trial, judgment was entered in favor of plaintiffs and against defendant in the amount of $133.34, together with costs in the sum of $9.20, for a total of $142.54.\nImmediately after entry of judgment, defendant moved in respondent small claims court for leave to appeal therefrom without being required to file the undertaking prescribed by law on the ground that this requirement would unconstitutionally deprive her of property before she could obtain a due process hearing with right to representation by counsel. The motion was denied. Defendant then filed in respondent small claims court a timely notice of appeal but did not accompany that notice with the undertaking required by statute. The appeal was dismissed. Defendant thereupon filed the instant petition. We issued an alternative writ of mandate. By so doing, \u201cwe have necessarily determined that there is no adequate remedy in the ordinary course of law and that [this] case is a proper one for the exercise of our original jurisdiction.\u201d (Westbrook v. Mihaly (1970) 2 Cal.3d 765, 773 [87 Cal.Rptr. 839, 471 P.2d 487], vacated on other grounds (1971) 403 U.S. 915 [29 L.Ed.2d 692, 91 S.Ct. 2224]; see County of Sacramento v. Hickman (1967) 66 Cal.2d 841, 845 [59 Cal.Rptr. 609, 428 P.2d 593]; Cal. Rules of Court, rule 56(a).)\nWe turn to the merits. Following judgment in a small claims action, the defendant may appeal to the superior court of the county in which the small claims court is held, and thereby obtain a trial de novo in the superior court. (Code Civ. Proc., \u00a7 117j.) However, as a precondition to the appeal, the defendant must accompany the notice of appeal with an undertaking in the amount of the small claims judgment, together with interest due thereon, costs which .may be awarded against the appellant on appeal and also the sum of $15 as an attorney fee. (\u00a7 117l.) In lieu of such undertaking, he may deposit with the clerk of the court a sum equal to the amount of the judgment, plus costs, plus $25. (\u00a7 117ll.) These requirements are also incorporated by reference into California Rules of Court, rules 152(a) and 153.\nDefendant contends that the undertaking requirement unconstitutionally deprives her of her property before there has been a due process hearing with the right to counsel. In proceedings in the small claims court, neither party is entitled to representation by counsel. (\u00a7 117g.) It was asserted in Prudential Ins. Co. v. Small Claims Court (1946) 76 Cal.App.2d 379 [173 P.2d 38, 167 A.L.R. 820], that this denial of counsel violated due process. In holding that the right to counsel is preserved in this procedure, the court stated at page 382: \u201cIt is urged that depriving a litigant of the right of counsel is a violation of due process. There can be little doubt but that in both civil and criminal cases the right to a hearing includes the right to appear by counsel, and that the arbitrary refusal of such right constitutes a deprivation of due process. [Citations.] But that does not mean that the Legislature cannot create a small claims court where informal hearings may be held without the assistance of counsel, as long as the right to appear by counsel is guaranteed in a real sense somewhere in the proceeding. It is obvious that the plaintiff cannot object, although he has no right of appeal, because he has elected to commence the action in the small claims court. If he desires an attorney he can sue, even on these small claims, in the justices or municipal courts. The defendant has no legal cause for complaint because if he is dissatisfied with the judgment of the small claims court he has a right of appeal to the superior court where he is entitled to a trial de novo. [Citation.] In that court he and the plaintiff can, of course, appear by counsel. This satisfies the due process requirement.\u201d\nIn Mendoza v. Small Claims Court (1958) 49 Cal.2d 668 [321 P.2d 9], this court considered another attack upon small claims court procedure where that procedure was alleged to violate due process. There, plaintiff brought a proceeding in unlawful detainer in the small claims court. Section 117 at that time conferred jurisdiction upon small claims courts in unlawful detainer actions after a default in rent for residential property where the term of tenancy was not greater than month to month and where the whole amount claimed was $100 or less. This section was found to violate due process, since the defendant could be deprived of possession of his-residence without having a hearing with the right to be represented by counsel. Although a statute (\u00a7 1176) permitted the trial judge to stay proceedings upon the judgment pending appeal, the stay was merely discretionary. Thus the defendant was. not guaranteed a hearing with right to counsel prior to being dispossessed.\nSince the decisions in Prudential and Mendoza, the concept of a \u201ctaking\u201d has been extended significantly. Beginning with the United States Supreme Court ruling in Sniadach v. Family Finance Corp. (1969) 395 U.S. 337 [23 L.Ed.2d 349, 89 S.Ct. 1820], and continuing with California decisions interpreting Sniadach, this concept has been held to include even temporary deprivations of property. Thus in Sniadach, the high court ruled that the Wisconsin prejudgment garnishment procedure violated fundamental principles of due process: \u201cThey [the garnished wages] may, it is true, be unfrozen if the trial of the main suit is ever had and the wage earner wins on the merits. But in the interim the wage earner is deprived of his enjoyment of earned wages without any opportunity to be heard and to tender any defense he may have, whether it be fraud or otherwise.\u201d (Id. at p. 339 [23 L.Ed.2d at p. 352].)\nThis court has consistently applied the rationale of Sniadach to strike down summary procedures which deprive persons of their property pending a hearing. In McCallop v. Carberry (1970) 1 Cal.3d 903 [83 Cal.Rptr. 666, 464 P.2d 122], and Cline v. Credit Bureau of Santa Clara Valley (1970) 1 Cal.3d 908 [83 Cal.Rptr. 669, 464 P.2d 125], we held unconstitutional California\u2019s prejudgment wage garnishment statute because a person could be deprived of the immediate use of his wages without a due process hearing. Again, following the guiding principle of Sniadach, we voided California\u2019s claim and delivery procedure in Blair v. Pitchess (1971) 5 Cal.3d 258 [96 Cal.Rptr. 42, 486 P.2d 1242, 45 A.L.R.3d 1206]. We there emphasized that a definite taking occurred, even though it was only temporary: \u201cThis deprivation of property is a taking even though the defendant may later recover his property if he prevails at the ultimate trial on the merits and even though the plaintiff must post a bond. . . . [T]he \u2018property\u2019 of which a defendant is deprived by execution of claim and delivery process is the use of the disputed goods between their seizure and the final judgment. [Fn. omitted.] Neither the eventual recovery of the property nor the posting of a bond remedies this loss of the use of the property pending final judgment.\"\u2019 (Id. at pp. 277-278.) A short time later in Randone v. Appellate Department (1971) 5 Cal.3d 536 [96 Cal.Rptr. 709, 488 P.2d 13], we overturned California\u2019s prejudgment attachment procedure, again noting that even temporary measures may constitute an impermissible taking. More recently, the United States Supreme Court, in Fuentes v. Shevin (1972) 407 U.S. 67 [32 L.Ed.2d 556, 92 S.Ct. 1983], reaching the same result as our decision in Blair v. Pitchess, supra, overturned the prejudgment replevin laws of Florida and Pennsylvania. The high court reaffirmed the principle that a temporary, nonfinal deprivation of property is nonetheless a \u201cdeprivation\u201d in the terms of the Fourteenth Amendment, and that these deprivations must be preceded by a fair hearing. (Id. at p. 85 [32 L.Ed.2d at p. 572].)\nIn view of these decisions, it is \"manifest that the requirement of an undertaking in connection with an appeal from a judgment entered in a small claims court constitutes a taking of property prior to a due process hearing with right to counsel. The first opportunity for representation by counsel arises at the trial de novo after appeal. But the appeal is conditioned on the filing of an undertaking or the depositing of money in lieu thereof. If the defendant should secure an undertaking or bond (\u00a7 1171) from a corporate surety (\u00a7 1056), he would be deprived of the nonrefundable premium. Further, additional collateral is often required in order to qualify for a bond; although this can be recovered if defendant prevails on appeal, he is nevertheless deprived of its use in the meantime. Under Sniadach and its progeny\" (McCallop, Cline, Blair, Randone and Fuentes), this of course is a taking. If the defendant instead deposits money in lieu of an undertaking (\u00a7 117ll), the same result follows. This deprivation is indeed a taking, in spite of its temporary nature. \u201cAny significant taking of property by the State is within, the purview of the Due Process Clause. While the length and consequent severity of a deprivation may be another factor to weigh in determining the appropriate form of hearing, it is not decisive of the basic right to a prior hearing of some kind.\" (Fuentes v. Shevin, supra, 407 U.S. 67, 86 [32 L.Ed.2d 556, 573].) Because in the case before us the taking of property occurs prior to the trial de novo and, hence, prior to defendant\u2019s first opportunity to be represented by counsel, the procedure results in a denial of due process.\nWe feel that our decision in Mendoza furnishes strong support to defendant in the case at bench. There, we struck down the provision for a stay of the unlawful detainer proceedings because the discretion vested in the judge might be exercised so as to deprive a defendant of his property before representation by counsel. Here, such deprivation is an inevitable result, if defendant desires to appeal and obtain thereby a trial de novo with counsel. Therefore, we conclude that the undertaking or deposit requirement constitutes a taking of property, without a due process hearing with representation by counsel, and that such requirement is constitutionally impermissible.\nFurthermore, we discern compelling policy reasons supportive of our conclusion. Although we are mindful of the important function which our small claims courts perform in the California judicial system, our attention has also been directed to certain trends that have been manifested in the type of litigants availing themselves of these special forums. Empirical studies have shown a proportionately greater use of the small claims procedure by institutional creditors than by individual creditors.\nFor example, in an empirical study made of the Oakland-PiedmontEmeryville small claims court in 1963, it was found that only 34.7 percent of the plaintiffs were individuals. The class of plaintiffs further broke down as follows: proprietorship, 16.8 percent; corporation, 28.5 percent; and governmental agency, 20 percent. Conversely, the type of defendant almost invariably was an individual: individual, 85.7 percent; proprietorship, 8.8 percent; corporation, 3.4 percent; governmental agency, 0.3 percent; and other, 1.8 percent. This study also found 89.5 percent of all judgments entered were in favor of the plaintiff. (Comment, The California Small Claims Court (1964) 52 Cal.L.Rev. 876, 893-894.) Similar figures, developed in a more recent survey of rural small claims courts, revealed that the burden on the individual was not confined to urban communities. (Note, The Persecution and Intimidation of the Low-Income Litigant as Performed by the Small Claims Court in California (1969) 21 Stan.L.Rev. 1657, 1659-1661.)\nThese studies indicate that the institutional creditor, rather than the ordinary individual claimant, is more likely to avail itself of the small claims court. The monetary limit has now been increased to $500 (\u00a7 117). Additionally, section 396 permits waiver of the amount of the demand in excess of $500 in order to sustain jurisdiction. \u201cEven a party who asserts a demand for more than the jurisidictional limits of a small claims court will often benefit financially by sacrificing part of the claim to avoid the expense and delay of prosecution through municipal or justice courts.\u201d (Skaff v. Small Claims Court (1968) 68 Cal.2d 76, 77, fn. 1 [65 Cal.Rptr. 65, 435 P.2d 825].) All of these factors would seem to make the small claims court increasingly attractive to the institutional creditor-claimant. In addition, such type of creditor has frequently employed the rules of venue so as to bring an action at great distances from the residence of the defendant. This contributes significantly to the number of defaults entered.\nFurthermore, in many instances, the institutional creditor has a large and constant volume of claims, repeatedly invokes the jurisdiction of the small claims courts, and inevitably becomes proficient in this type of litigation. It is only natural, then, that such a claimant will have a decisive advantage over the individual defendant participating in perhaps his first and only courtroom proceeding. This advantage may be compounded if the institutional creditor is a corporation. Since a corporation must appear by someone, it is possible for it to do so by a proper representative (Prudential Ins. Co. v. Small Claims Court, supra, 76 Cal.App.2d 379, 386) who may have legal training but at the same time will not fall within the statutory restriction on appearance by attorneys. Thus section 117g, the very provision designed to aid the poor litigant (whether plaintiff or defendant) by maintaining overall equality between the competing parties, seems to work to that party\u2019s disadvantage in these instances. Consequently, since small claims actions often involve the inexperienced individual defendant facing the experienced institutional creditor plaintiff, the small claims procedure should provide the defendant access to counsel without being required to first file an undertaking.\nBy this analysis we do not intend to demean the important function that the small claims court system serves. We are well aware of the careful and conscientious disposition of the large volume of claims by judges of those courts. Our holding today is not intended to reflect in any way upon this aspect .of our judicial system. As we have explained, it deals rather with an infirmity in the system itself which we are obligated to rectify if in the light of constitutional principles the small claims litigant is to be assured a due process hearing.\nRespondent courts rely heavily upon defendant\u2019s failure to seek in forma pauperis status from respondent superior court. They claim that, had this been done, such court could have waived the undertaking requirement for her appeal. Conversely, it is argued, if she is not indigent and so cannot qualify for in forma pauperis status, then there can be no showing that the undertaking requirement is in any way onerous as to her. However, this argument totally ignores the key constitutional issue before us: Is the undertaking requirement a taking of property in violation of due process? It is immaterial that a defendant can afford to be deprived of his property, or that other means are available to alleviate his situation. Denial' of due process affects the rich as well as the poor.\n. Respondents also argue that the undertaking requirement is clearly de minimis. Yet this cannot be realistically asserted with the jurisdictional limit now at $500. Indeed, in Sniadach and its California progeny the sums involved ranged as low as $63.18 \u2014a figure much less than that involved here. ;\nIt is also contended that Sniadach and the California cases are distinguishable in that they involved a disadvantaged or dispossessed litigant who was being deprived of substantial property rights by large corporations or by governmental agencies. This argument is also without merit. The cited cases based their decisions not upon some special status of the plaintiffs, but upon the unconstitutional operation of the statutes sought to be enforced. Thus individual plaintiffs are as much bound by the constitutional dictates of these decisions as are corporate entities or governmental agencies.\nRespondent courts also present certain policy arguments in support of the statutory undertaking requirement. They claim that since the abolition of this requirement would enable all defendants to obtain a trial de novo, small claims plaintiffs would be confronted with a dilemma. If they continued the proceedings, the costs would rise significantly; the only alternative would be to abandon the actions. Since the costs of litigation would be too burdensome, debts like the one involved here would then become practically uncollectible. Once this occurs, so the argument runs, landlords would be compelled to require larger security deposits, and thus all tenants would ultimately suffer. This reasoning, however, is very similar to that which this court rejected in Blair v. Pitchess, supra, 5 Cal.3d 258, 278, and in Randone v. Appellate Department, supra, 5 Cal.3d 536, 555-557. The mere assertion that these debts will become uncollectible cannot overcome the strong constitutional defects in the present appeal procedure.\nFinally, respondents assert that the realities and desirability of the small claims procedures should overcome the arguments raised by defendant. But once again it must be emphasized that the constitutional question is the overriding issue presented, and can only be subverted by compelling policy arguments. Such is not the case here. Further, only one aspect of this procedure\u2014the undertaking requirement\u2014will now be eliminated. Its absence should not have such a devastating effect upon the system as a whole that it would cease to function smoothly.\nIn sum we hold that the requirements of an undertaking as prescribed in section 117l and of a deposit in lieu of such undertaking as prescribed by section 117ll are unconstitutional since they constitute a taking of property without due process of law. To the extent that they implement such requirements, we also hold that rules 152(a) and 153 of the California Rules of Court similarly offend due process.\nLet a peremptory writ of mandate issue as prayed.\nWright, C. J., McComb, J., Tobriner, J., Mosk, J., and Burke, J., concurred.\nPetitioner intially sought the writ for the additional purpose of being relieved from the requirement of paying the filing fee prescribed by law. (See Code Civ. Proc., \u00a7 117j, Cal. Rules of Court, rules 152(a); 153 and in conjunction therewith rules 125(c) and 130(a).) At oral argument, however, petitioner abandoned her challenge to the filing fee requirement.\nSection 117j provides: \u201cThe judgment of said court shall be conclusive upon the plaintiff. If the defendant is dissatisfied, he may appeal to the superior court of the county in which said court is held. He shall pay, for filing the papers in the superior court, the same fee as is charged and collected on the appeal of a civil action from a justice court, and if final judgment is rendered against him in such superior court, then he shall pay, in addition to said judgment, an attorney\u2019s fee to the plaintiff in the sum of fifteen dollars ($15). No fee shall be charged in the superior court upon the filing of any document or paper by the plaintiff in a small claims action.\u201d\nHereafter, unless otherwise indicated, all section references are to the Code of Civil Procedure.\nSection 117l provides in pertinent part:\n\u201cThe notice of appeal shall be accompanied by a bond substantially in the following form:\n\u201cIn the small claims court of............................... County of\n.................................................., State of California.)\n...................................................................)\nvs. Plaintiff, )\n...................................................................)\nDefendant,\n\u201cWhereas the above-entitled court in the above-entitled action did on the...... day of ................. 19.. . ., enter judgment in favor of the plaintiff and against the defendant in the sum of..........'. . dollars (............); and\n\u201cWhereas the defendant is about to appeal to the superior court of the State of California in and for the above-named county;\n\u201cNow, therefore, the undersigned do hereby undertake and promise that if said judgment is affirmed, in whole or in part, or the appeal from such judgment dismissed, then and in that event, the appellant will pay the amount directed to be paid by said judgment, or the part of such amount as to which the judgment is affirmed, if affirmed only in part, and all costs which may be awarded against appellant on appeal; and that if the appellant does not make such payment within 20 days after the entry by the clerk of said superior court of the modification or affirmation of said judgment or within such additional period as may be provided by rules of the Judicial Council, that then judgment may be entered, on motion of respondent, in his favor and against the undersigned sureties for such amount, together with the interest that may be due thereon, costs which may be awarded against the appellant on appeal and also the sum of fifteen dollars ($15) as an attorney fee.\n\u201cDated this........day of......................, 19. . . ,\nSureties.\n\u201cNotice of the filing of the undertaking on appeal must be given to respondent within five days after filing the same. Within five days after the service of such notice upon respondent the adverse party may except to the sufficiency of the sureties, and unless they or other sureties justify before the judge of said small claims court within five days thereafter, upon notice to the adverse party, to the amounts stated in their affidavits, the appeal must be regarded as if no such undertaking had been given.\u201d\nSection 117ll provides: \u201cIn lieu of the undertaking provided for in Section 117l the appellant may deposit with the clerk of the court a sum of money in lawful money of the United States equal to the amount of the judgment, plus costs, plus twenty-five dollars ($25); and such deposit shall be equivalent to such undertaking.\u201d\nCalifornia Rules of Court, rule 152(a) provides: \u201cAn appeal from a judgment of a municipal or justice court in a small claims case is taken by filing with the clerk of the trial court a notice of appeal accompanied by the undertaking required by section 117l of the Code of Civil Procedure within 20 days after entry of judgment in the register of actions or docket. The notice shall be signed by the appellant or by his attorney and shall be sufficient if it states in substance that the appellant appeals from a specified judgment. A notice of appeal shall be liberally construed in favor of its sufficiency.\u201d\nCalifornia Rules of Court, rule 153 provides: \u201cUpon the filing of the notice of appeal and the undertaking required by section 117l or 985.5 of the Code of Civil Procedure and the payment of any fees required by law, the clerk of the trial court shall within five days transmit to the clerk of the superior court a certified copy of the entries in the register of actions or docket relating to the action, together with the pleadings, exhibits, notices, motions, other papers and documents filed in the action, the notice of appeal, and the undertakings filed.\u201d\nSection 117g provides in pertinent part: \u201cNo attorney at law or any other person than the plaintiff and defendant shall take any part in the filing or the prosecution or defense of such litigation in the small claims court.\u201d\nSection 117j, supra, footnote 2, was amended in 1959 in response to the holding in Mendoza. It now provides for an automatic stay of the proceedings until the time for appeal expires or, if perfected, until the appeal is decided. Although the court in Mendoza did not deal with the constitutionality of the bond requirement, the amendment also provided that in such unlawful detainer actions the defendant need not file a bond pending appeal. (See Note, 1959 Legislation\u2014Code of Civil Procedure, section 117j (1959) 34 State Bar J. 624.)\nSee Comment, The California Small Claims Court, supra, 52 Cal.L.Rev. 876, 889; cf. Barquis v. Merchants Collection Assn. (1972) 7 Cal.3d 94 [101 Cal.Rptr. 745, 496 P.2d 817].\nSection 117g; see Comment, Small Claims Courts and the Poor (1969) 42 So.Cal.L.Rev. 493, 497.\nThe breakdown is as follows: Sniadach, $63.18; McCallop, $96.87; Cline, $295; Randone, $176.20. In Blair there was no amount in controversy because the plaintiffs had brought suit to secure an injunction restraining execution of the provisions of the claim and delivery law.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[L.A. No. 30027.\nIn Bank.\nJan. 16, 1973.]\nMAXINE BROOKS, Petitioner, v. THE SMALL CLAIMS COURT FOR THE DOWNEY JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Respondents; MABEL E. PAGE et al., Real Parties in Interest.\nCounsel\nWaldman, Kastner, Harrison & Wilson, Irwin Waldman and Sally Hart Wilson for Petitioner.\nJohn D. Maharg, County Counsel, and Jeffrey H. Nelson, Deputy County Counsel, for Respondent.\nNo appearance for Real Parties in Interest."
+                }
+            }
+        },
+        {
+            "id": 4485390,
+            "url": "https://api.case.law/v1/cases/4485390/",
+            "name": "E. A. LEE, Respondent, v. THE SMALL CLAIMS COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL et al., Appellants",
+            "name_abbreviation": "Lee v. Small Claims Court of Judicial Township No. 4",
+            "decision_date": "1941-08-18",
+            "docket_number": "Civ. No. 2718",
+            "first_page": "530",
+            "last_page": "535",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "46 Cal. App. 2d 530"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078603206/",
+                "volume_number": "46",
+                "barcode": "32044078603206"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/329/",
+                "full_name": "California Appellate Reports, Second Series",
+                "id": 329
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-dist-ct-app-1/",
+                "name_abbreviation": "Cal. Dist. Ct. App.",
+                "slug": "cal-dist-ct-app-1",
+                "id": 9209,
+                "name": "District Court of Appeal of the State of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "232 Pac. 696",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "195 Cal. 212",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2154874
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "221"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "92 Pac. (2d) 937",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "34 Cal. App. (2d) 1",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2366536
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-app-2d/46/530/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/4485390/Lee%20v.%20Small%20Claims%20Court%20of%20Judicial%20Township%20No.%204,%2046%20Cal.%20App.%202d%20530%20(1941).pdf",
+            "preview": [
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court, 34 Cal. App. (2d) 1 [92 Pac. (2d) 937].)",
+                "A stenographic transcript of the testimony taken before the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court was considered by the",
+                "This record discloses that the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court action was first instituted in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court",
+                "The defendants were ordered to appear before the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court on August 9, 1937.",
+                "On April 19, 1939, Lee received the following notice signed by the justice of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court:",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL et al., Appellants."
+            ],
+            "analysis": {
+                "word_count": 1661,
+                "random_bucket": 56296,
+                "sha256": "bef0c0f9116d9d6280b39558d3d52dcfefff4603531ddf7b2da996fe5faed6be",
+                "ocr_confidence": 0.532,
+                "char_count": 9662,
+                "random_id": 544857064,
+                "pagerank": {
+                    "percentile": 0.15405171992692387,
+                    "raw": 4.076306636737454e-08
+                },
+                "cardinality": 489,
+                "simhash": "1:91a0cfa3529c748f"
+            },
+            "last_updated": "2021-08-10T19:22:31.884470+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "E. A. LEE, Respondent, v. THE SMALL CLAIMS COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL et al., Appellants."
+                    ],
+                    "attorneys": [
+                        "Kendall B. Perkins for Appellants.",
+                        "No appearance for Respondent."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "GRIFFIN, J.",
+                            "text": "GRIFFIN, J.\nOnce before this action was before this court for consideration. (Lee v. Small Claims Court, 34 Cal. App. (2d) 1 [92 Pac. (2d) 937].) The facts are quite fully set forth therein. After a reversal of the judgment, service was attempted to be made on P. I. Haddan, Sr., as administrator, by publication. His default was entered and he made no appearance at the time set for the further hearing of the certiorari proceedings. A similar judgment followed as was rendered in the previous hearing. Appellants filed an opening brief and contend that the judgment should again be reversed and raise many of the points heretofore raised. They cite many of the authorities heretofore cited. After due notice, petitioner and respondent has failed to file any brief in this action.\nAppellants now argue (1) that the substituted service of appellant administrator was defective; (2) that the superior court acquired no jurisdiction of the subject matter or of appellant administrator; and (3) that the judgment of the small claims court was a valid and binding judgment.\nWe will first discuss the record and evidence presented to the superior court in reference to the right of the small claims court to enter a judgment in favor of P. I. Haddan, Sr., as administrator of the estate of Myrtle G. Haddan, deceased, and against petitioner and respondent E. A. Lee. A stenographic transcript of the testimony taken before the small claims court was considered by the trial court as well as the docket entries of that court. This record discloses that the small claims court action was first instituted in the small claims court by affidavit signed by Myrtle G. Haddan, as plaintiff, against E. A. Lee and several others, as defendants. Plaintiff then resided in Los Angeles County but claimed that the cause of action originated in Imperial County. The defendants were ordered to appear before the small claims court on August 9, 1937. Several of them appeared, including petitioner and respondent herein, but plaintiff Myrtle G. Haddan failed to appear. P. I. Haddan, Jr., also known as Phil Haddan, her son, who was not a party to the action, appeared in the court and the justice remarked to him: \u201cShe (plaintiff) isn\u2019t allowed an attorney, but you appear as a friend of the court,\u201d to which remark the son replied: \u201cI want to make a statement for the purpose of the record of this suit. In so far as this case is concerned, I have absolutely no interest in its merit. ... I only appear here in behalf of my mother. I didn\u2019t even know I was going to make a trip to the valley when I came in here to this hearing. ... I want the court to understand I do not appear here as a plaintiff in the action and I have no interest in the matter.\u201d Thereupon, the court swore the witnesses and took certain evidence. Objection was made by the defendant Lee to proceeding in the absence of the plaintiff.. After some argument the court continued the matter until the \u201ccooler weather\u201d set in, and on account of the absence of the plaintiff. Defendant Lee objected to any further continuance. On April 19, 1939, Lee received the following notice signed by the justice of the small claims court: \u201cThe case of Mrs. P. I. Haddan vs. E. A. Lee, et al., has been pending for many months. . . . Meanwhile Mrs. Haddan has died . . . and her son . . . Phil Haddan, appearing at this time, requests that the case be heard at this time of his visit; wherefore the time for service of order is shortened to one day, and you are ordered to appear at 5 P. M. April 20, 1938, at the Justice\u2019s Court for special hearing of said case.\u201d April 20, 1938, Lee replied: \u201c . . . the plaintiff has died and my attorney that handled this matter has also died. And I am asking that the case be dismissed, as the plaintiff\u2019s testimony is very important in this case. It is impossible for me to appear for a hearing in this case on so short a notice.\u201d On April 22, 1938, the following notation appears of record in that court\u2019s docket: \u201cIt being known to court that the plaintiff Myrtle Haddan is dead and that Phil Haddan is her a son and legal heir to her estate, at his request, Phil Haddan is joined in this action, as a plaintiff and P. I. Haddan, father of Phil Haddan and husband of Myrtle Haddan and duly appointed administrator of the said estate of Mrs. Myrtle Haddan (deceased) is substituted for Myrtle Haddan as plaintiff in this action.\u201d On April 27, 1938, a further hearing was had. P. I. Haddan, Jr., was allowed, over objection, to appear for his father, P. I. Haddan, Sr., administrator. The matter was then taken under advisement and on or about that date the small claims court entered and signed a written judgment in favor of P. I. Haddan, Sr., as administrator against E. A. Lee, defendant, in the sum of $39.90. According to the docket, notice of the judgment was mailed May 25, 1938. Defendant Lee was barred from an appeal from the judgment as five days from the entry of judgment had expired. (See. 117j, Code Civ. Proc.) The time for appeal had expired long before Lee received notice of its entry. On May 14, 1938, before the notice of entry of judgment was mailed, P. I. Haddan, Jr., obtained an execution on that judgment, and sold thereunder, by constable\u2019s sale, two certain judgments belonging to defendant Lee, in the sum of $3000, for the total sum of $15. Later these two judgments were marked fully satisfied of record.\nLee, upon discovery of the above proceedings, applied to the superior court for a writ of certiorari asking that the judgment and execution issued thereunder be annulled for the reason that the small claims court acted without, and in excess of its jurisdiction; that the judgment was not supported by the evidence nor the record; that the small claims court was not authorized to hear evidence in that action without the personal presence of the plaintiff; that it was not authorized to permit P. I. Haddan, Jr., to appear on behalf of the plaintiff; that P. I. Haddan, Sr., was not properly substituted as a party plaintiff therein; and that the subject matter of the action had been adjudicated in a prior proceeding on a third-party claim in the superior court of that county.\nUpon the record and the evidence produced the superior court entered its order annulling and vacating the judgment of the small claims court and the execution issued thereon.\nThe affidavit supporting the order for publication of the writ of certiorari as against P. I. Haddan, Sr., administrator, sufficiently indicates that the administrator was purposely avoiding personal service of the petition for the writ and also shows due diligence on the part of petitioner and respondent Lee in attempting to make personal service. Appellant Haddan\u2019s default thereunder was properly taken.\nThe right to the writ, after the time for appeal had expired, under the evidence here related, was disposed of in the former opinion.\nThe question here presented is whether the small claims court exceeded its jurisdiction in entering the judgment complained of. It is a fair summary of the decisions of this state, dealing with the scope of statutory certiorari, to say that the evidence adduced upon the hearing before an inferior tribunal, having limited jurisdiction, may be brought up to the reviewing court upon certiorari for the sole purpose of determining whether or not, from the evidence before it, the findings of a jurisdictional fact by such inferior tribunal is sustainable, and if there be no evidence to sustain such decision, it must be annulled. (Garvin v. Chambers, 195 Cal. 212, 221 [232 Pac. 696].)\nIt is clear that under section 117g of the Code of Civil Procedure, \u201cNo attorney at law or other person than the plaintiff and defendant shall take any part in the filing or the prosecution or defense of such litigation in the small claims court.\u201d P. I. Haddan, Sr., was never present and apparently made no application to be substituted as party plaintiff. There apparently was no proper record before either court of his appointment as administrator of the estate. Under the above-quoted section, P. I. Haddan, Jr., was not permitted to appear for or represent his father in the action. Lee objected to the absence of plaintiff on several occasions. Section 385 of the Code of Civil Procedure provides that in ease of the death of a party to an action the court on motion may allow the action to be continued by a representative or successor in interest. It is apparent that P. I. Haddan, Sr., at no time moved the court to be substituted, and the authority of P. I. Haddan, Jr., to so substitute his father as administrator was not authorized under section 117g of the Code of Civil Procedure.\nIt was pointed out in the former opinion that where the substituted plaintiff had not been appointed administrator of the estate of the original plaintiff and was not properly substituted, the jurisdiction of the justice of the small claims court to proceed to enter judgment under such circumstances could be properly assailed (citing authorities). The superior court found that there was no record or sufficient evidence of the appointment of P. I. Haddan, Sr., as administrator and that there was no proper substitution of parties plaintiff. That finding is supported by the record. The facts and circumstances related fully justify an affirmance of the judgment.\nJudgment affirmed.\nBarnard, P. J., and Mundo, J., pro tern., concurred.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [
+                        "Barnard, P. J., and Mundo, J., pro tern., concurred."
+                    ],
+                    "head_matter": "[Civ. No. 2718.\nFourth Dist.\nAug. 18, 1941.]\nE. A. LEE, Respondent, v. THE SMALL CLAIMS COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL et al., Appellants.\nKendall B. Perkins for Appellants.\nNo appearance for Respondent."
+                }
+            }
+        },
+        {
+            "id": 2366536,
+            "url": "https://api.case.law/v1/cases/2366536/",
+            "name": "E. A. LEE, Respondent, v. THE SMALL CLAIMS COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL, STATE OF CALIFORNIA, Appellant",
+            "name_abbreviation": "Lee v. Small Claims Court of Judicial Township No. 4",
+            "decision_date": "1939-07-22",
+            "docket_number": "Civ. No. 2315",
+            "first_page": "1",
+            "last_page": "7",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "34 Cal. App. 2d 1"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078603289/",
+                "volume_number": "34",
+                "barcode": "32044078603289"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/329/",
+                "full_name": "California Appellate Reports, Second Series",
+                "id": 329
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-dist-ct-app-1/",
+                "name_abbreviation": "Cal. Dist. Ct. App.",
+                "slug": "cal-dist-ct-app-1",
+                "id": 9209,
+                "name": "District Court of Appeal of the State of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "89 Pac. (2d) 684",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "32 Cal. App. (2d) 300",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        4536179
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "80 Pac. (2d) 162",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "27 Cal. App. (2d) 17",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        4445968
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "90 Pac. (2d) 317",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "32 Cal. App. (2d) 574",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        6041749
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "82 Pac. 263",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Cal. App. 383",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        1180230
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "94 Am. Dec. 742",
+                    "category": "reporters:federal",
+                    "reporter": "Am. Dec.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "34 Cal. 391",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2284576
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "402"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "59 Pac. (2d) 868",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "15 Cal. App. (2d) 585",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2277216
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "107 Pac. 578",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 Cal. App. 327",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        4566936
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Pac. 973",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "143 Cal. 170",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2110952
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "79 Pac. 853",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "146 Cal. 110",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2118013
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "10 L. R. A. 627",
+                    "category": "reporters:federal",
+                    "reporter": "L.R.A.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "18 Am. St. Rep. 192",
+                    "category": "reporters:state",
+                    "reporter": "Am. St. Rep.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "24 Pac. 121",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "84 Cal. 327",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        1949004
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "372"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "27 Cal. 300",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2242280
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 Pac. 685",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "71 Cal. 583",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        4380126
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "38 Cal. 683",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2246114
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 Cal. 644",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2344427
+                    ],
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "54 Cal. 319",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        1918308
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "68 Pac. 1022",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "136 Cal. 364",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2027996
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "254 Pac. 291",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "81 Cal. App. 588",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        2204125
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-app-2d/34/1/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/2366536/Lee%20v.%20Small%20Claims%20Court%20of%20Judicial%20Township%20No.%204,%2034%20Cal.%20App.%202d%201%20(1939).pdf",
+            "preview": [
+                "Haddan commenced an action in the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court by the execution of an affidavit in the form prescribed",
+                "The writ was directed to the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court.",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court of the Township of Palo Alto, etc., 81 Cal. App. 588 [254 Pac. 291] ; Elder v.",
+                "Griffin, judge of the respondent <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court, appeared and filed his return.",
+                "judgment do not involve the jurisdiction of the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court.",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL, STATE OF CALIFORNIA, Appellant"
+            ],
+            "analysis": {
+                "word_count": 2262,
+                "random_bucket": 30443,
+                "sha256": "cd6eb443e752f3c417136de17ba2a22e2c53096bd086c2b1574e554f96d24b0d",
+                "ocr_confidence": 0.583,
+                "char_count": 12871,
+                "random_id": 1266317035,
+                "pagerank": {
+                    "percentile": 0.7392657216268232,
+                    "raw": 1.998906803095961e-07
+                },
+                "cardinality": 580,
+                "simhash": "1:582dc74240cd008b"
+            },
+            "last_updated": "2021-08-11T01:52:08.164471+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "E. A. LEE, Respondent, v. THE SMALL CLAIMS COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL, STATE OF CALIFORNIA, Appellant."
+                    ],
+                    "attorneys": [
+                        "Harry W. Horton and Kendall B. Perkins for Appellant.",
+                        "Don C. Bitler for Respondent."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "GRIFFIN, J.",
+                            "text": "GRIFFIN, J.\nThis is an appeal from a judgment rendered in the Superior Court of Imperial County in certiorari proceedings, which judgment declares null and void a certain judgment rendered in the Small Claims Court of Judicial Township No. 4, Imperial County, and voids and quashes an execution issued thereon.\nOn July 26, 1937, Myrtle G. Haddan commenced an action in the Small Claims Court by the execution of an affidavit in the form prescribed by statute and by filing the same with the justice of the peace of said court. Upon its filing, the justice completed and signed the prescribed order requiring the appearance of certain defendants, including E. A. Lee, respondent on this appeal. Copies of the affidavit and order were personally served upon the defendants on July 28, 1937. By direction of the order, the defendants were required to appear for trial on August 9, 1937, and on that date the defendant Lee made his personal appearance before said court, and after certain proceedings had, the court continued the trial of the case. Thereafter the plaintiff Myrtle G. Haddan died. On April 22, 1938, the court made the following entry in its docket: \u201cMyrtle Haddan is dead and Phil Haddan is her son and legal heir to her estate, at his request Phil Haddan is joined in this action as a plaintiff and P. I. Haddan, father of Phil Haddan and husband of Myrtle Haddan, and duly appointed administrator of the said estate of Mrs. Myrtle Haddan (deceased) is substituted for Myrtle Haddan as plaintiff in this action.\u201d Also, on this date the court set the case for hearing for April 27, 1938, on which day Phil Haddan appeared as a witness and as a party plaintiff and the defendant Lee appeared. Evidence both oral-and documentary was introduced. The court then apparently took the matter under advisement and on May 14,-1938, entered judgment for the plaintiff P. I. Haddan, as administrator of the estate of Myrtle G. Haddan, deceased, against the defendant E. A. Lee, for the sum of $38.40, and for costs in the sum of $1.50. The docket entry shows that on May 25, 1938, notice of judgment was given the defendant Lee. No appeal was ever taken from this judgment.\nRespondent Lee alleged in his petition for a writ of review that he had no notice of the rendering of said judgment in the Small Claims Court or of the subsequent proceedings until May 24, 1938, ten days after the entry of the judgment. No appeal was taken by defendant Lee in that case, because under section 117j of the Code of Civil Procedure an appeal is required to be taken within five days after entry of judgment, and such period of five days had expired before the respondent Lee discovered the judgment. After the expiration of the time for appeal, the respondent Lee applied to the Superior Court for a writ of review of the proceedings had in the Small Claims Court, and upon the allegations contained in his petition and the evidence offered, the Superior Court granted the writ. The writ was directed to the Small Claims Court. The judge issuing it directed that a copy of the writ and the petition be served upon not only the justice of the peace, but also P. I. Haddan, as administrator of the estate of Myrtle G. Haddan, deceased.\nIt is alleged that no service of the writ or petition was made on P. I. Haddan, nor did he receive notice of any kind of the pendency of the action in the Superior Court, and that it was long after the rendition of the judgment in the Superior Court that knowledge of the proceeding was received by him. The writ, however, was served upon the justice of the peace, and return was duly made.\nOn the issues presented the court gave judgment for the respondent Lee, declaring the judgment of the Small Claims Court void and quashed the execution issued thereon. The court also awarded judgment in favor of the respondent and against P. I. Haddan, as administrator, for costs which were taxed in the sum of $26.50. P. I. Haddan, administrator of the estate of Myrtle G. Haddan, deceased, prosecutes this appeal from the judgment of the Superior Court as the real party in interest, and on behalf of the Small Claims Court of Judicial Township No. 4.\nAppellant contends that the judgment of the Superior Court should be reversed in that it appears from the judgment itself that the considerations upon which the court based its decision are entirely foreign to questions which may properly be considered on certiorari; that the court entertained the proceedings when it appeared that there was in fact a plain, speedy and adequate remedy open to the respondent Lee by appeal; that the Superior Court never acquired jurisdiction of the person of P. I. Haddan, as administrator, in that no process of court or notice of any kind of the pendency of the Superior Court action was ever given said Haddan, and for the further reason that the proceedings of the Small Claims Court showed clearly that it had complete jurisdiction of the parties to the proceedings therein, as well as the subject matter of the action and that in such a case the Superior Court is without authority to render judgment. The judgment of the Superior Court purports to annul the judgment of the Small Claims Court on several specified grounds.\nIn the instant case petitioner alleged that the rendering of the judgment, the issuance of the writ of execution, the levy of the constable on two Superior Court judgments which were subsequently sold, and the satisfaction of these two judgments by the execution purchasers were wholly without notice' to petitioner and that he did not discover or learn of the rendering of the judgment in the Small Claims Court or the subsequent proceedings until May 24, 1938, more than five days from the entry of the judgment.\nIt has been well established in this state that there is an exception to the general rule that certiorari cannot be resorted to after expiration of the time for appeal, where a judgment is entered against a defendant in the Small Claims Court without giving defendant notice thereof until after the time for appeal has expired. Under such circumstances as here related, certiorari is a proper remedy to review the judgment. (O\u2019Kuna v. Small Claims Court of the Township of Palo Alto, etc., 81 Cal. App. 588 [254 Pac. 291] ; Elder v. Justice\u2019s Court, 136 Cal. 364 [68 Pac. 1022].) Petitioner has sufficiently complied with the statutory requirements in this respect.\nAppellant argues that the trial court in the instant case never acquired jurisdiction of the person of P. I. Haddan, as administrator, for the reason that no process of conrt or notice of any description of the pendency of the Superior Court action was ever given Haddan, as administrator. The petition was entitled as above related. Haddan, as administrator, was not named as party defendant therein. The judge who issued the writ, in addition to commanding that the respondent Small Claims Court certify the transcript of all papers, files, evidence taken and proceedings had in the action in that court in order that the same might be reviewed by the Superior Court, ordered that a copy of the writ and petition be personally served upon the justice and upon P. I. Haddan, as administrator of the estate of Myrtle G. Haddan, deceased, \u201cnot less than five days of the date above fixed (June 10, 1938) for the return of said writ of review\u201d. The judgment on the writ of review recites that the respondent H. B. Griffin, judge of the respondent Small Claims Court, appeared and filed his return. The matter was then submitted for decision. The court then found that the judgment in the Small Claims Court was void and without force or effect and ordered it vacated, and quashed the execution issued thereon.\nSection 1069 of the Code of Civil Procedure reads in part as follows: \u201c . . . the court may require a notice of the application to be given to the adverse party, or may grant an order to show cause why it should not be allowed, or may grant the writ without notice.\u201d\nIt is a general rule that all necessary parties should be represented and that the party or parties whose acts are the subject of review should be before the court. (Lamb v. Schottler, 54 Cal. 319; Fraser v. Freelon, 53 Cal. 644.) While the general rule may be stated to be that the court is the only necessary party respondent in an action to review its orders, still the proceeding is against the completed act alleged to have been in excess of jurisdiction, rather than against the inferior tribunal. The real adverse party in interest, therefore, is the one in whose favor the act complained of has \u25a0 been done. The tribunal whose act is assailed has no greater interest in the matter in which it has simply acted in a judi cial capacity than it has in ordinary appeals from its orders or judgments. The fact that the court is, in no sense, considered the real party in interest is clearly brought out in rule XXVI of the Eules for the Supreme Court and District Courts of Appeal, which is as follows: \u201cIn ease any court, judge, or other officer, or any board, or other tribunal in the discharge of duties of a public character, be named in the application as respondent, the affidavit or petition shall also disclose the name or names of the real party or parties, if any, in interest, or whose interest would be directly affected by the proceedings.\u201d This general rule receives support in the case of Pollock v. Cummings, 38 Cal. 683, wherein the court said: \u201cThere is no express provision in the statute that when a party to an action applies for or procures a writ of certiorari to bring up the record and proceedings in the action he shall notify the adverse party; but it is provided by the 457th section that the court may order notice of the application to be given to him. It is obvious, however, that he should be duly notified of the proceedings, for the judgment annulling the judgment of the inferior tribunal would not bind him, unless he had his day in court, on the hearing of the certiorari. Notice of these proceedings ought, therefore, to have been given to the defendant to the action.\u201d (See, also, Fraser v. Freelon, supra; Baker v. Superior Court, 71 Cal. 583 [12 Pac. 685]; McMinn v. Whelan, 27 Cal. 300; Havemeyer v. Superior Court, 84 Cal. 327, 372 [24 Pac. 121, 18 Am. St. Rep. 192, 10 L. R. A. 627]; Matter of De Lucca, 146 Cal. 110 [79 Pac. 853]; I. X. L. Lime Co. v. Superior Court, 143 Cal. 170 [76 Pac. 973].) Thomas, Jr., v. Hawkins, 12 Cal. App. 327 [107 Pac. 578], appears to have a contrary ruling.\nFor the reasons stated, we are therefore of-the opinion that in the instant case, where one judge of the Superior Court directed that notice be given to the real party in interest, that is, P. I. Haddan, as administrator of the estate of Myrtle G. Haddan, deceased, and that at the time set for the hearing of the petition for writ of certiorari, service of such notice of the real party in interest had not been made, it is error and contrary to the long-established policy of our courts for another judge of the same court, without some further order, to proceed with the hearing and render a judgment declaring the judgment in the Small Claims Court in favor of P. I. Haddan, as administrator, null and void, and particularly so where there was included in the order a judgment for costs against the administrator who was not a party thereto, who had no notice of the proceedings, and did not appear in the action. Many of the assigned grounds for granting the' writ of certiorari and annulling the Small Claims Court judgment do not involve the jurisdiction of the Small Claims Court. The province of the writ of certiorari is to review the record of the inferior court to determine from the record whether such court has exceeded its jurisdiction. (Rinaldo v. Superior Court, 15 Cal. App. (2d) 585 [59 Pac. (2d) 868] ; sec. 1917, Code Civ. Proc.; Hahn v. Kelly, 34 Cal. 391, 402 [94 Am. Dec. 742]; Grant v. Justice\u2019s Court, 1 Cal. App. 383 [82 Pac. 263].)\nAssuming, as intimated in the pleadings, that no administrator of the estate of Myrtle G. Haddan, deceased, had been appointed, and no proper substitution made as alleged, the jurisdiction of a justice of the Small Claims Court to proceed to enter judgment under those circumstances can be properly assailed. (Boyd v. Lancaster, 32 Cal. App. (2d) 574 [90 Pac. (2d) 317]; Scoville v. Keglor, 27 Cal. App. (2d) 17 [80 Pac. (2d) 162]; Maxon v. Avery, 32 Cal. App. (2d) 300 [89 Pac. (2d) 684].)\nFor the reasons herein stated, it is ordered that the judgment be reversed.\nBarnard, P. J., and Marks, J., concurred.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[Civ. No. 2315.\nFourth Appellate District.\nJuly 22, 1939.]\nE. A. LEE, Respondent, v. THE SMALL CLAIMS COURT OF JUDICIAL TOWNSHIP NO. 4, COUNTY OF IMPERIAL, STATE OF CALIFORNIA, Appellant.\nHarry W. Horton and Kendall B. Perkins for Appellant.\nDon C. Bitler for Respondent."
+                }
+            }
+        }
+    ]
+}

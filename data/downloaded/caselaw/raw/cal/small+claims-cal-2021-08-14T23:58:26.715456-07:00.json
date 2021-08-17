@@ -1,0 +1,2148 @@
+{
+    "count": 69126,
+    "next": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzI3LjkzNjE0NiwgMTIxMzExNDddfQ%3D%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=cal&ordering=relevance&page_size=5&search=small+claims",
+    "previous": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzI5LjcyNTU1MiwgNDQ4NzEyMV0sICJyIjogMX0%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=cal&ordering=relevance&page_size=5&search=small+claims",
+    "results": [
+        {
+            "id": 4487121,
+            "url": "https://api.case.law/v1/cases/4487121/",
+            "name": "EUSEBIA GARDIANA et al., Plaintiffs and Appellants, v. THE SMALL CLAIMS COURT FOR THE SAN LEANDROHAYWARD JUDICIAL DISTRICT OF ALAMEDA COUNTY, Defendant and Appellant; COUNTY OF ALAMEDA, Real Party in Interest and Appellant",
+            "name_abbreviation": "Gardiana v. Small Claims Court",
+            "decision_date": "1976-06-23",
+            "docket_number": "Civ. No. 36574",
+            "first_page": "412",
+            "last_page": "425",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "59 Cal. App. 3d 412"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078618683/",
+                "volume_number": "59",
+                "barcode": "32044078618683"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/332/",
+                "full_name": "California Appellate Reports, Third Series",
+                "id": 332
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-ct-app-1/",
+                "name_abbreviation": "Cal. Ct. App.",
+                "slug": "cal-ct-app-1",
+                "id": 8799,
+                "name": "Court of Appeal of the State of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "111 Cal.Rptr. 456",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "36 Cal.App.3d 134",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 3d",
+                    "case_ids": [
+                        4450566
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "30 Cal.Rptr. 690",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "216 Cal.App.2d 154",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2112515
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "156"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "286 P. 732",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "year": 1963,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "104 Cal.App. 683",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        2123547
+                    ],
+                    "year": 1963,
+                    "pin_cites": [
+                        {
+                            "page": "685-686"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "293 P. 69",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "211 Cal. 29",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2147204
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "31"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "279 P.2d 570",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "130 Cal.App.2d 616",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2164579
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "618"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "231 P. 572",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "69 Cal.App. 475",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        2144004
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "486"
+                        },
+                        {
+                            "page": "p. 486"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "484 P.2d 70",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "94 Cal.Rptr. 398",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "4 Cal.3d 649",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        2319617
+                    ],
+                    "weight": 3,
+                    "pin_cites": [
+                        {
+                            "page": "653"
+                        },
+                        {
+                            "page": "p. 654"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "82 Cal.Rptr. 78",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Cal.App.3d 664",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 3d",
+                    "case_ids": [
+                        1195737
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "63 Cal.Rptr. 366",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "255 Cal.App.2d 575",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2218964
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "70 Cal.Rptr. 226",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "264 Cal.App.2d 235",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2183055
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "241"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "6 A.L.R. 1274",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "184 P. 18",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "181 Cal. 270",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2044679
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "276"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "403 P.2d 728",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "45 Cal.Rptr. 320",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "63 Cal.2d 153",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2335687
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "165"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "168 P. 135",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "176 Cal. 289",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2041751
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 Cal.Rptr. 424",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "244 Cal.App.2d 770",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2189792
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "772, fn. 2"
+                        },
+                        {
+                            "page": "775"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "38 Yale L.J. 849",
+                    "category": "journals:journal",
+                    "reporter": "Yale L.J.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "135 P. 502",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "year": 1971,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "166 Cal. 168",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2087904
+                    ],
+                    "year": 1971,
+                    "pin_cites": [
+                        {
+                            "page": "171"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "359 P.2d 433",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "11 Cal.Rptr. 65",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "55 Cal.2d 328",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4381085
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "352"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "194 P. 768",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "year": 1961,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "50 Cal.App. 228",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        2062903
+                    ],
+                    "year": 1961,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "59 Cal.Rptr. 888",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "year": 1920,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "251 Cal.App.2d 858",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2217213
+                    ],
+                    "year": 1920,
+                    "pin_cites": [
+                        {
+                            "page": "861"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "268 P. 905",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "204 Cal. 485",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2192473
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "487-488"
+                        },
+                        {
+                            "page": "pp. 487-488"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "243 P. 894",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Cal.App. 168",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        2242427
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "173"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "110 P.2d 1025",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "17 Cal.2d 563",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2205601
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "573-574"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-app-3d/59/412/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/4487121/Gardiana%20v.%20Small%20Claims%20Court,%2059%20Cal.%20App.%203d%20412%20(1976).pdf",
+            "preview": [
+                "<em class='search_highlight'>Claims</em> Court of the San LeandroHayward Judicial District (hereinafter respondent <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court)",
+                "It is useful to first review the nature of a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court.",
+                "Consequently, the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court functions informally and expeditiously.",
+                "<em class='search_highlight'>Claims</em> Court to fulfill its obligation to provide interpreters for <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> litigants by formally",
+                "<em class='search_highlight'>claims</em> proceedings would be entirely in keeping with the purpose and functioning of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT FOR THE SAN LEANDROHAYWARD JUDICIAL DISTRICT OF ALAMEDA COUNTY, Defendant and"
+            ],
+            "analysis": {
+                "word_count": 4582,
+                "random_bucket": 27378,
+                "sha256": "4e7ae7874e14ff02d227df7b1840cc55241694756e8b1af6d59d78e8798a759e",
+                "ocr_confidence": 0.943,
+                "char_count": 27978,
+                "random_id": 808545010,
+                "pagerank": {
+                    "percentile": 0.44769937181879466,
+                    "raw": 7.703661223704777e-08
+                },
+                "cardinality": 1004,
+                "simhash": "1:d2a2c6e555a88fbb"
+            },
+            "last_updated": "2021-08-11T00:10:07.417196+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "EUSEBIA GARDIANA et al., Plaintiffs and Appellants, v. THE SMALL CLAIMS COURT FOR THE SAN LEANDROHAYWARD JUDICIAL DISTRICT OF ALAMEDA COUNTY, Defendant and Appellant; COUNTY OF ALAMEDA, Real Party in Interest and Appellant."
+                    ],
+                    "attorneys": [],
+                    "opinions": [
+                        {
+                            "author": "BRAY, J.",
+                            "text": "Opinion\nBRAY, J.\nPlaintiffs Eusebia Gardiana and Jesus Gardiana appeal from certain portions of the judgment of the Alameda County Superior Court. Real party in interest County of Alameda and respondent the Small Claims Court of the San Leandro-Hayward Judicial District appeal from the judgment.\nIssues Presented\n1. The court did not err in authorizing the use of volunteer interpreters.\n2. There is no substantive evidence to support finding of fact 14.\n3. Respondent small claims court has the inherent power to appoint an interpreter free of charge to non-English-speaking litigants.\n4. The judgment improperly grants relief to all non-English-speaking litigants.\nRecord\nPlaintiffs Eusebia and Jesus Gardiana filed a petition for writ of mandamus on behalf of themselves and all others similarly situated seeking to compel respondent Small Claims Court of the San LeandroHayward Judicial District (hereinafter respondent Small Claims Court) to appoint a qualified interpreter for plaintiffs in the trial of their action then pending in said court without charge to plaintiffs, and to appoint without charge qualified interpreters for members of the class represented by plaintiffs. Thereafter respondents Small Claims Court and the County of Alameda filed a demurrer to the complaint. It was overruled. Respondents then filed a return and answer. After a hearing had on the petition, the court made findings of . fact and entered judgment. All parties appealed.\nFacts\nThis proceeding grew out of a suit in respondent Small Claims Court brought by one Encarnaci\u00f3n Rodriquez against the plaintiffs for damages. Both plaintiffs are indigent and do not speak or understand the English language. Plaintiffs moved respondent Small Claims Court for an order appointing an interpreter at no cost to them. The court denied the motion solely on the ground that it had no inherent or statutory power to appoint an interpreter at the expense of the county or any other governmental entity. Thereafter plaintiffs filed a petition for a writ of mandamus on behalf of themselves and all others similarly situated. The class they represent is comprised of all persons who are or will be defendants in actions pending in respondent Small Claims Court, who speak only Spanish and are incapable of understanding the English language, and who, like plaintiffs, are indigent and entitled to sue in forma pauperis. The petition alleges that they were sued in the respondent Small Claims Court and were unable to obtain an interpreter and that the court did not have interpreters on its staff. The petition further alleges that the plaintiffs then filed with respondent Small Claims Court a motion for an order appointing an interpreter and permitting plaintiffs to proceed in forma pauperis. The court denied the motion on the ground that it had no inherent or statutory authority to appoint an interpreter at the expense of the county or any other governmental authority.\nThe superior court issued an alternative writ of mandamus staying the trial of plaintiffs\u2019 small claims action. The judge who was presiding over the action filed a declaration which stated that it was the practice of the court in cases involving parties who cannot speak English to accept the voluntary services of individuals from the community to translate for such parties and that he would have arranged for such a public-spirited individual to interpret had the proceeding not been stayed by the writ.\nThe superior court made findings of fact to the effect that the policy and practice of respondent Small Claims Court with regard to the securing of interpreters for litigants who do not speak English is not to appoint qualified interpreters under Evidence Code sections 730, 731 and 752, but is to utilize the services of a relative, friend or other person appearing with the litigant without further inquiry into the person\u2019s qualifications. When a litigant does not appear with a person to interpret for him, the court inquires as to whether the litigant can secure the services of a volunteer interpreter. If he is unable to do so the court attempts informally to secure the volunteer services of individuals from the community. In such cases no independent inquiry is made regarding the qualifications of such person. The court does not fix or in any manner provide compensation for persons rendering interpretive services.\nThe court then concluded as a matter of law that plaintiffs and other members of their class are entitled as a matter of right, free of charge, to be provided with a qualified interpreter. The fee of a qualified interpreter is a necessary litigation cost which the court is required to provide under its inherent common law power to allow indigent litigants to proceed in forma pauperis where the court has been unable to secure the voluntary services of an interpreter or where the utilization of a voluntary interpreter would result in undue delay or prejudice to the litigant.\nThereupon the court issued its peremptoiy writ of mandamus directing respondent Small Claims Court, whenever it appears that an interpreter is necessary, to provide qualified interpreters free of charge to litigants in small claims proceedings who do not understand English; to conduct an independent inquiry to insure that the interpreter is qualified and competent; to direct the interpreter to make truthful and accurate interpretation of all testimony; to require that the interpreter affirm, under oath, that he or she will perform the duties required. The judgment further requires that respondent Small Claims Court appoint an interpreter and fix the compensation under the procedures set forth in Evidence Code sections 730 and 731 in all cases where the utilization of a volunteer will result in undue delay or prejudice to the litigant, a requirement that the litigant be made to bear the burden of securing such person, the failure to meet the obligations set forth in the judgment; and orders that compensation for interpreters be made in accordance with section 68091 of the Government Code and that such compensation be paid from the county treasury of Alameda County upon warrants drawn by the county auditor.\n1. The court did not err in authorizing the use of volunteer interpreters.\nIt is useful to first review the nature of a small claims court. \u201cIt is apparent that such a court was established in order to offer a means of obtaining speedy settlement of claims of small amounts. The theory behind its organization is that only by escaping from the complexity and delay of the normal course of litigation could anything be gained in a legal proceeding which may involve a small sum. Consequently, the small claims court functions informally and expeditiously. The chief characteristics of its proceedings are that there are no attorneys, no pleadings and no legal rules of evidence; there are no juries, and no formal findings are made on the issues presented. At the hearings the presentation of evidence may be sharply curtailed, and the proceedings are often terminated in a short space of time. The awards\u2014although made in accordance with substantive law\u2014are often based on the application of common sense; and the spirit of compromise and conciliation attends the proceedings.\u201d (Sanderson v. Niemann (1941) 17 Cal.2d 563, 573-574 [110 P.2d 1025].)\nPlaintiffs\u2019 appeal is only from that portion of the judgment which permits or authorizes respondent Small Claims Court to fulfill its obligation to provide interpreters for small claims litigants by formally or informally securing the voluntary services of private 'citizens or the services of a court officer or government employee other than a person specifically employed as an interpreter under the provisions of Government Code section 26806.\nThey contend that the California statutes provide only two methods for the appointment of interpreters and that the court does not have the discretion to deviate from these procedures and informally secure the voluntary and gratuitous services of private citizens or government employees. The two procedures to which they refer are described in Evidence Code section 752 and in Government Code section 26806.\nSection 752 of the Evidence Code provides: \u201c(a) When a witness is incapable of hearing or understanding the English language or is incapable of expressing himself in the English language so as to be understood directly by counsel, court, and jury, an interpreter whom he can understand and who can understand him shall be sworn to interpret for him. [H] (b) The interpreter may be appointed and compensated as provided in Article 2 (commencing with Section 730) of Chapter 3.\u201d\n\u201cThe question whether an interpreter shall be called for the purpose of rendering the testimony of a witness who does not understand the English language rests in the discretion of the trial court.\u201d (People v. Holtzclaw (1926) 76 Cal.App. 168, 173 [243 P. 894].) \u201c[T]he court is required to appoint an interpreter in those cases only where the witness does not understand or speak the English language. The question is one for the judicial determination of the court, and its ruling will not be disturbed unless the record clearly discloses an abuse of discretion, . . .\u201d (Hilbert v. Kundicoff (1928) 204 Cal. 485, 487-488 [268 P. 905]). Where there is uncontradicted evidence that the witness does not speak or understand English, it would be an abuse of discretion to fail to appoint an interpreter. (See People v. Annett (1967) 251 Cal.App.2d 858, 861 [59 Cal.Rptr. 888]; People v. Avila (1920) 50 Cal.App. 228 [194 P. 768], disapproved on other grounds in People v. Burton (1961) 55 Cal.2d 328, 352 [11 Cal.Rptr. 65, 359 P.2d 433].)\nSubdivision (b) of section 752 of the Evidence Code provides that \u201cThe interpreter may be appointed and compensated as provided in Article 2 (commencing with Section 730) of Chapter 3.\u201d Section 730 of the Evidence Code provides: \u201cWhen it appears to the court, at any time before or during the trial of an action, that expert evidence is or may be required by the court or by any party to the action, the court on its own motion or on motion of any party may appoint one or more experts to investigate, to render a report as may be ordered by the court, and to testify as an expert at the trial of the action relative to the fact or matter as to which such expert evidence is or may be required. The court may fix the compensation for such services, if any, rendered by any person appointed under this section, in addition to any service as a witness, at such amount as seems reasonable to the court.\u201d\nSection 731, subdivision (c), of the Evidence Code provides: \u201cExcept as otherwise provided in this section, in all civil actions, the compensation fixed under Section 730 shall, in the first instance, be apportioned and charged to the several parties in such proportion as the court may determine and may thereafter be taxed and allowed in like manner as other costs.\u201d\nIn addition, Government Code section 26806 provides in part: \u201c(a) In counties having a population of 900,000 or over, the county clerk may employ as many foreign language interpreters as may be necessary to interpret in criminal cases in the superior, municipal, and justice courts, and in the juvenile court within the county and to translate documents intended for filing in any civil or criminal action or proceeding or for recordation in the county recorder\u2019s office. [H] (b) The county clerk, as clerk of the superior court, shall, when interpreters are needed, assign the interpreters so employed to interpret in criminal and juvenile cases in the superior court. When their services are needed, he shall also assign interpreters so employed to- interpret in criminal cases in municipal and justice courts. [U] (c) The county clerk may also assign the interpreters so employed to interpret in civil cases in superior, municipal, and justice courts when their services are not required in criminal or juvenile cases and when so assigned, they shall collect from the litigants the fee fixed by the court and shall deposit the same in the county treasury.\u201d\nPlaintiifs contend that section 752, subdivision (b), requires that the court compensate all interpreters which it appoints. That subdivision, however, states that the interpreter \u201cmay be appointed and compensated as provided in Article 2 (commencing with Section 730) of Chapter 3.\u201d (Italics added.) It is concluded that the use of the word \u201cmay\u201d rather than \u201cshall\u201d indicates that appointment and compensation in accordance with section 730 is permissive rather than mandatoiy. (Evid. Code, \u00a711.)\nPlaintiifs note that the comment of the Law Revision Commission following section 752 states that \u201cSection 752 restates the substance of and supersedes Section 1884 of the Code of Civil Procedure. . . . [\u00b6] Subdivision (b) of Section 752 substitutes for the detailed language in Code of Civil Procedure Section 1884 a reference to the general authority of a court to appoint expert witnesses, since interpreters are treated as expert witnesses and subject to the same rules of competency and examination as are experts generally. The existing procedure provided by Code of Civil Procedure Section 1884 does not insure that an interpreter who is required to testify will be paid reasonable compensation for his services. Section 752 corrects this deficiency in the existing law.\u201d (Evid. Code (West\u2019s Ann.) \u00a7 752, com., pp. 76-77; Deering\u2019s, \u00a7 752, com., pp. 565-566.)\nIt appears that section 752 does not proscribe the use of voluntary, uncompensated interpreters but that the legislative intent is that when the court makes use of a nonvolunteer the court \u201cmay fix the compensation for such services ... at such amount as seems reasonable to the court.\u201d (Evid. Code, \u00a7 730; italics added.) Again it is noted that the word \u201cmay\u201d is used rather than \u201cshall,\u201d indicating that the fixing of compensation is permissive rather than mandatoiy.\nIt is further concluded that where the court is able to obtain the services of qualified interpreters who are willing to donate their services to the court, the use of such persons in small claims proceedings would be entirely in keeping with the purpose and functioning of the small claims court.\nPlaintiifs express the fear that unless an interpreter is financially compensated for his services, he will be reluctant and resentful. There is nothing in the court\u2019s order, however, to suggest that the small claims court is to secure \u201cvolunteers\u201d by force. It would be most unfortunate if, in view of the informality of small claims court\u2019s procedures, the court in eveiy instance should have to pay an interpreter.\n2. There is no substantial evidence to support finding of fact 14.\nFinding of fact 14 finds that respondent Small Claims Court will not appoint qualified interpreters under Evidence Code sections 730, 731 and 752; that the court will not make inquiry into the qualifications of volunteer interpreters; and that no independent inquiiy is made regarding the qualifications of volunteer interpreters.\nRespondents objected below to this finding.\nInsofar as the finding states that it is the practice of respondent Small Claims Court to fail to inquire into the qualifications of the persons whom it appoints to act as interpreters for litigants appearing before it, the finding is unsupported by any evidence. However, it does not follow that the judgment must be reversed.\nRespondent Small Claims Court denied plaintiffs\u2019 motion to appoint an interpreter free of charge because it believed that it lacked the authority to do so. This was the issue before the superior court and any findings .made outside this issue are nugatory and may be disregarded. (Crescent Lumber Co. v. Larson (1913) 166 Cal. 168, 171 [135 P. 502]; 4 Witkin, Cal. Procedure (2d ed. 1971) Trial, \u00a7 335, p. 3137.)\n3. Respondent Small Claims Court has the inherent power to appoint an interpreter free of charge to non-English-speaking litigants.\nThe usual means by which interpreters are compensated is set forth in the Evidence Code. Section 752, subdivision (b), provides that \u201cThe interpreter may be appointed and compensated as provided in Article 2 (commencing with Section 730) of Chapter 3.\u201d Section 730 which provides for the appointment of experts by the court states in part that \u201cThe court may fix the compensation for such services, if any, rendered by any person appointed under this section, in addition to any service as a witness, at such amount as seems reasonable to the court.\u201d Section 731, subdivision (c), states; \u201cExcept as otherwise provided in this section, in all civil actions, the compensation fixed under Section 730 shall, in the first instance, be apportioned and charged to the several parties in such proportion as the court may determine and may thereafter be taxed and allowed in like manner as other costs.\u201d\nThus, the compensation received by an interpreter in most civil cases is treated by statute as an expense of litigation or a \u201ccost\u201d rather than a \u201cfee. \u201d \u201cCosts include all those expenses of litigation which one party has to pay to the other. They must be carefully distinguished from \u2018fees\u2019 which have to be paid by a litigant to the officers of the court.\u201d (Goodhart, Costs, 38 Yale L.J. 849; see also County of Sutter v. Superior Court (1966) 244 Cal.App.2d 770, 772, fn. 2 [53 Cal.Rptr. 424].) Respondents contend that this distinction is critical to the determination of this appeal.\nIn Martin v. Superior Court (1917) 176 Cal. 289 [168 P. 135], it was held that the trial courts of this state have the inherent power to permit an indigent civil litigant to sue in forma pauperis. \u201cSubsequent California cases have followed Martin to the extent of recognizing an inherent power in the trial courts to waive various fees and costs on behalf of indigent litigants in civil actions. (See Isrin v. Superior Court, 63 Cal.2d 153 [45 Cal.Rptr. 320, 403 P.2d 728] (jury fees); Majors v. Superior Court of Alameda Co., 181 Cal. 270, 276 [184 P. 18, 6 A.L.R. 1274] (jury fees); Roberts v. Superior Court, 264 Cal.App.2d 235, 241 [70 Cal.Rptr. 226] (bond on appeal to superior court); Bank of America v. Superior Court, 255 Cal.App.2d 575 [63 Cal.Rptr. 366] (cost bond); County of Sutter v. Superior Court, 244 Cal.App.2d 770, 775 [53 Cal.Rptr. 424] (cost bond); see also Fuller v. State of California, 1 Cal.App.3d 664 [82 Cal.Rptr. 78] (denying waver [sic] of cost bond on technical grounds); 2 Witkin, Cal. Procedure (2d ed. 1970) Actions, \u00a7 215 et seq., pp. 1073-1078.)\u201d (Ferguson v. Keays (1971) 4 Cal.3d 649, 653 [94 Cal.Rptr. 398, 484 P.2d 70].)\nIn Ferguson v. Keays, supra, 4 Cal.3d 649, the court held that the Courts of Appeal and the Supreme Court possess the inherent power to permit indigent civil litigants to seek appellate relief without the payment of the statutory filing fee. The decision specifically states, however, that the court was \u201cnot faced with the question whether indigents must be given funds by the county or some other source in order to pay transcript fees, publication costs, or other similar third-party charges.\u201d (At p. 654.) That appears to be the issue before this court.\nRespondents contend that the court lacks the power to appoint an interpreter for an indigent litigant and charge the interpreter\u2019s fee to the county.\nIndependently of statute, every court has the \u201cinherent power to swear interpreters whenever such a course is necessary to the due administration of justice.\u201d (People v. Walker (1924) 69 Cal.App. 475, 486 [231 P. 572].) Although it has been concluded above that the court may use the services of uncompensated volunteers who are qualified to act as interpreters in legal proceedings, it is conceivable that the court may not be able to secure the services of such persons. Respondents\u2019 position appears to be that in situations where the court cannot secure the services of a volunteer to interpret for an indigent non-English-speaking litigant, the case will have to proceed without any interpreter at all. The court would then find itself in the position of having to conduct a judicial proceeding in which no' communication was possible with a litigant. As to litigants such as plaintiffs who are summoned to appear as defendants before a judicial tribunal whose proceedings are conducted in a language they can neither speak nor understand, these proceedings would be meaningless at best.\n\u201cThe common method of conducting all court proceedings is by the use of language.\u201d (People v. Pechar (1955) 130 Cal.App.2d 616, 618 [279 P.2d 570].) Although the small claims court functions successfully without lawyers, pleadings, legal rules of evidence, juries, and formal findings, it cannot function without the use of language.\nIn addition, the statutory mandate is clear: \u201cWhen a witness is incapable of hearing or understanding the English language or is incapable of expressing himself in the English language so as to be understood directly by counsel, court, and jury, an interpreter whom he can understand and who can understand him shall be sworn to interpret for him.\u201d (Evid. Code, \u00a7 752, subd. (a); italics added.) The court is required to appoint an interpreter in those cases where the witness does not understand or speak the English language. (Hilbert v. Kundicoff, supra, 204 Cal. 485 at pp. 487-488.)\nThe result of respondents\u2019 contentions is that where a litigant is indigent and proceeding in forma pauperis, the court must abdicate its duty to appoint an interpreter when it cannot obtain a volunteer, even though it has determined that an interpreter is required.\nThe duty of the court to appoint an interpreter when it determines that the circumstances require the appointment of an interpreter in addition to the inherent power of the court to appoint an interpreter whenever such a course is necessary to the due administration of justice (People v. Walker, supra, 69 Cal.App. 475 at p. 486) directs the conclusion that the court has inherent power to appoint an interpreter free of charge to an indigent civil litigant. A conclusion to the contrary would have \u201cthe practical effect of restricting an indigent\u2019s access to the courts because of his poverty [and would contravene] the fundamental notions of equality and fairness which since the earliest days of the common law have found expression in the right to proceed in forma pauperis.\u201d (Isrin v. Superior Court (1965) 63 Cal.2d 153, 165 [45 Cal.Rptr. 320, 403 P.2d 728].)\nAlthough subdivision (a) of Evidence Code section 752, which requires the court to appoint an interpreter when a witness does not speak or understand the English language, is mandatoiy, subdivision (b) of section 752, which states that the interpreter may be appointed and compensated as are court-appointed expert witnesses, is discretionary. Thus, the statutes do not mandate that interpreters be compensated in a certain way. It follows that in the absence of any legislative directive to the contrary, the court has the power to order that the interpreter be paid with public funds. As was stated in Millholen v. Riley (1930) 211 Cal. 29, 31 [293 P. 69], \u201cin the absence of any enactment to the contrary, the duty to function includes by implication of law the power to properly apply the funds appropriated for that purpose.\u201d\nThe law is well established that a litigant in a civil action is not entitled to a transcript on appeal at public expense. (Rucker v. Superior Court (1930) 104 Cal.App. 683, 685-686 [286 P. 732]; see also Ferguson v. Keays, supra, 4 Cal.3d 649 at p. 654; Agnew v. Contractors Safety Assn. (1963) 216 Cal.App.2d 154, 156 [30 Cal.Rptr. 690].) It is concluded, however, that this rule does not apply by analogy to the instant case. Government Code section 69953 is mandatoiy in its terms and provides: \u201cIn civil cases the fees for reporting and for all other transcriptions ordered by the court to be made shall be paid by the parties in equal proportion; and either party at his option may pay the whole. In either case, all amounts so paid by the party to whom costs are awarded shall be taxed as costs in the case. The fees for transcripts and copies ordered by the parties shall be paid by the party ordering them. No reporter shall perform any service in a civil action other than transcriptions until his fee for it has been deposited with the clerk of the court or with the reporter.\u201d In addition, the leading case, Rucker v. Superior Court, supra, at page 686, noted that the appellants therein had the alternative of preparing a bill of exceptions without the expense of reporter\u2019s transcript.\nIn Hunt v. Hackett (1973) 36 Cal.App.3d 134 [111 Cal.Rptr. 456], the appellants, litigants in a civil action, argued that the trial court erred in failing to appoint counsel for them because they were indigent. The appellate court refused to find the trial court in error, noting that the appellants did not contend that there was a miscarriage of justice and that the record was \u201cremarkably brief\u2019 on the subject of their financial status. In addition, the court noted the availability of legal aid societies to assist persons in genuine need. The principles involved in Hunt v. Hackett do not apply here. Although a court does not have the duty to appoint counsel for indigent civil litigants, it does have the duty to appoint an interpreter whenever it determines that one is necessaiy regardless of indigency.\n4. The judgment improperly grants relief to all non-English-speaking litigants.\nIn their closing brief, respondents contend that the judgment improperly grants relief to all non-English-speaking litigants although plaintiffs only purported to represent the class of non-English-speaking indigent defendants whose primary language is Spanish. In general, points raised in a closing brief for the first time will not be considered on appeal. (6 Witkin, Cal. Procedure (2d ed. 1971) Appeal, \u00a7 442, p. 4405.) However, it does appear that there is a serious error in the judgment as it purports to apply to all non-English-speaking litigants regardless of indigency. Insofar as the judgment appears to permit the court to appoint an interpreter free of charge to nonindigent litigants, it is in error as outside the issues presented. The findings of fact and conclusions of law suggest that the judgment was intended to apply only to indigent litigants. Insofar as the judgment purports to apply to non-English-speaking persons whose primary language is a language other than Spanish and who are appearing in forma pauperis it appears that the judgment is not beyond the issues raised before the superior court.\nThe trial court is hereby directed to modify the judgment to apply only to non-English-speaking persons acting in forma pauperis. As so modified the judgment is affirmed. Each party shall bear its own costs.\nSims, Acting P. J., and Elkington, J., concurred.\nA petition for a rehearing was denied July 16, 1976, and the petition of the plaintiffs and appellants for a hearing by the Supreme Court was denied August 18, 1976.\nRetired Presiding Justice of the Court of Appeal sitting under assignment by the Chairman of the Judicial Council.\nIt is noted that Government Code section 68090 provides. \u201cExcept as otherwise provided by law. interpreters\u2019 and translators' fees ... for attendance at court shall not exceed fifty dollars ($50) a day or thirty-five dollars ($35) for one-half day.\u201d",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[Civ. No. 36574.\nFirst Dist., Div. One.\nJune 23, 1976.]\nEUSEBIA GARDIANA et al., Plaintiffs and Appellants, v. THE SMALL CLAIMS COURT FOR THE SAN LEANDROHAYWARD JUDICIAL DISTRICT OF ALAMEDA COUNTY, Defendant and Appellant; COUNTY OF ALAMEDA, Real Party in Interest and Appellant.\nCounsel\nRonni Jackl, Clifford Sweet and Scott Noble for Plaintiffs and Appellants.\nRichard J. Moore, County Counsel, Paul M. Loya and Neal Snyder, Deputy County Counsel, for Defendant and Appellant and for Real Party in Interest and Appellant."
+                }
+            }
+        },
+        {
+            "id": 4708110,
+            "url": "https://api.case.law/v1/cases/4708110/",
+            "name": "TRINIDAD PARADA, Plaintiff and Appellant, v. THE SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and Respondents; LEON A. GENDREAU, Real Party in Interest and Respondent",
+            "name_abbreviation": "Parada v. Small Claims Court",
+            "decision_date": "1977-06-16",
+            "docket_number": "Civ. No. 49966",
+            "first_page": "766",
+            "last_page": "772",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "70 Cal. App. 3d 766"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078618949/",
+                "volume_number": "70",
+                "barcode": "32044078618949"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/332/",
+                "full_name": "California Appellate Reports, Third Series",
+                "id": 332
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-ct-app-1/",
+                "name_abbreviation": "Cal. Ct. App.",
+                "slug": "cal-ct-app-1",
+                "id": 8799,
+                "name": "Court of Appeal of the State of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "274 Cal.App.2d 675",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2232797
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "pp. 677-678"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "125 Cal.Rptr. 825",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 Cal.App.3d 700",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 3d",
+                    "case_ids": [
+                        6041602
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "43 P. 580",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "111 Cal. 112",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "15 S.Ct. 268",
+                    "category": "reporters:federal",
+                    "reporter": "S. Ct.",
+                    "case_ids": [
+                        1488113,
+                        3580554
+                    ],
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "39 L.Ed. 311",
+                    "category": "reporters:federal",
+                    "reporter": "L. Ed.",
+                    "case_ids": [
+                        3580554
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "316"
+                        }
+                    ],
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "155 U.S. 689",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "pin_cites": [
+                        {
+                            "page": "698"
+                        }
+                    ],
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "51 P. 696",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "119 Cal. 413",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        1971566
+                    ],
+                    "opinion_id": 1
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-app-3d/70/766/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/4708110/Parada%20v.%20Small%20Claims%20Court,%2070%20Cal.%20App.%203d%20766%20(1977).pdf",
+            "preview": [
+                "Trinidad Parada, doing business as Bud\u2019s Auto Service, filed an action in the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court of the",
+                "The <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court entered judgment for Gendreau on the grounds that Parada did not have a written",
+                "Both the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court and the superior court were in error in the basis upon which relief was denied",
+                "Code of Civil Procedure section 117j, provided at the applicable time that a plaintiff in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "Thus a plaintiff who elects to proceed in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court is finally bound by an adverse judgment",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants"
+            ],
+            "analysis": {
+                "word_count": 1924,
+                "random_bucket": 48339,
+                "sha256": "5e7ae73c65bf8a3675ee4c660f19594beef87827e5a4bd2f73c248724fde246c",
+                "ocr_confidence": 0.952,
+                "char_count": 11494,
+                "random_id": 626113747,
+                "pagerank": {
+                    "percentile": 0.7969214236168779,
+                    "raw": 2.413836516190847e-07
+                },
+                "cardinality": 613,
+                "simhash": "1:1ca732d20595c446"
+            },
+            "last_updated": "2021-08-10T20:27:00.873831+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "TRINIDAD PARADA, Plaintiff and Appellant, v. THE SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and Respondents; LEON A. GENDREAU, Real Party in Interest and Respondent."
+                    ],
+                    "attorneys": [
+                        "Counsel",
+                        "Warren L. Bachtel for Plaintiff and Appellant.",
+                        "No appearance for Defendants and Respondents.",
+                        "Leon A. Gendreau, in pro. per., for Real Party in Interest and Respondent."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "COMPTON, J.",
+                            "text": "Opinion\nCOMPTON, J.\nTrinidad Parada, doing business as Bud\u2019s Auto Service, filed an action in the Small Claims Court of the Los Angeles Judicial District against Leon Gendreau to recover $432.50 alleged to be owing for repairs on Gendreau\u2019s automobile.\nThe small claims court entered judgment for Gendreau on the grounds that Parada did not have a written authorization for the work. That court was of the opinion that Business and Professions Code section 9884.9, subdivision (a), required such written authorization.\nParada petitioned the Superior Court of Los Angeles County for a writ of mandate to direct the small claims court to enter judgment in his favor. The superior court denied the petition declaring that the case of Bennett v. Hayes, 53 Cal.App.3d 700 [125 Cal.Rptr. 825], appeared to \u201cbar an action for the reasonable value of automotive repair services.\u201d Parada appeals from the judgment denying the petition for mandate.\nOn May 28, 1975, Gendreau brought his 1966 Oldsmobile to Parada\u2019s auto repair shop in San Pedro, California. Parada made a written estimate of $544.12 for repairs to be made on the automobile. Gendreau asked Parada to repair the car at a lower price by omitting the paint refinishing work. Parada agreed to do the lessened amount of work for the sum of $432.50 and made appropriate notations on the written estimate showing the work which was to be done on the automobile. Gendreau gave his approval to the change in the written estimate showing the omission of the paint refinishing work and also gave his oral authorization for Parada to proceed in making the repairs.\nWhen the automobile was delivered to Gendreau he expressed satisfaction with the work done and gave Parada a check in the amount of $432.50 as agreed. Shortly after the check was deposited it was returned to Parada marked \u201cPayment Stopped.\u201d\nThe Automotive Repair Act (Bus. & Prof. Code, \u00a7 9880 et seq.) was enacted to \u201cfoster fair dealing, [and] to eliminate misunderstandings\u201d (55 Ops.Cal.Atty.Gen. 276, 278) in transactions involving automotive repairs. It serves to prevent, among other things, an auto repair business from obtaining possession of a vehicle by leading the owner to believe that the cost of repair will be in an amount agreeable to him only to return and find that the cost has increased substantially. Under such a situation the owner has only two options, (1) to pay the increased price, or (2) to seek legal relief in obtaining possession of his car. (Civ. Code, \u00a7 3071.)\nHence the Automotive Repair Act, as noted, requires (1) a written estimate, and (2) customer authorization to proceed with the work. Delivery of the car to the repairer of course suggests authorization to proceed, however the repairer can only perform those services set forth in the written estimate. If additional work, over and above that estimate, is found to be required, the law requires an oral or written consent.\nBennett v. Hayes, supra, held that where no written estimate was prepared then any work done was \u201cexcess\u201d and the repair service could not collect for repairs actually made. Here, however, Parada provided a written estimate. The work performed was less than that estimate. Nothing in the statute nor in Bennett v. Hayes, supra, requires that the customer give his consent or authorization in writing. In fact the statute specifically permits oral authorization for \u201cexcess\u201d repairs.\nBoth the small claims court and the superior court were in error in the basis upon which relief was denied to Parada. That, however, does not resolve the matter.\nCode of Civil Procedure section 117j, provided at the applicable time that a plaintiff in a small claims action may not appeal from an adverse judgment. \u201cA small claims court plaintiff, taking advantage of the speedy, inexpensive procedures and other benefits of that court; accepts all of its attending disadvantages such as the denial of the right... to an appeal.\u201d (Cook v. Superior Court, 274 Cal.App.2d 675, at pp. 677-678 [79 Cal.Rptr. -285].) Inherent in this scheme is, as is the case herein, the possibility of an occasional error of law that will be uncorrectable.\nThus a plaintiff who elects to proceed in the small claims court is finally bound by an adverse judgment. This means that the lack of the right of appeal cannot then be relied upon as a basis for a petition for an extraordinary writ which is designed to seek appellate review of an adverse judgment. Such a procedure would emasculate the prohibition against appeals by plaintiffs from judgments rendered by a small claims court.\nHence the superior court correctly denied Parada\u2019s petition for a writ of mandate, albeit for the wrong reason.\nThe judgment is affirmed.\nBeach, J., concurred.\nBusiness and Professions Code section 9884.9, subdivision (a), provides: \u201cThe automotive repair dealer shall give to the customer a written estimated price for labor and parts necessary for a specific job. No work shall be done and no charges shall accrue before authorization to proceed is obtained from the customer. No charge shall be made for work done or parts supplied in excess of the estimated price without the oral or written consent of the customer which shall be obtained at some time after it is determined that the estimated price is insufficient and before the work not estimated is done or the parts not estimated are supplied. Nothing in this section shall be construed as requiring an automotive repair dealer to give a written estimated price if the dealer does not agree to perform the requested repair.\u201d\nCode of Civil Procedure section 117j was repealed by Statutes 1976, chapter 1289. Code of Civil Procedure section 117.8, subdivision (a), added by Statutes 1976, chapter 1289, notes that the judgment shall be conclusive upon the plaintiff.",
+                            "type": "majority"
+                        },
+                        {
+                            "author": "ROTH, P. J.",
+                            "text": "ROTH, P. J.\nI concur and dissent:\nI agree that an appeal will not lie.\nI do not agree that an application for an extraordinary writ equates with an appeal or that the exclusion of an appeal embraces an exclusion of the right to apply for an extraordinary writ.\nI think certiorari lies and I would treat this petition for a writ of mandate as an application for a writ of certiorari.\nThe meager record before us shows indisputably the following facts:\n(1) Section 9884.9, subdivision (a), was complied with; as required, a written estimate was supplied.\n(2) Nothing in section 9884.9 requires a written authorization to omit an item included in the written estimate which reduces the amount in the original estimate.\n(3) In any event, oral authorization sufficient under the statute was given and is proved by:\n(a) the request of the respondent to omit painting; and\n(b) respondent\u2019s approval of and payment for the job according to reduced estimate by check concurrently with the delivery of the auto.\nCode of Civil Procedure section 1068 provides in pertinent part: \u201cA writ of review may be granted . . . when an inferior tribunal . .. has exceeded the jurisdiction of such tribunal . .. and there is no appeal . .. [or] any plain, speedy, and adequate remedy.\u201d\nIt is not within the power of a court to disregard undisputed evidence; and/or to fail in all respects to act in accordance with the specific directives of an applicable statute; and/or to substitute or add a condition not required by the applicable statute.\nIn the case at bench, the net effect of the alleged judgment is to judicially approve the conduct of respondent whereby he obtained repossession of his automobile by delivery of a check he did not intend to pay. A decision so made is not a judgment but is in effect a disposition of a case based upon the exercise of the arbitrary will or the whim and caprice of the judicial officer and amounts to a complete deprivation of a trial.\nTo ignore uncontradicted evidence certainly equates with a refusal to hear evidence (McClatchy v. Superior Court, 119 Cal. 413 [51 P. 696]). A review by certiorari (Code Civ. Proc., \u00a7 1068) is impelled by McClatchy especially when complete disregard of the evidence is aggravated by a total misconception of what the statute required.\nIn McClatchy, the court refused to hear evidence in a comtempt matter offered to contradict that reflected in a reporter\u2019s transcript. At bench, the court refused to consider any evidence or law contrary to its stated position.\nIn McClatchy, the court said at pages 418-419: \u201cThat the result of this action of the court in thus requiring petitioner, in effect, to submit his defense upon the evidence for the people, was, in substance and effect, to deprive petitioner of the right to be heard in his defense, is, we think, obvious. It is contended by respondent that, even if the action of the court was wrong, it was error merely, which cannot be reviewed on certiorari\u2019, that the court having jurisdiction of the person and subject matter, the mere method in which it exercised such jurisdiction cannot be inquired into in this proceeding, which looks only to the question of jurisdiction. If the premise were correct, the conclusion would undoubtedly follow. But with the view that the action involved no more than mere error we cannot coincide. It was error, certainly, but it was more than that. It was a transgression of a fundamental right guaranteed to every citizen charged with an offense, or whose property is sought to be taken, of being heard before he is condemned to suffer injury. Any departure from those recognized and established requirements of law, however close the apparent adherence to mere form in method of procedure, which has the effect to deprive one of a constitutional right, is as much an excess of jurisdiction as where there exists an inceptive lack of power. \u2018The substance and not the shadow determines the validity of the exercise of the power.\u2019 (Postal Tel. etc. Co. v. Adams, 155 U.S. 689, 698 [39 L.Ed. 311, 316, 15 S.Ct. 268].)\n\u201cWhile the writ of certiorari is not a writ of error, \u2018it is nevertheless,\u2019 as suggested in Schwarz v. Superior Court, 111 Cal. 112 [43 P. 580], \u2018a means by which the power of the court in the premises can be inquired into; and for this purpose the review extends not only to the whole of the record of the court below, but even to the evidence itself, when necessary to determine the jurisdictional fact.\u2019\n\u201cIf, then, by looking at the evidence we can see that the court exceeded its power, we have a right to examine the evidence for that purpose. The evidence and proceedings in this case disclose clearly to our minds such an excess. .. .\u201d (Italics added.)\nTraditionally, in cases such as at bench, a writ of review has been allowed as against administrative bodies including an inferior tribunal exercising judicial functions when the procedure did not conform to constitutional or statutory requirements or where its decision was based on a misconception of the law or made arbitrarily and without regard to the evidence.\nI would set aside the judgment and require the trial court to enter a judgment in favor of petitioner for the amount of the check. Costs to petitioner.",
+                            "type": "concurring-in-part-and-dissenting-in-part"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[Civ. No. 49966.\nSecond Dist., Div. Two.\nJune 16, 1977.]\nTRINIDAD PARADA, Plaintiff and Appellant, v. THE SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY et al., Defendants and Respondents; LEON A. GENDREAU, Real Party in Interest and Respondent.\nCounsel\nWarren L. Bachtel for Plaintiff and Appellant.\nNo appearance for Defendants and Respondents.\nLeon A. Gendreau, in pro. per., for Real Party in Interest and Respondent."
+                }
+            }
+        },
+        {
+            "id": 6041330,
+            "url": "https://api.case.law/v1/cases/6041330/",
+            "name": "MICHAEL E. YOAKUM, Plaintiff and Respondent, v. SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY, Defendant and Appellant; BENITO TOSTADO, JR., et al., Real Parties in Interest and Respondents",
+            "name_abbreviation": "Yoakum v. Small Claims Court",
+            "decision_date": "1975-12-02",
+            "docket_number": "Civ. No. 45940",
+            "first_page": "398",
+            "last_page": "404",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "53 Cal. App. 3d 398"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078618675/",
+                "volume_number": "53",
+                "barcode": "32044078618675"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/332/",
+                "full_name": "California Appellate Reports, Third Series",
+                "id": 332
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-ct-app-1/",
+                "name_abbreviation": "Cal. Ct. App.",
+                "slug": "cal-ct-app-1",
+                "id": 8799,
+                "name": "Court of Appeal of the State of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "264 P. 488",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "203 Cal. 384",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2172016
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "124 Cal.Rptr. 63",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "51 Cal.App.3d 168",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 3d",
+                    "case_ids": [
+                        4455215
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "172"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "91 S.Ct. 1266",
+                    "category": "reporters:federal",
+                    "reporter": "S. Ct.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "28 L.Ed.2d 549",
+                    "category": "reporters:federal",
+                    "reporter": "L. Ed. 2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "401 U.S. 1012",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        11769312,
+                        11769182,
+                        11768994,
+                        11769058,
+                        11769739,
+                        11769132,
+                        11769613,
+                        11769419,
+                        11769681,
+                        11769562,
+                        11769498,
+                        11769246
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "479 P.2d 669",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "92 Cal.Rptr. 309",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "3 Cal.3d 937",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 3d",
+                    "case_ids": [
+                        2313243
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "945"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "338 P.2d 502",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "170 Cal.App.2d 54",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        6035841
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "19 Cal.Rptr. 242",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "200 Cal.App.2d 69",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2302556
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "284 P.2d 9",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "44 Cal.2d 630",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4373187
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "349 P.2d 526",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "2 Cal.Rptr. 758",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 Cal.2d 633",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4385396
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "369 P.2d 937",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "20 Cal.Rptr. 321",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "57 Cal.2d 450",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4375244
+                    ],
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "322 P.2d 1",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "49 Cal.2d 764",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        12133516
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "778"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "181 P.2d 1",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "30 Cal.2d 215",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2233633
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "218-219"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "89 P.2d 109",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "13 Cal.2d 262",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        1451411
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "270"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "132 A.L.R. 715",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "109 P.2d 942",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "17 Cal.2d 280",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2205571
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "291"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 A.L.R.2d 333",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R. 2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "205 P.2d 657",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "33 Cal.2d 805",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4395878
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "807"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "442 P.2d 663",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "69 Cal.Rptr. 583",
+                    "category": "reporters:state",
+                    "reporter": "Cal. Rptr.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "69 Cal.2d 14",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2304309
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "16"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-app-3d/53/398/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/6041330/Yoakum%20v.%20Small%20Claims%20Court,%2053%20Cal.%20App.%203d%20398%20(1975).pdf",
+            "preview": [
+                "We conclude that mandamus is appropriate to compel the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court to hear from the plaintiff",
+                "On April 17, Yoakum filed his <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court action against Joseph W. Foran.",
+                "This appeal by the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court followed.",
+                "Parti\u00bfs to an action in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court have a right to offer evidence (Code Civ.",
+                "Two of the three <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> cases here involved raise issues of the failure of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court",
+                "<em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY, Defendant and Appellant"
+            ],
+            "analysis": {
+                "word_count": 2000,
+                "random_bucket": 5677,
+                "sha256": "188c6237dfbe3aad0d917a5363b4d3990a5d92dfe2a4398d78329bd275a28379",
+                "ocr_confidence": 0.907,
+                "char_count": 11751,
+                "random_id": 2064258605,
+                "pagerank": {
+                    "percentile": 0.6224587969792593,
+                    "raw": 1.3242762256362798e-07
+                },
+                "cardinality": 608,
+                "simhash": "1:51bcfda452e8501a"
+            },
+            "last_updated": "2021-08-10T18:01:39.262980+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "MICHAEL E. YOAKUM, Plaintiff and Respondent, v. SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY, Defendant and Appellant; BENITO TOSTADO, JR., et al., Real Parties in Interest and Respondents."
+                    ],
+                    "attorneys": [
+                        "Counsel",
+                        "John H. Larson, County Counsel, and Eugenia B. Maxwell, Deputy County Counsel, for Defendant and Appellant.",
+                        "Iverson, Yoakum, Papiano & Hatch and F. B. Yoakum, Jr., for Plaintiff and Respondent.",
+                        "No appearance for Real Parties in Interest and Respondents."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "THOMPSON, J.",
+                            "text": "Opinion\nTHOMPSON, J.\nThe case at bench presents the issue of the propriety of review by certiorari and mandamus of action of a small claims court adverse to a plaintiff\u2019s motion for relief from default pursuant to Code of Civil Procedure section 473. We conclude that mandamus is appropriate to compel the small claims court to hear from the plaintiff on the motion but not to review factual determinations on the motion after an adequate hearing.\nMichael E. Yoakum filed three actions in the Small Claims Court of the Los Angeles Judicial District to recover costs on bail bond forfeitures.\nActions against Benito Tostado and Alfonso Duarte were set for hearing on March 19, 1974. Yoakum, Tostado, and Duarte were present when the calendar of the small claims, court was called on March 19. After defaults, including one on a case brought by Yoakum were heard, Yoakum left the courtroom and Yoakum\u2019s cases against Tostado and Duarte were called while he was absent. Tostado and Duarte explained their contentions to the small claims court which entered judgment on the merits for them.\nOn April 12, 1974, Yoakum moved, in the small claims court, to be relieved of the \u201cdefault\u201d judgments against him. Declarations in support of the motion stated that, after notifying the clerk and receiving his permission, Yoakum left the courtroom for only five minutes to use the restroom. Without permitting Yoakum to be heard, the small claims court entered its order stating: \u201cWitnesses state that moving party went for coffee and roll; Court remembers sending bailiff for moving party who was nowhere to be found at 10:30 a.m.\u201d Yoakum\u2019s motion to be relieved from default was denied.\nOn April 17, Yoakum filed his small claims court action against Joseph W. Foran. The matter was set for May 2. Foran appeared at the hearing but Yoakum did not. Judgment was entered for Foran. On May 8, Yoakum filed his motion to be relieved of default. The motion is accomp\u00e1nied by a declaration of Jeffrey M. Lukomski that between 8:50 and 9:10 a.m. on May 2, he called the small claims court and informed a clerk that Yoakum was ill and unable to attend the hearing, but was told nothing could be done to continue the Foran case or to put it off calendar.\nYoakum having moved, pursuant to Code of Civil Procedure section 170.6, to disqualify the judge regularly sitting in small claims in the Los Angeles Judicial District, his motion to be relieved from default was heard by another judge. That judge received evidence and denied the motion, stating that he did not believe the testimony presented by Yoakum.\nOn May 24, 1974, Yoakum filed a petition for writ of mandate and certiorari in the superior court seeking an order setting aside the judgment in the three cases and ordering them to trial before a different judge than the one who had heard them originally. Issuing an alternative writ, the superior court took evidence de novo on the issues raised in Yoakum\u2019s motions to be relieved from default. Contrary to the small claims court, the superior court found the facts to be as contended by Yoakum. It issued a peremptory writ directing the small claims court to set aside its judgments in the three cases and to reset them for hearing before a different judge. This appeal by the small claims court followed.\nPropriety of Certiorari and Mandate\nCertiorari is an appropriate vehicle to review action of a court only where the court lacks or acts in excess of jurisdiction. (5 Witkin, Cal. Procedure (2d ed.) Extraordinary Writs, \u00a7 28.) Jurisdiction is broadly defined in the context of review by certiorari. Although a court may have jurisdiction of the subject matter and the parties, it nevertheless acts in excess of jurisdiction where it does not follow the mandate of a constitutional provision, statute, or rule of decisional law of a higher court requiring that it exercise its power over the parties and the cause in a particular manner. (Miller v. Superior Court, 69 Cal.2d 14, 16 [69 Cal.Rptr. 583, 442 P.2d 663]; Burtnett v. King, 33 Cal.2d 805, 807 [205 P.2d 657, 12 A.L.R.2d 333]; Abelleira v. District Court of Appeal, 17 Cal.2d 280, 291 [109 P.2d 942, 132 A.L.R. 715]; Rodman v. Superior Court, 13 Cal.2d 262, 270 [89 P.2d 109]; 1 Witkin, Cal. Procedure (2d ed.) Jurisdiction, \u00a7 179.) Where, however, a court acts in the manner provided by the Constitution, statutes, and governing decisional law, its action is within its jurisdiction although the conclusions reached may be unsupported by substantial evidence (Estate of Kay, 30 Cal.2d 215, 218-219 [181 P.2d 1]), or contrary to substantive law (Signal Oil etc. Co. v. Ashland Oil etc. Co., 49 Cal.2d 764, 778 [322 P.2d 1]).\nWhile there is language in a plethora of cases purporting to state the definition of \u201cjurisdiction\u201d in broader and fuzzier terms and some appellate decisions granting relief necessarily dependent upon lack of lower court jurisdiction in circumstances where jurisdiction existed, if jurisdiction is properly defined (see e.g., Auto Equity Sales, Inc. v. Superior Court, 57 Cal.2d 450 [20 Cal.Rptr. 321, 369 P.2d 937]; County of Marin v. Superior Court, 53 Cal.2d 633 [2 Cal.Rptr. 758, 349 P.2d 526]; Harden v. Superior Court, 44 Cal.2d 630 [284 P.2d 9]; Brady v. Superior Court, 200 Cal.App.2d 69 [19 Cal.Rptr. 242]; Alexander v. Superior Court, 170 Cal.App.2d 54 [338 P.2d 502]), those cases do not, upon analysis, further extend the already broadened definition. In most, the language is dictum. (See e.g., Auto Equity Sales, Inc. v. Superior Court, supra, 57 Cal.2d 450\u2014superior court failed to act in manner required by law in expressly and not mistakenly refusing to follow a decision of the Court of Appeal (57 Cal.2d at p. 454) but decision contains language implying that failure to follow stare decisis is an act in excess of jurisdiction (57 Cal.2d at p. 455).) Where the reviewing court has in fact acted in a manner inherently or overtly applying a definition of \u201cj\u00fcrisdiction\u201d broader than that developed by the prevailing line of cases expressly considering the matter, the action is explainable by California\u2019s peculiar procedural rule of the power of the reviewing court to act. When the reviewing court issues its alternative writ, it determines that the writ procedure is proper for the purpose of the particular proceeding before it, although its procedural determination may conceivably be wrong as a matter of law. (San Francisco Unified School Dist. v. Johnson, 3 Cal.3d 937, 945 [92 Cal.Rptr. 309, 479 P.2d 669], cert. den., 401 U.S. 1012 [28 L.Ed.2d 549, 91 S.Ct. 1266]; Atlantic Richfield Co. v. Superior Court, 51 Cal.App.3d 168, 172 [124 Cal.Rptr. 63].) The alternative writ is issued without opinion. When the reviewing court acts in a given manner on the authority of the alternative writ, its action is little, if any, precedent for the propriety of the writ process to the case because of the peculiar rule of procedure. By no means is it authority of a dignity sufficient to overcome cases ruling expressly and necessarily on the issue of propriety of review by writ in situations where the ruling is the basis of decision.\nIn the context of the case at bench, review by mandamus is subject to the same restriction as review by certiorari. The writ is not here available to reach error of the lower court if that court acted with jurisdiction of the parties and subject matter in a fashion not in excess of its jurisdiction. (5 Witkin, Cal. Procedure (2d ed.) Extraordinary Writs, \u00a7 79.)\nTostado and Duarte Matters\nThe action of the small claims court in denying Yoakum\u2019s motion to be relieved of default in the Tostado and Duarte matters is properly reviewable on certiorari or mandate. Parti\u00bfs to an action in small claims court have a right to offer evidence (Code Civ. Proc., \u00a7 117g) and thus to be heard. The failure of a trial court to afford a hearing where one is provided by statute or other law is action in a manner contrary to that required by governing law and hence is in excess of the court\u2019s jurisdiction, as jurisdiction is defined for the purposes of certiorari and mandate. (5 Witkin, Cal. Procedure (2d ed.) Extraordinary Writs, \u00a7 88.) Here the superior court determined that Yoakum\u2019s motion to be relieved of default was denied by the small claims court summarily and without giving him an opportunity to be heard.\nUnquestionably, the small claims court was entitled to rely upon its own investigation to determine that Yoakum\u2019s assertions of fact in support of his motion were not true. (Code Civ. Proc., \u00a7 117g.) That power of the small claims court, however, is not so broad as to permit it to refuse to hear Yoakum\u2019s side of the matter.\nThus, the superior court properly granted its prerogative writ compelling the small claims court to hear Yoakum\u2019s motion to be relieved of default in the Tostado and Duarte matters. It erred, however, in including within its directive the requirement that the hearing be held by a judge other than the one who denied the motion. The judge retains power to act unless he is disqualified for some appropriate reason. No reason appears in the record, there being no motion in the Tostado and Duarte cases to disqualify the judge for cause or by reason of Code of Civil Procedure section 170.6.\nForan Matter\nThe superior court erred in issuing its prerogative writ in the Foran matter. Yoakum, as a plaintiff who voluntarily elected the advantages to him of the small claims process, has no right of appeal from an adverse judgment. (Code Civ. Proc., \u00a7 117j; Superior Wheeler C. Corp. v. Superior Court, 203 Cal. 384 [264 P. 488].) He is not entitled to a disguised appeal in the form of a petition for certiorari or mandate where all that is asserted is that the small claims court erroneously weighed the evidence after giving him a full opportunity to be heard.\nDisposition\nThe judgment of the superior court is reversed insofar as it directs the trial court to conduct a new hearing upon Yoakum\u2019s motion to be relieved from default in the Foran matter. The judgment is reversed insofar as it directs that new hearings upon Yoakum\u2019s motion to be relieved from default in the Tostado and Duarte matters be held before a judge different from the judge who heard the motions in the small claims court, but is affirmed insofar as it directs new hearings on the motions in the Tostado and Duarte cases. Each party is to bear its own costs on appeal.\nWood, P. J., and Hanson, J., concurred.\nOn issues of fact concerning the manner in which the small claims court conducted its proceedings, we recite the record in the light most favorable to the findings of fact of the superior court on Yoakum\u2019s petition.\nTwo of the three small claims cases here involved raise issues of the failure of the small claims court to afford a hearing to Yoakum on his motion to be relieved from default. They concern an issue of action in excess of jurisdiction. The third concerns a factual determination of the small claims court based upon the credibility of evidence taken by it. None is thus concerned with the abuse of trial court discretion as that abuse is a basis for review on mandate. (See 5 Witkin, Cal. Procedure (2d ed.) Extraordinary Writs, \u00a7 80.)",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[Civ. No. 45940.\nSecond Dist., Div. One.\nDec. 2, 1975.]\nMICHAEL E. YOAKUM, Plaintiff and Respondent, v. SMALL CLAIMS COURT FOR THE LOS ANGELES JUDICIAL DISTRICT OF LOS ANGELES COUNTY, Defendant and Appellant; BENITO TOSTADO, JR., et al., Real Parties in Interest and Respondents.\nCounsel\nJohn H. Larson, County Counsel, and Eugenia B. Maxwell, Deputy County Counsel, for Defendant and Appellant.\nIverson, Yoakum, Papiano & Hatch and F. B. Yoakum, Jr., for Plaintiff and Respondent.\nNo appearance for Real Parties in Interest and Respondents."
+                }
+            }
+        },
+        {
+            "id": 4399951,
+            "url": "https://api.case.law/v1/cases/4399951/",
+            "name": "MERCHANTS SERVICE COMPANY (a Corporation), Respondent, v. THE SMALL CLAIMS COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Appellants",
+            "name_abbreviation": "Merchants Service Co. v. Small Claims Court",
+            "decision_date": "1950-04-12",
+            "docket_number": "S. F. No. 18069",
+            "first_page": "109",
+            "last_page": "115",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "35 Cal. 2d 109"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078596210/",
+                "volume_number": "35",
+                "barcode": "32044078596210"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/417/",
+                "full_name": "California Reports",
+                "id": 417
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-1/",
+                "name_abbreviation": "Cal.",
+                "slug": "cal-1",
+                "id": 9021,
+                "name": "Supreme Court of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "116 P.2d 599",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "18 Cal.2d 610",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2185867
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "614"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "201 P. 616",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "54 Cal.App. 186",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        2072555
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "189"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "295 P. 508",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "112 Cal.App. Supp. 781",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. Supp.",
+                    "pin_cites": [
+                        {
+                            "page": "785"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "123 P. 617",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "18 Cal.App. 513",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        4575801
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "516"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "73 P.2d 1163",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "10 Cal.2d 232",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "pin_cites": [
+                        {
+                            "page": "244"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "195 P.2d 536",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "86 Cal.App.2d 489",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2268391
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "491-492"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-2d/35/109/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/4399951/Merchants%20Service%20Co.%20v.%20Small%20Claims%20Court,%2035%20Cal.%202d%20109%20(1950).pdf",
+            "preview": [
+                "Plaintiff petitioned the superior court for a writ of mandate to compel the clerk of the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em>",
+                "such <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court by the assignee of such <em class='search_highlight'>claim</em>.\u201d",
+                "is therefore not cognizable in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court.",
+                "Section 117f of the Code of Civil Procedure, supra, does not confine its prohibition, in use of the <em class='search_highlight'>small</em>",
+                "<em class='search_highlight'>claims</em> court was therefore justified in refusing to file plaintiff\u2019s <em class='search_highlight'>claim</em>.",
+                "THE <em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Appellants.\nFred N."
+            ],
+            "analysis": {
+                "word_count": 2508,
+                "random_bucket": 58392,
+                "sha256": "09427bed98aa4f595769d895434fe5b4ce53ed4b5a90ef088374d536f8c9f2f5",
+                "ocr_confidence": 0.55,
+                "char_count": 15331,
+                "random_id": 2924078104,
+                "pagerank": {
+                    "percentile": 0.6436266473881144,
+                    "raw": 1.418550735936738e-07
+                },
+                "cardinality": 757,
+                "simhash": "1:a847bd169801d3dd"
+            },
+            "last_updated": "2021-08-11T00:54:58.024289+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "MERCHANTS SERVICE COMPANY (a Corporation), Respondent, v. THE SMALL CLAIMS COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Appellants."
+                    ],
+                    "attorneys": [
+                        "Fred N. Howser, Attorney General, Clarence A. Linn and B. Abbott Goldberg, Deputy Attorneys General, John J. O\u2019Toole and Dion R. Holm, City Attorneys, and C. Wesley Davis, Deputy City Attorney, for Appellants.",
+                        "John H. Brill for Respondent."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "SPENCE, J.",
+                            "text": "SPENCE, J.\nPlaintiff petitioned the superior court for a writ of mandate to compel the clerk of the Small Claims Court in San Francisco to accept for filing therein a claim for $14.13. Defendants interposed a demurrer to the petition, thereby submitting the matter \u201con the papers of the applicant.\u201d (Code Civ. Proc., \u00a7 1094; Scannell v. Wolff, 86 Cal.App.2d 489, 491-492 [195 P.2d 536].) The demurrer was overruled and the court ordered a peremptory writ to issue. From the judgment accordingly entered, defendants appeal.\nPlaintiff\u2019s claim was rejected by the clerk on the ground that it appeared to be based on an assignment. Section 117f of the Code of Civil Procedure provides that \u2018 \u2018 No claim shall be filed or prosecuted in such small claims court by the assignee of such claim.\u201d An analysis of the two papers constituting plaintiff\u2019s claim\u2014attached to the petition for a writ of mandate and designated Exhibits A and B\u2014sustains the propriety of the clerk\u2019s action.\nExhibit A is on the form provided by the clerk for the use of claimants, consisting of a completed questionnaire and an affidavit and order as prescribed by section 117b of the Code of Civil Procedure. It thereby appears that Mrs. Wilma Bradford, defendant, is indebted to plaintiff, Merchants Service Company, in the sum of $14.13 for money due under a written contract; that a demand was made and refused and nothing paid; and the residence of defendant and the place of business of plaintiff are given.\nExhibit B is the \u201cwritten contract\u201d to which reference is made in Exhibit A. It consists of a printed form containing questions calling for information respecting the financial responsibility and resources of a prospective customer. Below this form it appears that the subject of sale was a \u201cladies ring\u201d for the price of $12.50 plus 38 cents sales tax and \u201cService and/or Excise Taxes\u201d $1.25, total $14.13; and that the sale was on \u201cBudget Account Terms $1.00 each week Beginning January 17, 1948.\u201d Printed on the reverse side is the purchaser\u2019s agreement, signed by Mrs. Bradford, acknowledging \u201creceipt ... of [the] merchandise . . . described . . ., for which payment is to be made to the Merchants Sendee Company, . . . called Creditor, in the sum there specified on the terms set forth.\u201d This agreement is reproduced in full below, omitting a form to be executed by cosigners or guarantors and which was not executed.\nImmediately following and as a part of the same printed document appears a formal statement signed by Sol Michaels, showing Mm to \u201crelinquish, disclaim, and quitclaim any right, title or interest in and to the merchandise or demands therein described unto Merchants Service Company\u201d and to \u201cguarantee\u201d the validity of \u201cthe above contract.\u201d This agreement by Michaels is likewise reproduced in full below.\nFrom these \u201cpapers\u201d it is apparent that Mrs. Bradford purchased a ring from the seller, Sol Michaels, and that she was obligated to malte \u201cpayment\u201d therefor \u201cto the Merchants Service Company.\u201d Such transaction, plaintiff maintains, evidences a contract of sale for its express benefit (Civ. Code, \u00a7 1559; Hartman Ranch Co. v. Associated Oil Co., 10 Cal.2d 232, 244 [73 P.2d 1163]), an original obligation in its favor (J. F. Hall-Martin Co. v. Hughes, 18 Cal.App. 513, 516 [123 P. 617]), which it, as the primary creditor of the purchaser, was trying to enforce directly in the court having jurisdiction of its claim as so limited in amount (Code Civ. Proc., \u00a7117). But such argument gives effect only to part one of Exhibit B above quoted, the agreement signed by Mrs. Bradford and establishing a debtor-creditor relationship between her and plaintiff; and it disregards the purport of part two of Exhibit B above quoted, the relinquishment signed by Sol Michaels, the merchant, as a factor affecting the three-party undertaking and indicating the derivative basis of plaintiff\u2019s claim against the purchaser. A consideration of the two parts of the agreement together compels the conclusion that plaintiff\u2019s status is that of an assignee rather than that of the ordinary third party beneficiary, and that its claim is therefore not cognizable in the small claims court. (Schwartz, Inc. v. Burnett Pharmacy, 112 Cal.App. Supp. 781, 785 [295 P. 508].)\nThe writing signed by Michaels shows on its face that he was the original claimant against the purchaser by reason of his sale and delivery of the ring to her. It was only by reason of his relinquishment of his right to make a demand upon her for the purchase price that plaintiff\u2019s corresponding right against her arose, and so plaintiff was substituted for the normal creditor, the seller, in the transaction. Thus the writing executed by Michaels speaks in the past tense of \u201cdemands therein described\u201d which are relinquished and quit-claimed, and it shows that the contract of sale had been consummated, for Michaels guaranteed that \u201cthe above contract (part one of Exhibit B, supra) is a valid, bona fide and subsisting agreement\u201d (emphasis added), and that the merchandise sold had been delivered. The \u201cdemands therein described\u201d constitute a chose in action, consisting of the right to receive from the buyer the deferred payments of the purchase price which became owing to the seller, Michaels, as soon as he delivered the ring. Such transfer of rights in connection with property ordinarily indicates an assignment (4 Am.Jur. \u00a7 2, p. 229; Estate of Beffa, 54 Cal.App. 186, 189 [201 P. 616]; see, also, Commercial Discount Co. v. Cowen, 18 Cal.2d 610, 614 [116 P.2d 599]), and the studious avoidance of the word \u201cassign\u201d in the language of the relinquishment cannot affect its proper classification as an assignment. Moreover, Michaels \u2019 guarantees as to (1) the validity of the \u201csubsisting\u201d contract for payment of the purchase price and (2) the genuineness of \u201call signatures appearing thereon\u201d are warranties that are typical of those which ordinarily accompany an assignment. (See 4 Am.Jur. \u00a7 100, pp. 308-309.)\nWhile the writing signed by the purchaser (part one of Exhibit B, supra) shows a debtor-creditor relationship existing between her and Merchants Service Company, the same relationship must first have existed between her and the seller Michaels, for otherwise Michaels had no 1 \u2018 demands \u2019 \u2019 to relinquish. In short, the significant events in the three-party transaction clearly appear to have transpired in this sequence: (1) the purchaser\u2019s obligation to pay arose immediately upon delivery of the ring; (2) the ring had been delivered before Michaels signed the relinquishment; and (3) the debtor-creditor relationship between the purchaser and Merchants Service Company as evidenced in the writing over the buyer\u2019s signature (part one of Exhibit B, supra) came into being only because Michaels relinquished to the company the purchaser\u2019s obligation to pay him as seller of the ring. By signing the relinquishment, Michaels extinguished his right to sue for collection of the purchase price and this right was transferred to the company, so that it thereafter stood in the place of Michaels. While plaintiff urges that the purchaser\u2019s original promise of payment ran in its favor, creating a primary obligation which could not be affected by Michaels\u2019 undertaking, such argument necessarily involves treatment of the two parts of the agreement covering the sale of the ring (Exhibit B, supra) as separate writings, having no bearing one on the other. However, that view cannot prevail, for the \u201cpapers\u201d constituting the record here show this to be one entire transaction, and the three-party dealings evidenced thereby must be construed as a whole and given a normal interpretation consistent with their purport. (Civ. Code, \u00a7 1641; 6 Cal.Jur. \u00a7 165, p. 258.) As the two parts of this single transaction are so related and integrated one with the other, plaintiff\u2019s right to sue on the claim in question appears clearly to have accrued only as the result of Michaels\u2019 assignment thereof upon con smnmating the sale and delivery of the ring to the purchaser.\nSection 117f of the Code of Civil Procedure, supra, does not confine its prohibition, in use of the small claims court, to assignees for collection or assignees for the purposes of suit. Bather it prohibits the filing of a claim by any and every \u201cassignee\u201d; and as so used without limitation, the word suggests a broad meaning was intended to attach thereto and to include anyone who stands in the place of the original creditor. So here, any realistic appraisal of the substance of the three-party transaction (Civ. Code, \u00a7 3528) shows that Michaels by his \u201crelinquishment\u201d thereby made to Merchants Service Company a present assignment of his claim against the purchaser arising out of his sale and delivery of the ring to her, a type of transaction coming within the express terms of section 117f of the Code of Civil Procedure; and the clerk of the small claims court was therefore justified in refusing to file plaintiff\u2019s claim.\nThe judgment is reversed.\nGibson, C. J., Shenk, J., Edmonds, J., Carter, J., Traynor, J., and Schauer, J., concurred.\n\u201cThe undersigned hereby acknowledges receipt from the concern named of merchandise and/or services described on reverse side, for which payment is to be made to the Merchants Service Company, hereinafter called Creditor, in the sum there specified on the terms set forth. Eeceipt of said merchandise in good order, satisfactory fit and construction in every detail is hereby acknowledged by the undersigned.\n\u201cIf any representation herein made by the Undersigned is false or if the Undersigned defaults in any payment or violates any of the conditions of this agreement, the unpaid balance hereunder shall immediately become due at the option of the creditor.\n\u201cShould Creditor institute action to recover the purchase price or any part of it, the title and right of possession of any merchandise referred to shall remain in the Creditor until paid for, with the right of repossession before or after judgment rendered, until satisfaction of such judgment. The Undersigned agrees to return the merchandise purchased and referred to on demand should the Undersigned be in default in any payments or have made any material misstatement in connection herewith, and agrees to pay the Creditor a reasonable amount for any actual damage suffered thereby. Should this contract be placed in the hands of an attorney or collection agency for collection or breach of contract, the Undersigned agrees to pay all actual court costs, collection expense including collection agency fee and attorney fees incurred, with or without suit.\n\u201cThe Undersigned agrees to make all payments under this contract at the office of the Merchants Service Company. In the event of default by Undersigned in any of the obligations herein, Creditor may, without notice of demand, enter any premises where said merchandise may be found and take possession thereof and at its option sell said merchandise at public or private sale, and the proceeds thereof, less the expense of repossessing and selling said merchandise, shall be credited upon the amount unpaid hereunder, or without such sale there may be credited upon the amount unpaid the fair market value of said merchandise at the time of such repossession, and in either event, in consideration of the use and depreciation of said merchandise, Undersigned agrees to pay forthwith any remaining unpaid balance hereunder. In no event shall Creditor be entitled to receive in excess of the original purchase price unless Creditor elects to reclaim the merchandise, in which event Undersigned shall be released from all further liability.\n\u201cThe Undersigned hereby agrees that the period of the running of the statute of limitations on the within account will be extended ten (10) years from date hereof.\n\u201cThe undersigned agrees to insure said chattels against loss by fire, theft, damage and mysterious disappearance in favor of the Creditor or its assignee and furnish Creditor or its assignee with a copy of the insurance policy. Should the Undersigned fail to furnish the Creditor or its assignee with a copy of its insurance policy, the Creditor or its assignee may insure the above described chattels at the expense of the Undersigned and the Undersigned agrees to pay the premium on said policy within thirty (30) days after demand thereof.\n\u201cThe Undersigned hereby waives all right for a change of venue and expressly consents to any suit for collection being filed in San Francisco. Time is of the essence of this agreement.\n\u201cThis contract may be assigned or sold and all rights and conditions of the Creditor or assignor shall inure to the benefit of the purchaser or assignee.\nDated Jan 10, 1948\nSigned: Mrs. Wilma Bradford\n(Buyer)\"\n\u201cWe hereby relinquish, disclaim, and quitclaim any right, title, or interest in and to the merchandise or demands therein described unto Merchants Service Company. We guarantee that the above contract is a valid, bona fide and subsisting agreement; that all laws have been complied with; and that all signatures appearing thereon are genuine and are of the persons of whom they purport to be and that such persons are competent to make this contract. It is specifically represented that no part of this contract arose out of any delinquent account previously on our books; that all merchandise as set forth thereon as having been sold has been delivered to the Debtor; and/or that all services agreed to be performed have been rendered and completed to the personal satisfaction of the Debtor, after which I/we shall not be responsible for the payments on this contract. The debtor is not obligated to us or our assignee on prior purchases. Additional credit will not be granted to any Debtor until the balance on a prior contract has been paid in full or unless such additional credit has previously been approved by Merchants Service Company. Should we violate this provision Merchants Service Company may elect to require us and we hereby agree to pay to Merchants Service Company any balance due it from the Debtor on a prior contract or Merchants Service Company may elect to collect and retain the entire balance due from the Debtor including the amount due from the Debtor of such unauthorized sale. We agree to act as agent to collect the money due on this contract until notified to the contrary by Merchants Service Company, and we shall immediately remit same to Merchants Service Company, and prior to such remittance shall hold such collection and/or deposit same in a place of or account separate and distinct from collections and/or funds of our own, and such receipt and/or collections shall be and remain the property of said Merchants Service Company. Merchants Service Company by, or through its agent, shall have a right to examine my and/or our books of account at any reasonable time.\n(Firm Name) Sol Michaels\n915 Pierce St. \u2019 \u2019",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "[S. F. No. 18069.\nIn Bank.\nApr. 12, 1950.]\nMERCHANTS SERVICE COMPANY (a Corporation), Respondent, v. THE SMALL CLAIMS COURT OF THE CITY AND COUNTY OF SAN FRANCISCO et al., Appellants.\nFred N. Howser, Attorney General, Clarence A. Linn and B. Abbott Goldberg, Deputy Attorneys General, John J. O\u2019Toole and Dion R. Holm, City Attorneys, and C. Wesley Davis, Deputy City Attorney, for Appellants.\nJohn H. Brill for Respondent."
+                }
+            }
+        },
+        {
+            "id": 12131147,
+            "url": "https://api.case.law/v1/cases/12131147/",
+            "name": "PAT P. MENDOZA, Respondent, v. SMALL CLAIMS COURT OF LOS ANGELES JUDICIAL DISTRICT, Appellant; MARY ARIZA, Real Party in Interest",
+            "name_abbreviation": "Mendoza v. Small Claims Court of Los Angeles Judicial District",
+            "decision_date": "1958-01-28",
+            "docket_number": "L. A. No. 24776",
+            "first_page": "668",
+            "last_page": "674",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "49 Cal. 2d 668"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/NOTALEPH001840/",
+                "volume_number": "49",
+                "barcode": "NOTALEPH001840"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/417/",
+                "full_name": "California Reports",
+                "id": 417
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/cal-1/",
+                "name_abbreviation": "Cal.",
+                "slug": "cal-1",
+                "id": 9021,
+                "name": "Supreme Court of California"
+            },
+            "jurisdiction": {
+                "id": 30,
+                "name_long": "California",
+                "url": "https://api.case.law/v1/jurisdictions/cal/",
+                "slug": "cal",
+                "whitelisted": false,
+                "name": "Cal."
+            },
+            "cites_to": [
+                {
+                    "cite": "171 P.2d 885",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "28 Cal.2d 536",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2209242
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "555"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "172 P.2d 867",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "29 Cal.2d 34",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2211121
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "47-48"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 A.L.R. 820",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "173 P.2d 38",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Cal.App.2d 379",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        4476357
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "381-382"
+                        },
+                        {
+                            "page": "382"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "66 F.2d 874",
+                    "category": "reporters:federal",
+                    "reporter": "F.2d",
+                    "case_ids": [
+                        895240
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "876"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "160 P.2d 816",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "26 Cal.2d 716",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        2168463
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "727"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "267 U.S. 517",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        6143413
+                    ],
+                    "weight": 3,
+                    "pin_cites": [
+                        {
+                            "page": "537"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "84 A.L.R. 527",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "287 U.S. 45",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        369864
+                    ],
+                    "weight": 4,
+                    "pin_cites": [
+                        {
+                            "page": "68-70"
+                        },
+                        {
+                            "page": "68-69"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "99 L.Ed. 4",
+                    "category": "reporters:federal",
+                    "reporter": "L. Ed.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "348 U.S. 3",
+                    "category": "reporters:federal",
+                    "reporter": "U.S.",
+                    "case_ids": [
+                        6930519
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "9-10"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "29 L.R.A. 386",
+                    "category": "reporters:federal",
+                    "reporter": "L.R.A.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "41 N.E. 263",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.",
+                    "pin_cites": [
+                        {
+                            "page": "265"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 Ohio St. 12",
+                    "category": "reporters:state",
+                    "reporter": "Ohio St.",
+                    "case_ids": [
+                        936029
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "295 P.2d 4",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "140 Cal.App.2d 133",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2174280
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "136-137"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "10 L.R.A. 627",
+                    "category": "reporters:federal",
+                    "reporter": "L.R.A.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "18 Am.St.Rep. 192",
+                    "category": "reporters:state",
+                    "reporter": "Am. St. Rep.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "24 P. 121",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "84 Cal. 327",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        1949004
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "400-401"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "39 L.R.A. 691",
+                    "category": "reporters:federal",
+                    "reporter": "L.R.A.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "51 P. 696",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "119 Cal. 413",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        1971566
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "418-421"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "212 P.2d 965",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "95 Cal.App.2d 220",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2257255
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "235-237"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "289 P.2d 233",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "45 Cal.2d 395",
+                    "category": "reporters:state",
+                    "reporter": "Cal. 2d",
+                    "case_ids": [
+                        4391297
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "401"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "63 P.2d 1184",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "18 Cal.App.2d 340",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2278896
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "349"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 P. 515",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "71 Cal. 535",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        4380112
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "536"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "15 P. 362",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "73 Cal. 639",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2332962
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "640-641"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "67 P. 1048",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "135 Cal. 660",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2026110
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "661-662"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "72 P. 922",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "139 Cal. 140",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2054947
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "143"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "90 P. 187",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "151 Cal. 96",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2085391
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "97"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "160 P. 1066",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "173 Cal. 612",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2039011
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "617"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "108 P. 56",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "case_ids": [
+                        4452156
+                    ],
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 Cal.App. 582",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App.",
+                    "case_ids": [
+                        4571080
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "584"
+                        },
+                        {
+                            "page": "587"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "117 P. 553",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "160 Cal. 530",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        1992649
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "532"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "15 Ohio St. 377",
+                    "category": "reporters:state",
+                    "reporter": "Ohio St.",
+                    "case_ids": [
+                        524537
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "379, 381"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "31 N.M. 576",
+                    "category": "reporters:state",
+                    "reporter": "N.M.",
+                    "case_ids": [
+                        1551453
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "248"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "127 Am.St.Rep. 478",
+                    "category": "reporters:state",
+                    "reporter": "Am. St. Rep.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "85 N.E. 410",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.",
+                    "pin_cites": [
+                        {
+                            "page": "412"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "199 Mass. 190",
+                    "category": "reporters:state",
+                    "reporter": "Mass.",
+                    "case_ids": [
+                        3497043
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "18 So. 767",
+                    "category": "reporters:state_regional",
+                    "reporter": "So.",
+                    "pin_cites": [
+                        {
+                            "page": "768"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "36 Fla. 358",
+                    "category": "reporters:state",
+                    "reporter": "Fla.",
+                    "case_ids": [
+                        1083515
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "107 Fla. 20",
+                    "category": "reporters:state",
+                    "reporter": "Fla.",
+                    "case_ids": [
+                        1228795
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "317"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "17 Cal. 547",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2299313
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "551"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "5 P.2d 585",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "214 Cal. 308",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2235683
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "316-317"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "12 A.L.R. 1190",
+                    "category": "reporters:specialty",
+                    "reporter": "A.L.R.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "192 P. 1021",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "184 Cal. 26",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2130773
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "31-34"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "294 P. 3",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "211 Cal. 121",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2147183
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "128"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "296 P. 1084",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "211 Cal. 635",
+                    "category": "reporters:state",
+                    "reporter": "Cal.",
+                    "case_ids": [
+                        2147193
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "644"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "216 P.2d 882",
+                    "category": "reporters:state_regional",
+                    "reporter": "P.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "96 Cal.App.2d 876",
+                    "category": "reporters:state",
+                    "reporter": "Cal. App. 2d",
+                    "case_ids": [
+                        2259598
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "907"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/cal-2d/49/668/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/12131147/Mendoza%20v.%20Small%20Claims%20Court%20of%20Los%20Angeles%20Judicial%20District,%2049%20Cal.%202d%20668%20(1958).pdf",
+            "preview": [
+                "hundred dollars ($100), except that a municipal court judge sitting as a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court shall also",
+                "Proc., \u00a7 117g) and a stay of proceedings pending appeal is discretionary with the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court",
+                "Sections 978 and 979, however, which govern appeals from justice courts and from <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> courts,",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court, 76 Cal.App.2d 379, 381-382 [173 P.2d 38, 167 A.L.R. 820].)",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Court, supra, 76 Cal.App.2d at 382, upholding the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court act, it was stated:",
+                "<em class='search_highlight'>SMALL</em> <em class='search_highlight'>CLAIMS</em> COURT OF LOS ANGELES JUDICIAL DISTRICT, Appellant; MARY ARIZA, Real Party in Interest."
+            ],
+            "analysis": {
+                "word_count": 2180,
+                "random_bucket": 51526,
+                "sha256": "2f0c5b2d7afbf7cf574e4a018b2ab04f602c6d96bf6dced856174eb912d86d0d",
+                "ocr_confidence": 0.672,
+                "char_count": 12667,
+                "random_id": 1566034246,
+                "pagerank": {
+                    "percentile": 0.92008733965748,
+                    "raw": 4.4584803510651524e-07
+                },
+                "cardinality": 767,
+                "simhash": "1:587bc6a343883d7f"
+            },
+            "last_updated": "2021-08-10T18:21:04.988726+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "PAT P. MENDOZA, Respondent, v. SMALL CLAIMS COURT OF LOS ANGELES JUDICIAL DISTRICT, Appellant; MARY ARIZA, Real Party in Interest."
+                    ],
+                    "attorneys": [
+                        "Harold W. Kennedy, County Counsel, and William E. Lamoreaux, Assistant County Counsel, for Appellant.",
+                        "Ardy V. Barton for Respondent."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "TRAYNOR, J.",
+                            "text": "TRAYNOR, J.\nIn November, 1955, plaintiff brought a proceeding in unlawful detainer for default of rent in defendant small claims court. On December 6, 1955, the court dismissed the action upon its own motion on the ground that the 1955 amendment to section 117 of the Code of Civil Procedure, upon which its jurisdiction was predicated, was unconstitutional. From a judgment of the superior court that a writ of mandate issue compelling defendant to entertain the proceeding, defendant appeals.\nSection 117 of the Code of Civil Procedure gives justice court and municipal court judges jurisdiction to sit as small claims courts in cases for the \u201crecovery of money only where the amount claimed does not exceed one hundred dollars ($100), except that a municipal court judge sitting as a small claims court shall also have jurisdiction in proceedings in unlawful detainer after default in rent for residential property where the term of tenancy is not greater than month to month, and where the whole amount claimed is one hundred dollars ($100) or less\u201d (Italics added.) The unlawful de- tainer provision was added in 1955. The jurisdictional amounts were increased to one hundred fifty dollars in 1957.\nThe first issue to be decided is whether defendant court can question the constitutionality of the statute. Plaintiff contends that defendant is not a member of a class whose rights are invaded by the statute and invokes the general rule that only such a member may question its constitutionality. (California State Automobile Ass\u2019n Inter-Insurance Bureau v. Downey, 96 Cal.App.2d 876, 907 [216 P.2d 882].) The rule invoked by plaintiff is not absolute or all inclusive. (Pacific Indemnity Co. v. Myers, 211 Cal. 635, 644 [296 P. 1084]; People v. Globe Grain & Mill. Co., 211 Cal. 121, 128 [294 P. 3]; Quong Ham Wah Co. v. Industrial Acc. Com., 184 Cal. 26, 31-34 [192 P. 1021, 12 A.L.R. 1190]; see Golden Gate Bridge etc. Dist. v. Felt, 214 Cal. 308, 316-317 [5 P.2d 585].) Nor does it preclude a court from inquiring into its own jurisdiction or compel it to enter a judgment that it lacks jurisdiction to enter. If a statute on which a court\u2019s jurisdiction in a proceeding depends is unconstitutional, the court has no jurisdiction in the proceeding, and since it may determine whether or not it has jurisdiction, it necessarily follows that it may inquire into the constitutionality of the statute (People ex rel. Smith v. Judge of the Twelfth District, 17 Cal. 547, 551; State ex rel. Coarsey v. Harrison, 107 Fla. 20 [144 So. 316, 317]; State ex rel. Turner v. Hocker, Circuit Judge, 36 Fla. 358 [18 So. 767, 768]; New York Life Ins. Co. v. Hardison, 199 Mass. 190 [85 N.E. 410, 412, 127 Am.St.Rep. 478]; State ex rel. Burg v. City of Albuquerque, 31 N.M. 576 [249 P. 242, 248]; State ex rel. Tod v. Court of Common Pleas of Fairfield County, 15 Ohio St. 377, 379, 381) and appeal from a judgment compelling it to proceed. (Simpson v. Police Court of Riverside, 160 Cal. 530, 532 [117 P. 553]; Modern Loan Co. v. Police Court, 12 Cal.App. 582, 584 [108 P. 56].)\nOne of the alleged grounds of unconstitutionality of the amendment to section 117 of the Code of Civil Procedure is that it deprives a defendant of due process of law in that he may be deprived of possession of his residence without ever having had a hearing with the right to be represented by counsel, since he has no right to counsel in a small claims court (Code Civ. Proc., \u00a7 117g) and a stay of proceedings pending appeal is discretionary with the small claims court even though an appeal bond is filed. (Code Civ. Proc., \u00a7 1176.) Plaintiff contends, however, that there is an automatic stay on appeal when a proper undertaking is filed (citing sections 117j, 978, and 979 of the Code of Civil Pro cedure) and that on appeal the defendant will have a trial de novo in the superior court with the right to be represented by counsel. (Code Civ. Proc., \u00a7 976.) Sections 978 and 979, however, which govern appeals from justice courts and from small claims courts, as provided in section 117j, are essentially similar to sections 945 and 946, which govern appeals from superior courts. It has been held in numerous cases that in unlawful detainer actions sections 945 and 946 are subject to section 1176, which provides that a stay of proceedings on appeal is discretionary with the trial judge. The reasoning in those cases also applies to sections 978 and 979. (Jameson v. Chanslor-Canfield Midway Oil Co., 173 Cal. 612, 617 [160 P. 1066]; Sarthou v. Reese, 151 Cal. 96, 97 [90 P. 187]; Bateman v. Superior Court, 139 Cal. 140, 143 [72 P. 922]; Cluness v. Bowen, 135 Cal. 660, 661-662 [67 P. 1048]; Gross v. Kelleher, 73 Cal. 639, 640-641 [15 P. 362]; McDonald v. Hanlon, 71 Cal. 535, 536 [12 P. 515]; Woods-Drury, Inc. v. Superior Court, 18 Cal.App.2d 340, 349 [63 P.2d 1184]; see Code Civ. Proc., \u00a7 1174; 3 Cal.Jur.2d, p. 702; 3 Witkin, California Procedure, pp. 2197, 2198; Hunt, Manual of Unlawful Detailer Law in Calif., pp. 132-133.) Moreover, the Legislature has specifically precluded the application of section 979 to stay proceedings in unlawful detainer actions. The 1955 amendment to section 117ha of the Code of Civil Procedure added the words \u201cand the judgment may be enforced in the manner provided in section 1174 of the Code of Civil Procedure of the State of California.\u201d The applicable part of section 1174 provides that under certain limited circumstances the court may, within its discretion, permit the tenant to be restored to his estate upon payment. In all other eases the judgment may be enforced immediately and there is no provision for an automatic stay on appeal. Section 1176, which is complementary to section 1174, provides: \u201cAn appeal by the defendant shall not stay proceedings upon the judgment unless the judge before whom the same was rendered so directs.\u201d Section 1178 provides that the unlawful detainer sections are controlling over \u201cPart 2\u201d of the Code of Civil Procedure. Part 2 includes section 979 and the sections relating to appeals from justice courts.\nUnder the foregoing statutes a stay of proceedings on a judgment in unlawful detainer by the small claims court is discretionary with that court, and there is no automatic stay of proceedings whether or not an undertaking is filed.\nWhen public necessity demands, there may be action followed by a hearing. (Financial Indemnity Co. v. Superior Court, 45 Cal.2d 395, 401 [289 P.2d 233]; Rhode Island Ins. Co. v. Downey, 95 Cal.App.2d 220, 235-237 [212 P.2d 965].) Otherwise due process requires that no person shall be deprived of a substantial right without notice and hearing. (McClatchy v. Superior Court, 119 Cal. 413, 418-421 [51 P. 696, 39 L.R.A. 691]; Havemeyer v. Superior Court, 84 Cal. 327, 400-401 [24 P. 121, 18 Am.St.Rep. 192, 10 L.R.A. 627]; People v. Lawrence, 140 Cal.App.2d 133, 136-137 [295 P.2d 4].) Public necessity does not demand action before hearing in this proceeding by a landlord to regain possession of leased premises. Nor can there be any doubt that possession *of a tenant is a substantial right. \u201cThe right to retain property already in possession is as sacred as the right to recover it, when dispossessed.\u201d (Hocking Valley Coal Co. v. Rosser, 53 Ohio St. 12 [41 N.E. 263, 265, 29 L.R.A. 386].) In Modern Loan Co. v. Police Court, 12 Cal.App. 582, 587 [108 P. 56], it was conceded that the person from whom personal property was taken could immediately maintain an action of claim and delivery, but the statute was nevertheless held unconstitutional. \u201cThis statute, however, does at least purport to authorize the magistrate to determine the right of actual possession of the property, and actual possession is a most valued right and is an essential part of property, and no one, consistent with constitutional safeguards, can be deprived of the possession or title to property, or any other substantial right, without reasonable notice and opportunity to be heard.\u2019\u2019\nThe right to a hearing includes the right to appear by counsel. (Chandler v. Fretag, 348 U.S. 3, 9-10 [75 S.Ct. 1, 99 L.Ed. 4]; Powell v. Alabama, 287 U.S. 45, 68-70 [53 S.Ct. 55, 77 L.Ed. 158, 84 A.L.R. 527]; Cooke v. United States, 267 U.S. 517, 537 [45 S.Ct. 390, 69 L.Ed. 767]; Steen v. Board of Civil Service Commrs., 26 Cal.2d 716, 727 [160 P.2d 816]; Roberts v. Anderson, 66 F.2d 874, 876; Prudential Ins. Co. v. Small Claims Court, 76 Cal.App.2d 379, 381-382 [173 P.2d 38, 167 A.L.R. 820].) In its consideration of the right to counsel in Powell v. Alabama, supra, 287 U.S. at 68-69, the United States Supreme Court declared: \u201cWhat, then does a hearing include ? Historically and in practice, in our country at least, it has always included the right to the aid of counsel when desired and provided by the party asserting the right. The right to be heard would be, in many cases, of little avail if it did not comprehend the right to be heard by counsel. Even the intelligent and educated layman has small and sometimes no skill in the science of law ... If in any case, civil or criminal, a state or federal court were arbitrarily to refuse to hear a party by counsel, employed by and appearing for him, it reasonably may not be doubted that such a refusal would be a denial of a hearing, and, therefore, of due process in the constitutional sense.\u201d\nIn Prudential Ins. Co. v. Small Claims Court, supra, 76 Cal.App.2d at 382, upholding the small claims court act, it was stated: \u201c It is urged that depriving a litigant of the right of counsel is a violation of due process. There can be little doubt but that in both civil and criminal cases the right to a hearing includes the right to appear by counsel, and that the arbitrary refusal of such right constitutes a deprivation of due process.\u201d The requirements of due process were met, however, since a plaintiff need not elect to sue in a small claims court and a defendant has a right to appeal to the superior court where he may have a trial de novo and be represented by counsel and the automatic stay precludes a deprivation of property until the appeal is determined. (Code Civ. Proc., \u00a7\u00a7 117j, 978, 979.) In the present case the right to counsel on appeal cannot save the amendment, for there is no automatic stay and the defendant may be dispossessed prior to the trial de novo. (Code Civ. Proc., \u00a7 1176.)\nThe 1955 amendment to section 117 of the Code of Civil Procedure is therefore void insofar as it purports to give jurisdiction to small claims courts in unlawful detainer proceedings. The invalidity of this amendment does not invalidate the entire section. (Speegle v. Board of Fire Underwriters, 29 Cal.2d 34, 47-48 [172 P.2d 867]; Danskin v. San Diego Unified School Dist., 28 Cal.2d 536, 555 [171 P.2d 885].)\nThe judgment is reversed.\nGibson, C. J., Shenk, J., Carter, J., Schauer, J., Spence, J., and McComb, J., concurred.\nRespondent\u2019s petition for a rehearing was denied February 26, 1958.\nThe applicable part of section 1174 reads as follows:\n\u201cWhen the proceeding is for unlawful detainer after default in the payment of rent, and the lease or agreement under which the rent is payable has not by its terms expired, and the notice required by Section 1161 has not stated the election of the landlord to declare the forfeiture thereof, the court may . . . order that execution upon the judgment shall not be issued until the expiration of five days after the entry of judgment, within which time the tenant, or any subtenant, or any mortgagee of the term, or any other party interested in its continuance, may pay into the court, for the landlord, the amount found due as rent, with interest thereon, and the amount of the damages found by the jury or the court for the unlawful detainer, and the costs of the pro eeedings, and thereupon the judgment shall be satisfied and the tenant be restored to his estate.\n\u201cBut if payment as here provided be not made within five days, the judgment may be enforced for its full amount, and for the possession of the premises. In all other cases the judgment may be enforced immediately.\u2019\u2019\n\u201cThe provisions of Part 2 of this code, relative to new trials and appeals, except insofar as they are inconsistent with the provisions of this chapter or with rules adopted by the Judicial Council apply to the proceedings mentioned in this chapter.\u201d (Code Civ. Proc., $ 1178.)",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [
+                        "Gibson, C. J., Shenk, J., Carter, J., Schauer, J., Spence, J., and McComb, J., concurred."
+                    ],
+                    "head_matter": "[L. A. No. 24776.\nIn Bank.\nJan. 28, 1958.]\nPAT P. MENDOZA, Respondent, v. SMALL CLAIMS COURT OF LOS ANGELES JUDICIAL DISTRICT, Appellant; MARY ARIZA, Real Party in Interest.\nHarold W. Kennedy, County Counsel, and William E. Lamoreaux, Assistant County Counsel, for Appellant.\nArdy V. Barton for Respondent."
+                }
+            }
+        }
+    ]
+}

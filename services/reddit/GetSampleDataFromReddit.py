@@ -24,16 +24,16 @@ if __name__ == "__main__":
 
 
     CLIENT_ID  = Utils.getTokenFromJsonFile(
-        SERVICE_TYPE,
-        TOKEN_TYPE,
-        'client_id'
+        serviceType=SERVICE_TYPE,
+        tokenKey='client_id',
+        tokenType=TOKEN_TYPE
     )
     #logging.info("CLIENT_ID = " + CLIENT_ID)
 
     SECRET_TOKEN = Utils.getTokenFromJsonFile(
-        SERVICE_TYPE,
-        TOKEN_TYPE,
-        'secret'
+        serviceType=SERVICE_TYPE,
+        tokenKey='secret',
+        tokenType=TOKEN_TYPE
     )
     #logging.info("SECRET_TOKEN = " + SECRET_TOKEN)
 
@@ -117,3 +117,8 @@ if __name__ == "__main__":
     # TODO add error handling
     response2JsonObj = response2.json()
     logging.info("reddit JSON = " + json.dumps(response2JsonObj))
+
+
+
+
+
