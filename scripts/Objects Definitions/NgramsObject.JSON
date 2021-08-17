@@ -1,0 +1,17 @@
+Ngrams Object
+
+    (search term): {
+        (string jurisdiction)/"total": [
+            {
+                "year": (string),
+                "count": [
+                    (int),
+                    (int)
+                ],
+                "doc_count": [
+                    (int),
+                    (int)
+                ]
+            }
+        ]
+    }

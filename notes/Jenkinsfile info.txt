@@ -1,0 +1,156 @@
+//CODE_CHANGES = getGitCodeChanges()
+
+pipeline {
+
+    agent any
+
+    environment {
+        VERSION = '1.2'
+        SERVER_CREDENTIALS = credentials('CREDS_KEY')
+
+    }
+    
+    stages {
+        stage('build') {
+            steps {
+                echo 'building step'
+                echo "building version ${VERSION}"
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'testing step'
+            }
+        }
+        stage('deploy') {
+            when{
+                expression {
+                    (env.BRANCH_NAME == 'dev' || env.BRANCH_NAME == 'master') && CODE_CHANGES
+                }
+            }
+
+            withCredentials([
+                usernamePassword(
+                    credentials:'CREDS_KEY',
+                    usernameVar: USER,
+                    passwordVar: PW
+
+                )
+            ]){
+                sh "some script ${USER} ${PW}"
+            }
+
+            steps {
+                echo 'deploying step'
+            }
+        }
+    }
+
+    post {
+        always{
+
+        }
+        success{
+
+        }
+        failure{
+
+        }
+    }
+
+}
+
+
+
+--
+
+// Jenkinsfile
+// https://www.jenkins.io/doc/pipeline/tour/hello-world/
+
+pipeline {
+
+    agent { docker { image 'python:3.8.1' } }
+
+    environment {
+        VERSION = '1.2'
+    }
+
+    stages {
+        stage('build') {
+            steps {
+                echo 'building step'
+                echo "building version ${VERSION}"
+                sh 'python --version'
+            }
+        }
+        stage('test') {
+            steps {
+                echo 'testing step'
+            }
+        }
+        stage('deploy') {
+            when{
+                expression {
+                    (env.BRANCH_NAME == 'dev' || env.BRANCH_NAME == 'master')
+                }
+            }
+            steps {
+                echo 'deploying step'
+            }
+        }
+    }
+
+    post {
+        always{
+            echo 'in post block - always'
+        }
+        success{
+            echo 'in post block - success'
+        }
+        failure{
+            echo 'in post block - failure'
+        }
+    }
+
+}
+
+--
+
+
+pipeline {
+    agent { docker { image 'python:3.8.1' } }
+
+
+
+
+    stages {
+
+        stage('Initialize'){
+            def dockerHome = tool 'myDocker'
+            env.PATH = "${dockerHome}/bin:${env.PATH}"
+        }
+
+        stage('build') {
+            steps {
+                echo 'building stage...'
+                sh 'python --version'
+            }
+        }
+
+    }
+
+}
+
+
+i got past some of that... and then in one setup, I got jenkins to understand python.  but inside my py script, I imported Request.  and jenkins/python doesn't know that too...
+
+
+/Library/Frameworks/Python.framework/Versions/3.8/bin/python3.8
+
+sh "export WORKSPACE='pwd'"
+sh 'virtualenv testenv -p /usr/bin/python3'
+sh 'source testenv/bin/activate'
+
+
+
+export PYTHONPATH=$WORKSPACE:$PYTHONPATH

@@ -1,0 +1,1026 @@
+{
+    "count": 62228,
+    "next": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguOTAyMTYxLCAzNTU0OTM0XX0%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "previous": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzkuMTE4OTcyLCA1MzA3MzQ5XSwgInIiOiAxfQ%3D%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "results": [
+        {
+            "id": 5307349,
+            "url": "https://api.case.law/v1/cases/5307349/",
+            "name": "Consol Builders & Supply Co., Inc., Plaintiff-Appellant, v. Allen Ebens et al., Defendants-Appellees",
+            "name_abbreviation": "Consol Builders & Supply Co. v. Ebens",
+            "decision_date": "1975-01-20",
+            "docket_number": "No. 74-20",
+            "first_page": "988",
+            "last_page": "992",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "24 Ill. App. 3d 988"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078692829/",
+                "volume_number": "24",
+                "barcode": "32044078692829"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "35 N.E.2d 433",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "310 Ill.App. 673",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App.",
+                    "case_ids": [
+                        3377287
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "14 Ill.App.2d 5",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        5172966
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "22"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "50 Ill.App.2d 344",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        5275807
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "347"
+                        },
+                        {
+                            "page": "347"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/24/988/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/5307349/Consol%20Builders%20&%20Supply%20Co.%20v.%20Ebens,%2024%20Ill.%20App.%203d%20988%20(1975).pdf",
+            "preview": [
+                "Although it was apparent that the suit was for the \u201cextras\u201d involved in the construction the <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em>",
+                "At the time of the hearing on the <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> case the plaintiff was represented by an attorney, and",
+                "Defendants filed a motion to dismiss asserting that the <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> judgment and satisfaction was res",
+                "The affirmative defense was that the judgment and satisfaction in the <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> case was res judicata",
+                "Tra\u00edna was a party to the <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> action but both Vincenzo L."
+            ],
+            "analysis": {
+                "word_count": 1451,
+                "random_bucket": 37351,
+                "sha256": "e3237dd966686a4f3d816e467c0f3cc40f86d44bad5b54e0304adb546c0f4fd3",
+                "ocr_confidence": 0.707,
+                "char_count": 8959,
+                "random_id": 1871942119,
+                "pagerank": {
+                    "percentile": 0.6428491876630291,
+                    "raw": 1.4143710927349995e-07
+                },
+                "cardinality": 475,
+                "simhash": "1:3ea8d51723c69bf2"
+            },
+            "last_updated": "2021-08-10T18:30:19.173084+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "Consol Builders & Supply Co., Inc., Plaintiff-Appellant, v. Allen Ebens et al., Defendants-Appellees."
+                    ],
+                    "attorneys": [
+                        "Garard & Moehle, of Oregon, for appellant.",
+                        "Fearer & Nye and C. M. Glosser, both of Rochelle, for appellees."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "Mr. JUSTICE JONES",
+                            "text": "Mr. JUSTICE JONES\ndelivered the opinion of the court:\nPlaintiff appeals an order of the trial court granting defendants\u2019 motion to dismiss his complaint for foreclosure of a mechanic\u2019s lien because of res judicata. Defendants Allen Ebens and Dorothy L. Ebens were originally made parties as contract vendors of the real estate involved. Their interest terminated, and they were dismissed out of the action. The case proceeds against defendants Vincenzo L. Tra\u00edna and Carol K. Tra\u00edna.\nOn January 21, 1971, plaintiff, a building contractor, and defendant Vincenzo L. Tra\u00edna entered into a written contract whereby plaintiff was to construct a residence for a stated consideration. One of the provisions was: \u201cChanges in plans and specifications are to be made only on written order signed by the Buyers and approved by the Builder. A written memorandum covering changes and charges therefore shall be signed by all parties.\u201d The plaintiff entered upon performance of the agreement during which there were some \u201cchange orders\u201d and some \u201cextras,\u201d some of which defendant signed for and some of which he did not. Disputes arose over the manner of the construction, and by agreement of the parties the contract was terminated on or about June 1, 1971.\nOn June 18, 1971, the plaintiff, acting without an attorney, filed a small-claim complaint against defendant Vincenzo I. Tra\u00edna for $932.41. Although it was apparent that the suit was for the \u201cextras\u201d involved in the construction the small claim complaint recited that the sum was due for \u201cbuilding materials and labor.\u201d Service of summons was obtained and defendant retained counsel to represent him in the case. Interrogatories were served on plaintiff and in answer to the question \u201cWas the contract between plaintiff and defendant written, oral, or partly written and oral?\u201d it was replied, \u201cOriginal contract for construction of certain phases of house were written.\u201d Defendant suffered a judgment by default to be entered against him on September 14, 1971, and he paid the judgment and costs in full on September 16, 1971. At the time of the hearing on the small-claim case the plaintiff was represented by an attorney, and the attorney executed a satisfaction of judgment upon payment by defendant.\nOn October 1, 1971, plaintiff filed a claim for lien against defendants\u2019 property and on October 7, 1971, filed a complaint to foreclose the lien. The complaint was founded on the written contract, and the lien asserted a balance due plaintiff in the amount of $6,035.86.\nDefendants filed a motion to dismiss asserting that the small-claim judgment and satisfaction was res judicata as to the foreclosure suit. After hearing argument on the motion the court reserved ruling until trial. Defendants filed an answer, a counter-claim (for damages for faulty construction) and an affirmative defense. The affirmative defense was that the judgment and satisfaction in the small-claim case was res judicata as to the foreclosure action. When the cause was called for trial the court limited the testimony to the question whether the subject matter of the small-claim complaint and the foreclosure action were the same. After hearing testimony and taking the cause under advisement, the court wrote a letter of decision to the attorneys in which he found that the plaintiffs judgment in the small-claim court is res judicata as to the matters in controversy in this cause and accordingly held against the plaintiff on the complaint and for the defendants on the affirmative defense. The court further held for the plaintiff on defendants\u2019 counterclaim. The judgment order entered by the court granted defendants\u2019 motion to dismiss. Plaintiff appeals. We affirm.\nThe decision in this case turns on the question whether plaintiff has split his cause of action and is seeking recovery on a single claim by a multiplicity of lawsuits. Such a course of action is prohibited since it is a well-established principle that public convenience and fairness require a defendant to deal with all claims in one proceeding. The applicable rule is set forth in Dorland v. Steinbrecher, 50 Ill.App.2d 344, 347, and Hulke v. International Manufacturing Co., 14 Ill.App.2d 5, 22, as follows:\n\u201c \u2018If suit is brought for a part of a claim, a judgment obtained in that action precludes the plaintiff from bringing a second action for the residue of the claim, notwithstanding the second form of action is not identical with the first, or different grounds for relief are set forth in the second suit. This principle not only embraces what was actually determined, but also extends to every other matter which the parties might have litigated in the case. The rule is founded upon the plainest and most substantial justice,\u2014 namely, that litigation should have an end and that no reason should be unnecessarily harassed with a multiplicity of suits.\u2019\u201d 50 Ill.App.2d 344, 347.\nIt is plaintiffs position that there were, in fact, two causes of action existent, that the remedies therefore are cumulative and that they may be pursued either separately and independently or concurrently so long as only one recovery is obtained. The argument is founded on the fact that the small claim action was brought to recover only for the extras and the foreclosure action was for sums due under the written contract.\nWe must conclude that plaintiff\u2019s argument is without merit. The claim for sums due for extras and the claim for sums due under the contract are at best but separate elements of one cause of action. All claims have their origin in the contract for construction of the residence. That contract contains express recognition that changes might arise during construction and provided for the mode of payment. All claims spring from a common source, a common time and from one transaction. Plaintiff elected its remedy and brought its suit. After having been successful in obtaining a judgment and getting it satisfied, it cannot then begin another action for another sum allegedly due from the same transaction. There must be an end to litigation, and the policy alluded to above proclaims it. Plaintiff could have included the sums allegedly due under the contract in his action for a money judgment or could have included the amounts due for \u201cextras\u201d in the lien claim and foreclosure. The lien claim and foreclosure action is a cumulative remedy and may be pursued along with other remedies. It is cumulative, not exclusive; it is cumulative, not consecutive. It may not be employed to obtain multiple recoveries. Stankiewicz v. Irvine, 310 Ill.App. 673, 35 N.E.2d 433 (abstract opinion).\nPlaintiff contends that the parties as well as the subject matter of the actions are different. Only defendant Vincenzo L. Tra\u00edna was a party to the small-claim action but both Vincenzo L. Tra\u00edna and his wife Carol are defendants in the foreclosure action. But because of the privity of interest of the husband and wife defendants the argument is unavailing.\nAt the trial the attorney who represented defendant Vincenzo L. Tra\u00edna at the time of the small-claim case testified he had a discussion with plaintiff\u2019s attorney on the morning of the taking of the small-claim judgment during which he told plaintiff\u2019s attorney that if he proceeded with the small-claim suit he, defendant\u2019s attorney, was going to treat it as a satisfaction in full. Although the conversation was denied by plaintiff\u2019s attorney we need not consider it since the result of this case is not dependent on whether defendants notified plaintiff of their intention.\nPlaintiff further asserts that even if it be found that it has split its cause of action this action is not barred, because defendants consented to the splitting of plaintiffs cause of action. The sole basis of this assertion is that the defendants failed to appear in the small-claim case and object to the plaintiff\u2019s suit for extras only. Clearly defendants\u2019 consent to plaintiffs multiple lawsuits cannot be implied from such a circumstance. (See Restatement of Judgments \u00a7 62 (1942).) Nor is there any evidence whatsoever of fraud or misrepresentation by defendants that would justify equitable relief for plaintiff. That plaintiff made a mistake or miscalculation alone is insufficient to justify relief. See Restatement of Judgments \u00a7 126(2) (1942).\nPlaintiff finally contends that defendants failed to offer sufficient evidence to prove the allegations of their affirmative defense. We have examined the record in light of this assertion and find it to be without merit. The judgment of the trial court is supported by sufficient evidence of record and we will not set it aside on that ground.\nJudgment affirmed.\nALLOY and STOUDER, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "Consol Builders & Supply Co., Inc., Plaintiff-Appellant, v. Allen Ebens et al., Defendants-Appellees.\n(No. 74-20;\nSecond District\nJanuary 20, 1975.\nGarard & Moehle, of Oregon, for appellant.\nFearer & Nye and C. M. Glosser, both of Rochelle, for appellees."
+                }
+            }
+        },
+        {
+            "id": 5188197,
+            "url": "https://api.case.law/v1/cases/5188197/",
+            "name": "DAVID TANNENBAUM, Plaintiff-Appellant, v. MARGARET A. FLEMING, Defendant-Appellee",
+            "name_abbreviation": "Tannenbaum v. Fleming",
+            "decision_date": "1992-09-16",
+            "docket_number": "No. 2\u201491\u20141277",
+            "first_page": "1041",
+            "last_page": "1045",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "234 Ill. App. 3d 1041"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694726/",
+                "volume_number": "234",
+                "barcode": "32044078694726"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "1 Ill. App. 3d 219",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5314002
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "221-22"
+                        },
+                        {
+                            "page": "221-22"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "160 Ill. App. 3d 241",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3648743
+                    ],
+                    "year": 1971,
+                    "pin_cites": [
+                        {
+                            "page": "243"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "110 Ill. App. 3d 331",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2999864
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "334"
+                        },
+                        {
+                            "page": "334"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Ill. App. 3d 1036",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5313169
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "1040"
+                        },
+                        {
+                            "page": "1038-39"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "112 Ill. 2d 252",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5538928
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "256"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "129 Ill. 2d 497",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5567341
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "518"
+                        },
+                        {
+                            "page": "518"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "113 Ill. App. 3d 962",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3626580
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "973"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "38 Ill. 2d 223",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2861276
+                    ],
+                    "year": 1983,
+                    "pin_cites": [
+                        {
+                            "page": "225"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/234/1041/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/5188197/Tannenbaum%20v.%20Fleming,%20234%20Ill.%20App.%203d%201041%20(1992).pdf",
+            "preview": [
+                "At the outset, we note that neither party has presented arguments within the context of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "We will consider, therefore, whether, in the context of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> rules, plaintiff\u2019s complaint",
+                "Our supreme court, however, has established relaxed pleading requirements for <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>.",
+                "If a complaint in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action clearly notifies the defendant of the plaintiff\u2019s <em class='search_highlight'>claim</em>, it states",
+                "of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> rules."
+            ],
+            "analysis": {
+                "word_count": 1613,
+                "random_bucket": 10690,
+                "sha256": "df97753b3f9748c3b00dfb3a90381051473d60e3d4e3d07fab98e63414ee426f",
+                "ocr_confidence": 0.796,
+                "char_count": 10029,
+                "random_id": 2515478978,
+                "pagerank": {
+                    "percentile": 0.3979952910833439,
+                    "raw": 6.611244299380957e-08
+                },
+                "cardinality": 506,
+                "simhash": "1:17eb3d3564401cf7"
+            },
+            "last_updated": "2021-08-10T20:59:21.541696+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "DAVID TANNENBAUM, Plaintiff-Appellant, v. MARGARET A. FLEMING, Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "David Tannenbaum, of Beach Park, appellant pro se.",
+                        "Myron J. Hall, of Myron J. Hall, Ltd., of Waukegan, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE DOYLE",
+                            "text": "JUSTICE DOYLE\ndelivered the opinion of the court;\nPlaintiff, David Tannenbaum, pro se, filed an amended small claims complaint in the circuit court of Lake' County alleging $1,203.44 in damages arising from an automobile accident with defendant, Margaret A. Fleming. The trial court granted defendant\u2019s motion to dismiss and subsequently denied plaintiff\u2019s motion to vacate the order of dismissal. Plaintiff then filed this timely appeal.\nAt the outset, we note that neither party has presented arguments within the context of the small claims rules (see 134 Ill. 2d Rules 281 through 289). Ordinarily a party\u2019s failure to argue an issue might be considered waiver; however, this court may, in the exercise of its responsibility for a just result, disregard considerations of waiver and decide the issue on grounds not properly argued by the parties. (Hux v. Raben (1967), 38 Ill. 2d 223, 225; Midwest Bank & Trust Co. v. Village of Lakewood (1983), 113 Ill. App. 3d 962, 973.) We will consider, therefore, whether, in the context of the small claims rules, plaintiff\u2019s complaint properly notified defendant of plaintiff\u2019s alleged status as subrogee and, if so, whether his complaint stated a legally cognizable cause of action.\nOn July 8, 1991, plaintiff, pro se, filed a one-page small claims form complaint in the circuit court of Lake County alleging that defendant was indebted to him in the amount of $1,203.44 for damages, that plaintiff demanded payment and defendant refused to pay. The complaint further included the parties\u2019 respective addresses and telephone numbers. After advising the court of an apparent difficulty with service of process, the trial court granted plaintiff leave to utilize a special process server and to file an amended complaint.\nPlaintiff\u2019s \u201cfirst amended complaint\u201d alleged that on July 3, 1990, plaintiff was driving a 1982 Ford LTD automobile that was owned by Rachel E. Foerster and that \u201cdefendant struck the vehicle.\u201d The remaining allegations stated that, as a result of the accident, the Ford LTD\u2019s market value was decreased by $1,100; that Foerster incurred out-of-pocket costs of $30 for towing and $73.44 as an insurance surcharge; and, as a result of these losses, plaintiff was indebted to Foerster in the amount of $1,203.44. Attached to the complaint as an exhibit was an unsworn letter from Foerster to plaintiff enumerating the above losses and demanding prompt payment thereof.\nDefendant, apparently without leave of court (see 134 Ill. 2d R. 287), filed a motion to dismiss plaintiff\u2019s complaint pursuant to section 2\u2014615 of the Civil Practice Law (Ill. Rev. Stat. 1991, ch. 110, par. 2\u2014615), alleging that plaintiff lacked standing to bring suit and that plaintiff failed to state a legally cognizable cause of action. In response to defendant\u2019s motion, plaintiff filed his \u201cObjections to Defendant\u2019s Motion to Dismiss\u201d wherein he stated that he was not the owner of the car, but that he borrowed it and \u201cwas held responsible for the damages caused by the defendant.\u201d Attached to his objections was an affidavit by Rachel Foerster stating that plaintiff had paid her $1,203 for the damages arising out of plaintiff\u2019s use of her automobile. The trial court granted defendant\u2019s motion with prejudice as to plaintiff\u2019s claim for damages to his own property and without prejudice as to any other claim. Although the record is unclear, it appears that the trial court\u2019s order would have allowed plaintiff to amend his complaint to allege his standing as subrogee. Instead, plaintiff chose to stand on his amended complaint, and the trial court subsequently denied his motion to vacate the order granting dismissal. Plaintiff then appealed.\nOn appeal, plaintiff contends that the trial court\u2019s order granting defendant\u2019s motion to dismiss with prejudice demonstrated the court\u2019s \u201cprejudice and bias towards\u201d him. After providing a string of quotes on the law of subrogation, plaintiff concludes, in light of the quoted law and the fact that he attached an affidavit of Rachel Foerster to his \u201cObjections to Defendant\u2019s Motion to Dismiss\u201d and later attached, to his motion to vacate, an assignment of rights signed by Rachel Foerster, that he had standing to bring suit as a subrogee. Defendant responds that plaintiff\u2019s complaint was properly dismissed because it failed to allege sufficient facts showing: (1) a legal duty or breach thereof; or (2) the existence of the right to subrogation. In support of his argument, defendant directs our attention to section 2 \u2014 403 of the Civil Practice Law (Ill. Rev. Stat. 1991, ch. 110, par. 2\u2014403), which outlines technical pleading requirements for subrogees, and case law that recites pleading requirements for a negligence claim. Initially, we note that none of the cases cited by defendant were decided in the context of the small claims rules, and, accordingly, we find them unpersuasive.\nIt is well established that fact pleading is required in Illinois (Adkins v. Sarah Bush Lincoln Health Center (1989), 129 Ill. 2d 497, 518) and that a complaint at law must allege sufficient facts to bring a plaintiff\u2019s claim within the scope of a legally cognizable cause of action (Adkins, 129 Ill. 2d at 518; Teter v. Clemens (1986), 112 Ill. 2d 252, 256). Our supreme court, however, has established relaxed pleading requirements for small claims. (See, e.g., 134 Ill. 2d R. 282.) The basic principle underlying the small claims provisions is that litigants with a minimum of legal expertise should be allowed to present their grievances to the trial court (Megan v. L.B. Foster Co. (1971), 1 Ill. App. 3d 1036, 1040) and that they should be provided with an expeditious, simplified and inexpensive procedure for the resolution of disputes involving small amounts (Darwin Co. v. Sweeney (1982), 110 Ill. App. 3d 331, 334).\nIf a complaint in a small claims action clearly notifies the defendant of the plaintiff\u2019s claim, it states a cause of action. (Miner v. Bray (1987), 160 Ill. App. 3d 241, 243.) For example, in Griffin v. Billberry (1971), 1 Ill. App. 3d 219, 221-22, the court held that a small claims complaint for negligence was not required to set forth facts which raise a duty, show a breach of that duty and resulting injury provided the complaint clearly notified defendant of the nature of plaintiff\u2019s claim. See also Megan, 1 Ill. App. 3d at 1038-39.\nIn the present case, in light of the relaxed pleading requirements and the purpose underlying the small claims provisions, we conclude that plaintiff should be allowed to present his claim to the trial court. Although plaintiff\u2019s complaint does not meet the statutory requirements of section 2 \u2014 403 or the well-established rule of fact pleading, it is our opinion that requiring a pro se litigant in a small claims action to adhere strictly to technical rules of pleading runs counter to the spirit and intent of the small claims rules. After taking into consideration plaintiff\u2019s original complaint, his first amended complaint and the affidavit of Rachel Foerster which was attached to plaintiff\u2019s objections to defendant\u2019s motion, we conclude that defendant was sufficiently notified of the nature of plaintiff\u2019s claim. Although plaintiff\u2019s amended complaint alleged only a conclusion that he was indebted to Foerster for damages arising from the auto accident and that the vehicle was owned by Foerster, when considered in conjunction with Foerster\u2019s affidavit that plaintiff paid her and the fact that defendant raised the issue of plaintiff\u2019s standing in her motion to dismiss, it is apparent that defendant was clearly notified that plaintiff was attempting to allege a right as subrogee to bring suit. We emphasize that we have determined only that plaintiff has properly notified defendant of his alleged status, and we make no determination as to whether plaintiff is a bona fide subrogee. Additionally, plaintiff\u2019s allegations that he was involved in an automobile accident with defendant and that he incurred damages as a result are sufficient to state a cause of action for negligence in small claims. See Billberry, 1 Ill. App. 3d at 221-22.\nAs noted in a similar context: \u201cthe small claims rules *** were designed to allow pro se litigants to obtain resolution of disputes in a quick, simple, and informal manner, unbridled by the technicalities and legal niceties which normally obtain in court proceedings.\u201d (Darwin, 110 Ill. App. 3d at 334.) Therefore, we hold that plaintiff should be entitled to have his claim alleging his status as subrogee heard before the trial court, and, accordingly, reverse that part of the order dismissing plaintiff\u2019s claim without prejudice.\nAlthough, in the conclusion section of his brief, plaintiff requests this court to reverse \u201cthe trial court\u2019s dismissal with prejudice,\u201d it is apparent from his brief that the focus of plaintiff\u2019s appeal is on his status as subrogee. Therefore, it is unnecessary to consider whether the amended complaint set forth allegations sufficient to give plaintiff standing as an owner. However, it is evident from the allegations of plaintiff\u2019s complaint and the Foerster affidavit that he was not the owner of the vehicle and thus lacks standing in that regard. Therefore, the trial court\u2019s dismissal with prejudice of plaintiff\u2019s claim for recovery as an owner of the vehicle was proper. We find no support in the record for plaintiff\u2019s assertion that the trial court harbored \u201cprejudice and bias\u201d toward him.\nFor the foregoing reasons, we affirm that portion of the circuit court\u2019s order granting defendant\u2019s motion to dismiss with prejudice, and we reverse with respect to the remaining portion of the order, thus reinstating plaintiff\u2019s complaint.\nAffirmed in part; reversed in part.\nBOWMAN and NICKELS, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "DAVID TANNENBAUM, Plaintiff-Appellant, v. MARGARET A. FLEMING, Defendant-Appellee.\nSecond District\nNo. 2\u201491\u20141277\nOpinion filed September 16, 1992.\nDavid Tannenbaum, of Beach Park, appellant pro se.\nMyron J. Hall, of Myron J. Hall, Ltd., of Waukegan, for appellee."
+                }
+            }
+        },
+        {
+            "id": 4291306,
+            "url": "https://api.case.law/v1/cases/4291306/",
+            "name": "ROGER R. KASNY, Plaintiff-Appellant, v. COONEN AND ROTH, LTD., n/k/a Roth, Melei, Santeler, Ltd., Defendant-Appellee",
+            "name_abbreviation": "Kasny v. Coonen & Roth, Ltd.",
+            "decision_date": "2009-11-13",
+            "docket_number": "No. 2\u201408\u20140220",
+            "first_page": "870",
+            "last_page": "876",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "395 Ill. App. 3d 870"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044132259953/",
+                "volume_number": "395",
+                "barcode": "32044132259953"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "219 Ill. App. 3d 396",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5797117
+                    ],
+                    "year": 1991,
+                    "pin_cites": [
+                        {
+                            "page": "404"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "377 Ill. App. 3d 20",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        4273487
+                    ],
+                    "year": 2007,
+                    "pin_cites": [
+                        {
+                            "page": "36"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "234 Ill. App. 3d 1041",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5188197
+                    ],
+                    "year": 1992,
+                    "pin_cites": [
+                        {
+                            "page": "1044"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "69 Utah 293",
+                    "category": "reporters:state",
+                    "reporter": "Utah",
+                    "case_ids": [
+                        8868300
+                    ],
+                    "weight": 2,
+                    "year": 1927,
+                    "pin_cites": [
+                        {
+                            "page": "301",
+                            "parenthetical": "\"In the amended petition which was stricken there is no allegation that [the petitioner] did not have the same knowledge *** at the time she filed her first petition\""
+                        },
+                        {
+                            "page": "787",
+                            "parenthetical": "\"In the amended petition which was stricken there is no allegation that [the petitioner] did not have the same knowledge *** at the time she filed her first petition\""
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "384 A.2d 463",
+                    "category": "reporters:state_regional",
+                    "reporter": "A.2d",
+                    "weight": 2,
+                    "year": 1978,
+                    "pin_cites": [
+                        {
+                            "page": "467"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "39 Md. App. 180",
+                    "category": "reporters:state",
+                    "reporter": "Md. App.",
+                    "case_ids": [
+                        2296007
+                    ],
+                    "weight": 2,
+                    "year": 1978,
+                    "pin_cites": [
+                        {
+                            "page": "185"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "385 Ill. App. 3d 945",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        4279267
+                    ],
+                    "year": 2008,
+                    "pin_cites": [
+                        {
+                            "page": "963",
+                            "parenthetical": "\"res judicata is an equitable doctrine that should only be applied as fairness and justice require\""
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "76 Ill. 2d 577",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2983453
+                    ],
+                    "year": 1979,
+                    "pin_cites": [
+                        {
+                            "page": "582"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "184 Ill. 2d 290",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        926988
+                    ],
+                    "year": 1998,
+                    "pin_cites": [
+                        {
+                            "page": "316"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "314 Ill. App. 3d 577",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        140180
+                    ],
+                    "year": 2000,
+                    "pin_cites": [
+                        {
+                            "page": "581",
+                            "parenthetical": "First District declines to follow Bennett"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "294 Ill. App. 3d 897",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        35443
+                    ],
+                    "year": 1998,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "282 Ill. App. 3d 378",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        159529
+                    ],
+                    "year": 1996,
+                    "pin_cites": [
+                        {
+                            "page": "383-84"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "362 Ill. App. 3d 523",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        4261298
+                    ],
+                    "weight": 6,
+                    "year": 2005,
+                    "pin_cites": [
+                        {
+                            "page": "530"
+                        },
+                        {
+                            "page": "530-31"
+                        },
+                        {
+                            "page": "531"
+                        },
+                        {
+                            "page": "531"
+                        },
+                        {
+                            "page": "529"
+                        },
+                        {
+                            "page": "530-31"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "334 Ill. App. 3d 867",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        521991
+                    ],
+                    "year": 2002,
+                    "pin_cites": [
+                        {
+                            "page": "879-80"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "328 Ill. App. 3d 946",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2183354
+                    ],
+                    "year": 2002,
+                    "pin_cites": [
+                        {
+                            "page": "950"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "359 Ill. App. 3d 554",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5596438
+                    ],
+                    "year": 2005,
+                    "pin_cites": [
+                        {
+                            "page": "558"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "362 Ill. App. 3d 556",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        4261358
+                    ],
+                    "year": 2005,
+                    "pin_cites": [
+                        {
+                            "page": "560-61"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "376 Ill. App. 3d 765",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        4273586
+                    ],
+                    "year": 2007,
+                    "pin_cites": [
+                        {
+                            "page": "771"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "349 Ill. App. 3d 995",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5434483
+                    ],
+                    "year": 2004,
+                    "pin_cites": [
+                        {
+                            "page": "998"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "355 Ill. App. 3d 695",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3599850
+                    ],
+                    "year": 2005,
+                    "pin_cites": [
+                        {
+                            "page": "704"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/395/870/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/4291306/Kasny%20v.%20Coonen%20&%20Roth,%20Ltd.,%20395%20Ill.%20App.%203d%20870%20(2009).pdf",
+            "preview": [
+                "Plaintiff contends that a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> judgment for outstanding attorney fees entered in defendant\u2019s",
+                "Defendant sued plaintiff in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court for outstanding legal fees totaling $4,955.15.",
+                "as a counterclaim in defendant\u2019s <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> case.",
+                "See 145 Ill. 2d R. 287(a) (no discovery in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> except by leave of court).",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>claims</em> proceedings are designed to be expedient (Tannenbaum v. Fleming, 234 Ill."
+            ],
+            "analysis": {
+                "word_count": 2484,
+                "random_bucket": 14797,
+                "sha256": "c60f20caacb64fbfb65fb5bbd136c7a97c90fd527c7159b9a22cf786b52565e4",
+                "ocr_confidence": 0.79,
+                "char_count": 15105,
+                "random_id": 4221581773,
+                "pagerank": {
+                    "percentile": 0.14651979796598247,
+                    "raw": 4.076306636737454e-08
+                },
+                "cardinality": 769,
+                "simhash": "1:aa1e77566aa83ad5"
+            },
+            "last_updated": "2021-08-10T19:51:09.863680+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "ROGER R. KASNY, Plaintiff-Appellant, v. COONEN AND ROTH, LTD., n/k/a Roth, Melei, Santeler, Ltd., Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "Thomas W Gooch III and Michael J. Gauthier, both of Law Offices of Thomas W Gooch III, of Wauconda, for appellant.",
+                        "John J. Duffy, Karen Kies DeGrand, and Edward E. Fu, all of Donohue, Brown, Mathewson & Smyth LLC, of Chicago, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE McLAREN",
+                            "text": "JUSTICE McLAREN\ndelivered the opinion of the court:\nPlaintiff, Roger R. Kasny, appeals the dismissal of his legal malpractice claim against defendant, Coonen & Roth, Ltd., n/k/a Roth, Melei, Santeler, Ltd. Plaintiff contends that a small claims judgment for outstanding attorney fees entered in defendant\u2019s favor does not bar his legal malpractice case. We reverse and remand.\nIn 2002, plaintiff retained defendant to represent him in the dissolution of his marriage. Plaintiff signed an engagement agreement with defendant, whereby plaintiff agreed to pay defendant reasonable fees for necessary work done and to work toward reconciliation. Plaintiff and his ex-wife eventually executed a marital settlement agreement, and plaintiff failed to pay defendant for its services. Defendant sued plaintiff in small claims court for outstanding legal fees totaling $4,955.15. Plaintiff never appeared in small claims court to defend against the breach of contract action. A judgment for the unpaid legal fees plus costs was entered in defendant\u2019s favor on April 13, 2006.\nIn 2007, plaintiff sued defendant for breach of contract and legal malpractice. Although the trial court dismissed plaintiffs breach of contract claim with prejudice, it dismissed plaintiffs legal malpractice claim without prejudice, and plaintiff filed an amended complaint. In plaintiffs amended complaint, in which he claimed at least $200,000 in damages, he alleged that defendant: failed to appraise various marital assets and relied on the inaccurate appraisals that plaintiffs ex-wife prepared; did not discover plaintiffs ex-wife\u2019s nonmarital assets and understand the impact that her nonmarital real property could have on a fair division of the marital property; neglected to promptly and properly answer discovery; allowed the dissolution case to continue for more than three years with little or no work done toward resolving the matter; violated discovery rules, for example by failing to disclose expert witnesses who could testify about the value of various marital assets, which violations resulted in plaintiffs inability to proceed with a trial; failed to advise plaintiff that he could not proceed with a trial because of the discovery violations; and induced plaintiff to settle the case by telling plaintiff that appraisals were too expensive, that his own appraisals would not alter the valuation of the property, and that he had no choice but to agree to a settlement. Plaintiff asserted that he was unaware of a cause of action for legal malpractice against defendant until sometime in June 2006, two months after the small claims case was resolved, when the malpractice attorney he contacted had adequately investigated plaintiffs case.\nDefendant moved to dismiss plaintiffs amended complaint, arguing that the judgment for unpaid legal fees entered in the small claims case barred plaintiff from bringing a cause of action for legal malpractice. Defendant asserted that plaintiffs lack of knowledge of a legal malpractice claim was no defense, as he could have discovered a cause of action for legal malpractice had he exercised due diligence. The trial court granted defendant\u2019s motion to dismiss, finding that professional negligence is a defense to a claim for outstanding attorney fees and that, thus, plaintiff should have raised the issue of legal malpractice in the small claims case. This timely appeal followed.\nAt issue in this case is whether defendant\u2019s motion to dismiss plaintiffs complaint for legal malpractice was properly granted. More specifically, we consider whether the judgment for outstanding attorney fees entered in the small claims case has res judicata effect in plaintiffs action for legal malpractice.\nA motion to dismiss pursuant to section 2 \u2014 619 of the Code of Civil Procedure (735 ILCS 5/2 \u2014 619 (West 2006)) admits all well-pleaded facts, the reasonable inferences to be drawn from those facts, and the legal sufficiency of the complaint; but it asserts affirmative matter to avoid or defeat the claim. Floyd v. Rockford Park District, 355 Ill. App. 3d 695, 704 (2005). When ruling on a motion to dismiss, the trial court must interpret all pleadings and supporting documents in a light most favorable to the nonmoving party. Lucas v. Taylor, 349 Ill. App. 3d 995, 998 (2004). We review de novo the dismissal of the amended complaint. Stahelin v. Forest Preserve District of Du Page County, 376 Ill. App. 3d 765, 771 (2007).\nOne defense that a defendant may raise in a section 2 \u2014 619 motion is that a prior judgment bars the plaintiff\u2019s cause of action, i.e., that the prior judgment has res judicata effect in the subsequent lawsuit. 735 ILCS 5/2 \u2014 619(a)(4) (West 2006). \u201cThe doctrine of res judicata provides that a final judgment on the merits rendered by a court of competent jurisdiction is conclusive as to the rights of the parties and their privies, and as to them constitutes an absolute bar to a subsequent action involving the same claim, demand, or cause of action.\u201d City of Rockford v. Unit Six of the Policemen\u2019s Benevolent & Protective Ass\u2019n, 362 Ill. App. 3d 556, 560-61 (2005). Res judicata applies if (1) there was a final judgment on the merits rendered by a court of competent jurisdiction; (2) there is an identity of causes of action; and (3) there is an identity of parties or their privies. Yorulmazoglu v. Lake Forest Hospital, 359 Ill. App. 3d 554, 558 (2005). The party seeking to invoke res judicata bears the burden of demonstrating that it applies (Cload v. West, 328 Ill. App. 3d 946, 950 (2002)), and the doctrine bars not only all claims actually resolved in the former suit, but also any claims that could have been raised (In re Marriage of Kohl, 334 Ill. App. 3d 867, 879-80 (2002)).\nThe parties agree that the judgment for outstanding fees represents a final judgment on the merits rendered by a court of competent jurisdiction and that there is an identity of parties in both cases. However, they disagree about whether there is an identity of causes of action between the malpractice cause and the small claims cause.\nIn considering whether there is an identity of causes of action in this case and the small claims case, we note that, \u201cin Illinois, counterclaims are generally permissive rather than mandatory.\u201d Corcoran-Hakala v. Dowd, 362 Ill. App. 3d 523, 530 (2005). \u201cThus, a defendant [in the original action] generally may raise his or her claim against the plaintiff [in the original action] by way of a counterclaim or by way of a separate action.\u201d Dowd, 362 Ill. App. 3d at 530-31. \u201cHowever, if the defendant\u2019s claim involves the same operative facts as the plaintiffs claim, res judicata may bar the defendant from raising his or her claim in a subsequent action.\u201d Dowd, 362 Ill. App. 3d at 531. \u201cSpecifically, res judicata bars a subsequent action if successful prosecution of that action would in effect nullify the judgment entered in the initial action.\u201d Dowd, 362 Ill. App. 3d at 531.\nIllinois cases are split on the issue of whether an attorney\u2019s claim for fees and a client\u2019s claim for malpractice are a single cause of action. In Bennett v. Gordon, 282 Ill. App. 3d 378, 383-84 (1996), the First District held that they were. Plaintiff, on the other hand, relies on Wilson v. M.G. Gulo & Associates, Inc., 294 Ill. App. 3d 897 (1998), in which the Third District held to the contrary. See also Weisman v. Schiller, Ducanto & Fleck, 314 Ill. App. 3d 577, 581 (2000) (First District declines to follow Bennett). However, in River Park, Inc. v. City of Highland Park, 184 Ill. 2d 290, 316 (1998), the supreme court cited Bennett with approval, and in Dowd, this court stated its belief \u201cthat Wilson was wrongly decided.\u201d Dowd, 362 Ill. App. 3d at 529. Thus, at least in this district, the law is settled that these claims indeed are the same cause of action, such that ordinarily a counterclaim is mandatory. See Dowd, 362 Ill. App. 3d at 530-31.\nThis is not to say, however, that res judicata necessarily applies. As noted, the doctrine bars only those claims that could have been raised. Indeed, res judicata extends only to claims that \u201c \u2018could have been presented by the exercise of due diligence.\u2019 \u201d (Emphasis added.) Hughey v. Industrial Comm\u2019n, 76 Ill. 2d 577, 582 (1979), quoting 46 Am. Jur. 2d Judgments \u00a7417, at 585-86. Citing Hughey, defendant asserts that \u201cthe relevant inquiry is not whether the litigant knew of a claim, but rather whether the claim[ ] existed at the time of the prior proceeding and therefore could have been raised by exercising due diligence.\u201d (Emphases in original.) However, the mere fact that a claim exists does not establish that a litigant exercising due diligence would discover it. If a claim exists and the litigant does not discover it despite his due diligence, res judicata does not apply. This principle is perfectly consistent with the notion that res judicata, at its core, is a doctrine of equity, not law. See City of Chicago v. Midland Smelting Co., 385 Ill. App. 3d 945, 963 (2008) (\u201cres judicata is an equitable doctrine that should only be applied as fairness and justice require\u201d).\nHere, plaintiff alleged that he \u201cdid not learn of the existence of a cause of action for legal malpractice and consequently could not file such action until at the earliest *** well after Defendants [sic] had sued [plaintiff] and successfully obtained a default judgment for fees.\u201d He further alleged that he did not, and could not, discover his malpractice claim \u201cuntil after consulting with an attorney experienced in legal malpractice matters and *** until that attorney had adequate time to investigate and opine on the existence of a legal malpractice matter after sufficient due diligence so as not to run afoul of [Supreme Court] Rule 137, in the proper investigation of facts and law prior to opining and the preparation of a suitable complaint.\u201d That is, plaintiff alleged that, through the exercise of due diligence, he could not have raised his malpractice claim as a counterclaim in defendant\u2019s small claims case. Taking these allegations as true and reading them liberally, as we must at this stage, we hold that defendant has failed to establish the applicability of res judicata.\nThe cases on which defendant relies are easily distinguishable. In Singer v. Steven Kokes, Inc., 39 Md. App. 180, 384 A.2d 463 (1978), the plaintiffs sued to recover for the defendant\u2019s alleged breach of warranty and negligence in constructing a house. The defendant claimed res judicata. In a prior suit, the defendant had sought to foreclose a mechanic\u2019s lien, and the plaintiffs had alleged 57 defects as a credit against the lien. The plaintiffs attempted to avoid res judicata by claiming that they had not known of the 141 additional defects that supported their present suit. In affirming summary judgment for the defendant, the appellate court held that the plaintiffs \u201ccould not avoid the entry of summary judgment by merely alleging they had no knowledge of the defects. Rather, they were required to have shown also that the defects could not have been discovered with reasonable diligence.\u201d Singer, 39 Md. App. at 185, 384 A.2d at 467; see also Badger v. Badger, 69 Utah 293, 301, 254 P. 784, 787 (1927) (\u201cIn the amended petition which was stricken there is no allegation that [the petitioner] did not have the same knowledge *** at the time she filed her first petition\u201d). Here, of course, plaintiff did not allege merely that during the small claims case he had no knowledge of his malpractice claim. Rather, he alleged that through the exercise of reasonable diligence he could not have discovered it in time to raise it there.\nDefendant asserts that due diligence \u201cwould have required [plaintiff] to at least appear at the [small claims] hearing to contest his liability. Had he appeared and responded to the fee litigation, [plaintiff] could have learned of the purported legal malpractice and should have raised the claim at that time.\u201d Defendant notes also that plaintiff could have sought to take discovery to realize his claim. See 145 Ill. 2d R. 287(a) (no discovery in small claims except by leave of court). \u201cInstead, [plaintiff] simply ignored the fee litigation.\u201d\nDefendant here raises only a question of fact. In light of plaintiffs allegations, we cannot necessarily attribute his default in the small claims case to a lack of diligence in exploring his defenses. Small claims proceedings are designed to be expedient (Tannenbaum v. Fleming, 234 Ill. App. 3d 1041, 1044 (1992)), such that plaintiff might have diligently investigated but determined that, as of then, he simply had no defense to offer. To the extent he had any inkling of malpractice, he would not necessarily have been unreasonable for failing to rely on the prospect of small claims discovery, which he could not conduct as a matter of right, to flesh it out. While a small claims defendant cannot use the expediency of the proceeding as a shield if he has truly failed to be diligent, the small claims plaintiff cannot use it as a sword if the defendant, despite his diligence, is unable to marshal a counterclaim in time.\nA section 2 \u2014 619 motion may not be granted when the asserted defense requires the resolution of a material fact before it is proven. Reilly v. Wyeth, 377 Ill. App. 3d 20, 36 (2007). Here, plaintiff alleged that he was duly diligent, and defendant alleged otherwise. Diligence is generally a question of fact (In re Application of the County Collector, 219 Ill. App. 3d 396, 404 (1991)), and it certainly is here. Thus, res judicata has not been proven, and the trial court erred in granting defendant\u2019s motion.\nThe judgment of the circuit court of McHenry County is reversed, and this cause is remanded for further proceedings.\nReversed and remanded.\nBURKE and HUDSON, JJ., concur.\nIndeed, some authority suggests that res judicata is inapplicable precisely because plaintiff did not appear in the small claims case. See Restatement (Second) of Judgments \u00a722, Comment a, at 186 (1982) (\u201cEven in jurisdictions having a statute or rule making certain counterclaims compulsory, such provisions may not apply when no answer or other responsive pleading is filed\u201d); Restatement (Second) of Judgments \u00a722, Illustration 2, at 186 (1982) (\u201cA, a physician, brings an action against B for the price of medical services rendered to B. B fails to plead and judgment by default is given against him. B is not precluded from subsequently maintaining an action against A for malpractice relating to the services sued upon in the prior action\u201d). Plaintiff does not make this argument, however, and thus we do not address it.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "ROGER R. KASNY, Plaintiff-Appellant, v. COONEN AND ROTH, LTD., n/k/a Roth, Melei, Santeler, Ltd., Defendant-Appellee.\nSecond District\nNo. 2\u201408\u20140220\nOpinion filed November 13, 2009.\nRehearing denied December 28, 2009.\nThomas W Gooch III and Michael J. Gauthier, both of Law Offices of Thomas W Gooch III, of Wauconda, for appellant.\nJohn J. Duffy, Karen Kies DeGrand, and Edward E. Fu, all of Donohue, Brown, Mathewson & Smyth LLC, of Chicago, for appellee."
+                }
+            }
+        },
+        {
+            "id": 3355925,
+            "url": "https://api.case.law/v1/cases/3355925/",
+            "name": "JAMES E. KAHLER, Plaintiff-Appellant, v. DON E. WILLIAMS COMPANY, Defendant-Appellee",
+            "name_abbreviation": "Kahler v. Don E. Williams Co.",
+            "decision_date": "1978-05-10",
+            "docket_number": "No. 77-427",
+            "first_page": "716",
+            "last_page": "720",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "59 Ill. App. 3d 716"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078693835/",
+                "volume_number": "59",
+                "barcode": "32044078693835"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "161 N.E.2d 723",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "725"
+                        },
+                        {
+                            "page": "725"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "362 N.E.2d 1150",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1969,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "48 Ill. App. 3d 650",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3374517
+                    ],
+                    "year": 1969,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "350 N.E.2d 76",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "39 Ill. App. 3d 87",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5382932
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "161 N.E. 723",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.",
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "725"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "330 Ill. 413",
+                    "category": "reporters:state",
+                    "reporter": "Ill.",
+                    "case_ids": [
+                        5205380
+                    ],
+                    "weight": 4,
+                    "pin_cites": [
+                        {
+                            "page": "417"
+                        },
+                        {
+                            "page": "417"
+                        },
+                        {
+                            "page": "417"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/59/716/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/3355925/Kahler%20v.%20Don%20E.%20Williams%20Co.,%2059%20Ill.%20App.%203d%20716%20(1978).pdf",
+            "preview": [
+                "The sole issue on appeal is whether a prior <em class='search_highlight'>small</em>-<em class='search_highlight'>claims</em> action bars plaintiff from maintaining the present",
+                "On June 19, 1973, plaintiff, without benefit of counsel, filed a <em class='search_highlight'>small</em>-<em class='search_highlight'>claims</em> complaint against defendant",
+                "The trial court ruled that plaintiff\u2019s action was barred by reason of the plaintiff\u2019s prior <em class='search_highlight'>small</em>-<em class='search_highlight'>claims</em>",
+                "Defendant also appears to argue that because the <em class='search_highlight'>small</em>-<em class='search_highlight'>claims</em> complaint sued for \u201cearnings,\u201d any <em class='search_highlight'>claims</em>",
+                "On its face the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> complaint was limited to expenses and \u201cspecified earnings,\u201d together with"
+            ],
+            "analysis": {
+                "word_count": 1362,
+                "random_bucket": 31966,
+                "sha256": "1fa9389fbaad1f4a3ecfa24c86801688739591a7de12498a639a23a70bfa3b37",
+                "ocr_confidence": 0.832,
+                "char_count": 8550,
+                "random_id": 259095774,
+                "pagerank": {
+                    "percentile": 0.7592524350570052,
+                    "raw": 2.1111568431457609e-07
+                },
+                "cardinality": 459,
+                "simhash": "1:5b59bec7e84f84a6"
+            },
+            "last_updated": "2021-08-10T20:10:26.287681+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "JAMES E. KAHLER, Plaintiff-Appellant, v. DON E. WILLIAMS COMPANY, Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "Richard M. Batcher, of Bozeman, Neighbour, Patton & Noe, of Moline, for appellant.",
+                        "Marvin L. Schrager, of East Moline, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "Mr. JUSTICE STOUDER",
+                            "text": "Mr. JUSTICE STOUDER\ndelivered the opinion of the court:\nPlaintiff, James Kahler, commenced this action against his former employer, Don E. Williams Co., to recover accrued vacation pay, bonus, and amounts standing in his name in a profit-sharing plan. The circuit court of Rock Island County granted defendant\u2019s motion to dismiss and plaintiff appealed.\nThe sole issue on appeal is whether a prior small-claims action bars plaintiff from maintaining the present action.\nPlaintiff commenced his employment with defendant on June 1,1970. Based upon an oral agreement, plaintiff received a salary, vacation pay, bonus and profit-sharing contributions as compensation. On April 13, 1973, plaintiff ceased receiving a salary. From April 13 thru April 30, pursuant to an agreement with defendant, plaintiff worked as a salesman earning a commission on all sales and reimbursement for out-of-pocket expenses. On April 30, 1973, the employment relationship between plaintiff and defendant ended. It is alleged in plaintiff\u2019s complaint that defendant\u2019s fiscal year ended on April 30 and that it had been defendant\u2019s practice to pay bonuses to employees and determine the profit-sharing contributions as of that date. The complaint also alleges that plaintiff\u2019s employment was terminated without just cause.\nAfter April 30,1973, plaintiff failed to receive either his commissions for all the sales generated between April 13 and April 30 or reimbursement for all the expenses incurred during that period. On June 19, 1973, plaintiff, without benefit of counsel, filed a small-claims complaint against defendant in the circuit court of Tazewell County. The complaint alleged that defendant was indebted to plaintiff as follows:\n$651.70 For Prepaid expenses $250.84 Total $660.96\n40.58 less 9.26 Apex parts\n369.54 Net $651.70 Specified earnings\nTotal $660.96\nAfter plaintiff learned that defendant was represented by counsel, plaintiff engaged an attorney to represent him in the small-claims matter. Immediately prior to trial, the parties effected a settlement and the case was dismissed with prejudice. The agreed settlement of *340 was paid by defendant. The present action was commenced on April 14, 1975. The trial court ruled that plaintiff\u2019s action was barred by reason of the plaintiff\u2019s prior small-claims action against defendant which had been dismissed with prejudice. We disagree and accordingly, reverse and remand.\nPlaintiff\u2019s argument originates with his basic contention that two contracts existed between plaintiff and defendant. The first contract between plaintiff and defendant related to plaintiff\u2019s employment as a salaried employee and the second contract related to plaintiff\u2019s position as a commissioned salesman. Since two contracts existed, a breach of each would give rise to two separate causes of action. Plaintiff argues that the small-claims action was only for the breach of the second contract and it follows according to plaintiff, that the cause of action for breach of the first contract is not barred by res judicata.\nDefendant responds by claiming that there was only one contract of employment. Defendant contends that if the plaintiff had any causes of action against defendant, they accrued from his total employment with the company and not from two separate contracts. All claims arising from that employment were or should have been alleged in one action. Defendant also appears to argue that because the small-claims complaint sued for \u201cearnings,\u201d any claims for items that might be considered earnings, such as bonuses, profit sharing, and vacation pay, were concluded by the first action. Though res judicata is a basic tenet of the law, it would do well to review some of its precepts.\nRes judicata has two components. The component of estoppel by judgment provides that when a cause of action has been litigated in a court of competent jurisdiction to a final judgment on the merits, the parties to that action and their privies are thereafter estopped from relitigating in a subsequent action in the same or any other court, not only the issues which were in fact raised and decided in a prior action, but also all other issues which might have been raised in that prior action. (Hoffman v. Hoffman, 330 Ill. 413, 161 N.E. 723.) The \u201cmight have been\u201d dimension of res judicata applies only where the cause of action in the first and second suit is the same. (Turzynski v. Liebert, 39 Ill. App. 3d 87, 350 N.E.2d 76.) When comparing the two cases to determine if the first is res judicata to the second, the test to be applied is whether there is identity of facts essential to the maintenance of both cases or whether the same evidence would sustain both. National Tea Co. v. Confection Specialties, Inc., 48 Ill. App. 3d 650, 362 N.E.2d 1150; 46 Am. Jur. 2d Judgments \u00a7410 (1969).\nFrom an analysis of the facts concerning the relationship between plaintiff and defendant, we believe two contracts of employment existed. During the first period of employment, which ended on April 13, plaintiff was placed in a far different status than during the second period of employment from April 13 thru April 30. One of the key elements to any employment contract is the nature and extent of the direct compensation an employee is to receive. When that compensation is as radically different in character as that received by a salaried employee and a commissioned salesman with reimbursement for expenditures, we believe two contracts of employment are contemplated by the parties. This is so even though the periods of employment may be contiguous with one another to form one single time span.\nWhile the existence of two separate contracts would normally in and of itself be sufficient to refute defendant\u2019s claims of res judicata, further reasons support plaintiff\u2019s claim of error.\nUnder the test to determine if two causes of action are the same and hence the second barred by a former adjudication of the first, the evidence necessary to support each must be examined. Here, such an examination reveals the facts necessary to support plaintiff\u2019s small-claims complaint are far different from those necessary to support the present action. From plaintiff\u2019s complaint in this action, it appears the issue of wrongful termination is crucial to plaintiff\u2019s success, whereas in the small-claims action, the issue of wrongful termination was neither material nor relevant. Nowhere in the small-claims complaint is reference of any type made to recovery for vacation pay, bonuses, or profit sharing. On its face the small claims complaint was limited to expenses and \u201cspecified earnings,\u201d together with amounts for each. We do not agree with defendant\u2019s claims that \u201cspecified earnings\u201d extends to items upon which recovery is now sought. From the amount of relief requested and the language employed, the first complaint raised claims of a different character than defendant would have us believe.\nDefendant argues that even if two causes of action do exist, then collateral estoppel bars this suit. Hoffman v. Hoffman, 330 Ill. 413, 417, 161 N.E. 723, 725, discusses the doctrine of collateral estoppel (or estoppel by verdict) at length.\n\u201cWhere some controlling fact or question material to the determination of both causes has been adjudicated in the former suit * * * and the same fact or question is again at issue between the same parties, its adjudication in the first cause will \u00b0 * * be conclusive of the same question in the later suit * * 330 Ill. 413, 417, 161 N.E.2d 723, 725.\nFor an estoppel to exist \u201cit must appear by the record of the prior suit that the particular controversy sought to be construed was necessarily tried and determined * * (330 Ill. 413, 417, 161 N.E.2d 723, 725.) Hence, collateral estoppel can exist only after a fact or question has been put in issue, litigated, and decided. Here, by virtue of the settlement of the small-claims action, no facts or questions were ever litigated or decided and collateral estoppel cannot exist to bar either party.\nFor the foregoing reasons the judgment of the circuit court of Rock Island County is reversed and the cause remanded for further proceedings consistent with the views expressed herein.\nJudgment reversed and remanded.\nBARRY, P. J., and STENGEL, J., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "JAMES E. KAHLER, Plaintiff-Appellant, v. DON E. WILLIAMS COMPANY, Defendant-Appellee.\nThird District\nNo. 77-427\nOpinion filed May 10, 1978.\nRichard M. Batcher, of Bozeman, Neighbour, Patton & Noe, of Moline, for appellant.\nMarvin L. Schrager, of East Moline, for appellee."
+                }
+            }
+        },
+        {
+            "id": 3554934,
+            "url": "https://api.case.law/v1/cases/3554934/",
+            "name": "TIMOTHY J. WOERNER, Plaintiff-Appellant, v. SENECA PETROLEUM, INC., et al., Defendants-Appellees",
+            "name_abbreviation": "Woerner v. Seneca Petroleum, Inc.",
+            "decision_date": "1988-09-08",
+            "docket_number": "No. 3-88-0019",
+            "first_page": "329",
+            "last_page": "331",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "175 Ill. App. 3d 329"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694288/",
+                "volume_number": "175",
+                "barcode": "32044078694288"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [],
+            "frontend_url": "https://cite.case.law/ill-app-3d/175/329/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/3554934/Woerner%20v.%20Seneca%20Petroleum,%20Inc.,%20175%20Ill.%20App.%203d%20329%20(1988).pdf",
+            "preview": [
+                "Woerner, filed a verified complaint in the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court of Tazewell County for property damages",
+                "<em class='search_highlight'>claims</em> proceeding in any court of this State through any officer, director ***.\n* * *\n[And] \u2018<em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "No corporation may appear as claimant, assignee, subrogee or counterclaimant in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> proceeding",
+                "When the amount <em class='search_highlight'>claimed</em> does not exceed $1500, a corporation may defend as defendant any <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "The provision in the Code of Civil Procedure relating to corporations appearing in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> proceedings"
+            ],
+            "analysis": {
+                "word_count": 764,
+                "random_bucket": 60984,
+                "sha256": "9eb8251480e598fecc14e7f9b6ad16aa5b12c629f0fb16ff0fc4e79617aac85e",
+                "ocr_confidence": 0.772,
+                "char_count": 4676,
+                "random_id": 2046225976,
+                "pagerank": {
+                    "percentile": 0.4869140964644047,
+                    "raw": 8.689698934651874e-08
+                },
+                "cardinality": 297,
+                "simhash": "1:afc3598ca50f9dc4"
+            },
+            "last_updated": "2021-08-10T20:17:08.487805+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "TIMOTHY J. WOERNER, Plaintiff-Appellant, v. SENECA PETROLEUM, INC., et al., Defendants-Appellees."
+                    ],
+                    "attorneys": [
+                        "Jack C. Vieley, of Peoria, for appellant.",
+                        "Gary L. Jones, Village of Creve Coeur Trustee, of Creve Coeur, and Gary M. Peplow, of Heyl, Royster, Voelker & Allen, and William M. Anderson IV, both of Peoria, for appellees."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE SCOTT",
+                            "text": "JUSTICE SCOTT\ndelivered the opinion of the court:\nThe plaintiff, Timothy J. Woerner, filed a verified complaint in the small claims court of Tazewell County for property damages against the defendants, Seneca Petroleum, Inc., and the Village of Creve Coeur (Village), a municipal corporation. A default judgment in the sum of $2,500 was entered against the defendant Village of Creve Coeur. Gary L. Jones, a nonattorney but a village trustee, filed an unverified motion to vacate the judgment. The plaintiff filed a motion to strike defendant\u2019s motion to vacate judgment.\nDuring the hearing on defendant\u2019s motion to vacate judgment, the trustee, Gary L. Jones, testified that he was not a licensed attorney and that no village resolution had been passed authorizing him to appear on behalf of the defendant Village. The trial court granted the defendant Village\u2019s motion to vacate judgment, but allowed plaintiff to appeal its order pursuant to Supreme Court Rule 304 (107 Ill. 2d R. 304).\nThe plaintiff first raises the issue as to whether a village trustee who is not a licensed attorney can represent a municipal corporation in a small claims proceeding where the amount of the claim is the sum of $2,500.\nIn addressing this issue we note that we are confronted with a conflict of a statute and a rule of our supreme court.\nOur Code of Civil Procedure provides:\n\u201cA corporation may prosecute as plaintiff or defend as defendant any small claims proceeding in any court of this State through any officer, director ***.\n* * *\n[And] \u2018small claims proceeding\u2019 means a civil action based on either tort or contract for money not in excess of $2,500, exclusive of interests and costs ***.\u201d (Ill. Rev. Stat. 1987, ch. 110, par. 2\u2014416.)\nBy rule our supreme court has provided:\n\u201c(b) Representation of Corporations. No corporation may appear as claimant, assignee, subrogee or counterclaimant in a small claims proceeding, unless represented by counsel. When the amount claimed does not exceed $1500, a corporation may defend as defendant any small claims proceeding in any court of this State through any officer, director, manager ***.\u201d 113 Ill. 2d R. 282(b).\nThe provision in the Code of Civil Procedure relating to corporations appearing in small claims proceedings was added to the Code and became effective January 1, 1984. Supreme Court Rule 282 (113 Ill. 2d R. 282) became effective August 1, 1987. As noted in the historical and practice notes to section 2\u2014416 (Ill. Ann. Stat., ch. 110, par. 2\u2014416, Historical and Practice Notes, at 82 (Smith-Hurd Supp. 1988)), Supreme Court Rule 282 is in direct conflict with the legislative enactment.\nThe defendant Village argues that the trial court had and properly exercised its discretion when it granted its (defendant\u2019s) motion to vacate the judgment. We agree; however, we are of the opinion that the trial court\u2019s action can be supported on firmer grounds.\nOur Code of Civil Procedure provides as follows:\n\u201c(a) The Supreme Court of this State has power to make rules of pleading, practice and procedure for the circuit, Appellate and Supreme Courts supplementary to, but not inconsistent with the provisions of this Act ***.\u201d (Emphasis added.) Ill. Rev. Stat. 1987, ch. 110, par. 1\u2014104(a).\nOur legislature preempted the question of pro se representation of corporations by enacting section 2\u2014416 almost four years prior to the supreme court\u2019s adoption of Rule 282. Ill. Rev. Stat. 1987, ch. 110, par. 2\u2014416.\nA conflict or inconsistency confronted the trial court and we agree with its determination to follow the legislative enactment.\nThe plaintiff also claims the trial court erred in granting the motion to vacate judgment because the motion was unverified. We seriously question if this issue was properly preserved for appeal. In any event, both the plaintiff and the defendant filed motions which were not verified. Their fault or neglect in the instant case is levissima culpa. The trial court apparently agreed that such neglect or fault was slight and opted to proceed to a hearing for the purpose of doing justice. Verification or lack of verification did not affect the threshold issue in this case.\nFor the reasons set forth the decision of the circuit court of Tazewell County is affirmed.\nAffirmed.\nWOMBACHER and STOUDER, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "TIMOTHY J. WOERNER, Plaintiff-Appellant, v. SENECA PETROLEUM, INC., et al., Defendants-Appellees.\nThird District\nNo. 3\u201488\u20140019\nOpinion filed September 8, 1988.\nJack C. Vieley, of Peoria, for appellant.\nGary L. Jones, Village of Creve Coeur Trustee, of Creve Coeur, and Gary M. Peplow, of Heyl, Royster, Voelker & Allen, and William M. Anderson IV, both of Peoria, for appellees."
+                }
+            }
+        }
+    ]
+}

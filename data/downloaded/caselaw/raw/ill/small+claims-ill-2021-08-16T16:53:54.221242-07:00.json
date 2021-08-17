@@ -1,0 +1,1772 @@
+{
+    "count": 62228,
+    "next": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguNTk0MzYxLCAzMTE0OTAxXX0%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "previous": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguNjkwOTE0LCAyOTk5ODY0XSwgInIiOiAxfQ%3D%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "results": [
+        {
+            "id": 2999864,
+            "url": "https://api.case.law/v1/cases/2999864/",
+            "name": "DARWIN CO., Plaintiff-Appellant, v. MARLA SWEENEY, Defendant-Appellee",
+            "name_abbreviation": "Darwin Co. v. Sweeney",
+            "decision_date": "1982-11-15",
+            "docket_number": "No. 4\u201482\u20140115",
+            "first_page": "331",
+            "last_page": "334",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "110 Ill. App. 3d 331"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078693322/",
+                "volume_number": "110",
+                "barcode": "32044078693322"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "392 N.E.2d 1107",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "74 Ill. App. 3d 326",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3267826
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "342 N.E.2d 261",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "35 Ill. App. 3d 408",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5304801
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "47 N.E. 711",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 Ill. 480",
+                    "category": "reporters:state",
+                    "reporter": "Ill.",
+                    "case_ids": [
+                        3090415
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "55 Ill. 311",
+                    "category": "reporters:state",
+                    "reporter": "Ill.",
+                    "case_ids": [
+                        5272906
+                    ],
+                    "year": 1897,
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/110/331/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/2999864/Darwin%20Co.%20v.%20Sweeney,%20110%20Ill.%20App.%203d%20331%20(1982).pdf",
+            "preview": [
+                "Plaintiff filed a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> complaint in the Morgan County circuit court.",
+                "The purpose of the <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> rules (87 Ill. 2d Rules 281 through 289) is to provide an expeditious,",
+                "<em class='search_highlight'>claims</em> proceedings if consistent with the aims of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> rules.",
+                "Stat. 1981, ch. 110, par. 2 \u2014 613(d)) meets the Roberson test and is thus applicable to <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "Since Supreme Court Rule 286 (87 Ill. 2d R. 286) eliminates the need for written pleadings in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>"
+            ],
+            "analysis": {
+                "word_count": 1365,
+                "random_bucket": 56460,
+                "sha256": "c392cb643000ac10c29930b1958a271f8203c0eff60ace47a59f41bd62491d2f",
+                "ocr_confidence": 0.734,
+                "char_count": 8279,
+                "random_id": 1002364044,
+                "pagerank": {
+                    "percentile": 0.7330927422112369,
+                    "raw": 1.949552189426688e-07
+                },
+                "cardinality": 480,
+                "simhash": "1:2f23e3b521482ddb"
+            },
+            "last_updated": "2021-08-11T01:15:51.827723+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "DARWIN CO., Plaintiff-Appellant, v. MARLA SWEENEY, Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "Alan W. Appelbee, of Jacksonville, for appellant.",
+                        "William S. Schildman, of Jacksonville, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE LONDRIGAN",
+                            "text": "JUSTICE LONDRIGAN\ndelivered the opinion of the court:\nThe plaintiff sued defendant to recover the cost of repair work that plaintiff performed on defendant\u2019s home. At the close of plaintiff\u2019s evidence, defendant moved for a directed verdict on the ground that plaintiff had not established its corporate existence. The motion was granted and plaintiff appeals from this ruling. We reverse and remand.\nThe plaintiff is a home improvement contractor in Jacksonville. Plaintiff entered into a contract with defendant for repair of the overhang and installation of new gutters on her home. The work was subsequently completed, but according to defendant, it did not solve the problem that was the reason for the work. She therefore refused to pay plaintiff any part of the contract price of $2,114.68.\nPlaintiff filed a small claims complaint in the Morgan County circuit court. In the complaint, plaintiff was referred to as \u201cA CORE\u201d At the bench trial, plaintiff's only witnesses were defendant, called under section 60 of the Civil Practice Act (Ill. Rev. Stat. 1979, ch. 110, par. 60), and Gary Steward, who was formerly employed by plaintiff as a general foreman. Both witnesses testified about the circumstances surrounding the execution of the contract and the manner in which the work was completed.\nAt the conclusion of plaintiff\u2019s evidence, defendant moved for a directed verdict on the ground that plaintiff had not established its corporate existence. The case was continued for a hearing on the motion.\nPlaintiff moved that defendant\u2019s motion be denied, or, in the alternative, that it be allowed to reopen its case to establish its corporate existence. The court later granted defendant\u2019s motion and dismissed the case. As the basis for its ruling, the court held that \u201c[defendant's plea of nul tiel corporation may be taken as specifically pleaded under Supreme Court Rule 286 [87 Ill. 2d R. 286] and *** Plaintiff offered no evidence of Plaintiff\u2019s corporate existence in the presentation of its case to the Court.\u201d\nSupreme Court Rule 286 provides in pertinent part:\n\u201cIf the defendant appears, he need not file an answer unless ordered to do so by the court; and when no answer is ordered the allegations of the complaint will be considered denied and any defense may be proved as if it were specifically pleaded.\u201d 87 Ill. 2d R. 286.\nDefendant maintains that her appearance constituted a plea of nul tiel corporation by virtue of Supreme Court Rule 286, which eliminates the need for written pleadings in small claims cases unless such pleadings are specifically ordered by the court. Therefore, since a plea of nul tiel corporation requires a corporate litigant to prove its corporate existence and its corollary right to sue in its corporate name, defendant asserts that plaintiff was obliged to establish its corporate existence in its case in chief. Since plaintiff presented no evidence of its corporate existence prior to defendant\u2019s motion to dismiss, the court, in defendant\u2019s opinion, acted properly in dismissing the suit.\nThe plaintiff, on the other hand, contends that dismissal of its suit was improper because a plea of nul tiel corporation should not be implied under Supreme Court Rule 286. Plaintiff contends that such a plea is properly asserted either as an affirmative defense or as a ground for involuntary dismissal of a suit pursuant to section 2\u2014 619(a)(2) of the Code of Civil Procedure. Ill. Rev. Stat. 1981, ch. 110, par. 2 \u2014 619(a)(2).\nAn understanding of the nature and history of the plea of nul tiel corporation is essential to a resolution of the issue presented in this case. The plea of nul tiel corporation denies the existence of an alleged corporation. (Black\u2019s Law Dictionary 964 (5th ed. 1979).) When this plea is entered, a corporate plaintiff must prove its corporate existence. (Ramsey v. Peoria Marine & Fire Insurance Co. (1870), 55 Ill. 311.) Obversely, a corporate litigant need not allege or prove its corporate existence in the absence of a plea of nul tiel corporation. Wheatley, Buck & Co. v. Chicago Trust & Savings Bank (1897), 167 Ill. 480, 47 N.E. 711.\nIn days past, when all corporations owed their existence to special legislative charters, the entry of a plea of nul tiel corporation was used for determining whether a litigant claiming to be a corporation was indeed a legally constituted corporation and whether it thus possessed the power to bring lawsuits in its own name. With the advent of general corporation statutes, which confer certain corporate powers, such as the right to sue and be sued in the corporate name, on all corporations which fulfill certain statutory requirements (see Ill. Rev. Stat. 1981, ch. 32, par. 157.5(b)), the efficacy of the plea of nul tiel corporation as a useful litigation tool has, however, virtually disappeared and it has become an anachronism.\nThe purpose of the small claim rules (87 Ill. 2d Rules 281 through 289) is to provide an expeditious, simplified, and inexpensive procedure for the litigation of disputes involving small amounts. (Wroclawski v. Waszczyk (1976), 35 Ill. App. 3d 408, 342 N.E.2d 261.) Other practice rules, as well as the provisions of the Code of Civil Procedure, are applicable to small claims proceedings if consistent with the aims of the small claims rules. (Peoria Housing Authority v. Roberson (1979), 74 Ill. App. 3d 326, 392 N.E.2d 1107.) In our view, section 2 \u2014 613(d) of the Code of Civil Procedure (Ill. Rev. Stat. 1981, ch. 110, par. 2 \u2014 613(d)) meets the Roberson test and is thus applicable to small claims proceedings of the type involved here. Section 2\u2014 613(d) provides in pertinent part: \u201c[A]ny ground or defense, whether affirmative or not, which, if not expressly stated in the pleading, would be likely to take the opposite party by surprise, must be plainly set forth in the answer or reply.\u201d The clear purpose of section 2\u2014 613(d) is to facilitate the decision of cases on their merits, and to eliminate the harsh consequences which often stemmed from unfair surprise at trial prior to enactment of modern rules of procedure. Since Supreme Court Rule 286 (87 Ill. 2d R. 286) eliminates the need for written pleadings in small claims cases, compliance with the letter of section 2 \u2014 613(d) of the Code of Civil Procedure is obviously impossible in such cases. This does not, however, mean that compliance with the spirit of section 2 \u2014 613(d) is impossible in small claims cases.\nIn the case at bar, the defendant\u2019s assertion of the infrequently used plea of nul tiel corporation obviously took plaintiff by surprise. If we were to hold that the burden was on plaintiff to produce evidence of its corporate existence simply because defendant was not obligated to assert its defense of nul tiel corporation by means of a formal, written plea, we would in effect allow defendant to prevail because she asserted an obscure defense at trial which plaintiff could not reasonably have been expected to anticipate and counter in its case in chief. Such a result would be diametrically contrary to the policy underlying section 2 \u2014 613(d) of the Code of Civil Procedure. Since such outcomes are contrary to public policy in cases where large monetary amounts are at stake, it follows that they are even more repugnant to the considerations which led to the promulgation of the small claims rules, which were designed to allow.pro se litigants to obtain resolution of disputes in a quick, simple, and informal manner, unbridled by the technicalities and legal niceties which normally obtain in court proceedings.\nIn a situation such as the one present here, where the defense raised by defendant takes plaintiff by surprise and plaintiff has the burden of proof, the trial court should allow plaintiff to reopen his case and present evidence relevant to that question. We remand the cause with directions that the trial continue, and that plaintiff then be afforded an opportunity to establish its corporate existence.\nReversed and remanded with directions.\nWEBBER and MILLS, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "DARWIN CO., Plaintiff-Appellant, v. MARLA SWEENEY, Defendant-Appellee.\nFourth District\nNo. 4\u201482\u20140115\nOpinion filed November 15, 1982.\nAlan W. Appelbee, of Jacksonville, for appellant.\nWilliam S. Schildman, of Jacksonville, for appellee."
+                }
+            }
+        },
+        {
+            "id": 5164588,
+            "url": "https://api.case.law/v1/cases/5164588/",
+            "name": "ROBERT L. PORTER, Plaintiff-Appellant, v. URBANA-CHAMPAIGN SANITARY DISTRICT, Defendant-Appellee",
+            "name_abbreviation": "Porter v. Urbana-Champaign Sanitary District",
+            "decision_date": "1992-11-12",
+            "docket_number": "No. 4\u201492\u20140434",
+            "first_page": "296",
+            "last_page": "304",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "237 Ill. App. 3d 296"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694692/",
+                "volume_number": "237",
+                "barcode": "32044078694692"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "411 N.E.2d 217",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 3,
+                    "pin_cites": [
+                        {
+                            "page": "222"
+                        },
+                        {
+                            "page": "222"
+                        },
+                        {
+                            "page": "221"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "81 Ill. 2d 548",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5481086
+                    ],
+                    "weight": 3,
+                    "pin_cites": [
+                        {
+                            "page": "556-57"
+                        },
+                        {
+                            "page": "558"
+                        },
+                        {
+                            "page": "556"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "417 N.E.2d 812",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "815"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "93 Ill. App. 3d 710",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3132063
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "713"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "62 Ill. 519",
+                    "category": "reporters:state",
+                    "reporter": "Ill.",
+                    "case_ids": [
+                        2608931
+                    ],
+                    "year": 1980,
+                    "pin_cites": [
+                        {
+                            "page": "521-22"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "486 N.E.2d 1329",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "138 Ill. App. 3d 925",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        8499779
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "402 N.E.2d 216",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1985,
+                    "pin_cites": [
+                        {
+                            "page": "220"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "79 Ill. 2d 1",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        3070998
+                    ],
+                    "year": 1985,
+                    "pin_cites": [
+                        {
+                            "page": "10"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "450 N.E.2d 5",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "9"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "114 Ill. App. 3d 732",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3592192
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "736"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "386 N.E.2d 334",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "68 Ill. App. 3d 546",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3306420
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "381 N.E.2d 689",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1979,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "72 Ill. 2d 495",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5443031
+                    ],
+                    "year": 1979,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "312 N.E.2d 259",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "year": 1978,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "57 Ill. 2d 298",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5406404
+                    ],
+                    "weight": 2,
+                    "year": 1978,
+                    "pin_cites": [
+                        {
+                            "page": "304-05"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "452 N.E.2d 751",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "758"
+                        },
+                        {
+                            "page": "759"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "117 Ill. App. 3d 1",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3482775
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "11"
+                        },
+                        {
+                            "page": "13"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "491 N.E.2d 803",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "808-09"
+                        },
+                        {
+                            "page": "807"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "142 Ill. App. 3d 584",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3450689
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "592"
+                        },
+                        {
+                            "page": "589"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "330 N.E.2d 293",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "296"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "29 Ill. App. 3d 253",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2499413
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "256"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "427 N.E.2d 325",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "327"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "100 Ill. App. 3d 560",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5497529
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "563"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "369 N.E.2d 337",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "340"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "54 Ill. App. 3d 188",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3404065
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "191"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "561 N.E.2d 687",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "133 Ill. 2d 553",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "559 N.E.2d 769",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1990,
+                    "pin_cites": [
+                        {
+                            "page": "773"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "201 Ill. App. 3d 756",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2594076
+                    ],
+                    "year": 1990,
+                    "pin_cites": [
+                        {
+                            "page": "761"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "464 N.E.2d 842",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "843-44"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "124 Ill. App. 3d 724",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3430285
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "727"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "513 N.E.2d 580",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1984,
+                    "pin_cites": [
+                        {
+                            "page": "581"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "160 Ill. App. 3d 241",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3648743
+                    ],
+                    "year": 1984,
+                    "pin_cites": [
+                        {
+                            "page": "243"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "574 N.E.2d 1328",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "1330"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "215 Ill. App. 3d 561",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5292838
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "564"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "521 N.E.2d 243",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "246"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 Ill. App. 3d 628",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3470759
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "631"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "584 N.E.2d 126",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1988,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "142 Ill. 2d 654",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "year": 1988,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "575 N.E.2d 261",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1991,
+                    "pin_cites": [
+                        {
+                            "page": "266"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "215 Ill. App. 3d 522",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5295076
+                    ],
+                    "year": 1991,
+                    "pin_cites": [
+                        {
+                            "page": "529-30"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "450 N.E.2d 1272",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "1277-78"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "115 Ill. App. 3d 842",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3557428
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "849-50"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "412 N.E.2d 464",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "82 Ill. 2d 322",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5476049
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "392 N.E.2d 38",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 3,
+                    "year": 1980,
+                    "pin_cites": [
+                        {
+                            "page": "42"
+                        },
+                        {
+                            "page": "42"
+                        },
+                        {
+                            "page": "42"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "73 Ill. App. 3d 484",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3264613
+                    ],
+                    "weight": 3,
+                    "year": 1980,
+                    "pin_cites": [
+                        {
+                            "page": "488"
+                        },
+                        {
+                            "page": "488"
+                        },
+                        {
+                            "page": "488"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "66 N.E.2d 90",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "393 Ill. 211",
+                    "category": "reporters:state",
+                    "reporter": "Ill.",
+                    "case_ids": [
+                        2476740
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "510 N.E.2d 1111",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "pin_cites": [
+                        {
+                            "page": "1112-13"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "157 Ill. App. 3d 691",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3543172
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "693-94"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "410 N.E.2d 525",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "527-28"
+                        },
+                        {
+                            "page": "527-30"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "88 Ill. App. 3d 406",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3171541
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "407"
+                        },
+                        {
+                            "page": "407-10"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/237/296/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/5164588/Porter%20v.%20Urbana-Champaign%20Sanitary%20District,%20237%20Ill.%20App.%203d%20296%20(1992).pdf",
+            "preview": [
+                "Of course, the pleading requirements in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> cases are quite different.",
+                "Particularly in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> cases, the complaint is to be liberally construed because the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "Section 3\u2014103(a) of the Act does not bar this <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action by plaintiff.",
+                "We decline to apply the strict requirements of Taylor to this <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> com plaint.",
+                "<em class='search_highlight'>Small</em> <em class='search_highlight'>claims</em> court is a somewhat less formal hall of justice."
+            ],
+            "analysis": {
+                "word_count": 3013,
+                "random_bucket": 54932,
+                "sha256": "d6769e0404c4ed30b3570034936eecce6bee9ade5ea4ced81b8a6d4c4efddba0",
+                "ocr_confidence": 0.773,
+                "char_count": 17733,
+                "random_id": 2274678420,
+                "pagerank": {
+                    "percentile": 0.5310993659570726,
+                    "raw": 9.933202495978002e-08
+                },
+                "cardinality": 909,
+                "simhash": "1:3273d5062e479196"
+            },
+            "last_updated": "2021-08-11T00:08:13.017555+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "ROBERT L. PORTER, Plaintiff-Appellant, v. URBANA-CHAMPAIGN SANITARY DISTRICT, Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "Robert L. Porter, of Champaign, appellant pro se.",
+                        "Edward M. Wagner and Michael R. Robinson, both of Heyl, Royster, Voelker & Allen, of Urbana, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE McCULLOUGH",
+                            "text": "JUSTICE McCULLOUGH\ndelivered the opinion of the court:\nPlaintiff Robert L. Porter appeals from an order of the circuit court of Champaign County dismissing with prejudice his pro se second-amended small claims complaint against defendant Urbana-Champaign Sanitary District. The question in this case really is how precise a small claims complaint must be in designating the theory on which a pro se plaintiff is proceeding. We reverse and remand for further proceedings.\nThe second-amended complaint alleged defendant was indebted to plaintiff in the sum of $276 for cleanup costs resulting from defendant\u2019s negligent discharge of sewage into the lower level of plaintiff\u2019s residence on December 29, 1990, and for trespass as a result of the same unauthorized discharge of sewage into plaintiff\u2019s residence. On oral motion of defendant, plaintiff was required by the trial court to file a bill of particulars. In the bill of particulars, plaintiff described the overflow of sewage into the residence and the efforts of himself and his family to stop the overflow and to remove the sewage from the residence. However, plaintiff did not identify in the bill of particulars any actions or inactions on the part of defendant which caused the sewage overflow.\nDefendant filed a motion to strike and dismiss the second-amended complaint pursuant to section 2\u2014619 of the Code of Civil Procedure (Code) (Ill. Rev. Stat. 1989, ch. 110, par. 2\u2014619). In this motion, the following three grounds for dismissal were raised: (1) section 3\u2014103(a) of the Local Governmental and Governmental Employees Tort Immunity Act (Act) (Ill. Rev. Stat. 1989, ch. 85, par. 3\u2014103(a)) expressly provided that a local public entity is not liable for the injury caused by the adoption of a plan or design of construction of, or improvement to, public property where the plan or design had been given prior approval by a legislative or other body authorized to grant such approval and the affidavit of Carl Garrison, defendant\u2019s executive director, stated the sewer system was constructed in accordance with plans given prior approval by various governmental bodies authorized to grant such approval; (2) the second-amended complaint and bill of particulars failed to allege a \u201cprima facie case\u201d of negligence; and (3) the second-amended complaint and bill of particulars failed to allege a \u201cprima facie case\u201d of intentional trespass. In dismissing the second-amended complaint with prejudice, the trial court\u2019s order did not set forth the reasons for the dismissal. Because the dismissal order failed to specify the grounds for the dismissal, this court must review every issue raised in the motions argued on appeal. Had the trial court recorded its reasons, judicial efficiency would have been promoted. Powell v. Village of Mt. Zion (1980), 88 Ill. App. 3d 406, 407, 410 N.E.2d 525, 527-28.\nIn Rowan v. Novotny (1987), 157 Ill. App. 3d 691, 693-94, 510 N.E.2d 1111, 1112-13, the distinction between section 2\u2014615 and section 2\u2014619 motions was discussed as follows:\n\u201cThe purpose of section 2\u2014619 is primarily that of affording a means of obtaining at the outset of a case a summary disposition of issues of law or of easily proved issues of fact. The basis of the motion must go to an entire claim or demand. (Ill. Ann. Stat., ch. 110, par. 2\u2014615, Historical and Practice Notes (by Albert E. Jenner, Jr., Philip W. Tone and Arthur M. Martin) (Smith-Hurd 1985).) Although defects that appear on the face of the pleading attacked may, according to the letter of the sec tion, be reached by a section 2\u2014619 motion, the section is not designed for that purpose. (Leitch v. Hine (1946), 393 Ill. 211, 66 N.E.2d 90.) In other words, if the only ground of a motion is a defect that appears on the face of the pleading attacked the appropriate method of reaching that defect is by a motion under section 2\u2014615.\u201d\nThe distinction is important here because, in small claims cases, section 2\u2014619 motions may be made without prior leave of court, but section 2\u2014615 motions may not. 134 Ill. 2d R. 287(b).\nHere, two of the allegations in defendant\u2019s motion to dismiss allege, in effect, the failure to state a cause of action. While it is true that the motion refers to the bill of particulars as well as the complaint, there is some doubt that the presence of a bill of particulars can change what would ordinarily be a section 2\u2014615 motion into a section 2\u2014619 motion since the bill of particulars is deemed part of the complaint it particularizes (Bejda v. S GL Industries, Inc. (1979), 73 Ill. App. 3d 484, 488, 392 N.E.2d 38, 42, aff\u2019d in part, rev\u2019d in part on other grounds (1980), 82 Ill. 2d 322, 412 N.E.2d 464), and the proper remedy when a bill of particulars is deficient is to strike the pleading to which the bill of particulars relates. Generally dismissal of the complaint with prejudice is not appropriate in the absence of deliberate, contumacious, or unwarranted disregard of the court\u2019s authority, none of which is present in this case. (Village of Pawnee v. Knostman (1983), 115 Ill. App. 3d 842, 849-50, 450 N.E.2d 1272, 1277-78; see also Ill. Rev. Stat. 1989, ch. 110, par. 2\u2014607(b).) However, we need not decide the question of the propriety of the form of the motion to dismiss since plaintiff has not raised it, and the issue is waived for purposes of review. (134 Ill. 2d R. 341(e)(7).) The doctrine of waiver applies to pro se litigants as well as to those represented by attorneys. See In re A.H. (1991), 215 Ill. App. 3d 522, 529-30, 575 N.E.2d 261, 266, appeal denied (1991), 142 Ill. 2d 654, 584 N.E.2d 126; People v. Clay (1988), 167 Ill. App. 3d 628, 631, 521 N.E.2d 243, 246.\nTherefore, we must determine whether the small claims complaint is sufficient and whether section 3\u2014103 of the Act bars recovery by plaintiff as a matter of law. Ordinarily, when reviewing the granting of a motion to dismiss, all well-pleaded facts alleged in the complaint are taken as true, and the reviewing court considers whether any set of facts could be proved which would entitle plaintiff to relief. Allegations which are conclusions, unsupported by specific facts, are not deemed admitted. (Toys \u201cR\u201d Us, Inc. v. Adelman (1991), 215 Ill. App. 3d 561, 564, 574 N.E.2d 1328, 1330.) Of course, the pleading requirements in small claims cases are quite different. A small claims complaint must simply set forth the following:\n\u201c(1) plaintiffs name, residence address, and telephone number, (2) defendant\u2019s name and place of residence, or place of business or regular employment, and (3) the nature and amount of the plaintiff\u2019s claim, giving dates and other relevant information. If the claim is based upon a written instrument, a copy thereof or of so much of it as is relevant must be copied in or attached to the original and all copies of the complaint, unless the plaintiff attaches to the complaint an affidavit stating facts showing that the instrument is unavailable to him.\u201d (134 Ill. 2d R. 282(a).)\nAll that is necessary in a small claims case for the complaint to be sufficient is that it clearly notify the defendant of the nature of plaintiff\u2019s claim. (Miner v. Bray (1987), 160 Ill. App. 3d 241, 243, 513 N.E.2d 580, 581.) Particularly in small claims cases, the complaint is to be liberally construed because the small claims procedure is designed to be simple and inexpensive. Murray v. Cockburn (1984), 124 Ill. App. 3d 724, 727, 464 N.E.2d 842, 843-44.\nIn determining the propriety of the trial court\u2019s order, the first issue is to determine the question of law, whether section 3\u2014103(a) of the Act bars plaintiff\u2019s cause of action in this case. A panel of this court, sitting as the Third District Appellate Court, has stated the following:\n\u201cUnder section 3\u2014103(a) of the Act, the City has immunity for the plan or design of the sewer grating, because the record shows the then Illinois Department of Public Works approved the design at the time of the construction project. However, under section 3\u2014103(a), the City does not have immunity, if after the sewer grating was put in, \u2018it [appeared] from its use that [the design] has created a condition that it is not reasonably safe.\u2019 Ill. Rev. Stat. 1987, ch. 85, par. 3\u2014103(a).\u201d (Cole v. City of East Peoria (1990), 201 Ill. App. 3d 756, 761, 559 N.E.2d 769, 773, appeal denied (1990), 133 Ill. 2d 553, 561 N.E.2d 687.)\nIn this case, plaintiff is not alleging a cause of action based on the design or plan of construction of defendant\u2019s sewer system, but on defendant\u2019s negligence or intentional failure to properly operate the system so as to prevent the sewage overflow onto his property. Section 3\u2014103(a) of the Act does not bar this small claims action by plaintiff.\nNext, we determine whether the complaint and bill of particulars state a cause of action. Here, plaintiff alleged negligence and trespass resulting from an overflow of sewage onto his property. A request for a bill of particulars is not permitted in a small claims case without prior leave of court (134 Ill. 2d R. 287(b)). Because of the informal nature of small claims cases, granting a request for a bill of particulars is discouraged. Assuming, for the sake of argument only, that a bill of particulars was appropriate in this case, we note the object of the bill is to supply a deficiency in the complaint. (Bejda, 73 Ill. App. 3d at 488, 392 N.E.2d at 42.) The effect of the bill of particulars is to restrict plaintiff at trial to proof of the particular cause or causes of action referred to therein (Bazzell-Phillips & Associates, Inc. v. Cole Hospital, Inc. (1977), 54 Ill. App. 3d 188, 191, 369 N.E.2d 337, 340), but the bill of particulars need not state more than the party is bound to prove (Bejda, 73 Ill. App. 3d at 488, 392 N.E.2d at 42).\nWith regard to the allegation of negligence in count I of plaintiff\u2019s amended complaint, for recovery based on negligence plaintiff must prove defendant breached a duty owed to plaintiff, which breach proximately caused the alleged injury. (Konicki v. Village of Hinsdale (1981), 100 Ill. App. 3d 560, 563, 427 N.E.2d 325, 327.) The doctrine of res ipsa loquitur is available in sewer malfunction cases. (Hull v. City of Griggsville (1975), 29 Ill. App. 3d 253, 256, 330 N.E.2d 293, 296.) The doctrine applies whenever an event occurs (1) which would not have occurred in the absence of negligence, (2) the event was caused by an instrumentality within the exclusive control of defendant, and (3) plaintiff has not contributed to the occurrence of the event. In Taylor v. City of Beardstown (1986), 142 Ill. App. 3d 584, 592, 491 N.E.2d 803, 808-09, this court stated as follows:\n\u201cRes ipsa loquitur involves a species of circumstantial evidence permitting the trier of fact to draw an inference of negligence (Guebard v. Jabaay (1983), 117 Ill. App. 3d 1, 11, 452 N.E.2d 751, 758); the doctrine permits circumstantial evidence as proof of negligence where direct evidence is primarily within the control of the defendant (Edgar County Bank & Trust Co. v. Paris Hospital, Inc. (1974), 57 Ill. 2d 298, 304-05, 312 N.E.2d 259). Once properly invoked, the doctrine operates to shift the burden of going forward with the evidence to the defendant, though any presumption of negligence may then be rebutted by the defendant. Walker v. Runner (1978), 72 Ill. 2d 495, 381 N.E.2d 689; McLaughlin v. Rush-Presbyterian St. Luke\u2019s Medical Center (1979), 68 Ill. App. 3d 546, 386 N.E.2d 334.\n*** The doctrine, however, does not affect the necessity or manner of proof of proximate cause; it is relevant only to the nature of proof from which the trier of fact may draw an inference of negligence. (Edgar County Bank & Trust Co. v. Paris Hospital, Inc. (1974), 57 Ill. 2d 298, 312 N.E.2d 259; McMillen v. Carlinville Area Hospital (1983), 114 Ill. App. 3d 732, 736, 450 N.E.2d 5, 9.) Such an inference cannot be based solely upon the fact of a rare and unusual result. (Guebard v. Jabaay (1983), 117 Ill. App. 3d 1, 13, 452 N.E.2d 751, 759.) To submit a res ipsa claim to a jury, there must be evidence or testimony to establish the rare and unusual event or condition coupled with proof of a negligent act. Spidle v. Steward (1980), 79 Ill. 2d 1, 10, 402 N.E.2d 216, 220; Cassady v. Hendrickson (1985), 138 Ill. App. 3d 925, 486 N.E.2d 1329.\u201d\nThere are distinctions between Taylor and the case at bar. The likelihood of a need for expert testimony is less in this small claims case than it would be in Taylor, a medical malpractice case. In Taylor, the court noted no facts were alleged supporting a causal link between the broken leg and decedent\u2019s death. (Taylor, 142 Ill. App. 3d at 589, 491 N.E.2d at 807.) In this case, there are sufficient allegations of fact showing a causal connection between the sewage overflow and the damage such that a court could not determine, as a matter of law, that no proximate causal connection existed. The only question here is whether there are sufficient facts alleged from which the trial court could find a duty existed in defendant not to discharge sewage onto plaintiff\u2019s property and that, in the absence of negligence, the discharge would not have occurred.\nIt has long been the law of this State that a municipality has a duty to refrain from discharging sewage onto private property. (City of Jacksonville v. Lambert (1872), 62 Ill. 519, 521-22; Powell v. Village of Mt. Zion (1980), 88 Ill. App. 3d 406, 407-10, 410 N.E.2d 525, 527-30; 9 Ill. L. & Prac. Cities, Villages, and Other Municipal Corporations \u00a7559 (1954).) Therefore, the only question which remains is whether the overflow would not have occurred in the absence of negligence by defendant.\nA complaint need not set out the evidence plaintiff intends to present, but only ultimate facts (County of Cook v. Illinois Wine & Spirits Co. (1981), 93 Ill. App. 3d 710, 713, 417 N.E.2d 812, 815), and this is particularly so where a small claims complaint is involved. It is clear\u2019from the complaint and the bill of particulars that plaintiff alleged the overflow resulted from defendant\u2019s negligence. We decline to apply the strict requirements of Taylor to this small claims com plaint. Plaintiff ought to have been allowed his day in court. Whether plaintiff can prove negligence is a question not before this court.\nThe final point to consider is whether the trespass count was properly dismissed. In Dial v. City of O\u2019Fallon (1980), 81 Ill. 2d 548, 556-57, 411 N.E.2d 217, 222, the Illinois Supreme Court noted that an action for trespass may be based on negligent or intentional intrusion onto the land. Unintentional, nonnegligent intrusion does not form a basis for liability even if the entry onto the land caused harm to a legally protected interest. The recovery of damages for a single injury may be sought under multiple theories, but only one recovery may be had. (Dial, 81 Ill. 2d at 558, 411 N.E.2d at 222.) Count I of plaintiff\u2019s second-amended complaint alleges a cause of action for negligent intrusion onto plaintiff\u2019s property, and therefore, in order to avoid duplication, count II is deemed to state a cause of action for intentional trespass.\nIn a trespass action for intentional intrusion, plaintiff must prove the defendant had knowledge, to a high degree of certainty, that the sewage overflow onto his property would follow from defendant\u2019s acts or omissions. (See Dial, 81 Ill. 2d at 556, 411 N.E.2d at 221.) Plaintiff argues in his brief that on three prior occasions when the sewer overflowed defendant paid plaintiff for the damages caused. Unfortunately, plaintiff did not include these facts in the bill of particulars. These prior occurrences could possibly be construed by a trier of fact as providing to defendant the knowledge, to a high degree of certainty, that if defendant did not do something to change the situation, a sewage overflow onto plaintiff\u2019s property would occur, and as a result, a subsequent sewage overflow was an intentional trespass. In this case, the bill of particulars does not include any other facts from which an action for intentional trespass could be derived. However, the proper remedy for a deficient bill of particulars is to strike the pleading, not dismiss the cause with prejudice. Therefore, the trial court should have stricken count II of plaintiff\u2019s small claims complaint because the bill of particulars does not set out facts supporting an action for intentional trespass. The trial court should not have dismissed the second-amended complaint with prejudice.\nSmall claims court is a somewhat less formal hall of justice. It is inconsistent with the simple and inexpensive procedures outlined in the supreme court rules for small claims proceedings (134 Ill. 2d Rules 281 through 289) to allow attorneys to file numerous motions (including a request for a bill of particulars) in an attempt to discourage pro se litigants from utilizing the small claims court. In many of these cases, it is more efficient for the trial court to try the case and decide it on the merits than it is to consider motions of the parties attacking the opponent\u2019s pleadings, especially in light of the less formal pleading requirements in small claims cases.\nFor the foregoing reasons, the judgment of the circuit court of Champaign County is reversed, and the cause is remanded for further proceedings not inconsistent with this disposition.\nReversed and remanded.\nSTEIGMANN and LUND, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "ROBERT L. PORTER, Plaintiff-Appellant, v. URBANA-CHAMPAIGN SANITARY DISTRICT, Defendant-Appellee.\nFourth District\nNo. 4\u201492\u20140434\nOpinion filed November 12, 1992.\nRobert L. Porter, of Champaign, appellant pro se.\nEdward M. Wagner and Michael R. Robinson, both of Heyl, Royster, Voelker & Allen, of Urbana, for appellee."
+                }
+            }
+        },
+        {
+            "id": 261386,
+            "url": "https://api.case.law/v1/cases/261386/",
+            "name": "STEVEN BEAUDETTE, Deceased, by Joy Beaudette, his Widow, Appellant, v. THE INDUSTRIAL COMMISSION et al. (Eastman Kodak, Appellee)",
+            "name_abbreviation": "Beaudette v. Industrial Commission",
+            "decision_date": "1999-09-29",
+            "docket_number": "No. 1-98-2217WC",
+            "first_page": "188",
+            "last_page": "194",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "308 Ill. App. 3d 188"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044066064601/",
+                "volume_number": "308",
+                "barcode": "32044066064601"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "625 N.E.2d 108",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1993,
+                    "pin_cites": [
+                        {
+                            "page": "110-11"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "252 Ill. App. 3d 211",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2966701
+                    ],
+                    "year": 1993,
+                    "pin_cites": [
+                        {
+                            "page": "218-19"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "335 N.E.2d 425",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "429",
+                            "parenthetical": "the supreme court found no estoppel since no evidence showed that the insurance adjuster sought to mislead the claimant where the claim was filed six months after the limitations period expired"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "61 Ill. 2d 241",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2966188
+                    ],
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "247",
+                            "parenthetical": "the supreme court found no estoppel since no evidence showed that the insurance adjuster sought to mislead the claimant where the claim was filed six months after the limitations period expired"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "337 N.E.2d 713",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "713-14",
+                            "parenthetical": "insurance carrier representatives discussed claim with employee the month the statute of limitations expired and did not inform him statute was about to expire"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "61 Ill. 2d 532",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2966225
+                    ],
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "534-35",
+                            "parenthetical": "insurance carrier representatives discussed claim with employee the month the statute of limitations expired and did not inform him statute was about to expire"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "338 N.E.2d 390",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 3,
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "392"
+                        },
+                        {
+                            "page": "392"
+                        },
+                        {
+                            "page": "392"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "62 Ill. 2d 46",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2970474
+                    ],
+                    "weight": 3,
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "50-51"
+                        },
+                        {
+                            "page": "51"
+                        },
+                        {
+                            "page": "51"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "672 N.E.2d 1126",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "year": 1996,
+                    "pin_cites": [
+                        {
+                            "page": "1130-31",
+                            "parenthetical": "estoppel occurred where employer's adjuster failed to inform employee that negotiations and settlement offer would terminate roughly two months later, when three-year statute of limitations expired"
+                        },
+                        {
+                            "page": "1130"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "173 Ill. 2d 498",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        147586
+                    ],
+                    "weight": 2,
+                    "year": 1996,
+                    "pin_cites": [
+                        {
+                            "page": "508-10",
+                            "parenthetical": "estoppel occurred where employer's adjuster failed to inform employee that negotiations and settlement offer would terminate roughly two months later, when three-year statute of limitations expired"
+                        },
+                        {
+                            "page": "507"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "544 N.E.2d 846",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1989,
+                    "pin_cites": [
+                        {
+                            "page": "852"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "188 Ill. App. 3d 741",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2689483
+                    ],
+                    "year": 1989,
+                    "pin_cites": [
+                        {
+                            "page": "750"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "518 N.E.2d 336",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1987,
+                    "pin_cites": [
+                        {
+                            "page": "342"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "164 Ill. App. 3d 857",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3581886
+                    ],
+                    "year": 1987,
+                    "pin_cites": [
+                        {
+                            "page": "866"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "446 N.E.2d 234",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 3,
+                    "year": 1983,
+                    "pin_cites": [
+                        {
+                            "page": "236"
+                        },
+                        {
+                            "page": "236"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "94 Ill. 2d 200",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        3106221
+                    ],
+                    "weight": 3,
+                    "year": 1983,
+                    "pin_cites": [
+                        {
+                            "page": "205"
+                        },
+                        {
+                            "page": "205"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "335 N.E.2d 491",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "494"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "61 Ill. 2d 365",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2965112
+                    ],
+                    "year": 1975,
+                    "pin_cites": [
+                        {
+                            "page": "369"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "534 N.E.2d 992",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1989,
+                    "pin_cites": [
+                        {
+                            "page": "1000"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "179 Ill. App. 3d 683",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2607487
+                    ],
+                    "year": 1989,
+                    "pin_cites": [
+                        {
+                            "page": "695"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "388 N.E.2d 406",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 3,
+                    "year": 1979,
+                    "pin_cites": [
+                        {
+                            "page": "412"
+                        },
+                        {
+                            "page": "412"
+                        },
+                        {
+                            "page": "411"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "75 Ill. 2d 270",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        2990602
+                    ],
+                    "weight": 3,
+                    "year": 1979,
+                    "pin_cites": [
+                        {
+                            "page": "281"
+                        },
+                        {
+                            "page": "281"
+                        },
+                        {
+                            "page": "280"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "281 N.E.2d 342",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1972,
+                    "opinion_id": 1
+                },
+                {
+                    "cite": "51 Ill. 2d 137",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        5390931
+                    ],
+                    "year": 1972,
+                    "opinion_id": 1
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/308/188/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/261386/Beaudette%20v.%20Industrial%20Commission,%20308%20Ill.%20App.%203d%20188%20(1999).pdf",
+            "preview": [
+                ", a <em class='search_highlight'>claims</em> representative there.",
+                "Joy testified she spoke with <em class='search_highlight'>Small</em> frequently, and <em class='search_highlight'>Small</em> sent them Steven\u2019s paychecks.",
+                "Joy testified she believed <em class='search_highlight'>Small</em> and relied on her information.",
+                "<em class='search_highlight'>Small</em> never informed Joy of a time limitation for filing a <em class='search_highlight'>claim</em>.",
+                "Joy did not ask <em class='search_highlight'>Small</em> about time limitations."
+            ],
+            "analysis": {
+                "word_count": 2153,
+                "random_bucket": 38683,
+                "sha256": "3ddeaa8a99511d33eb7dbcede1dd5b7fc25c9cee5aa8c9ba76eb8e88cf815339",
+                "ocr_confidence": 0.793,
+                "char_count": 12879,
+                "random_id": 790861595,
+                "pagerank": {
+                    "percentile": 0.2711945212438574,
+                    "raw": 4.4084708821872926e-08
+                },
+                "cardinality": 685,
+                "simhash": "1:b1a55cd057974672"
+            },
+            "last_updated": "2021-08-11T00:41:49.342768+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "STEVEN BEAUDETTE, Deceased, by Joy Beaudette, his Widow, Appellant, v. THE INDUSTRIAL COMMISSION et al. (Eastman Kodak, Appellee)."
+                    ],
+                    "attorneys": [
+                        "Marc B. Stookal, of Nilson, Stookal & Bobrow, Ltd., of Chicago, for appellant.",
+                        "Edward M. Pfister and Bruce D. Crofts, both of Nyhan, Pfister, Bambrick & Kinzie, PC., of Chicago, for appellees."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE McCULLOUGH",
+                            "text": "JUSTICE McCULLOUGH\ndelivered the opinion of the court:\nOn April 23, 1990, Steven Beaudette injured his right arm while working for respondent, Eastman Kodak Company (Kodak). Steven received temporary total disability (TTD) benefits under the Workers\u2019 Compensation Act (Act) (820 ILCS 305/8(b) (West 1994)) until he died on January 18, 1992. At some point during the week of Steven\u2019s death, his widow, Joy Beaudette, spoke with a representative of Kodak, who incorrectly stated that she did not have a claim for further benefits under the Act. On November 3, 1994, Joy filed a claim for benefits under the Act. On August 29, 1997, the Industrial Commission (Commission) granted Kodak\u2019s motion to dismiss, finding that though Kodak was estopped from asserting the normal statute of limitations under the Act (820 ILCS 305/6(d) (West 1998)), the claim was barred by a two-year period of limitations that began on the date of Kodak\u2019s conduct giving rise to the estoppel. We affirm.\nAccording to Joy\u2019s testimony before the arbitrator, Clara Ooyama, an attorney for Kodak, was the person to whom she talked about her husband\u2019s case. On January 23, 1991, Ooyama wrote Steven a letter stating, in part:\n\u201cAs we discussed previously, your workers\u2019 compensation case can be settled with a lump sum payment to you for the April 1990 accident. Please let me know if you would be interested in pursuing such an alternative. If so, I will review your file and present you with a proposal for settlement.\u201d\nNo response by Steven or by anyone on his behalf is shown in the record. Claimant testified she understood this letter to mean that when he was done with all of his cancer treatments, he would get a settlement payment. Claimant testified she trusted Ooyama and relied upon information she provided to her, even though Ooyama told her it was her job to represent Kodak and its interests. On March 28, 1991, Ooyama wrote Steven, informing him his workers\u2019 compensation claim was being administered by the Martin Boyer Company, Inc., and that questions regarding his accident should be referred to Judith Small, a claims representative there. Joy testified she spoke with Small frequently, and Small sent them Steven\u2019s paychecks. Joy testified she believed Small and relied on her information. Small never informed Joy of a time limitation for filing a claim. Joy did not ask Small about time limitations.\nWithin a week after Steven died on January 18, 1992, Joy called Small, who told her to return half of the most recent paycheck. According to Joy, when she asked Small what was to happen next:\n\u201cShe told me that \u2014 She said it was done; it was over with. Your husband\u2019s dead, and that she \u2014 What makes me remember that is that is what she said: The case is \u2014 There\u2019s no case. He\u2019s dead.\u201d\nWhen asked if she ever called Small again, Joy responded, \u201cNo, because of the coldness in her. She just said he was dead, there\u2019s nothing you can do.\u201d Joy did not have any further conversations with Ooyama, Small, or anyone else representing Kodak.\nThe Act provides for two periods of limitation:\n\u201cIn any case, other than one where the injury was caused by exposure to radiological materials or equipment or asbestos unless the application for compensation is filed *** within 3 years after the date of the accident, where no compensation has been paid, or within 2 years after the date of the last payment of compensation, where any has been paid, whichever shall be later, the right to file\nsuch application shall be barred.\u201d 820 ILCS 305/6(d) (West 1998). The limitations period, measured from the date of injury, expired on April 22, 1993. The limitations period measured from the last date of compensation expired on January 17, 1994. Joy did not file this claim until November 3, 1994.\nThe arbitrator and Commission found Kodak estopped from asserting the normal statute of limitations by the comments of Small during the week of January 18, 1992. Under City of Chicago v. Industrial Comm\u2019n, 75 Ill. 2d 270, 281, 388 N.E.2d 406, 412 (1979), a claimant is not given an indefinite period in which to file a claim simply because the employer was estopped at some point from asserting the statute of limitations. Instead, the limitations period starts running again as of the date of the conduct giving rise to the estoppel. City of Chicago, 75 Ill. 2d at 281, 388 N.E.2d at 412. The parties dispute whether the two-year or the three-year period applies under City of Chicago after the conduct giving rise to estoppel. The Commission applied the two-year period.\nThe Commission found estoppel, that \u201cthe statute began to run on January 25, 1992.\u201d Although the parties do not address the estoppel issue, the evidence does not support such a finding. A reviewing court can affirm the Commission\u2019s decision upon any legal basis in the record to support its decision, regardless of the Commission\u2019s findings or reasoning. General Motors Corp. v. Industrial Comm\u2019n, 179 Ill. App. 3d 683, 695, 534 N.E.2d 992, 1000 (1989). Estoppel is ordinarily a question of fact, but it becomes a matter of law where there is no dispute of material fact and only one inference can be drawn. See Pantle v. Industrial Comm\u2019n, 61 Ill. 2d 365, 369, 335 N.E.2d 491, 494 (1975).\nIn Phillips Products Co. v. Industrial Comm\u2019n, 94 Ill. 2d 200, 446 N.E.2d 234 (1983), the claimant was injured on May 28, 1975. He received his last payment of compensation on October 1, 1975. In April 1976, claimant inquired as to his rights; the personnel director informed him he \u201c \u2018had nothing coming\u2019 \u201d and prior to that time the foreman told claimant to \u201c \u2018just forget about it.\u2019 \u201d Phillips, 94 Ill. 2d at 205, 446 N.E.2d at 236. The supreme court stated, \u201cA denial of liability is not a statement reasonably intended to mislead and lull a plaintiff into forgoing a timely filing of his claim.\u201d Phillips, 94 Ill. 2d at 205, 446 N.E.2d at 236.\nAdditionally, even if Small\u2019s statements were initially enough to establish estoppel, they would not bar the employer from raising the statute of limitations defense here. Estoppel will not apply where the claimant knew or should have known of her legal rights long before the original period of limitations was to expire. See Smith v. Cook County Hospital, 164 Ill. App. 3d 857, 866, 518 N.E.2d 336, 342 (1987); Neaterour v. Holt, 188 Ill. App. 3d 741, 750, 544 N.E.2d 846, 852 (1989).\nTypically, an employer is estopped from asserting a statute of limitations when it engages in misleading conduct close to the expiration of the statute of limitations to lull the employee into a false sense of security and delay him from filing a claim. See Tegeler v. Industrial Comm\u2019n, 173 Ill. 2d 498, 508-10, 672 N.E.2d 1126, 1130-31 (1996) (estoppel occurred where employer\u2019s adjuster failed to inform employee that negotiations and settlement offer would terminate roughly two months later, when three-year statute of limitations expired); Molex, Inc. v. Industrial Comm\u2019n, 62 Ill. 2d 46, 50-51, 338 N.E.2d 390, 392 (1975) (employer started negotiating roughly six weeks before the one-year statute of limitations expired, claimant requested information two weeks before the expiration of the period, and employer waited until period expired to contact him and tell him that no further settlement offer would be made); Kaskaskia Constructors v. Industrial Comm\u2019n, 61 Ill. 2d 532, 534-35, 337 N.E.2d 713, 713-14 (1975) (insurance carrier representatives discussed claim with employee the month the statute of limitations expired and did not inform him statute was about to expire); Schumann v. Industrial Comm\u2019n, 61 Ill. 2d 241, 247, 335 N.E.2d 425, 429 (1975) (the supreme court found no estoppel since no evidence showed that the insurance adjuster sought to mislead the claimant where the claim was filed six months after the limitations period expired).\nWhere there is a longer delay between the employer\u2019s conduct and the expiration of the original statute of limitations, estoppel has only been found where special circumstances justify the employee\u2019s continued reliance on the employer\u2019s conduct. In Herlihy Mid-Continent Co. v. Industrial Comm\u2019n, 252 Ill. App. 3d 211, 218-19, 625 N.E.2d 108, 110-11 (1993), estoppel occurred where about six months remained between the employer\u2019s conduct and the expiration of the limitations period. This court found that claimant had a continuing working relationship with insurers; the insurer continued to pay medical expenses after the limitations period had run; the claimant continued to work and receive salary; and the claimant\u2019s delay in filing a claim was due to his need to verify his condition.\nThis limit on the doctrine of estoppel is not affected by the holding in City of Chicago. If the conduct giving rise to estoppel ends long before the original statute of limitations expires, estoppel is not a bar to that original statutory period, and the new period established under City of Chicago never takes effect. City of Chicago referred to the supreme court\u2019s statement in Molex:\n\u201c \u2018When settlement negotiations are conducted as close to the expiration of the limitation period as they were in this case notice of the termination of negotiations should be given to the claimant a reasonable length of time before the expiration date so that he may have adequate time to prepare and file an application for adjustment of claim.\u2019 \u201d City of Chicago, 75 Ill. 2d at 280, 388 N.E.2d at 411, quoting Molex, 62 Ill. 2d at 51, 338 N.E.2d at 392.\nTegeler also found Molex a good example of the application of estoppel and timeliness of the filing of a claim. Tegeler quoted from Molex, stating:\n\u201c \u2018Whether or not the result is intended, it is manifestly unfair for an employer or its insurance carrier, being versed in the operations of the Workmen\u2019s Compensation Act, to lead the employee to the very brink of the expiration date and then precipitously abandon him too late for him to preserve his claim.\u2019 \u201d Tegeler, 173 Ill. 2d at 507, 672 N.E.2d at 1130, quoting Molex, 62 Ill. 2d at 51, 338 N.E.2d at 392.\nTegeler and Molex provide a sound basis for the proposition that there can be no estoppel where there is a substantial, unjustified delay after the misleading conduct and before the statute of limitations has expired.\nAs stated above, section 6(d) establishes a period of limitations of three years from the date of the accident. This period expired on April 22, 1993. However, section 6(d) also provides a period of limitations of two years from the date of last payment of compensation, where any has been paid. The last compensation was paid January 18, 1992. At the time of Small\u2019s misleading statements (around January 25, 1992), at most one week of the two-year period had passed. The employer engaged in no further misleading conduct. There is nothing in the appellate record to indicate why Joy allowed the original statute of limitations to expire before investigating and filing a claim.\nFor all of the above reasons, we affirm.\nAffirmed.\nRAKOWSKI and HOLDRIDGE, JJ, concur.",
+                            "type": "majority"
+                        },
+                        {
+                            "author": "JUSTICE RARICK,",
+                            "text": "JUSTICE RARICK,\ndissenting:\nI respectfully dissent for the same reasons expressed in my recent dissent in Alexander v. Industrial Comm\u2019n.\nAs in Alexander, oral argument in the present case was requested and heard before a panel of three commissioners. At the time the Commission\u2019s decision was entered, however, the term of one of the commissioners had expired. The two remaining commissioners were unable to agree on a result and wrote separate decisions. A third commissioner, who was not present at oral argument, signed one of the decisions pursuant to Zeigler v. Industrial Comm\u2019n, 51 Ill. 2d 137, 281 N.E.2d 342 (1972). I believe the issue of a decision under such circumstances does not comport with the clear and unambiguous language of section 19(e) of the Workers\u2019 Compensation Act, which provides in pertinent part: \u201cIn the event either party requests oral argument, such argument shall be had before a panel of 3 members of the Commission ***. A decision of the Commission shall be approved by a majority of Commissioners present at such hearing.\u201d 820 ILCS 305/19(e) (West 1996). Because a majority of the commissioners who were present at the hearing did not approve the decision, I believe we have no jurisdiction to entertain this appeal. I would therefore dismiss the appeal and remand the cause to the Commission to enter a valid decision.\nCOLWELL, J., joins this dissent.",
+                            "type": "dissent"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "STEVEN BEAUDETTE, Deceased, by Joy Beaudette, his Widow, Appellant, v. THE INDUSTRIAL COMMISSION et al. (Eastman Kodak, Appellee).\nFirst District (Industrial Commission Division)\nNo. 1 \u2014 98\u2014-2217WC\nOpinion filed September 29, 1999.\nRARICK, J., dissenting, joined by COLWELL, J.\nMarc B. Stookal, of Nilson, Stookal & Bobrow, Ltd., of Chicago, for appellant.\nEdward M. Pfister and Bruce D. Crofts, both of Nyhan, Pfister, Bambrick & Kinzie, PC., of Chicago, for appellees."
+                }
+            }
+        },
+        {
+            "id": 8499472,
+            "url": "https://api.case.law/v1/cases/8499472/",
+            "name": "AMALGAMATED TRANSIT UNION, Local No. 313, Plaintiff-Appellee, v. ROCK ISLAND COUNTY METROPOLITAN MASS TRANSIT DISTRICT, Defendant-Appellant",
+            "name_abbreviation": "Amalgamated Transit Union v. Rock Island County Metropolitan Mass Transit District",
+            "decision_date": "1990-01-18",
+            "docket_number": "No. 3\u201489\u20140048",
+            "first_page": "926",
+            "last_page": "933",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "194 Ill. App. 3d 926"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078695103/",
+                "volume_number": "194",
+                "barcode": "32044078695103"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "437 N.E.2d 1253",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1985,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "107 Ill. App. 3d 516",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3020436
+                    ],
+                    "year": 1985,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "464 N.E.2d 1125",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "124 Ill. App. 3d 1004",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3427427
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "444 N.E.2d 205",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1984,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "111 Ill. App. 3d 372",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5441623
+                    ],
+                    "year": 1984,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "461 N.E.2d 959",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "101 Ill. 2d 246",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        3160495
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "466 N.E.2d 357",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "125 Ill. App. 3d 554",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3632781
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "447 N.E.2d 834",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "95 Ill. 2d 423",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        3112193
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "489 N.E.2d 1100",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "141 Ill. App. 3d 60",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3495543
+                    ],
+                    "weight": 2,
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/194/926/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/8499472/Amalgamated%20Transit%20Union%20v.%20Rock%20Island%20County%20Metropolitan%20Mass%20Transit%20District,%20194%20Ill.%20App.%203d%20926%20(1990).pdf",
+            "preview": [
+                "She <em class='search_highlight'>claimed</em> it was not her choice to be placed in the <em class='search_highlight'>small</em> bus division.",
+                "be transferred to the <em class='search_highlight'>small</em> bus division.",
+                "Transit District must either honor the <em class='search_highlight'>claim</em> or notify the Union of its reasons for rejecting the <em class='search_highlight'>claim</em>",
+                "investigation of the <em class='search_highlight'>claim</em>.",
+                "forced into the <em class='search_highlight'>small</em> bus division."
+            ],
+            "analysis": {
+                "word_count": 2516,
+                "random_bucket": 29983,
+                "sha256": "c800dc1a4940d28ae1e5f6803daedda0cd10169a7047fab70da35f53a2026ee8",
+                "ocr_confidence": 0.735,
+                "char_count": 15263,
+                "random_id": 2776200479,
+                "pagerank": {
+                    "percentile": 0.3889064957649059,
+                    "raw": 6.448908389950584e-08
+                },
+                "cardinality": 664,
+                "simhash": "1:faafe656a107cc96"
+            },
+            "last_updated": "2021-08-11T01:16:00.702547+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "AMALGAMATED TRANSIT UNION, Local No. 313, Plaintiff-Appellee, v. ROCK ISLAND COUNTY METROPOLITAN MASS TRANSIT DISTRICT, Defendant-Appellant."
+                    ],
+                    "attorneys": [
+                        "Douglas G. Olson and Jerry J. Pepping, both of McGehee, Boling, Whit-mire & Olson, Ltd., of Silvis, for appellant.",
+                        "Stephen P. Wing, of Dwyer & Wing, P.C., and Patricia Zamora, both of Davenport, Iowa, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE STOUDER",
+                            "text": "JUSTICE STOUDER\ndelivered the opinion of the court:\nThe appellant, Rock Island County Metropolitan Mass Transit District (Transit District), appeals from the granting of a motion to com pel arbitration brought by the appellee, Local No. 313 of the Amalgamated Transit Union (Union). The Union cross-appeals from the circuit court\u2019s order entered on the Transit District\u2019s motion to reconsider.\nThe Transit District provides bus service in Rock Island County. The Union is the duly authorized representative and bargaining agent for the union employees of the Transit District. The Union and the Transit District entered into a collective bargaining agreement effective July 1, 1984. The agreement provided for the establishment of a small bus division composed of buses which contain 25 seats or less and are 30 feet or less in length. The small buses were to be used on the Transit District\u2019s regular routes and for other specialized transportation services. Under the agreement, small bus operators are paid at a rate equal to 60% of the top rate paid to large bus operators. The agreement also provided for the selection of operator routes under a bidding process based on seniority.\nIn addition, the record shows that in 1975 the Transit District and the Union entered into an agreement entitled \u201cSupplemental Agreement Pursuant to Section 13(c) of the Urban Mass Transportation Act of 1964, As Amended\u201d (the section 13(c) agreement). The section 13(c) agreement provided that in the event the Transit District received a Federal capital grant to assist in the purchase of seven new buses and other transit equipment (the Project), it was agreed, among other things, employees covered by the agreement would not be \u201cplaced in a worse position with respect to compensation, hours, working conditions *** as a result of the Project.\u201d The record indicates that in 1984 the original section 13(c) agreement was incorporated by reference into agreements made at the time the Transit District applied for Federal grants to assist in the purchase of the small buses and other equipment. We note that the record does not contain a copy of these incorporating agreements and that in admissions filed by the Union, the Union denied the execution of such agreements. However, in its brief to this court, the Union states that a section 13(c) agreement was negotiated in 1984, along with the collective bargaining agreement.\nOn January 6, 1987, a grievance was filed by Carolyn Thoensen, an employee of the Transit District. Thoensen alleged that her work assignment was changed from full time in the large bus division to full time in the small bus division. As a result her wage rate was reduced by 40%. She claimed it was not her choice to be placed in the small bus division. As a result of management\u2019s decision to reduce the number of available full-time, large bus positions, she was forced to work either in the small bus division or part time in the large bus division with no benefits. Thoensen alleged that her condition of employment was worsened due to the federally funded grant used for the acquisition of the small buses. On March 13, 1987, the Union notified the Transit District that Pennie Mosley, Sam Brown and other employees wished to be included in the Thoensen grievance.\nThe record shows that prior to the Thoensen grievance, Mosley and Brown had filed a grievance alleging a violation of the collective bargaining agreement. In their grievance, they claimed that under the agreement only 13 employees of the Transit District could be transferred to the small bus division. They claimed that as a result of decisions made by management, they were forced out of positions as full-time, large bus operators and into the small bus division. The grievants concluded that the actions taken by the company had adversely affected the terms and conditions of their employment in contravention of the spirit and intent of the collective bargaining agreement.\nThe Mosley-Brown grievance was submitted to arbitration on April 2, 1986. The arbitrator found that there was no merit to the contention that the Transit District was required to maintain a certain number of full-time, large bus positions. He also found that the griev-ants voluntarily transferred to the small bus division. The arbitrator stated: \u201cIn the instant case the District neither assigned, transferred or [sic] forced the grievants to accept any particular position. The position obtained was by reason of a bidding process and the exercise of seniority.\u201d The Union did not seek review of the arbitrator\u2019s decision.\nIn the instant case, the Union made repeated demands to the Transit District requesting that the Thoensen grievance be submitted to arbitration. The Transit District refused to arbitrate. On May 28, 1987, the Union filed in the circuit court of Rock Island County a motion to compel arbitration. It subsequently filed a second amended complaint to compel arbitration. On April 4, 1988, the Transit District filed a motion for permanent stay of arbitration pursuant to section 2 of the Uniform Arbitration Act (Ill. Rev. Stat. 1987, ch. 10, par. 102), contending that the Union\u2019s claim was barred under the principles of res judicata and collateral estoppel.\nA hearing was held on April 8, 1988, and at the conclusion of that hearing, the court requested that the parties submit briefs on the issues raised accompanied by proposed written orders. On July 19, 1988, the court entered an order granting the Union\u2019s \u201cmotion\u201d to compel arbitration. The court found, inter alia, that in the instant case the application of the principles of res judicata and collateral estoppel was precluded by the lack of any language in the section 13(c) agreement intended to \u201cbar or extinguish any future grievance.\u201d The court held that the Mosley-Brown grievance concerned the issue of voluntary versus involuntary transfer under section 41 of the collective bargaining agreement. On the other hand, the issue in the Thoensen grievance was the worsening of wages or conditions of employment as the direct or indirect result of a federally funded project. Noting the fact that Brown and Mosley joined in the Thoensen grievance, the court held that the parties in the Mosley-Brown grievance were not the same as the parties in the Thoensen grievance.\nOn the Transit District\u2019s subsequent motion to reconsider, the court held that its July 19, 1988, order should not be interpreted to preclude the Transit District from raising any defense before the arbitrator. It also vacated that portion of the order which held that the parties to the two grievances were not the same. The court held that under the collective bargaining agreement a grievance is defined as any controversy between the Transit District and the Union. The court affirmed as modified its order of July 19, 1988. The Transit District appealed from the circuit court\u2019s modified order, and the Union cross-appealed the issue of identity of party.\nInitially, we address the Union\u2019s cross-appeal. On appeal, the Union contends that the circuit court erred in reversing its original finding that the parties to the two grievance procedures were not the same for purposes of res judicata and collateral estoppel. It argues that this action is brought pursuant to the section 13(c) agreement and that the agreement is ambiguous in regards to whether individual employees can bring actions for violation of the agreement. However, in its brief to this court, the Union concedes that for purposes of arbitration the parties to the dispute are the Union and the Transit District.\nThe 1975 section 13(c) agreement provides that when an adversely affected employee brings a claim, the Transit District must either honor the claim or notify the Union of its reasons for rejecting the claim. In the event the Transit District rejects the claim, the Union may invoke specific procedures for the investigation of the claim. The parties then meet and attempt to \u201cagree upon the proper disposition of the claim.\u201d Paragraph 9 of the 1975 section 13(c) agreement states in pertinent part: \u201cIn the event of any labor dispute involving the Public Body and the employees covered by this agreement which cannot be settled within thirty (30) days after such dispute first arises, such dispute may be submitted at the request of either the Union or the Public Body to a board of arbitration selected in accordance with the existing collective bargaining agreement ***.\u201d\nThe collective bargaining agreement describes a grievance as any controversy between the Union and the employer involving interpretation of the agreement. The parties to both agreements are the Union and the Transit District. The agreements denominate the parties as the Union and the Transit District. Under both agreements it is the Union which requests arbitration of disputes, not the individual union members. The Union brought the Mosley-Brown dispute to arbitration. In the instant case, both the motion to compel and the complaint were brought by the Union. The parties to both actions were the Union and the Transit District. Therefore the circuit court correctly held that the parties in both actions were the same.\nThe remaining issue is whether the current action is barred by the doctrines of res judicata or collateral estoppel. The trial court found and the Union argues on appeal that because the section 13(c) agreement lacks provision for barring and extinguishing \u201cany future grievance,\u201d the doctrines of res judicata and collateral estoppel do not apply to this action. In other words, in order for the doctrines of res judicata and collateral estoppel to apply, the parties must provide for their application within the text of the agreement. The Union cites Monmouth Public Schools v. Pullen (1985), 141 Ill. App. 3d 60, 489 N.E.2d 1100, as support for its rather novel argument.\nThe issue in Monmouth concerned the scope of a court\u2019s authority when a motion to stay arbitration is brought under section 2 of the Uniform Arbitration Act (Ill. Rev. Stat. 1987, ch. 10, par. 102). It was argued in Monmouth that, under the statute, the court was limited to determining whether an agreement to arbitrate existed. The court held that in such proceedings it also had the authority to decide the res judicata and collateral estoppel effect to be given a prior arbitration award. The case does not stand for the proposition that these doctrines can be altered by agreement of the parties. Res judicata and collateral estoppel are judicially created doctrines designed to protect litigants from the burden of retrying an identical cause of action or issue with the same party or privy, and to enhance judicial economy by prohibiting repetitive litigation. (Spiller v. Continental Tube Co. (1983), 95 Ill. 2d 423, 447 N.E.2d 834.) Parties do not have the power to alter the applicability of these judicially created doctrines of law. These doctrines are not rendered inapplicable by the parties\u2019 failure to provide for them in their contract.\nOn review of the record we find the Union\u2019s claim to be barred by res judicata. Under the doctrine of res judicata, a final judgment on the merits is conclusive as to the rights of the parties and their privies, and, as to them, constitutes an absolute bar to a subsequent action involving the same claim, demand or cause of action. (Reynolds Metals Co. v. V.J. Mattson Co. (1984), 125 Ill. App. 3d 554, 466 N.E.2d 357.) Res judicata is conclusive not only as to every matter which was offered to sustain or defeat the claim or demand, but as to any other matter which might have been offered for that purpose. (Housing Authority v. YMCA (1984), 101 Ill. 2d 246, 461 N.E.2d 959.) The test is whether the causes of action are based upon a common core of operative facts or whether the evidence necessary to sustain the second verdict would have sustained the first. (Redfern v. Sullivan (1982), 111 Ill. App. 3d 372, 444 N.E.2d 205.) A cause of action consists of a right belonging to the plaintiff which the defendant violates by some wrongful act or omission. Edwards v. City of Quincy (1984), 124 Ill. App. 3d 1004, 464 N.E.2d 1125.\nArbitration is in the nature of a judicial inquiry with its object to achieve a final and binding disposition of differences between parties, both present and prospective, with the force of an adjudication precluding the parties from relitigating the same subject. (Kemling v. Country Mutual Insurance Co. (1982), 107 Ill. App. 3d 516, 437 N.E.2d 1253.) If the arbitration award is binding on the parties, any inquiry into the matters originally controverted is forever closed. Monmouth Public Schools v. Pullen (1985), 141 Ill. App. 3d 60, 489 N.E.2d 1100.\nA review of the record shows that the cause of action in both grievances involved the same core of operative facts. Thoensen alleged that by reason of a management decision to reduce the number of large bus positions she was forced into the small bus division. This resulted in a reduction in her wage rate. Mosley and Brown claimed in their grievance that as the result of a decision by management, they were forced into the small bus division. They claimed that the actions of the Transit District adversely affected the terms and conditions of their employment and that they were entitled to be paid at the large bus rate. The arbitrator in the Mosley-Brown grievance found that the Transit District did not force the grievants into the small bus division, but rather they obtained the positions by reason of the bidding process and the exercise of seniority as provided in the collective bargaining agreement. Under the agreement, the Transit District was not required to maintain a minimum number of large bus positions. The Union did not seek review of the arbitrator\u2019s decision and concedes that it is bound by that decision. In support of its claim in the Mosley-Brown action, the Union could have alleged its theory of a section 13(c) violation. In failing to do so, the Union is barred from attempting to relitigate this dispute on a theory it could have raised in the earlier proceeding. The arbitrator determined that the change in the employees\u2019 positions was not the result of a violation of any agreement, but was the result of the terms of the collective bargaining agreement which the union membership approved. The instant cause of action is barred by the doctrine of res judicata.\nTherefore, the judgment of the circuit court of Rock Island County as it relates to the finding of identity of party is affirmed; the remaining judgment is reversed and the cause remanded with directions to grant the Transit District\u2019s motion for a permanent stay of arbitration.\nAffirmed in part; reversed in part and remanded with directions.\nSCOTT and WOMBACHER, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [
+                        "SCOTT and WOMBACHER, JJ., concur."
+                    ],
+                    "head_matter": "AMALGAMATED TRANSIT UNION, Local No. 313, Plaintiff-Appellee, v. ROCK ISLAND COUNTY METROPOLITAN MASS TRANSIT DISTRICT, Defendant-Appellant.\nThird District\nNo. 3\u201489\u20140048\nOpinion filed January 18, 1990.\nRehearing denied March 27, 1990.\nDouglas G. Olson and Jerry J. Pepping, both of McGehee, Boling, Whit-mire & Olson, Ltd., of Silvis, for appellant.\nStephen P. Wing, of Dwyer & Wing, P.C., and Patricia Zamora, both of Davenport, Iowa, for appellee."
+                }
+            }
+        },
+        {
+            "id": 3114901,
+            "url": "https://api.case.law/v1/cases/3114901/",
+            "name": "BERNARD ROBINSON, Plaintiff-Appellant, v. STEVE WARMINGTON, Defendant-Appellee",
+            "name_abbreviation": "Robinson v. Warmington",
+            "decision_date": "1981-04-28",
+            "docket_number": "No. 80-1626",
+            "first_page": "747",
+            "last_page": "750",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "95 Ill. App. 3d 747"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078693470/",
+                "volume_number": "95",
+                "barcode": "32044078693470"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "254 N.E.2d 307",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1968,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "118 Ill. App. 2d 411",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        1585481
+                    ],
+                    "year": 1968,
+                    "pin_cites": [
+                        {
+                            "page": "415"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "273 N.E.2d 693",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1969,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "1 Ill. App. 3d 219",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5314002
+                    ],
+                    "year": 1969,
+                    "pin_cites": [
+                        {
+                            "page": "221"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "342 N.E.2d 261",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1971,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "35 Ill. App. 3d 408",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5304801
+                    ],
+                    "year": 1971,
+                    "pin_cites": [
+                        {
+                            "page": "411"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "371 N.E.2d 1007",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1976,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "56 Ill. App. 3d 222",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3414624
+                    ],
+                    "weight": 2,
+                    "year": 1976,
+                    "pin_cites": [
+                        {
+                            "page": "225"
+                        },
+                        {
+                            "page": "227"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "52 Ill. B.J. 372",
+                    "category": "journals:journal",
+                    "reporter": "Ill. B.J.",
+                    "pin_cites": [
+                        {
+                            "page": "378",
+                            "parenthetical": "1963-1964"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/95/747/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/3114901/Robinson%20v.%20Warmington,%2095%20Ill.%20App.%203d%20747%20(1981).pdf",
+            "preview": [
+                "<em class='search_highlight'>claims</em> action.",
+                "The fulcrum of plaintiff\u2019s argument on appeal, however, is that an evidence deposition in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                "The provisions of the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Rules (Ill. Rev.",
+                "\u201cWhere the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> rules direct an issue or matter of procedure, such rules take precedence; they",
+                "<em class='search_highlight'>Claims</em> Rules."
+            ],
+            "analysis": {
+                "word_count": 1008,
+                "random_bucket": 21272,
+                "sha256": "87bd1149bc1022a65f05d9c4b2d6cd403df50cd1efdd2ac7bd51e96131d934f5",
+                "ocr_confidence": 0.91,
+                "char_count": 6151,
+                "random_id": 1491751704,
+                "pagerank": {
+                    "percentile": 0.0893109545814242,
+                    "raw": 4.076306636737454e-08
+                },
+                "cardinality": 360,
+                "simhash": "1:abd34cd52e2c08e7"
+            },
+            "last_updated": "2021-08-10T18:57:07.717457+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "BERNARD ROBINSON, Plaintiff-Appellant, v. STEVE WARMINGTON, Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "Walter M. Ketchum, of Chicago (Jonathan K. Gray, of counsel), for appellant.",
+                        "Ross, Hardies, O\u2019Keefe, Babcock & Parsons, of Chicago (Donald J. Tribbett, of counsel), for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "Mr. JUSTICE PERLIN",
+                            "text": "Mr. JUSTICE PERLIN\ndelivered the opinion of the court:\nPlaintiff, Bernard Robinson, appeals from a judgment entered in favor of defendant, Steve Warmington, upon a directed verdict in a small claims action. The issue presented for review is whether the trial court erred in refusing to admit into evidence an evidence deposition taken in a former action involving the same parties and subject matter.\nPlaintiff brought this action to recover property damage to his automobile allegedly caused by the negligence of defendant. At trial the only evidence the plaintiff offered was an evidence deposition of him and his wife taken during the pendency of a prior action between the parties. Although the record of the prior action is not before this court, plaintiff\u2019s counsel in the case at bar briefly explained to the trial court what had transpired in the prior action. Plaintiff\u2019s counsel advised the court that during the pendency of the prior action plaintiff and his wife were living in California and were \u201cnot available to come to Chicago.\u201d Consequently plaintiff took an evidence deposition of himself and his wife. Leave of court was not obtained prior to the taking of the deposition, and defendant did not serve cross questions or participate in the deposition. The trial court in the prior case did not permit plaintiff to use the deposition as evidence, and plaintiff voluntarily dismissed the action. Plaintiff then brought this action.\nThe trial court in the instant case also refused to admit the deposition into evidence and entered a directed verdict in favor of defendant.\nPlaintiff contends that Supreme Court Rule 212(d) (Ill. Rev. Stat. 1979, ch. 110A, par. 212(d)) sanctions the use in this action of the evidence deposition taken of plaintiff and his wife in the prior action. Rule 212(d) provides:\n\u201cUse After Substitution, Dismissal, or Remandment. Substitution of parties does not affect the right to use depositions previously taken. If any action in any court of this or any other jurisdiction of the United States is dismissed and another action involving the same subject matter is afterward brought between the same parties or their representatives or successors in interest, or if any action is remanded by a court of the United States to a court of this State, all depositions lawfully taken and duly filed in the former action, or before remandment, may be used as if taken in the later action, or after remandment.\u201d (Emphasis supplied.)\nRule 212(d) does not permit the use of a deposition taken in a former action unless the deposition was \u201clawfully taken and duly filed in the former action.\u201d As we previously noted, the record of the former action is not before us. We further note that although plaintiff asserts in his brief that the deposition was lawfully taken and duly filed, the record before us is devoid of any proof concerning the taking or the filing of the deposition. The fulcrum of plaintiff\u2019s argument on appeal, however, is that an evidence deposition in a small claims action may be taken without leave of court, and therefore the evidence deposition taken of plaintiff and his wife in the prior action without leave of court was lawfully taken.\nSupreme Court Rule 287 (Ill. Rev. Stat. 1979, ch. 110A, par. 287) entitled Depositions and Discovery provides:\n\u201cNo depositions shall be taken or interrogatories or other discovery proceeding be used prior to trial in small claims except by leave of court.\u201d\nThe language of Rule 287 is clear and unequivocal. \u201cNo depositions\u201d shall be taken except by leave of court. However, plaintiff urges this court to modify the language to read \u201cno discovery depositions\u201d shall be taken without leave of court. In support of this proposed interpretation plaintiff argues that \u201c[i]f the court had meant to restrict the use of evidentiary proceedings in the form of evidence depositions by written interrogatories, it could and should have omitted the word \u2018other\u2019 thus making the rule restrict all types of depositions and not just discovery depositions.\u201d Although research has revealed no decisions interpreting Rule 287, the report of the Chairman and Secretary of the Illinois Supreme Court Rules Committee recognized that \u201c[i]n keeping with the objectives of simplified and inexpensive procedure, no depositions or discovery proceedings are permitted except by leave of court.\u201d (Rall & Tone, The New Illinois Supreme Court Rules, 52 Ill. B.J. 372, 378 (1963-1964).) The provisions of the Small Claims Rules (Ill. Rev. Stat. 1979, ch. 110A, pars. 281-288) are meant to provide a simplified and inexpensive procedure for small claims and are complete in themselves without reference to other rules (except as to the form of summons). (Wicks v. Bank of Belleville (1977), 56 Ill. App. 3d 222, 225, 371 N.E.2d 1007; Wroclawski v. Waszczyk (1976), 35 Ill. App. 3d 408, 411, 342 N.E.2d 261; Griffin v. Billberry (1971), 1 Ill. App. 3d 219, 221, 273 N.E.2d 693; Daily Journal v. Smith (1969), 118 Ill. App. 2d 411, 415, 254 N.E.2d 307; Ill. Ann. Stat., ch. 110A, par. 281, Historical and Practice Notes, at 321 (Smith-Hurd 1968).) \u201cWhere the small claims rules direct an issue or matter of procedure, such rules take precedence; they are \u2018complete.\u2019 \u201d (Wicks v. Bank of Belleville (1977), 56 Ill. App. 3d 222, 227.) Any ruling by this court limiting the language of Rule 287 to only discovery depositions would, in our opinion, impose an interpretation on the Rule which is not justified by its plain language nor by the objectives of the Small Claims Rules.\nBased upon the foregoing, we affirm the judgment of the circuit court of Cook County.\nAffirmed.\nHARTMAN, P. J., and DOWNING, J., concur.\nPlaintiffs explanation to the trial court does not indicate with clarity whether leave of court was denied or whether leave was never sought.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "BERNARD ROBINSON, Plaintiff-Appellant, v. STEVE WARMINGTON, Defendant-Appellee.\nFirst District (2nd Division)\nNo. 80-1626\nOpinion filed April 28, 1981.\nWalter M. Ketchum, of Chicago (Jonathan K. Gray, of counsel), for appellant.\nRoss, Hardies, O\u2019Keefe, Babcock & Parsons, of Chicago (Donald J. Tribbett, of counsel), for appellee."
+                }
+            }
+        }
+    ]
+}

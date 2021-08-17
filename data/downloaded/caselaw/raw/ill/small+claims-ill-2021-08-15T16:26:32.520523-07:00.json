@@ -1,0 +1,883 @@
+{
+    "count": 62228,
+    "next": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguNzAyNDczLCAyNTk4MTMxXX0%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "previous": "https://api.case.law/v1/cases/?body_format=text&cursor=eyJwIjogWzguODg3NDYxLCAxNTg1NDgxXSwgInIiOiAxfQ%3D%3D&decision_date_max=2020-12-31&decision_date_min=1930-01-01&full_case=true&jurisdiction=ill&ordering=relevance&page_size=5&search=small+claims",
+    "results": [
+        {
+            "id": 1585481,
+            "url": "https://api.case.law/v1/cases/1585481/",
+            "name": "Daily Journal, a Corporation, Plaintiff-Appellee, v. Andy Smith, Defendant-Appellant",
+            "name_abbreviation": "Daily Journal v. Smith",
+            "decision_date": "1969-12-31",
+            "docket_number": "Gen. No. 69-31",
+            "first_page": "411",
+            "last_page": "418",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "118 Ill. App. 2d 411"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078504628/",
+                "volume_number": "118",
+                "barcode": "32044078504628"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/319/",
+                "full_name": "Illinois Appellate Court Reports, Second Series",
+                "id": 319
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "209 NE2d 358",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "61 Ill App2d 289",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        5300832
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "167 NE2d 799",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "26 Ill App2d 102",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        5215664
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "p 109"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "226 NE2d 282",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "79 Ill App2d 410",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        2565271
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-2d/118/411/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/1585481/Daily%20Journal%20v.%20Smith,%20118%20Ill.%20App.%202d%20411%20(1969).pdf",
+            "preview": [
+                "A <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> complaint was filed in the Circuit Court of Kane County by plaintiff to recover on a <em class='search_highlight'>claim</em>",
+                "On July 5, 1968, the plaintiff filed a <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> complaint stating, \u201cI, the undersigned, <em class='search_highlight'>claim</em> that",
+                "<em class='search_highlight'>Claims</em> which states in section 281: \u201ca <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> is a civil action based on either tort or contract",
+                "<em class='search_highlight'>claims</em>, and whether a <em class='search_highlight'>small</em>-<em class='search_highlight'>claim</em> complaint filed for a sum in excess of $500 is void for failure to",
+                "Supreme Court Rules on <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>, Ill Rev Stats 1967, c 110A, \u00a7 \u00a7 281-288 are complete."
+            ],
+            "analysis": {
+                "word_count": 2049,
+                "random_bucket": 13614,
+                "sha256": "ec3e0693d341cc86bf92e9947df476d5141c092aa31cf0a0017e57c516d1a9a3",
+                "ocr_confidence": 0.617,
+                "char_count": 11929,
+                "random_id": 1328952622,
+                "pagerank": {
+                    "percentile": 0.8016217430807256,
+                    "raw": 2.4586729823036724e-07
+                },
+                "cardinality": 539,
+                "simhash": "1:d74bcd97bed8c57f"
+            },
+            "last_updated": "2021-08-11T02:23:47.358853+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "Daily Journal, a Corporation, Plaintiff-Appellee, v. Andy Smith, Defendant-Appellant."
+                    ],
+                    "attorneys": [
+                        "Idarius, Rubin and Zahn Associates, of Lombard, for appellant.",
+                        "Chase, Wotan and Muscarello, of Elgin, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "MR. JUSTICE ABRAHAMSON",
+                            "text": "MR. JUSTICE ABRAHAMSON\ndelivered the opinion of the court.\nA small-claim complaint was filed in the Circuit Court of Kane County by plaintiff to recover on a claim for fraud. A default judgment was entered and the defendant, within 30 days, filed a motion to vacate the judgment which was denied. Defendant appealed to this court from the default judgment and the denial of the motion to vacate.\nOn July 5, 1968, the plaintiff filed a small-claim complaint stating, \u201cI, the undersigned, claim that the defendant is indebted to the plaintiff in the sum of $1,987.31 for fraud .... That the defendant resides at 225 West 89th Street, Chicago, Illinois .... That plaintiff resides in Elgin, Illinois.\u201d Defendant was served with an alias summons requiring his appearance at the Kane County Court House on September 16, 1968. The alias summons contained the admonition \u201c. . . you must appear in person or by attorney at the time and place specified in the summons or a default judgment will be entered against you.\u201d\nOn the return day defendant, by counsel, appeared before the Small-Claims Magistrate and filed a special appearance. By stipulation there was no order entered at that time because the parties were attempting to determine if a settlement could be reached. Thereafter, defendant served a notice upon the plaintiff that he would appear in court on January 9,1969, and move for a transfer to a proper venue. The plaintiff appeared on January 9 and, upon failure of the defendant to appear, moved the court for a default judgment. A judgment order was entered by the Magistrate which states, \u201cthat the defendant having been duly served with summons as shown in the file and having failed to appear, answer or otherwise plead, and the complaint having been taken as confessed against the defendant, and the court having heard the testimony of the parties and witnesses ... it is therefore ordered and decreed that judgment be and is hereby entered in favor of the plaintiff and against the defendant in the sum of $1987.31 . . . .\u201d\nOn January 27, 1969, the parties appeared before the Magistrate pursuant to defendant\u2019s notice and motion to vacate the default judgment entered on January 9 and to transfer the cause to a proper venue. The Magistrate refused to entertain the oral motion and the case was continued to February 4 so that defendant could submit a written motion. On February 4, defendant filed a written motion stating, among other things, that he filed his special appearance in order to question the jurisdiction of the court, and that no ruling was made on this matter, that the defendant is not and has not been a resident of Kane County, nor has any transaction or any part of any transaction occurred in Kane County out of which this cause of action allegedly arose, and that this action was commenced in violation of section 5 (Venue\u2014 Generally) of the Civil Practice Act.\nThe motion further alleges that the complaint violates section 45 (pertaining to objections to pleadings) of the Civil Practice Act, and Supreme Court Rules 281-288, (Small Claims) in that the complaint is substantially insufficient in law. The motion asserts that the complaint alleged a mere legal conclusion; that the plaintiff chose an improper venue and disregarded the Supreme Court Rules on Small Claims which states in section 281: \u201ca small claim is a civil action based on either tort or contract for money not in excess of $500,\u201d; and the prayer of the motion was that judgment by default be vacated and that the cause be dismissed as wrongfully brought. The defendant\u2019s motion was denied.\nThe trial court record does not reveal any motion by plaintiff for a default or a default order. The next item to appear in the record after the defendant filed his special appearance on September 16, 1968, is the judgment order entered on January 9, 1969. Therefore, it does not appear that defendant received any notice that plaintiff would move the court for a default; that there was any ruling on defendant\u2019s special appearance, nor any order entered requiring defendant to file an answer or setting a trial date.\nThe issues presented are whether Supreme Court Rules 281-288, (Ill Rev Stats 1967, c 110A, \u00a7\u00a7 281-288), prescribed the rules for filing small claims, and whether a small-claim complaint filed for a sum in excess of $500 is void for failure to state a cause of action; whether a defendant who enters his appearance is entitled to notice before the default can be taken; whether a complaint so insufficient states a cause of action that a default judgment is improper, and whether the vacation of a default judgment pursuant to section 50 of the Civil Practice Act is based upon substantial principles of right and wrong and is to be exercised by the court for the prevention of injustice.\nWe believe that defendant\u2019s contention that a small-claim complaint filed for a sum in excess of $500 is void and fatally defective for failure to state a cause of action is without merit. Article VI, Judicial Department, Constitution of the State of Illinois, which is commonly known as the Judicial Article and which became effective January 1, 1964, provides in section 9: \u201cThe circuit court shall have unlimited original jurisdiction of all justiciable matters . . . The purpose carrying out the unification of the courts is set forth not only in sections 8 and 9 of Article VI, Illinois Constitution, but also in paragraph 5 of the Schedule to the Judicial Article. Supreme Court Rules on small claims, Ill Rev Stats 1967, c 110A, \u00a7 \u00a7 281-288 are complete. It is noted that although the amount of $500 applied when this case was filed, the rule was amended later to increase from $500 to $1,000 the upper limit of a small claim. It is apparent that a small-claim complaint filed for a sum in excess of the amount stated in Supreme Court Rule 281 is not fatally defective and void for failing to state a cause of action, but such a case should be transferred from the small claim division to another division of the Circuit Court.\nThe next issue presented is whether a defendant who has entered his appearance must be notified properly before a default judgment can be taken against him. In this case the defendant entered a special appearance on the return date specified in the summons. No notice was given by either party prior to the default judgment being entered to have the Magistrate pass upon the special appearance. It was quite apparent from the face of the small-claim complaint that the amount sought was in excess of the amount specified in Supreme Court Rule 281. It is also noted that nowhere in the record does it appear that any evidence was offered to support the judgment, and plaintiff does not contend that any evi dence was offered to support the judgment before the judgment was entered. Supreme Court Rule 286, (Ill Rev Stats 1967, c 110A, \u00a7 286), provides as follows:\n\u201cUnless the \u2018Notice to Defendant\u2019 (see rule 101(b)) provides otherwise, the defendant in a small claim must appear at the time and place specified in the summons and the case shall be tried on the day set for appearance unless otherwise ordered. If the defendant appears, he need not file an answer unless ordered to do so by the court; and when no answer is ordered the allegations of the complaint will be considered denied and any defense may be proved as if it were specifically pleaded.\u201d\nRule 6 of the Rules of Practice of the Circuit Court of Kane County is entitled \u201cAppearances and Default\u2014 Notice of Proceedings\u201d and states:\n\u201cNotice of all proceedings in an action shall be given to all parties who have appeared and have not been found by the Court to be in default for failure to plead, unless notice is excused by the Court.\u201d\nIn Sentry Royalty Co. v. Craft, 79 Ill App2d 410, 226 NE2d 282, it is stated at p 417:\n\u201cDefendants were entitled to notice in writing that plaintiff would move the trial court for a default, (Uniform Rules of the Circuit Court of Illinois, Rule 2.1, 111 Rev Stats 1965 c 110, sec 302.1, adopted by the Twentieth Judicial Circuit January 2, 1964,) but the record shows no proof of such notice, nor does any party contend such notice was given. Had such notice been given, defendants would have been afforded an opportunity of a hearing to prevent the default order as well as the decree being so promptly entered.\u201d\nUnder the circumstances here present the defendant was entitled to proper notice before a default judgment was entered.\nAnother contention of the defendant is that the Magistrate improperly refused to vacate the default judgment pursuant to section 50 of the Civil Practice Act (Ill Rev Stats 1967) c 110, \u00a7 50 (5). The motion to vacate the default judgment and to transfer the case to a proper venue was filed within 30 days of the entry of judgment. Section 50(5) of the Civil Practice Act is as follows:\n\u201cThe court may in its discretion, before final order, judgment or decree, set aside any default, and may on motion filed within 30 days after entry thereof set aside any final order, judgment or decree upon any terms and conditions that shall be reasonable.\u201d\nThe pertinent allegations of the motion to vacate have hereinbefore been set forth. Plaintiff did not respond to the allegations of the motion.\nIt was said in Widucus v. Southwestern Elec. Cooperative, 26 Ill App2d 102, p 109,167 NE2d 799:\n\u201cIt seems to us that the overriding reason should be whether or not justice is being done. Justice will not be done if hurried defaults are allowed any more than if continuing delays are permitted. But justice might, at times, require a default or a delay. What is just and proper must be determined by the facts of each case, not by a hard and fast rule applicable to all situations regardless of outcome.\n\u201cThe entering of a default is one of the most drastic actions a court may take to punish for disobedience to its commands. The court has other powers which are ample in most instances. In our judgment, a default should only be condoned when, as a last resort, it is necessary to give the plaintiff his just demand. It should be set aside when it will not cause a hardship upon the plaintiff to go to trial on the merits.\u201d\nThis court in Mieszkowski v. Norville, 61 Ill App2d 289, 209 NE2d 358, traced the standards for guidance in determining whether a default judgment is to be set aside, and in quoting from the Widucus case stated at p 294, \"... a court may set aside a judgment on a motian made within thirty days \u2018upon any terms and conditions that shall be reasonable\u2019 \u201d . . . .\nUnder the circumstances here, the motion to vacate the default judgment should have been allowed by the magistrate and he should then have ruled on defendant\u2019s motion to transfer the cause to a proper venue.\nWe do not decide the issue here as to whether the complaint is insufficient to state a cause of action because the magistrate will have to determine first whether the cause should be transferred to another division of the Kane County Circuit Court, due to the amount of money involved, or whether the case should be transferred to Cook County, or another county, because of wrong venue (Ill Rev Stats 1967, c 110, pars 7 and 10). The sufficiency of the complaint can then be tested in the proper court in accordance with section 45 of the Civil Practice Act.\nAccordingly, the judgment entered on January 9, and the order of the magistrate dated February 4 denying the motion to vacate, are both reversed and the cause remanded to the Kane County Circuit Court with directions to proceed consistent with the views expressed in this opinion.\nReversed and remanded with directions.\nDAVIS and SEIDENFELD, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "Daily Journal, a Corporation, Plaintiff-Appellee, v. Andy Smith, Defendant-Appellant.\nGen. No. 69-31.\nSecond District.\nDecember 31, 1969.\nIdarius, Rubin and Zahn Associates, of Lombard, for appellant.\nChase, Wotan and Muscarello, of Elgin, for appellee."
+                }
+            }
+        },
+        {
+            "id": 1587109,
+            "url": "https://api.case.law/v1/cases/1587109/",
+            "name": "Charlene Smith, Plaintiff-Appellant, v. Champaign-Urbana City Lines, Inc., Defendant-Appellee",
+            "name_abbreviation": "Smith v. Champaign-Urbana City Lines, Inc.",
+            "decision_date": "1969-11-06",
+            "docket_number": "Gen. No. 11,081",
+            "first_page": "289",
+            "last_page": "292",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "116 Ill. App. 2d 289"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078504644/",
+                "volume_number": "116",
+                "barcode": "32044078504644"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/319/",
+                "full_name": "Illinois Appellate Court Reports, Second Series",
+                "id": 319
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "97 NE2d 129",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1951,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "342 Ill App 484",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App.",
+                    "case_ids": [
+                        5065151
+                    ],
+                    "year": 1951,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "257 Ill App 41",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App.",
+                    "case_ids": [
+                        3262863
+                    ],
+                    "year": 1930,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "249 Ill App 15",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App.",
+                    "case_ids": [
+                        3233221
+                    ],
+                    "year": 1928,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "159 NE 242",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.",
+                    "year": 1927,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "328 Ill 269",
+                    "category": "reporters:state",
+                    "reporter": "Ill.",
+                    "case_ids": [
+                        5196920
+                    ],
+                    "year": 1927,
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-2d/116/289/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/1587109/Smith%20v.%20Champaign-Urbana%20City%20Lines,%20Inc.,%20116%20Ill.%20App.%202d%20289%20(1969).pdf",
+            "preview": [
+                "This appeal from a judgment entered for defendant upon a directed verdict in a <em class='search_highlight'>small</em>-<em class='search_highlight'>claims</em> action before",
+                "Second, whether the formal rules of evidence apply to a suit filed as a <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> under Illinois Supreme",
+                "Plaintiff sued in a <em class='search_highlight'>small</em>-<em class='search_highlight'>claims</em> action for property damage to her automobile allegedly caused by the",
+                "A suit under the <em class='search_highlight'>Small</em> <em class='search_highlight'>Claims</em> Rules is filed in the circuit court.",
+                "filed as a <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> are any different than in any other type of <em class='search_highlight'>claim</em> or suit."
+            ],
+            "analysis": {
+                "word_count": 787,
+                "random_bucket": 28636,
+                "sha256": "04d1ba307dc3beeb5c8ff5ac1e1805bbdde79481f273b8b8975216497a5a4519",
+                "ocr_confidence": 0.621,
+                "char_count": 4675,
+                "random_id": 2894360540,
+                "pagerank": {
+                    "percentile": 0.6167754667396126,
+                    "raw": 1.2994944065527697e-07
+                },
+                "cardinality": 333,
+                "simhash": "1:14daf2ae72ca116a"
+            },
+            "last_updated": "2021-08-10T21:16:49.697197+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "Charlene Smith, Plaintiff-Appellant, v. Champaign-Urbana City Lines, Inc., Defendant-Appellee."
+                    ],
+                    "attorneys": [
+                        "Noel, Middleton & Graver, of Urbana (Kenneth Baughman, of counsel), for appellant.",
+                        "Hayes & Moore, of Champaign (Robert P. Moore, of counsel), for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "GRAVEN, J.,",
+                            "text": "GRAVEN, J.,\ndelivered the opinion of the court.\nThis appeal from a judgment entered for defendant upon a directed verdict in a small-claims action before a magistrate, arising out of property damage to an automobile, raises two questions as to evidence. First, what evidence is required to raise the presumption that paid auto repair bills are reasonable and necessary expenses for repairs? Second, whether the formal rules of evidence apply to a suit filed as a small claim under Illinois Supreme Court Rule 282.\nPlaintiff sued in a small-claims action for property damage to her automobile allegedly caused by the negligence of defendant\u2019s employee. At the trial plaintiff offered evidence of a bookkeeper at the garage where her car was repaired. The bookkeeper testified that she had a repair bill which her books showed paid.\nPlaintiff\u2019s Exhibit No. 2 was offered as the repair bill and Plaintiff\u2019s Exhibit No. 4 as a ledger sheet. The bookkeeper testified that Plaintiff\u2019s Exhibit No. 2 was the repair bill for plaintiff\u2019s ear, and that she had made the entries on the ledger sheet (Plaintiff\u2019s Exhibit No. 4).\nDefendant objected to the admission of Plaintiff\u2019s Exhibit No. 2 since the witness could not identify all of the entries on the bill, since no repair estimate accompanied the exhibit, since the exhibit contained the writing \u201c100 Ded. Chicago Mtr. Club,\u201d and the exhibit showed replacement of the right rear axle although plaintiff had not testified to any damage to the right side of her car.\nDefendant also objected to the admission of Plaintiff\u2019s Exhibit No. 4 because the bookkeeper could not identify and itemize all of the items there listed and because the exhibit did not itemize the parts or labor, but contained only invoice numbers and prices.\nThe trial court sustained the objections to Plaintiff\u2019s Exhibits No. 2 and No. 4, and granted a motion for directed verdict for defendant for want of proof of damages.\nIt has been the long-followed rule in Illinois that a paid automobile repair bill is admissible in evidence without other foundation as prima facie evidence of the necessity and reasonableness of such repairs. Byalos v. Matheson, 328 Ill 269, 159 NE 242 (1927); Finch v. Carlton, 249 Ill App 15 (1928); Singer v. Cross, 257 Ill App 41 (1930); Schmidt v. Sinclair, 342 Ill App 484, 97 NE2d 129 (1st Dist 1951).\nIt will be noted that Plaintiff\u2019s Exhibit No. 4 (the ledger sheet) was shown to be an original entry made by the bookkeeper in the regular course of business. Under such foundation proof, this exhibit clearly was admissible.\nNo doubt the rule of prima facie proof was developed to obviate the necessity of producing at a trial the garage repairman unless some evidence is introduced that the bill is faulty. It is a reasonable rule, eliminating unnecessary cost to parties and inconvenience to the public, and can be overcome by proper proof in those few cases where the bill is not correct in one or more aspects.\nThe objection to the item on the exhibit of the right rear axle could have been obviated by striking this item from the bill and subtracting its price from the total paid bill, if the court deemed this appropriate under any evidence produced. Further, the item as to insurance also could have been stricken or deleted, but we fail to see in it any prejudice to defendant.\nAs to the contention that the rules of evidence do not apply in a suit filed under the Small Claims Rules, we do not agree. A suit under the Small Claims Rules is filed in the circuit court. It is a proceeding in a court of record. Illinois Supreme Court Rules 281-288, inclusive (Ill Rev Stats 1967, c 110A, \u00a7\u00a7 281-288, inclusive), provide for small-claims actions. These Rules liberalize the pleading and procedural requirements and make special provision for service of process. They also provide that no depositions or interrogatories, or other discovery procedure, shall be used except by leave of court. However, these Rules make no changes in the rules of evidence. We find no basis to hold, under the present Illinois law, that the rules of evidence applicable to a claim filed as a small claim are any different than in any other type of claim or suit.\nThe trial court, therefore, erred in directing a verdict for defendant for want of proof of damages.\nReversed and remanded for new trial.\nTRAPP, P. J. and SMITH, J., concur,",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "Charlene Smith, Plaintiff-Appellant, v. Champaign-Urbana City Lines, Inc., Defendant-Appellee.\nGen. No. 11,081.\nFourth District.\nNovember 6, 1969.\nNoel, Middleton & Graver, of Urbana (Kenneth Baughman, of counsel), for appellant.\nHayes & Moore, of Champaign (Robert P. Moore, of counsel), for appellee."
+                }
+            }
+        },
+        {
+            "id": 5239688,
+            "url": "https://api.case.law/v1/cases/5239688/",
+            "name": "HARMON INSURANCE AGENCY, INC., Plaintiff-Appellee, v. NANCY THORSON, Defendant-Appellant",
+            "name_abbreviation": "Harmon Insurance v. Thorson",
+            "decision_date": "1992-03-12",
+            "docket_number": "No. 3\u201491\u20140621",
+            "first_page": "1050",
+            "last_page": "1053",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "226 Ill. App. 3d 1050"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694809/",
+                "volume_number": "226",
+                "barcode": "32044078694809"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "412 N.E.2d 1142",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "year": 1980,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "90 Ill. App. 3d 97",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3161094
+                    ],
+                    "weight": 2,
+                    "year": 1980,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "392 N.E.2d 1107",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "74 Ill. App. 3d 326",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3267826
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "442 N.E.2d 318",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 5,
+                    "year": 1979,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "110 Ill. App. 3d 331",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2999864
+                    ],
+                    "weight": 5,
+                    "year": 1979,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "342 N.E.2d 264",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "35 Ill. App. 3d 408",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5304801
+                    ],
+                    "weight": 2,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "463 N.E.2d 765",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "123 Ill. App. 3d 769",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5676204
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "578 N.E.2d 37",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1984,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "217 Ill. App. 3d 958",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5284322
+                    ],
+                    "year": 1984,
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/226/1050/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/5239688/Harmon%20Insurance%20v.%20Thorson,%20226%20Ill.%20App.%203d%201050%20(1992).pdf",
+            "preview": [
+                "Thorson argues that section 2 \u2014 613(d) does not apply in the instant case because this is a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>",
+                ", and inexpensive procedure for handling <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em>.",
+                "<em class='search_highlight'>claims</em> proceedings if consistent with the aims of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> rules.",
+                "Since the purpose of section 2 \u2014 613(d) is consistent with the aims of the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> rules, it is",
+                "applicable to <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> proceedings."
+            ],
+            "analysis": {
+                "word_count": 1086,
+                "random_bucket": 48238,
+                "sha256": "a38efb5f5db154953d1f20c9b1acadabde7aed13ea1c530b3cd596cf9769f94e",
+                "ocr_confidence": 0.789,
+                "char_count": 6495,
+                "random_id": 3225205870,
+                "pagerank": {
+                    "percentile": 0.5031876044119228,
+                    "raw": 9.189263414911751e-08
+                },
+                "cardinality": 416,
+                "simhash": "1:6a178d655f69bc97"
+            },
+            "last_updated": "2021-08-10T17:04:34.321610+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "HARMON INSURANCE AGENCY, INC., Plaintiff-Appellee, v. NANCY THORSON, Defendant-Appellant."
+                    ],
+                    "attorneys": [
+                        "John J. Crandall, of Palos Heights, for appellant.",
+                        "Dennis Porick, of Dennis B. Porick, Ltd., of Joliet, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE SLATER",
+                            "text": "JUSTICE SLATER\ndelivered the opinion of the court:\nThe plaintiff, Harmon Insurance Agency (Harmon), filed suit against the defendant, Nancy Thorson, an insurance broker. Harmon sought compensation for earned premiums due under certain insurance policies, less credits due Thorson. The trial court awarded the plaintiff $195.71. The defendant appeals.\nThe record shows that sometime during the last quarter of 1989, Thorson solicited various policies of insurance for two businesses known as \u201cPartners\u201d and \u201cPen and Print.\u201d Pursuant to an oral agreement with Harmon, Thorson was to receive 75% of the commissions earned on those policies. The remaining commissions were to be retained by Harmon. Harmon subsequently assigned its rights under the premium finance contract with Partners to the First National Bank of Blue Island.\nOn March 13, 1990, Harmon sent Thorson a letter indicating that earlier that day, the bank had informed Harmon that Partners had not made its February and March payments. The letter also indicated that the policies had been cancelled.\nThe bank demanded that Harmon reimburse it for earned premiums due on the policies issued to Partners. Harmon then filed a suit against Thorson seeking the amount of the earned premiums due on the policies, less commission credits due Thorson.\nThe trial court held that the losses should be apportioned as the gains were to be divided. Accordingly, the court ordered that Thor-son was to pay Harmon 75% of the losses.\nOn appeal, Thorson raises two issues. First, she contends that the trial court should be reversed because Harmon\u2019s suit was barred by the Statute of Frauds (Ill. Rev. Stat. 1989, ch. 59, par. 1 et seq.). Alternatively, she contends that Harmon should not be al lowed to recover because it failed to make reasonable efforts to avoid damages.\nSection 2 \u2014 613(d) of the Code of Civil Procedure requires that affirmative defenses, including the Statute of Frauds, must be plainly set forth in the answer. (Ill. Rev. Stat. 1989, ch. 110, par. 2\u2014613(d).) Affirmative defenses raised for the first time in a motion for reconsideration are considered waived. (Fister/Warren v. Basins, Inc. (1991), 217 Ill. App. 3d 958, 578 N.E.2d 37; Rahill Corp. v. Urbanski (1984), 123 Ill. App. 3d 769, 463 N.E.2d 765.) Thorson argues that section 2 \u2014 613(d) does not apply in the instant case because this is a small claims action. (See Wroclawski v. Waszczyk (1976), 35 Ill. App. 3d 408, 342 N.E.2d 264.) We disagree.\nWe recognize that the rules governing small claims actions are intended to provide an expeditious, simplified, and inexpensive procedure for handling small claims. (Wroclawski v. Waszczyk (1976), 35 Ill. App. 3d 408, 342 N.E.2d 264.) However, other practice rules, as well as the provisions of the Code of Civil Procedure, are applicable to small claims proceedings if consistent with the aims of the small claims rules. Darwin Co. v. Sweeney (1982), 110 Ill. App. 3d 331, 442 N.E.2d 318; Peoria Housing Authority v. Roberson (1979), 74 Ill. App. 3d 326, 392 N.E.2d 1107.\nThe clear purpose of section 2 \u2014 613(d) is to facilitate the decision of cases on their merits and to eliminate the harsh consequences which often stemmed from unfair surprise at trial prior to enactment of the modern rules of procedure. (Darwin Co. v. Sweeney (1982), 110 Ill. App. 3d 331, 442 N.E.2d 318.) We note that Supreme Court Rule 286 (134 Ill. 2d R. 286) eliminates the need for written pleadings in small claims cases. As such, compliance with the letter of section 2 \u2014 613(d) is unnecessary in such cases. (Darwin Co. v. Sweeney (1982), 110 Ill. App. 3d 331, 442 N.E.2d 318.) However, this does not mean that compliance with the spirit of section 2 \u2014 613(d) is impossible in small claims. (Darwin Co. v. Sweeney (1982), 110 Ill. App. 3d 331, 442 N.E.2d 318.) Since the purpose of section 2 \u2014 613(d) is consistent with the aims of the small claims rules, it is applicable to small claims proceedings. (Darwin Co. v. Sweeney (1982), 110 Ill. App. 3d 331, 442 N.E.2d 318.) By that we mean to say that a party, even though not being required to file a formal answer, must at least raise the defense prior to the conclusion of defendant\u2019s case in chief so that the plaintiff will have an opportunity for fair rebuttal.\nIn the instant case there is nothing in the record indicating that Thorson raised the Statute of Frauds defense prior to the con elusion of the trial. Although the Statute of Frauds was eventually raised in Thorson\u2019s motion for reconsideration, by then it was too late. To allow Thorson to raise affirmative defenses that were neither pled nor argued at trial and only raised in a motion to reconsider would result in unfair surprise, which would be abhorrent to the spirit of the small claims rules. Accordingly, we find that the Statute of Frauds defense was waived.\nWe now turn our attention to Thorson\u2019s contention that Harmon should not be allowed to recover because it failed to make reasonable efforts to avoid damages. The thrust of Thorson\u2019s argument seems to be that Harmon should have cancelled the policies immediately upon the failure of Partners to make its February payment, rather than waiting until March.\nA party injured by a breach of contract is required to use all reasonable means to minimize his damages. (Ashe v. Sunshine Broadcasting Corp. (1980), 90 Ill. App. 3d 97, 412 N.E.2d 1142.) The defendant has the burden of proving that the plaintiff failed to mitigate his damages. Ashe v. Sunshine Broadcasting Corp. (1980), 90 Ill. App. 3d 97, 412 N.E.2d 1142.\nIn the instant case, there is nothing in the record indicating that Harmon was aware of Partners\u2019 nonpayment until the middle of March. Further, the very day that Harmon was informed of the nonpayment, it took steps to cancel the policies. Even if the bank\u2019s February knowledge of nonpayment could be imputed to Harmon, it would not have been unreasonable for Harmon to wait until a second payment was missed before cancelling the policies. Accordingly, we find that Harmon made a reasonable effort to avoid damages.\nThe judgment of the circuit court of Will County is affirmed.\nAffirmed.\nGORMAN and HAASE, JJ., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "HARMON INSURANCE AGENCY, INC., Plaintiff-Appellee, v. NANCY THORSON, Defendant-Appellant.\nThird District\nNo. 3\u201491\u20140621\nOpinion filed March 12, 1992.\nModified on denial of rehearing April 21, 1992.\nJohn J. Crandall, of Palos Heights, for appellant.\nDennis Porick, of Dennis B. Porick, Ltd., of Joliet, for appellee."
+                }
+            }
+        },
+        {
+            "id": 1281394,
+            "url": "https://api.case.law/v1/cases/1281394/",
+            "name": "KATINA BENSON, Plaintiff, v. ALVIN ABBOTT et al., Defendants (Alvin Abbott, Cross Defendant-Appellant; Dale Ganaway, Cross Plaintiff-Appellee)",
+            "name_abbreviation": "Benson v. Abbott",
+            "decision_date": "2001-11-28",
+            "docket_number": "No. 3-01-0258",
+            "first_page": "599",
+            "last_page": "601",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "326 Ill. App. 3d 599"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044073041006/",
+                "volume_number": "326",
+                "barcode": "32044073041006"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "204 N.E.2d 797",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "year": 1965,
+                    "pin_cites": [
+                        {
+                            "page": "801"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "55 Ill. App. 2d 176",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 2d",
+                    "case_ids": [
+                        5283022
+                    ],
+                    "weight": 2,
+                    "year": 1965,
+                    "pin_cites": [
+                        {
+                            "page": "182"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "703 N.E.2d 883",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1998,
+                    "pin_cites": [
+                        {
+                            "parenthetical": "holding that for purposes of res judicata, separate claims will be considered the same cause of action if they arise from a single group of operative facts, regardless of whether they assert different theories of relief"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "184 Ill. 2d 290",
+                    "category": "reporters:state",
+                    "reporter": "Ill. 2d",
+                    "case_ids": [
+                        926988
+                    ],
+                    "year": 1998,
+                    "pin_cites": [
+                        {
+                            "parenthetical": "holding that for purposes of res judicata, separate claims will be considered the same cause of action if they arise from a single group of operative facts, regardless of whether they assert different theories of relief"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "596 N.E.2d 105",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1992,
+                    "pin_cites": [
+                        {
+                            "page": "107"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "230 Ill. App. 3d 987",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5209099
+                    ],
+                    "year": 1992,
+                    "pin_cites": [
+                        {
+                            "page": "992"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "53 N.E.2d 134",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "year": 1944,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "321 Ill. App. 363",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App.",
+                    "case_ids": [
+                        2421497,
+                        2421124
+                    ],
+                    "year": 1944,
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "702 N.E.2d 254",
+                    "category": "reporters:state_regional",
+                    "reporter": "N.E.2d",
+                    "weight": 2,
+                    "year": 1998,
+                    "pin_cites": [
+                        {
+                            "page": "257"
+                        },
+                        {
+                            "page": "257"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "299 Ill. App. 3d 1028",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        221496
+                    ],
+                    "weight": 2,
+                    "year": 1998,
+                    "pin_cites": [
+                        {
+                            "page": "1031"
+                        },
+                        {
+                            "page": "1031"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/326/599/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/1281394/Benson%20v.%20Abbott,%20326%20Ill.%20App.%203d%20599%20(2001).pdf",
+            "preview": [
+                "PRESIDING JUSTICE HOMER\ndelivered the opinion of the court:\nKatina Benson filed a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action",
+                "Benson filed a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action against Ganaway and Abbott seeking monetary damages for her injuries",
+                "Abbott argues that the total amount of damages in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action cannot exceed $5,000.",
+                "action and that his individual awards were within the <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> limit.",
+                "Supreme Court Rule 281 provides that: \u201c[A] <em class='search_highlight'>small</em> <em class='search_highlight'>claim</em> is a civil action based on either tort or contract"
+            ],
+            "analysis": {
+                "word_count": 977,
+                "random_bucket": 43600,
+                "sha256": "fda60822f23d4fc630874711d1f11f757b39869027d1076f8d1341d8b1443c7a",
+                "ocr_confidence": 0.847,
+                "char_count": 5892,
+                "random_id": 3543509584,
+                "pagerank": {
+                    "percentile": 0.34140505475825283,
+                    "raw": 5.578954413772437e-08
+                },
+                "cardinality": 361,
+                "simhash": "1:d1d55d94f0d8b5d3"
+            },
+            "last_updated": "2021-08-10T23:57:05.244908+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "KATINA BENSON, Plaintiff, v. ALVIN ABBOTT et al., Defendants (Alvin Abbott, Cross Defendant-Appellant; Dale Ganaway, Cross Plaintiff-Appellee)."
+                    ],
+                    "attorneys": [
+                        "Brian C. Ivers (argued) and Thad J. Murphy, both of McDonald, Stonebraker, Cepican & Woodward, P.C., of Davenport, Iowa, for appellant.",
+                        "Peter C. Fieweger (argued), of Katz, Huntoon & Fieweger, P.C., of Rock Island, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "PRESIDING JUSTICE HOMER",
+                            "text": "PRESIDING JUSTICE HOMER\ndelivered the opinion of the court:\nKatina Benson filed a small claims action against Alvin Abbott and Dale Ganaway to recover damages arising from an automobile accident. Ganaway filed a two-count cross-claim against Abbott and was awarded a judgment of $7,348.91. Abbott appeals the amount of the award. We reduce the award to $5,000 and remand for further proceedings.\nBACKGROUND\nThe plaintiff, Katina Benson, was a passenger in a car driven by one of the defendants, Dale Ganaway. Ganaway was driving behind a car driven by the other defendant, Alvin Abbott. When the two cars collided, Benson and Ganaway were injured. Benson filed a small claims action against Ganaway and Abbott seeking monetary damages for her injuries.\nGanaway brought a cross-claim against Abbott alleging Abbott\u2019s negligence as the proximate cause of the accident. In count I of his cross-claim, Ganaway sought recovery for damages to his vehicle in the amount of $4,064.11. In count II, Ganaway originally sought $8,000 for personal injury damages, but moved to reduce that amount to $5,000 just before trial. At trial, the court awarded Ganaway $4,063.91 for property damages and $3,285 for personal injury damages. The total amount of damages awarded Ganaway was $7,348.91.\nAbbott filed a posttrial motion to reduce damages to $5,000. The court denied Abbott\u2019s motion and Abbott appeals.\nANALYSIS\nThe sole question before this court is whether the circuit court had authority to award Ganaway more than $5,000 in damages on his two-count small claims complaint against Abbott. Abbott argues that the total amount of damages in a small claims action cannot exceed $5,000. Ganaway, on the other hand, argues that each count of his cross-claim constituted a separate cause of action and that his individual awards were within the small claims limit.\nSupreme Court Rule 281 provides that: \u201c[A] small claim is a civil action based on either tort or contract for money not in excess of $5,000, exclusive of interest and costs, or for the collection of taxes not in excess of that amount.\u201d 166 Ill. 2d R. 281. Judicial interpretation of a supreme court rule is a question of law. State Farm Insurance Co. v. Kazakova, 299 Ill. App. 3d 1028, 1031, 702 N.E.2d 254, 257 (1998). This court reviews questions of law de novo. State Farm, 299 Ill. App. 3d at 1031, 702 N.E.2d at 257.\nThe specific question raised in this case has not been addressed in Illinois case law; however, there are related cases that aid our analysis. Ganaway maintains that the case of Tomaso v. Sestak, 321 Ill. App. 363, 53 N.E.2d 134 (1944), supports his position. In Tomaso, a plaintiff sought relief for personal injuries and property damage in the municipal court of Chicago. At that time, damage awards for personal injury could not exceed $1,000 in that court. However, there was no limit on property damage awards. The appellate court concluded that the plaintiff could bring both claims in the same action, but that the plaintiff could not receive a judgment in excess of $1,000 for personal injuries.\nGanaway points out that the Tomaso court treated the plaintiff\u2019s claims for personal injury and property damage as separate actions. Ganaway argues that this holding should extend to the case at bar. However, the weight of authority does not favor Ganaway\u2019s contention that his two negligence claims are separate causes of action. Notably, in Rice v. Burnley, 230 Ill. App. 3d 987, 992, 596 N.E.2d 105, 107 (1992), a plaintiff set forth multiple counts seeking recovery for negligence, but the court held that the separate counts did not amount to separate actions. See also River Park, Inc. v. City of Highland Park, 184 Ill. 2d 290, 703 N.E.2d 883 (1998) (holding that for purposes of res judicata, separate claims will be considered the same cause of action if they arise from a single group of operative facts, regardless of whether they assert different theories of relief).\nGanaway also points to Ras v. Allan Anthony Electric Corp., 55 Ill. App. 2d 176, 204 N.E.2d 797 (1965), in support of his argument, but the facts before the court in Ras are not parallel to the circumstances we face in this case. Because the plaintiff in Ras sued three separate defendants in three separate counts, the trial court held that each count was a separate cause of action. Since each award against each defendant was below the authorized limit, the lower court\u2019s judgment was affirmed. Ras, 55 Ill. App. 2d at 182, 204 N.E.2d at 801.\nAlthough separate causes of action existed in Ras, the same is not true in this case. Ganaway\u2019s two counts are against a single defendant and arise out of a single occurrence. Consequently, we hold that Gan-away\u2019s two negligence claims are part of the same cause of action.\nPursuant to Supreme Court Rule 281, a court may not award a plaintiff more than $5,000 in a small claims action. Because the court lacked the authority under Rule 281 to award Ganaway more than $5,000 in damages, we reduce the award from $7,348.91 to $5,000 pursuant to our authority set forth in Supreme Court Rule 366(a) (155 Ill. 2d R. 366(a)).\nCONCLUSION\nThe judgment of the circuit court of Rock Island County is modified in accordance with this opinion. We remand this cause to the circuit court for proper apportioning of the award.\nAffirmed as modified; remanded with directions.\nLYTTON, PJ., and BRESLIN, J., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "KATINA BENSON, Plaintiff, v. ALVIN ABBOTT et al., Defendants (Alvin Abbott, Cross Defendant-Appellant; Dale Ganaway, Cross Plaintiff-Appellee).\nThird District\nNo. 3 \u2014 01\u20140258\nOpinion filed November 28, 2001.\nModified on denial of rehearing January 22, 2002.\nBrian C. Ivers (argued) and Thad J. Murphy, both of McDonald, Stonebraker, Cepican & Woodward, P.C., of Davenport, Iowa, for appellant.\nPeter C. Fieweger (argued), of Katz, Huntoon & Fieweger, P.C., of Rock Island, for appellee."
+                }
+            }
+        },
+        {
+            "id": 2598131,
+            "url": "https://api.case.law/v1/cases/2598131/",
+            "name": "NORTHERN ILLINOIS GAS COMPANY, Plaintiff-Appellant, v. MURPHY EXCAVATING et al., Defendants-Appellees",
+            "name_abbreviation": "Northern Illinois Gas Co. v. Murphy Excavating",
+            "decision_date": "1991-04-26",
+            "docket_number": "No. 2\u201490\u20140727",
+            "first_page": "486",
+            "last_page": "491",
+            "citations": [
+                {
+                    "type": "official",
+                    "cite": "212 Ill. App. 3d 486"
+                }
+            ],
+            "volume": {
+                "url": "https://api.case.law/v1/volumes/32044078694940/",
+                "volume_number": "212",
+                "barcode": "32044078694940"
+            },
+            "reporter": {
+                "url": "https://api.case.law/v1/reporters/322/",
+                "full_name": "Illinois Appellate Court Reports, Third Series",
+                "id": 322
+            },
+            "court": {
+                "url": "https://api.case.law/v1/courts/ill-app-ct/",
+                "name_abbreviation": "Ill. App. Ct.",
+                "slug": "ill-app-ct",
+                "id": 8837,
+                "name": "Illinois Appellate Court"
+            },
+            "jurisdiction": {
+                "id": 29,
+                "name_long": "Illinois",
+                "url": "https://api.case.law/v1/jurisdictions/ill/",
+                "slug": "ill",
+                "whitelisted": true,
+                "name": "Ill."
+            },
+            "cites_to": [
+                {
+                    "cite": "81 Ill. App. 3d 1031",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3226918
+                    ],
+                    "weight": 2,
+                    "pin_cites": [
+                        {
+                            "page": "1036"
+                        },
+                        {
+                            "page": "1034"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "105 Ill. App. 3d 576",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        5470741
+                    ],
+                    "year": 1980,
+                    "pin_cites": [
+                        {
+                            "page": "591-92"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "150 Ill. App. 3d 1052",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3503334
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "1067"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "115 Ill. App. 3d 5",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        3558639
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "7"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "181 Ill. App. 3d 988",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        8499551
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "992"
+                        }
+                    ],
+                    "opinion_id": 0
+                },
+                {
+                    "cite": "202 Ill. App. 3d 709",
+                    "category": "reporters:state",
+                    "reporter": "Ill. App. 3d",
+                    "case_ids": [
+                        2588103
+                    ],
+                    "pin_cites": [
+                        {
+                            "page": "714"
+                        }
+                    ],
+                    "opinion_id": 0
+                }
+            ],
+            "frontend_url": "https://cite.case.law/ill-app-3d/212/486/",
+            "frontend_pdf_url": "https://cite.case.law/pdf/2598131/Northern%20Illinois%20Gas%20Co.%20v.%20Murphy%20Excavating,%20212%20Ill.%20App.%203d%20486%20(1991).pdf",
+            "preview": [
+                "On January 29, 1990, the plaintiff filed suit in <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> court to recover for damages sustained",
+                "We first note that the proceeding below was a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> action and the rules governing such actions",
+                "Also, since this was a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> matter, the record is somewhat scanty.",
+                "Therefore, under Supreme Court Rule 287(a) in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> matter, the proponent of a request to admit",
+                "Rule 287(b) requires the trial court\u2019s approval before a motion may be filed in a <em class='search_highlight'>small</em> <em class='search_highlight'>claims</em> matter"
+            ],
+            "analysis": {
+                "word_count": 1632,
+                "random_bucket": 44592,
+                "sha256": "e733b545b11585776f4683f1641f81dda11d8b0d4eae6e559bc824f8ac0083c9",
+                "ocr_confidence": 0.774,
+                "char_count": 9361,
+                "random_id": 2584915504,
+                "pagerank": {
+                    "percentile": 0.3240576793442687,
+                    "raw": 5.262607513344019e-08
+                },
+                "cardinality": 427,
+                "simhash": "1:392bc8f657601cbd"
+            },
+            "last_updated": "2021-08-10T18:39:37.158897+00:00",
+            "casebody": {
+                "status": "ok",
+                "data": {
+                    "corrections": "",
+                    "parties": [
+                        "NORTHERN ILLINOIS GAS COMPANY, Plaintiff-Appellant, v. MURPHY EXCAVATING et al., Defendants-Appellees."
+                    ],
+                    "attorneys": [
+                        "W.H. Major, Jr., of Major, Fennell & Associates, Ltd., of Wheaton, for appellant.",
+                        "William J. Wylie and James M. Roche, both of William J. Wylie & Associates, of Wheaton, for appellee."
+                    ],
+                    "opinions": [
+                        {
+                            "author": "JUSTICE DUNN",
+                            "text": "JUSTICE DUNN\ndelivered the opinion of the court:\nThe plaintiff, Northern Illinois Gas Company, appeals from a directed verdict entered for the defendants, Murphy Excavating and Dennis Murphy, individually and d/b/a Murphy Excavating, by the trial court of Du Page County. The plaintiff presents these issues on appeal: (1) whether Supreme Court Rule 287(a) (134 Ill. 2d R. 287(a)) requires that a proponent receive leave of court to utilize a request to admit pursuant to Supreme Court Rule 216 (134 Ill. 2d R. 216) in small claims matters; and (2) whether Supreme Court Rule 287(a) applies to a notice to produce at trial pursuant to Supreme Court Rule 237(b) (134 Ill. 2d R. 237(b)) since a notice to produce is not a discovery procedure.\nOn January 29, 1990, the plaintiff filed suit in small claims court to recover for damages sustained by the plaintiff when the defendants allegedly damaged the plaintiff\u2019s property. On May 16, 1990, the plaintiff filed a notice to produce at trial under Supreme Court Rule 237(b) and a request to admit under Supreme Court Rule 216. On June 5, 1990, the defendant filed a motion to strike the plaintiff\u2019s request to admit and notice to produce. The defendant argued that the plaintiff was attempting to elicit discovery in violation of Supreme Court Rule 287(a), which states: \u201cNo depositions shall be taken or interrogatories or other discovery proceeding be used prior to trial in small claims except by leave of court.\u201d 134 Ill. 2d R. 287(a).\nOn June 11, 1990, the trial court granted defendant\u2019s motion to strike plaintiff\u2019s request to admit and its Rule 237(b) notice to produce, On June 24, 1990, the plaintiff presented a motion for the trial court to reconsider its previous decision. The trial court denied the plaintiff\u2019s motion.\nOn June 27, 1990, the cause came to trial. At the close of the plaintiff\u2019s case, the defendant moved for a directed verdict which the trial court granted. The plaintiff then timely appealed. The plaintiff first claims on appeal that the trial court erred in refusing to allow the plaintiff to use a request to admit under Supreme Court Rule 287(a). The plaintiff bases its argument on the language of Rule 287(b). The language states:\n\u201c(b) Motions. Except as provided in Rule 216 or sections 2\u2014 619 and 2 \u2014 1001 of the Code of Civil Procedure, no motion shall be filed in small claims cases, without prior leave of court.\u201d 134 Ill. 2d R. 287(b).\nThe plaintiff argues this allows the plaintiff to serve the defendant with a request to admit without leave of court and, therefore, the trial court erred in refusing to allow the request to admit under Supreme Court Rule 287(a).\nWe first note that the proceeding below was a small claims action and the rules governing such actions are meant to be expeditious, inexpensive and simplified as regards to procedure. (Ahern v. Knecht (1990), 202 Ill. App. 3d 709, 714.) Also, since this was a small claims matter, the record is somewhat scanty. However, the plaintiff, as appellant, still has the burden of presenting a sufficiently complete record of the proceedings to support his claim of error; therefore, if there is any doubt arising from the incompleteness of the record, that doubt will be resolved against the plaintiff. Capsonic Group v. Swick (1989), 181 Ill. App. 3d 988, 992.\nThis court has previously held that a request to admit facts is a discovery procedure and that a trial court has wide discretion in controlling it. (Homer G. Dickson & Co. v. Barraza (1983), 115 Ill. App. 3d 5, 7.) Therefore, under Supreme Court Rule 287(a) in a small claims matter, the proponent of a request to admit must receive leave of the trial court before he can proceed with the request. Rule 287(b) requires the trial court\u2019s approval before a motion may be filed in a small claims matter. In a nonsmall claims action one does not need to make a motion before the court in order to serve a request to admit on an opposing party. A party simply serves the request to admit on the opposing party. (134 Ill. 2d R. 216(a).) Only when the opposing party objects to the request to admit, or when the proponent objects to an answer to his request to admit, must that objection be presented as a motion before the trial court. 134 Ill. 2d R. 216(c).\nTherefore, under Supreme Court Rule 216(a) a request to admit is still a discovery device which requires leave of the trial court to utilize in small claims matters. However, if leave is granted to allow a request to admit, then under Supreme Court Rule 287(b) the opposing party may oppose the request or the proponent of the request may challenge the answers to the request by motion without asking the court for permission to do so.\nWe also note that Supreme Court Rule 287(b) states that \u201c[ejxcept as provided in Rule 216 ***, no motion shall be filed in small claims cases, without prior leave of court.\u201d (Emphasis added.) (134 Ill. 2d R. 287(b).) The only motions provided for in Supreme Court Rule 216 are contained in Supreme Court Rule 216(c), which states: \u201cAny objection to a request or to an answer shall be heard by the court upon prompt notice and motion of the party making the request.\u201d (Emphasis added.) (134 Ill. 2d R. 216(c).) Therefore, under a request to admit, the motions which can be allowed by leave of court in a small claims matter are those that are provided for in Rule 216(c), i.e., those motions which object to a request to admit or to an answer to a request to admit.\nFinally, as noted above, under Homer G. Dickson & Co., a request to admit is a discovery device, and a trial court has wide discretion in controlling it. Here, the plaintiff has failed to allege any circumstances under which the plaintiff was prejudiced by the trial court\u2019s holding except for the fact that the plaintiff lost. There was no abuse of discretion by the trial court court in refusing to allow a request to admit where the plaintiff cannot claim he was prejudiced by the trial court\u2019s actions.\nThe plaintiff next argues that the trial court erred in barring the use of the plaintiff\u2019s notice to produce at trial pursuant to Supreme Court Rule 237(b) which the plaintiff had served on defendant. The plaintiff argues that a notice to produce at trial is not a discovery device and, therefore, the trial court erred in finding that the notice to produce was discovery pursuant to Supreme Court Rule 287(a) and in ordering that the notice to produce be stricken.\nAlthough Supreme Court Rule 237(b) may not be a general discovery device (see Yassin v. Certified Grocers of Illinois, Inc. (1986), 150 Ill. App. 3d 1052, 1067), there is no question that courts have recognized that parties have used Supreme Court Rule 237(b) as a method to elicit discovery. Campen v. Executive House Hotel, Inc. (1982), 105 Ill. App. 3d 576, 591-92; Cedric Spring & Associates, Inc. v. N.E.I. Corp. (1980), 81 Ill. App. 3d 1031, 1036.\nWe agree a Supreme Court Rule 237(b) notice to produce is not a discovery device and normally would not require prior leave of cburt for its use. Here, however, regardless of what the plaintiff calls his notice to produce, it is for all practical purposes an attempt to elicit the discovery from the defendant that the plaintiff could not procure by more conventional discovery procedures (see 134 Ill. 2d Rules 201 through 224) because of the confines of Supreme Court Rule 287(a). Every request in the notice to produce presented by the plaintiff was couched in very general terms and indicated that the plaintiff was attempting to find out how the incident complained of occurred.\n\u201cThe law is well settled in Illinois that in matters of discovery, including notices to produce under Supreme Court Rule 237(b), the power vested in the trial court requires '*** a careful exercise of its discretion in order to balance the needs of seeking the truth against the needless harassment of a party litigant.\u2019 \u201d Cedric Spring & Associates, Inc., 81 Ill. App. 3d at 1034.\nTherefore, because the plaintiff was attempting to elicit discovery under Supreme Court Rule 287(a), the plaintiff was required to receive leave of the court to proceed. The trial court did not allow the plaintiff the right to continue in its discovery, and its decision was completely within the trial court\u2019s authority under Supreme Court Rule 287(a). We see no need to allow plaintiff to procure through the back door of Supreme Court Rule 237(b) what it cannot get through the front door of regular discovery procedures because of the limitations of Supreme Court Rule 287(a). Furthermore, based on the general rules of discovery, there is simply no showing on the part of the plaintiff that the trial court abused its discretion in striking a balance between the needs of the plaintiff and the harassment of the defendant or that the plaintiff was prejudiced by the order of the trial court which forbade the use of the notice to produce.\nTherefore the circuit court of Du Page County is affirmed.\nAffirmed.\nREINHARD, P.J., and NICKELS, J., concur.",
+                            "type": "majority"
+                        }
+                    ],
+                    "judges": [],
+                    "head_matter": "NORTHERN ILLINOIS GAS COMPANY, Plaintiff-Appellant, v. MURPHY EXCAVATING et al., Defendants-Appellees.\nSecond District\nNo. 2\u201490\u20140727\nOpinion filed April 26, 1991.\nW.H. Major, Jr., of Major, Fennell & Associates, Ltd., of Wheaton, for appellant.\nWilliam J. Wylie and James M. Roche, both of William J. Wylie & Associates, of Wheaton, for appellee."
+                }
+            }
+        }
+    ]
+}

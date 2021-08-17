@@ -1,0 +1,47 @@
+Case Object
+
+{
+    "id": (int),
+    "url": (API url to this case),
+    "name": (string),
+    "name_abbreviation": (string),
+    "decision_date": (string),
+    "docket_number": (string),
+    "first_page": (string),
+    "last_page": (string),
+    "citations": [array of citation objects],
+    "volume": {Volume Object},
+    "reporter": {Reporter Object},
+    "court": {Court Object},
+    "jurisdiction": {Jurisdiction Object},
+    "cites_to": [array of cases this case cites to],
+    "frontend_url": (url of case on our website),
+    "frontend_pdf_url": (url of case pdf),
+    "preview": [array of snippets that contain search term],
+    "analysis": {
+        "cardinality": (int),
+        "char_count": (int),
+        "ocr_confidence": (float),
+        "sha256": (str),
+        "simhash": (str),
+        "word_count": (int)
+    },
+    "last_updated": (datetime),
+    "casebody": {
+        "status": ok/(error)"
+        "data": (null if status is not ok) {
+            "judges": [array of strings that contain judges names],
+            "parties": [array of strings containing party names],
+            "opinions": [
+                {
+                    "text": (case text),
+                    "type": (string),
+                    "author": (string)
+                }
+            ],
+            "attorneys": [array of strings that contain attorneys names],
+            "corrections": (string. May include formatting notes.),
+            "head_matter": (elements before the case text)
+        }
+    }
+}
