@@ -1,8 +1,16 @@
 # Mac system files
 *.DS_Store
 
-# project files
+
+# exlcude sample downloaded files
+data/downloaded/testing/*
+
+# exception to the rule
+!data/downloaded/testing/.gitkeep
+
+# exclude PW
 services/reddit/redditPW.txt
+
 
 # test files
 test_output.json

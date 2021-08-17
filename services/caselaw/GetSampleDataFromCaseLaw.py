@@ -2,7 +2,10 @@ import requests
 import logging
 import json
 
-from utils import Utils
+import sys
+# v - WORKS when at [../../THIS] directory in terminal
+sys.path.append("")
+from utils import HelperUtils
 
 #################
 # Set Parameter #
@@ -39,9 +42,8 @@ def getSampleDataFromCaseLaw(
 
 
 if __name__ == "__main__":
-    Utils.initLogging()
+    HelperUtils.initLogging()
     logging.info("-----start GetSampleDataFromCaseLaw-----")
-
 
     logging.debug('data pull -- start')
     response = getSampleDataFromCaseLaw(
@@ -52,7 +54,7 @@ if __name__ == "__main__":
 
 
     logging.debug('writing to file -- start')
-    Utils.recordCaseLawData(response.json())
+    HelperUtils.recordCaseLawData(response.json())
     logging.debug('writing to file -- end')
 
     logging.info("-----end GetSampleDataFromCaseLaw-----")
