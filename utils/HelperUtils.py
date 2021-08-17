@@ -1,9 +1,51 @@
 import logging
 import json
 import datetime
+import sys
+
 import pytz
 import os
 import re
+
+
+'''
+####
+# WHY THIS FILE HAS sys.path[0] in directories
+####
+
+import sys
+# v - WORKS when at [THIS] directory in terminal
+#sys.path.append("../..")
+
+# v - WORKS when at [../THIS] directory in terminal
+#sys.path.append("..")
+
+# v - WORKS when at [../../THIS] directory in terminal
+sys.path.append("")
+
+from utils import HelperUtils
+
+
+
+# print(sysPath)
+# [
+# '/Users/pho/Documents/workspace/legalTech/services/caselaw',
+# '/Users/pho/Documents/workspace/legalTech',
+# '/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python39.zip',
+# '/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9',
+# '/usr/local/Cellar/python@3.9/3.9.6/Frameworks/Python.framework/Versions/3.9/lib/python3.9/lib-dynload',
+# '/usr/local/lib/python3.9/site-packages'
+# ]
+
+osPath = os.getcwd()
+logging.info('osPath = ' + osPath)
+# osPath = /Users/pho/Documents/workspace/legalTech/services/caselaw (when run here in PyCharm)
+# INFO:root:osPath = /Users/pho/Documents/workspace/legalTech (when run from Terminal)
+
+logging.info('sys.path[0] = ' + sys.path[0])  # same as osPath or current directory
+logging.info('sys.path[1] = ' + sys.path[1])  # root dir
+'''
+
 
 
 #################
@@ -48,7 +90,7 @@ def recordCaseLawData(
     # REAL data goes to ELSE clause
     if (jurisdictionUsed=='') & (searchTermUsed==''):
 
-        destinationPath = '../../data/downloaded/testing'
+        destinationPath = sys.path[0] + '/../../data/downloaded/testing'
         filename = currentPST + '.json'
 
     else:
@@ -56,9 +98,9 @@ def recordCaseLawData(
         #separate folders for cal (has token rate limit) vs ill (free)
 
         if jurisdictionUsed == 'cal':
-            destinationPath = '../../data/downloaded/caselaw/raw/cal'
+            destinationPath = sys.path[0] + '/../../data/downloaded/caselaw/raw/cal'
         else:
-            destinationPath = '../../data/downloaded/caselaw/raw/ill'
+            destinationPath = sys.path[0] + '/../../data/downloaded/caselaw/raw/ill'
 
         filename = searchTermUsed + '-' + jurisdictionUsed + '-' + currentPST + '.json'
 
@@ -71,7 +113,6 @@ def recordCaseLawData(
             'w'
     ) as outfile:
         json.dump(responseJsonObj, outfile, indent=4)
-        #json.dump(responseJsonObj, outfile)
 
     return currentPST, filename
 
@@ -85,10 +126,10 @@ def updateCaseLawPullRecords(
         responseJsonObj
 ):
     if jurisdictionUsed=='cal':
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
+        PULL_RECORD_FILE_PATH = sys.path[0] + '/../../data/downloaded/caselaw/pull_records_cal.json'
         pullRecordFilename = 'pull_records_cal.json'
     else:
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_ill.json'
+        PULL_RECORD_FILE_PATH = sys.path[0] + '/../../data/downloaded/caselaw/pull_records_ill.json'
         pullRecordFilename = 'pull_records_ill.json'
 
 
@@ -131,7 +172,7 @@ def updateCaseLawPullRecords(
             # write/save data
             with open(
                     os.path.join(
-                        '../../data/downloaded/caselaw',
+                        sys.path[0] + '/../../data/downloaded/caselaw',
                         pullRecordFilename
                     ),
                     'w'
@@ -162,7 +203,7 @@ def recordRedditData(
     # create file named with current timestamp
     currentPST = getCurrentPacificTime()
 
-    destinationPath = '../../data/downloaded/reddit/raw/'
+    destinationPath = sys.path[0] + '/../../data/downloaded/reddit/raw/'
     filename = 'legaladvice-' + currentPST + '.json'
 
     # write/save data
@@ -185,7 +226,7 @@ def updateRedditPullRecords(
         responseJsonObj
 ):
 
-    PULL_RECORD_FILE_PATH = '../../data/downloaded/reddit/pull_records_reddit.json'
+    PULL_RECORD_FILE_PATH = sys.path[0] + '/../../data/downloaded/reddit/pull_records_reddit.json'
     pullRecordFilename = 'pull_records_reddit.json'
 
 
@@ -232,7 +273,7 @@ def updateRedditPullRecords(
         # write/save data
         with open(
                 os.path.join(
-                    '../../data/downloaded/reddit',
+                    sys.path[0] + '/../../data/downloaded/reddit',
                     pullRecordFilename
                 ),
                 'w'
@@ -263,7 +304,7 @@ def getTokenFromJsonFile(
     # this function is used to retrieve TOKENs to log into systems to backhaul data
     # example systems are: Reddit, CaseLaw
 
-    TOKEN_FILE_PATH = '../../utils/tokens.json'
+    TOKEN_FILE_PATH = sys.path[0] + '/../../utils/tokens.json'
 
     token = ''
 
@@ -310,13 +351,13 @@ def getTokenFromJsonFile(
 def getTagForNextPull(servicePull):
 
     if servicePull=='cal':
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_cal.json'
+        PULL_RECORD_FILE_PATH = sys.path[0] + '/../../data/downloaded/caselaw/pull_records_cal.json'
         TAG_KEY ='next_cursor'
     elif servicePull=='ill':
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/caselaw/pull_records_ill.json'
+        PULL_RECORD_FILE_PATH = sys.path[0] + '/../../data/downloaded/caselaw/pull_records_ill.json'
         TAG_KEY = 'next_cursor'
     elif servicePull == 'reddit':
-        PULL_RECORD_FILE_PATH = '../../data/downloaded/reddit/pull_records_reddit.json'
+        PULL_RECORD_FILE_PATH = sys.path[0] + '/../../data/downloaded/reddit/pull_records_reddit.json'
         TAG_KEY = 'after_tag'
         # ^^ Confusingly, AFTER means further back in time, whereas BEFORE means more recently in time.
     else:
