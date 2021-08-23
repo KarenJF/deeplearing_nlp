@@ -18,6 +18,12 @@ test_output.json
 # model weight files
 results/
 
+# ignore model folder
+model/
+
+# ignore resource folder
+resources/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
