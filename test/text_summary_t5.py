@@ -99,6 +99,11 @@ def data_preprocess(df_filter):
     df_clean['case_content2'] = df_clean.apply(lambda row: remove_multiple_strings(row['case_content'], row['remove_citation_list']), axis = 1)
 
     # b. Remove punctuations and special characters from the text
+    # [^abc] means not (a,b,c)
+    # \w: words
+    # \s: space
+    # ,.-: commas, period, hyphen
+    # Together, re.sub('[^\w\s,.-]','',x) means if not words, not space, not , . -, then replace with empty string
     df_clean['case_content_dl'] = df_clean['case_content2'].apply(lambda x: re.sub('[^\w\s,.-]','',x))
 
     # c. convert all alphabets into lower case
