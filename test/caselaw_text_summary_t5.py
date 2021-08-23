@@ -17,6 +17,9 @@ import networkx as nx
 import torch
 from transformers import T5Tokenizer, T5ForConditionalGeneration, T5Config
 
+# bert summarizer 
+from summarizer import Summarizer
+
 # setting for easy viewing
 pd.options.display.max_columns = 200
 
@@ -117,6 +120,14 @@ def data_preprocess(df_filter):
     return df_clean
 
 ############################################################
+# Step 3: Use Bert for extractive text summarization to    #
+# reduce the length of the original case.                  #
+############################################################
+def generate_single_bert_extractive_summary(row, bert_model): 
+    ext_summary = bert_model(row, ratio=0.5)
+    return ext_summary
+
+############################################################
 # Step 3: Loading T5 Deeplearning for text Summarization   #
 # pretrain model usually save: ~/.cache/torch/transformers #
 # or follow link below to manually download the model      #
@@ -183,14 +194,19 @@ if __name__ == "__main__":
     # Step 2: Data Preprocessing
     df_clean = data_preprocess(df_filter)
     
-    # Step 3: load in t5-large model 
+    # Step 3: use BERT for extractive summary to reduce case length
+    # temporary use 20 cases for example
+    test = df_clean.head(20)
+    bert_model = Summarizer()
+    test['bert_summary'] = test['case_content_dl'].apply(lambda row: generate_single_bert_extractive_summary(row, bert_model))
+    
+    # Step 4: load in t5-large model 
     tokenizer = T5Tokenizer.from_pretrained("/Users/karenfang/Documents/git_repo/legaltech/model/t5_large/")
     model = T5ForConditionalGeneration.from_pretrained('/Users/karenfang/Documents/git_repo/legaltech/model/t5_large/')
     
     # Step 4: Use t5 to summarize case content
     # temperary just test with 20 cases
-    test = df_clean.head(20)
-    test.loc[:,'case_summarization'] = test['case_content_dl'].apply(lambda row: generate_single_case_summary(row))
+    test.loc[:,'case_summarization'] = test['bert_summary'].apply(lambda row: generate_single_case_summary(row))
     
     # Step 5: Save case summarization dataset
     test.to_pickle('./data/case_law_summary_test.pkl')
@@ -239,4 +255,10 @@ summary_ids2 = model.generate(inputs,
 summary2 = tokenizer.decode(summary_ids2[0])
 
 summary2
+
+
+bert_model = Summarizer()
+ext_summary = bert_model(text, ratio=0.5)
+#https://github.com/dipanjanS/nlp_workshop_odsc_europe20/blob/master/notebooks/Module_04_NLP%20Applications%20-%20Deep%20Transfer%20Learning/16_NLP_Applications_Text_Summarization_Transformers.ipynb
+
 '''
