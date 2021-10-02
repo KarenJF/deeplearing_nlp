@@ -51,7 +51,9 @@ barcode_list = ['form1[0].#subform[0].PDF417BarCode1[0]',
 def text_form(annotation, value):
     annotation.update(pdfrw.PdfDict(V='{}'.format(value)))
     annotation.update(pdfrw.PdfDict(AP=''))
-    #pdfstr = pdfrw.objects.pdfstring.PdfString.encode(value)
+    
+    # The following two codes only works in Adobe PDF, not work on MAC Preview
+    #pdfstr = pdfrw.objects.pdfstring.PdfString.encode(value) 
     #annotation.update(pdfrw.PdfDict(V=pdfstr, AS=pdfstr))
 
 # update choice box section
@@ -63,11 +65,12 @@ def combobox(annotation, value):
     if export is None: 
         raise KeyError(f"Export Value: {value} Not Found")
         
-    #pdfstr = pdfrw.objects.pdfstring.PdfString.encode(export)
-    #annotation.update(pdfrw.PdfDict(V=pdfstr, AS=pdfstr))
     annotation.update(pdfrw.PdfDict(V='{}'.format(export), AS='{}'.format(export)))
     annotation.update(pdfrw.PdfDict(AP=''))
-
+    
+    # The following two codes only works in Adobe PDF, not work on MAC Preview
+    #pdfstr = pdfrw.objects.pdfstring.PdfString.encode(export)
+    #annotation.update(pdfrw.PdfDict(V=pdfstr, AS=pdfstr))
 
 # update checkbox section
 def checkbox(annotation, key_value, export=None):
@@ -156,27 +159,6 @@ def fill_pdf(input_pdf_path, output_pdf_path, data_dict):
     template_pdf.Root.AcroForm.update(pdfrw.PdfDict(NeedAppearances=pdfrw.PdfObject('true')))
     pdfrw.PdfWriter().write(output_pdf_path, template_pdf)
 
-# NEW
-def fill_simple_pdf_file(
-        data,
-        template_input,
-        template_output
-):
-
-    some_date = date.today()
-
-    data_dict = {
-        'name': data.get('name', ''),
-        'phone': data.get('phone', ''),
-        'date': some_date,
-        'account_number': data.get('account_number', ''),
-        'cb_1': data.get('cb_1', False),
-        'cb_2': data.get('cb_2', False),
-    }
-
-    return fill_pdf(template_input, template_output, data_dict)
-
-
 if __name__ == '__main__':
 
     HelperUtils.initLogging()
@@ -190,6 +172,7 @@ if __name__ == '__main__':
 
     pdf_output = "./daca/pdf_temp/output_test.pdf"
 
+    # temporary - will be import from a json file in the future
     data_dict = {
         "form1[0].#subform[0].G28_Attached[0]": True,
         "form1[0].#subform[0].#area[0].AttyLicenseNum[0]": "test number",
