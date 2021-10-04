@@ -144,7 +144,7 @@ def fill_pdf(input_pdf_path, output_pdf_path, data_dict):
                             if ff and int(ff) & 1 << 15:
                                 radio_button(annotation, data_dict[key])
                             else:
-                                print(annotation['/AP']['/N'].keys())
+                                #print(annotation['/AP']['/N'].keys())
                                 checkbox(annotation, data_dict[key], export=None)
                     
                         if annotation[ANNOT_FORM_type] == ANNOT_FORM_text: # fill text
