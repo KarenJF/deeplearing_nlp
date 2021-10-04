@@ -1,3 +1,8 @@
+###############################################################
+# Fuctions in this script is used to assign user input value  # 
+# to the data dictionary in order to fill the i-821D Form.    #
+# This is Part 2 INPUT                                        #
+###############################################################
 from helper_function import unit_test
 
 # i-821D Form, Part 2

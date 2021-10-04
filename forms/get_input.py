@@ -9,9 +9,13 @@ import json
 from importlib import reload 
 from helper_function import get_part1_input
 from helper_function import get_part2_input
+from helper_function import get_part4_input
+from helper_function import get_part5_input
+from helper_function import get_part6_input
+from helper_function import get_part7_input
 # only use to reload the helper function
 reload(get_part1_input)
-reload(get_part2_input)
+
 
 ## Goal: Asking User input to update the data dictionary
 def get_part1(data_dict):
@@ -74,6 +78,72 @@ def get_part2(data_dict):
     
     return data_dict
     
+def get_part4(data_dict):
+    # Part 4, arrested
+    data_dict = get_part4_input.get_arrested_felony(data_dict)
+    
+    # Part 4, crime outside US
+    data_dict = get_part4_input.get_crime_outside(data_dict)
+    
+    # Part 4, engaged in terrorist
+    data_dict = get_part4_input.get_engage_terrorist(data_dict)
+    
+    # Part 4, gang member
+    data_dict = get_part4_input.get_gang(data_dict)
+    
+    # Part 4, engaged activities
+    data_dict = get_part4_input.get_activities_5a(data_dict)
+    data_dict = get_part4_input.get_activities_5b(data_dict)
+    data_dict = get_part4_input.get_activities_5c(data_dict)
+    data_dict = get_part4_input.get_activities_5d(data_dict)
+    data_dict = get_part4_input.get_activities_6(data_dict)
+    data_dict = get_part4_input.get_activities_7(data_dict)
+    
+    return data_dict
+
+def get_part5(data_dict): 
+    # Part 5 read and understand English
+    data_dict = get_part5_input.get_language_assist(data_dict)
+
+    # Part 5, Requestor's certification
+    data_dict = get_part5_input.get_requestor_info(data_dict)
+    
+    return data_dict
+    
+def get_part6(data_dict): 
+    # Part 6, interpreter name
+    data_dict = get_part6_input.get_interpreter_name(data_dict)
+    
+    # Part 6, interpreter mailing address
+    data_dict = get_part6_input.get_interpreter_mail_address(data_dict)
+    
+    # Part 6, interpreter contact
+    data_dict = get_part6_input.get_interpreter_contact(data_dict)
+    
+    # Part 6, interpreter's certification
+    data_dict = get_part6_input.get_interpreter_cert(data_dict)
+    
+    return data_dict
+
+def get_part7(data_dict): 
+    data_dict, status = get_part7_input.get_preparer_status(data_dict)
+    
+    if status == True: # continue to fill out if it's true
+        # Part 7, preparer's full name
+        data_dict = get_part7_input.get_preparer_name(data_dict)
+        
+        # Part 7, Preparer's Mailing Address
+        data_dict = get_part7_input.get_preparer_mail_address(data_dict)
+        
+        # Part 7, Preparer's Contact Information
+        data_dict = get_part7_input.get_preparer_contact(data_dict)
+        
+        # Part 7, Preparer's Declaration
+        data_dict = get_part7_input.get_preparer_cert(data_dict)
+        
+    return data_dict
+    
+    
 if __name__ == '__main__':
     # Step 1: Create empty dictionary
     data_dict = dict()
@@ -85,6 +155,18 @@ if __name__ == '__main__':
     # Step 3: Get Part 2 Input
     data_dict = get_part2(data_dict)
     
-    # Step 3: Save the data dictionary
+    # Step 4: Get Part 4 Input
+    data_dict = get_part4(data_dict)
+    
+    # Step 5: Get Part 5 Input
+    data_dict = get_part5(data_dict)
+    
+    # Step 6: Get Part 6 Input
+    data_dict = get_part6(data_dict)
+    
+    # Step 7: Get Part 7 Input
+    data_dict = get_part7(data_dict)
+    
+    # Step 8: Save the data dictionary
     with open('data_dict.json', 'w') as f:
         json.dump(data_dict, f,  indent=4)
