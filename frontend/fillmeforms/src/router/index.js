@@ -4,6 +4,8 @@ import Home from '../views/Home.vue'
 import Projects from '../views/Projects.vue'
 import Profile from '../views/Profile.vue'
 import Dashboard from '../views/Dashboard.vue'
+import Solutions from '../views/Solutions.vue'
+import News from '../views/News.vue'
 
 Vue.use(VueRouter)
 
@@ -40,7 +42,20 @@ const routes = [
     path: '/myforms',
     name: 'MyForms',
     component: Projects
+  },
+
+  {
+    path: '/solutions',
+    name: 'Solutions',
+    component: Solutions
+  },
+
+  {
+    path: '/news',
+    name: 'News',
+    component: News
   }
+
 ]
 
 const router = new VueRouter({

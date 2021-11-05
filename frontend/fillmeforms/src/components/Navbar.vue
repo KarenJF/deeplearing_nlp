@@ -4,13 +4,16 @@
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
       <v-app-bar-title class="text-uppercase black--text">
         <span class="font-weight-light">fillme</span>
-        <span>forms</span>
+        <span >forms</span>
       </v-app-bar-title>
 
       <v-spacer></v-spacer>
+      <v-btn text dark class="black--text" v-for="link in navlinks" :key="link.title" router :to="link.route">
+        <span>{{ link.title }}</span>
+      </v-btn>
 
       <v-btn text dark class="black--text">
-        <span>Logout</span>
+        <span>Login</span>
         <v-icon right>mdi-exit-to-app</v-icon>
       </v-btn>
 
@@ -43,6 +46,12 @@ export default {
         { icon: 'mdi-view-dashboard', text: 'Dashboard', route: '/dashboard' },
         { icon: 'mdi-folder', text: 'My Forms', route: '/myforms' },
         { icon: 'mdi-account', text: 'Profile', route: '/profile' }
+      ],
+
+      navlinks: [
+        { title: 'Solutions', route: '/solutions'},
+        { title: 'About', route: '/about'},
+        { title: 'News', route: '/news'}
       ]
     }
   }
